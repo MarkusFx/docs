@@ -3,3 +3,13 @@ theme: minima
 plugins:
   - jekyll-relative-links
 
+lsi: false
+safe: true
+source: 'doc'
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
