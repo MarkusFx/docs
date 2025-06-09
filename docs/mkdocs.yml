@@ -1,0 +1,5 @@
+nav:
+  - Главная: index.md
+  - Руководства:
+    - JavaScript: javascript/index.md
+    - Python: python/index.md
