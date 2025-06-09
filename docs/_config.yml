@@ -2,3 +2,10 @@ title: MarkusFx (itPit)
 theme: minima        # Стандартная тема
 plugins:
   - jekyll-relative-links
+navigation:
+  - title: Главная
+    url: /
+  - title: JavaScript
+    url: /javascript/
+  - title: Python
+    url: /python/
