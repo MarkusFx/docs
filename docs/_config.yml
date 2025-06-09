@@ -2,17 +2,3 @@ title: MarkusFx (itPit)
 theme: minima        # Стандартная тема
 plugins:
   - jekyll-relative-links
-
-# Навигационное меню
-navigation:
-  - title: Главная
-    url: /
-  - title: Документация
-    url: /docs/
-    subitems:
-      - title: Установка
-        url: /docs/install/
-      - title: API
-        url: /docs/api/
-  - title: Контакты
-    url: /contacts/
