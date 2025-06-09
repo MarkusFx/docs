@@ -1,0 +1,4 @@
+title: Мой справочник
+theme: minima        # Стандартная тема
+plugins:
+  - jekyll-relative-links

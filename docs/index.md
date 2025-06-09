@@ -1,3 +1,5 @@
-# Test Page
-
-## H2 TEST
+---
+layout: default
+title: Главная
+---
+# Добро пожаловать в справочник!
