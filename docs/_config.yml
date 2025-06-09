@@ -1,4 +1,23 @@
 title: MarkusFx (itPit)
-theme: minima        # Стандартная тема
+
+#theme: minima        # Стандартная тема
+#plugins:
+#  - jekyll-relative-links
+
+theme: jekyll-theme-minimal
 plugins:
-  - jekyll-relative-links
+  - jekyll-include-cache
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+collections:
+  en:
+    output: true
+    permalink: /en/:path/
+  ru:
+    output: true
+    permalink: /ru/:path/

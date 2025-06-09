@@ -1,0 +1,17 @@
+main:
+  - name: "English"
+    url: "/en/"
+  - name: "Русский"
+    url: "/ru/"
+
+en:
+  - name: "Python"
+    url: "/en/python/"
+  - name: "JavaScript"
+    url: "/en/javascript/"
+
+ru:
+  - name: "Python"
+    url: "/ru/python/"
+  - name: "JavaScript"
+    url: "/ru/javascript/"
