@@ -1,0 +1,26 @@
+{
+  "name": "vitepress-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs & copy docs\\CNAME docs\\.vitepress\\dist\\CNAME",
+    "serve": "vitepress serve docs",
+    "deploy": "vitepress build docs & copy docs\\CNAME docs\\.vitepress\\dist\\CNAME & gh-pages -d docs/.vitepress/dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vitepress": "1.0.0-alpha.28",
+    "vue": "3.2.44"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  },
+  "dependencies": {
+    "prettier": "^3.5.3"
+  }
+}
