@@ -1,6 +1,5 @@
 title: MarkusFx (itPit)
-#theme: minima        # Стандартная тема
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-relative-links
 
