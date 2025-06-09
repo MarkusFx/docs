@@ -8,5 +8,5 @@ title: Главная
 
 ## Оглавление
 
-- [JavaScript](/JavaScript)
-- [Python](/Python)
+- [JavaScript](/javascript)
+- [Python](/python)
