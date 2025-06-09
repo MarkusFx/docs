@@ -6,4 +6,7 @@ title: Главная
 
 ---
 
-## Тест H2
+## Оглавление
+
+- [JavaScript](/javascript)
+- [Python](/python)
