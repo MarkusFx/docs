@@ -6,7 +6,4 @@ title: Главная
 
 ---
 
-## Оглавление
 
-- [JavaScript](/javascript/)
-- [Python](/python/)
