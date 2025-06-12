@@ -9,7 +9,7 @@
                 <script>${s.js}<\/script>
             </body>
         </html>
-`);return(m,b)=>(h(),t("div",E,[k("iframe",{srcdoc:i.value,class:"preview-frame",style:e({height:a.height}),sandbox:"allow-scripts"},null,12,g)]))}},c=l(o,[["__scopeId","data-v-4e45f5f9"]]),y=`<h1>Hello World!</h1>
+`);return(m,b)=>(h(),t("div",E,[k("iframe",{srcdoc:i.value,class:"preview-frame",style:e({height:a.height}),sandbox:"allow-scripts"},null,12,g)]))}},c=l(o,[["__scopeId","data-v-21a63fd7"]]),y=`<h1>Hello World!</h1>
 <button
     style="padding: 8px 16px; border-radius: 4px"
     onclick="console.log('Hello!')"
@@ -32,4 +32,4 @@ button {
     cursor: pointer;
 }
 `,C=`console.log('Preview loaded!')
-`,v=JSON.parse('{"title":"HTML","description":"","frontmatter":{},"headers":[],"relativePath":"html/page_1.md","filePath":"html/page_1.md"}'),u={name:"html/page_1.md"},f=Object.assign(u,{setup(a){return(s,i)=>(h(),t("div",null,[i[0]||(i[0]=r("",9)),d(c,{html:n(y),css:n(F),js:n(C),height:"170px"},null,8,["html","css","js"])]))}});export{v as __pageData,f as default};
+`,v=JSON.parse('{"title":"HTML","description":"","frontmatter":{},"headers":[],"relativePath":"html/page_1.md","filePath":"html/page_1.md"}'),u={name:"html/page_1.md"},x=Object.assign(u,{setup(a){return(s,i)=>(h(),t("div",null,[i[0]||(i[0]=r("",9)),d(c,{html:n(y),css:n(F),js:n(C),height:"170px"},null,8,["html","css","js"])]))}});export{v as __pageData,x as default};
