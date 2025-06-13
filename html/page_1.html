@@ -9,11 +9,11 @@
     <link rel="preload stylesheet" href="/assets/style.DafMEdfP.css" as="style">
     <link rel="preload stylesheet" href="/vp-icons.css" as="style">
     
-    <script type="module" src="/assets/app.DCKVDb6W.js"></script>
+    <script type="module" src="/assets/app.CaB3WYMq.js"></script>
     <link rel="preload" href="/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="modulepreload" href="/assets/chunks/theme.DsEFRzhI.js">
+    <link rel="modulepreload" href="/assets/chunks/theme.V0eX8bQr.js">
     <link rel="modulepreload" href="/assets/chunks/framework.BgId8OS5.js">
-    <link rel="modulepreload" href="/assets/html_page_1.md.BeThSc2P.lean.js">
+    <link rel="modulepreload" href="/assets/html_page_1.md.Pa7v7_Tq.lean.js">
     <link rel="icon" href="/favicon/favicon.ico">
     <script>(function(e,a,s,u,t,n,r){e[t]=e[t]||function(){(e[t].a=e[t].a||[]).push(arguments)},e[t].l=1*new Date;for(var c=0;c<document.scripts.length;c++)if(document.scripts[c].src===u)return;n=a.createElement(s),r=a.getElementsByTagName(s)[0],n.async=1,n.src=u,r.parentNode.insertBefore(n,r)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym"),ym(102572208,"init",{clickmap:!0,trackLinks:!0,accurateTrackBounce:!0});</script>
     <noscript><div><img src="https://mc.yandex.ru/watch/102572208" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
@@ -40,8 +40,8 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 100px);
-    grid-template-rows: repeat(9, 40px);
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: repeat(9, 50px);
     gap: 50px;
     position: relative;
     padding: 20px;
@@ -51,11 +51,16 @@ body {
     background: #272b2d;
     border: 1px solid #808080;
     color: white;
-    padding: 12px;
     text-align: center;
     border-radius: 8px;
     position: relative;
     z-index: 1;
+
+    /* Центрирование текста */
+    display: flex;
+    justify-content: center; /* по горизонтали */
+    align-items: center; /* по вертикали */
+    height: 100%; /* важно: позволяет занять всю ячейку грида */
 }
 
 svg.lines {
@@ -87,42 +92,151 @@ svg.lines {
     &lt;div class=&quot;node&quot; id=&quot;sass&quot; style=&quot;grid-column: 2; grid-row: 5&quot;&gt;SASS&lt;/div&gt;
     &lt;div class=&quot;node&quot; id=&quot;scss&quot; style=&quot;grid-column: 2; grid-row: 6&quot;&gt;SCSS&lt;/div&gt;
     &lt;div class=&quot;node&quot; id=&quot;less&quot; style=&quot;grid-column: 2; grid-row: 7&quot;&gt;LESS&lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;gsap&quot; style=&quot;grid-column: 3; grid-row: 3&quot;&gt;GSAP&lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;socketio&quot; style=&quot;grid-column: 3; grid-row: 2&quot;&gt;
+        Socket.io
+    &lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;nodejs&quot; style=&quot;grid-column: 4; grid-row: 2&quot;&gt;
+        Node.js
+    &lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;threejs&quot; style=&quot;grid-column: 4; grid-row: 1&quot;&gt;
+        Three.js
+    &lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;vuejs&quot; style=&quot;grid-column: 4; grid-row: 7&quot;&gt;
+        Vue.js
+    &lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;angularjs&quot; style=&quot;grid-column: 4; grid-row: 8&quot;&gt;
+        Angular JS
+    &lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;electron&quot; style=&quot;grid-column: 4; grid-row: 9&quot;&gt;
+        Electron
+    &lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;express&quot; style=&quot;grid-column: 5; grid-row: 2&quot;&gt;
+        Express
+    &lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;nestjs&quot; style=&quot;grid-column: 5; grid-row: 3&quot;&gt;
+        Nest JS
+    &lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;nestjs&quot; style=&quot;grid-column: 5; grid-row: 3&quot;&gt;
+        Nest JS
+    &lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;nextjs&quot; style=&quot;grid-column: 5; grid-row: 5&quot;&gt;
+        Next.JS
+    &lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;reactnative&quot; style=&quot;grid-column: 5; grid-row: 6&quot;&gt;
+        React Native
+    &lt;/div&gt;
+    &lt;div class=&quot;node&quot; id=&quot;nuxtjs&quot; style=&quot;grid-column: 5; grid-row: 7&quot;&gt;
+        Nuxt.js
+    &lt;/div&gt;
 
     &lt;svg class=&quot;lines&quot;&gt;
-        &lt;polyline id=&quot;html-css&quot; stroke=&quot;#555&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; /&gt;
+        &lt;polyline id=&quot;html-css&quot; stroke=&quot;#555&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; /&gt;
         &lt;polyline
             id=&quot;css-javascript&quot;
             stroke=&quot;#555&quot;
-            stroke-width=&quot;2&quot;
+            stroke-width=&quot;1&quot;
             fill=&quot;none&quot;
         /&gt;
         &lt;polyline
             id=&quot;javascript-typescript&quot;
             stroke=&quot;#555&quot;
-            stroke-width=&quot;2&quot;
+            stroke-width=&quot;1&quot;
             fill=&quot;none&quot;
         /&gt;
         &lt;polyline
             id=&quot;javascript-react&quot;
             stroke=&quot;#555&quot;
-            stroke-width=&quot;2&quot;
+            stroke-width=&quot;1&quot;
             fill=&quot;none&quot;
         /&gt;
         &lt;polyline
             id=&quot;javascript-jest&quot;
             stroke=&quot;#555&quot;
-            stroke-width=&quot;2&quot;
+            stroke-width=&quot;1&quot;
             fill=&quot;none&quot;
         /&gt;
         &lt;polyline
             id=&quot;javascript-vitest&quot;
             stroke=&quot;#555&quot;
-            stroke-width=&quot;2&quot;
+            stroke-width=&quot;1&quot;
             fill=&quot;none&quot;
         /&gt;
-        &lt;polyline id=&quot;css-sass&quot; stroke=&quot;#555&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; /&gt;
-        &lt;polyline id=&quot;css-scss&quot; stroke=&quot;#555&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; /&gt;
-        &lt;polyline id=&quot;css-less&quot; stroke=&quot;#555&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; /&gt;
+        &lt;polyline id=&quot;css-sass&quot; stroke=&quot;#555&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; /&gt;
+        &lt;polyline id=&quot;css-scss&quot; stroke=&quot;#555&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; /&gt;
+        &lt;polyline id=&quot;css-less&quot; stroke=&quot;#555&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; /&gt;
+        &lt;polyline
+            id=&quot;javascript-gsap&quot;
+            stroke=&quot;#555&quot;
+            stroke-width=&quot;1&quot;
+            fill=&quot;none&quot;
+        /&gt;
+        &lt;polyline
+            id=&quot;javascript-socketio&quot;
+            stroke=&quot;#555&quot;
+            stroke-width=&quot;1&quot;
+            fill=&quot;none&quot;
+        /&gt;
+        &lt;polyline
+            id=&quot;javascript-nodejs&quot;
+            stroke=&quot;#555&quot;
+            stroke-width=&quot;1&quot;
+            fill=&quot;none&quot;
+        /&gt;
+        &lt;polyline
+            id=&quot;javascript-threejs&quot;
+            stroke=&quot;#555&quot;
+            stroke-width=&quot;1&quot;
+            fill=&quot;none&quot;
+        /&gt;
+        &lt;polyline
+            id=&quot;nodejs-express&quot;
+            stroke=&quot;#555&quot;
+            stroke-width=&quot;1&quot;
+            fill=&quot;none&quot;
+        /&gt;
+        &lt;polyline
+            id=&quot;nodejs-nestjs&quot;
+            stroke=&quot;#555&quot;
+            stroke-width=&quot;1&quot;
+            fill=&quot;none&quot;
+        /&gt;
+        &lt;polyline
+            id=&quot;javascript-vuejs&quot;
+            stroke=&quot;#555&quot;
+            stroke-width=&quot;1&quot;
+            fill=&quot;none&quot;
+        /&gt;
+        &lt;polyline
+            id=&quot;javascript-angularjs&quot;
+            stroke=&quot;#555&quot;
+            stroke-width=&quot;1&quot;
+            fill=&quot;none&quot;
+        /&gt;
+        &lt;polyline
+            id=&quot;javascript-electron&quot;
+            stroke=&quot;#555&quot;
+            stroke-width=&quot;1&quot;
+            fill=&quot;none&quot;
+        /&gt;
+        &lt;polyline
+            id=&quot;react-nextjs&quot;
+            stroke=&quot;#555&quot;
+            stroke-width=&quot;1&quot;
+            fill=&quot;none&quot;
+        /&gt;
+        &lt;polyline
+            id=&quot;react-reactnative&quot;
+            stroke=&quot;#555&quot;
+            stroke-width=&quot;1&quot;
+            fill=&quot;none&quot;
+        /&gt;
+        &lt;polyline
+            id=&quot;vuejs-nuxtjs&quot;
+            stroke=&quot;#555&quot;
+            stroke-width=&quot;1&quot;
+            fill=&quot;none&quot;
+        /&gt;
     &lt;/svg&gt;
 &lt;/div&gt;
 
@@ -147,7 +261,7 @@ svg.lines {
     )
 }
 
-function connectZigZag(fromId, toId, lineId, offset = 20) {
+function connectZigZagDown(fromId, toId, lineId, offset = 25) {
     const fromEl = document.getElementById(fromId).getBoundingClientRect()
     const toEl = document.getElementById(toId).getBoundingClientRect()
     const svg = document.querySelector(&#39;svg.lines&#39;)
@@ -183,16 +297,64 @@ function connectZigZag(fromId, toId, lineId, offset = 20) {
     polyline.setAttribute(&#39;points&#39;, points)
 }
 
+function connectZigZagUp(fromId, toId, lineId, offset = 25) {
+    const fromEl = document.getElementById(fromId).getBoundingClientRect()
+    const toEl = document.getElementById(toId).getBoundingClientRect()
+    const svg = document.querySelector(&#39;svg.lines&#39;)
+    const svgRect = svg.getBoundingClientRect()
+
+    // Точка старта: центр-верх блока from
+    const x1 = fromEl.left + fromEl.width / 2 - svgRect.left
+    const y1 = fromEl.top - svgRect.top
+
+    // Целевая точка: центр-левая сторона блока to
+    const x2 = toEl.left - svgRect.left
+    const y2 = toEl.top + toEl.height / 2 - svgRect.top
+
+    // 1. вверх от from
+    const yMid1 = y1 - offset
+
+    // 2. влево
+    const xMid = Math.min(x1, x2) - offset
+
+    // 3. вверх до уровня центра to
+    const yMid2 = y2
+
+    // Рисуем маршрут
+    const points = [
+        `${x1},${y1}`, // из центра-верха from
+        `${x1},${yMid1}`, // вверх
+        `${xMid},${yMid1}`, // влево
+        `${xMid},${yMid2}`, // вверх до уровня центра to
+        `${x2},${yMid2}`, // вправо в центр-лево блока to
+    ].join(&#39; &#39;)
+
+    const polyline = document.getElementById(lineId)
+    polyline.setAttribute(&#39;points&#39;, points)
+}
+
 function redrawLines() {
     connectLShape(&#39;html&#39;, &#39;css&#39;, &#39;html-css&#39;)
     connectLShape(&#39;css&#39;, &#39;javascript&#39;, &#39;css-javascript&#39;)
     connectLShape(&#39;javascript&#39;, &#39;typescript&#39;, &#39;javascript-typescript&#39;)
     connectLShape(&#39;javascript&#39;, &#39;react&#39;, &#39;javascript-react&#39;)
-    connectZigZag(&#39;javascript&#39;, &#39;jest&#39;, &#39;javascript-jest&#39;)
-    connectZigZag(&#39;javascript&#39;, &#39;vitest&#39;, &#39;javascript-vitest&#39;)
-    connectZigZag(&#39;css&#39;, &#39;sass&#39;, &#39;css-sass&#39;)
-    connectZigZag(&#39;css&#39;, &#39;scss&#39;, &#39;css-scss&#39;)
-    connectZigZag(&#39;css&#39;, &#39;less&#39;, &#39;css-less&#39;)
+    connectLShape(&#39;javascript&#39;, &#39;nodejs&#39;, &#39;javascript-nodejs&#39;)
+    connectLShape(&#39;javascript&#39;, &#39;threejs&#39;, &#39;javascript-threejs&#39;)
+    connectLShape(&#39;nodejs&#39;, &#39;express&#39;, &#39;nodejs-express&#39;)
+    connectLShape(&#39;nodejs&#39;, &#39;nestjs&#39;, &#39;nodejs-nestjs&#39;)
+    connectLShape(&#39;javascript&#39;, &#39;vuejs&#39;, &#39;javascript-vuejs&#39;)
+    connectLShape(&#39;javascript&#39;, &#39;angularjs&#39;, &#39;javascript-angularjs&#39;)
+    connectLShape(&#39;javascript&#39;, &#39;electron&#39;, &#39;javascript-electron&#39;)
+    connectLShape(&#39;react&#39;, &#39;nextjs&#39;, &#39;react-nextjs&#39;)
+    connectLShape(&#39;react&#39;, &#39;reactnative&#39;, &#39;react-reactnative&#39;)
+    connectLShape(&#39;vuejs&#39;, &#39;nuxtjs&#39;, &#39;vuejs-nuxtjs&#39;)
+    connectZigZagDown(&#39;javascript&#39;, &#39;jest&#39;, &#39;javascript-jest&#39;)
+    connectZigZagDown(&#39;javascript&#39;, &#39;vitest&#39;, &#39;javascript-vitest&#39;)
+    connectZigZagDown(&#39;css&#39;, &#39;sass&#39;, &#39;css-sass&#39;)
+    connectZigZagDown(&#39;css&#39;, &#39;scss&#39;, &#39;css-scss&#39;)
+    connectZigZagDown(&#39;css&#39;, &#39;less&#39;, &#39;css-less&#39;)
+    connectZigZagUp(&#39;javascript&#39;, &#39;gsap&#39;, &#39;javascript-gsap&#39;)
+    connectZigZagUp(&#39;javascript&#39;, &#39;socketio&#39;, &#39;javascript-socketio&#39;)
 }
 
 window.addEventListener(&#39;load&#39;, redrawLines)
@@ -200,7 +362,7 @@ window.addEventListener(&#39;resize&#39;, redrawLines)
 &lt;/script&gt;
             &lt;/body&gt;
         &lt;/html&gt;
-" class="preview-frame" style="height:900px;" sandbox="allow-scripts" data-v-21a63fd7></iframe></div><h2 id="test-canvas" tabindex="-1">Test Canvas <a class="header-anchor" href="#test-canvas" aria-label="Permalink to &quot;Test Canvas&quot;">​</a></h2><div class="code-preview" data-v-21a63fd7><iframe srcdoc="
+" class="preview-frame" style="height:910px;" sandbox="allow-scripts" data-v-21a63fd7></iframe></div><h2 id="test-canvas" tabindex="-1">Test Canvas <a class="header-anchor" href="#test-canvas" aria-label="Permalink to &quot;Test Canvas&quot;">​</a></h2><div class="code-preview" data-v-21a63fd7><iframe srcdoc="
         &lt;!DOCTYPE html&gt;
         &lt;html&gt;
             &lt;head&gt;
@@ -338,7 +500,7 @@ button {
             &lt;/body&gt;
         &lt;/html&gt;
 " class="preview-frame" style="height:170px;" sandbox="allow-scripts" data-v-21a63fd7></iframe></div></div></div></main><footer class="VPDocFooter" data-v-39a288b8 data-v-e257564d><!--[--><!--]--><!----><!----></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div></div>
-    <script>window.__VP_HASH_MAP__=JSON.parse("{\"gsap_page_1.md\":\"V_k8Qx_V\",\"html_page_1.md\":\"BeThSc2P\",\"index.md\":\"saqEnw0V\",\"jest_page_1.md\":\"3jGIL6Tf\",\"socketio_page_1.md\":\"Debdh7dL\",\"videos_page_1.md\":\"D2B7ZG2c\",\"vitepress_page_1.md\":\"CKugm1Ep\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"ru-RU\",\"dir\":\"ltr\",\"title\":\"MarkusFx (itPit)\",\"description\":\"Моя документация на VitePress\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"nav\":[{\"text\":\"Главная\",\"link\":\"/\"},{\"text\":\"VitePress\",\"link\":\"/vitepress/page_1\"},{\"text\":\"Jest\",\"link\":\"/jest/page_1\"},{\"text\":\"HTML\",\"link\":\"/html/page_1\"}],\"sidebar\":{\"/videos/\":[{\"text\":\"Видео\",\"items\":[{\"text\":\"Разное\",\"link\":\"/videos/page_1\"}]}],\"/vitepress/\":[{\"text\":\"VitePress\",\"items\":[{\"text\":\"Введение\",\"link\":\"/vitepress/page_1\"}]}],\"/jest/\":[{\"text\":\"Jest\",\"items\":[{\"text\":\"Введение\",\"link\":\"/jest/page_1\"}]}],\"/gsap/\":[{\"text\":\"GSAP\",\"items\":[{\"text\":\"Введение\",\"link\":\"/gsap/page_1\"}]}],\"/socketio/\":[{\"text\":\"Socket.io\",\"items\":[{\"text\":\"Введение\",\"link\":\"/socketio/page_1\"}]}]},\"outlineTitle\":\"На этой странице\",\"lastUpdatedText\":\"Последнее обновление\",\"docFooter\":{\"prev\":\"Назад\",\"next\":\"Вперёд\"},\"darkModeSwitchLabel\":\"Темная тема\",\"lightModeSwitchTitle\":\"Переключить на светлую тему\",\"darkModeSwitchTitle\":\"Переключить на тёмную тему\",\"returnToTopLabel\":\"Наверх\",\"sidebarMenuLabel\":\"Навигация\",\"search\":{\"provider\":\"local\",\"options\":{\"translations\":{\"button\":{\"buttonText\":\"Поиск\",\"buttonAriaLabel\":\"Поиск по документации\"},\"modal\":{\"noResultsText\":\"Ничего не найдено\",\"resetButtonTitle\":\"Очистить\",\"footer\":{\"selectText\":\"Выбрать\",\"navigateText\":\"Навигация\",\"closeText\":\"Закрыть (Esc)\"},\"displayDetails\":\"Показать подробный список\"}}}}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"gsap_page_1.md\":\"V_k8Qx_V\",\"html_page_1.md\":\"Pa7v7_Tq\",\"index.md\":\"saqEnw0V\",\"jest_page_1.md\":\"3jGIL6Tf\",\"socketio_page_1.md\":\"Debdh7dL\",\"videos_page_1.md\":\"D2B7ZG2c\",\"vitepress_page_1.md\":\"CKugm1Ep\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"ru-RU\",\"dir\":\"ltr\",\"title\":\"MarkusFx (itPit)\",\"description\":\"Моя документация на VitePress\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"nav\":[{\"text\":\"Главная\",\"link\":\"/\"},{\"text\":\"VitePress\",\"link\":\"/vitepress/page_1\"},{\"text\":\"Jest\",\"link\":\"/jest/page_1\"},{\"text\":\"HTML\",\"link\":\"/html/page_1\"}],\"sidebar\":{\"/videos/\":[{\"text\":\"Видео\",\"items\":[{\"text\":\"Разное\",\"link\":\"/videos/page_1\"}]}],\"/vitepress/\":[{\"text\":\"VitePress\",\"items\":[{\"text\":\"Введение\",\"link\":\"/vitepress/page_1\"}]}],\"/jest/\":[{\"text\":\"Jest\",\"items\":[{\"text\":\"Введение\",\"link\":\"/jest/page_1\"}]}],\"/gsap/\":[{\"text\":\"GSAP\",\"items\":[{\"text\":\"Введение\",\"link\":\"/gsap/page_1\"}]}],\"/socketio/\":[{\"text\":\"Socket.io\",\"items\":[{\"text\":\"Введение\",\"link\":\"/socketio/page_1\"}]}]},\"outlineTitle\":\"На этой странице\",\"lastUpdatedText\":\"Последнее обновление\",\"docFooter\":{\"prev\":\"Назад\",\"next\":\"Вперёд\"},\"darkModeSwitchLabel\":\"Темная тема\",\"lightModeSwitchTitle\":\"Переключить на светлую тему\",\"darkModeSwitchTitle\":\"Переключить на тёмную тему\",\"returnToTopLabel\":\"Наверх\",\"sidebarMenuLabel\":\"Навигация\",\"search\":{\"provider\":\"local\",\"options\":{\"translations\":{\"button\":{\"buttonText\":\"Поиск\",\"buttonAriaLabel\":\"Поиск по документации\"},\"modal\":{\"noResultsText\":\"Ничего не найдено\",\"resetButtonTitle\":\"Очистить\",\"footer\":{\"selectText\":\"Выбрать\",\"navigateText\":\"Навигация\",\"closeText\":\"Закрыть (Esc)\"},\"displayDetails\":\"Показать подробный список\"}}}}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
     
   </body>
 </html>
