@@ -1,4 +1,4 @@
-/* empty css                                                                           */import{_ as p,h,c as d,o as r,j as i,N as c,G as a,ag as k,a as l,k as s}from"./chunks/framework.BgId8OS5.js";const g={class:"code-preview"},y=["srcdoc"],E={__name:"CodePreview",props:{html:{type:String,default:""},css:{type:String,default:""},js:{type:String,default:""},height:{type:String,default:"300px"}},setup(e){const t=e,n=h(()=>`
+/* empty css                                                                           */import{_ as c,h,c as d,o as r,j as i,N as p,G as a,ag as g,a as l,k as s}from"./chunks/framework.BgId8OS5.js";const k={class:"code-preview"},y=["srcdoc"],E={__name:"CodePreview",props:{html:{type:String,default:""},css:{type:String,default:""},js:{type:String,default:""},height:{type:String,default:"300px"}},setup(e){const t=e,n=h(()=>`
         <!DOCTYPE html>
         <html>
             <head>
@@ -9,14 +9,14 @@
                 <script>${t.js}<\/script>
             </body>
         </html>
-`);return(B,S)=>(r(),d("div",g,[i("iframe",{srcdoc:n.value,class:"preview-frame",style:c({height:e.height}),sandbox:"allow-scripts"},null,12,y)]))}},o=p(E,[["__scopeId","data-v-21a63fd7"]]),v=`<h1>Hello World!</h1>
+`);return(B,I)=>(r(),d("div",k,[i("iframe",{srcdoc:n.value,class:"preview-frame",style:p({height:e.height}),sandbox:"allow-scripts"},null,12,y)]))}},o=c(E,[["__scopeId","data-v-21a63fd7"]]),v=`<h1>Hello World!</h1>
 <button
     style="padding: 8px 16px; border-radius: 4px"
     onclick="console.log('Hello!')"
 >
     Чпоньк
 </button>
-`,m=`body {
+`,f=`body {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     padding: 20px;
@@ -31,8 +31,8 @@ button {
     border: none;
     cursor: pointer;
 }
-`,u=`console.log('Preview loaded!')
-`,f=`<canvas id="menuCanvas" width="600" height="400"></canvas>
+`,m=`console.log('Preview loaded!')
+`,u=`<canvas id="menuCanvas" width="600" height="400"></canvas>
 `,x=`body {
     background: #667eea;
     color: white;
@@ -54,7 +54,7 @@ button {
 #menuCanvas {
     border: 1px solid #ccc;
 }
-`,C=`const canvas = document.getElementById('menuCanvas')
+`,j=`const canvas = document.getElementById('menuCanvas')
 const ctx = canvas.getContext('2d')
 
 const nodeWidth = 120
@@ -104,7 +104,7 @@ function drawTree() {
 }
 
 drawTree()
-`,j=`<div class="grid-container" id="grid">
+`,C=`<div class="grid-container" id="grid">
     <div class="node" id="html" style="grid-column: 1; grid-row: 4">HTML</div>
     <div class="node" id="css" style="grid-column: 2; grid-row: 4">CSS</div>
     <div class="node" id="javascript" style="grid-column: 3; grid-row: 4">
@@ -268,7 +268,7 @@ drawTree()
         />
     </svg>
 </div>
-`,F=`/*@font-face {*/
+`,b=`/*@font-face {*/
 /*    font-family: 'Bebas Neue Cyrillic';*/
 /*    src: url('/fonts/BebasNeueCyrillic.woff2') format('woff2');*/
 /*    font-weight: normal;*/
@@ -291,6 +291,8 @@ body {
 }
 
 .node {
+    user-select: none;
+
     background: #272b2d;
     border: 1px solid #808080;
     color: white;
@@ -304,6 +306,51 @@ body {
     justify-content: center; /* по горизонтали */
     align-items: center; /* по вертикали */
     height: 100%; /* важно: позволяет занять всю ячейку грида */
+
+    transition:
+        background 0.3s,
+        border-color 0.3s,
+        box-shadow 0.3s;
+}
+
+.node:hover {
+    background: #3a3f41;
+    border-color: #ffffff;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.node:active {
+    background-color: #00e5a4; /* Цвет подсветки */
+    color: white;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* свой узел */
+.highlight-self {
+    background-color: #00e5a4;
+}
+
+/* связь с html — зеленый */
+.highlight-prev {
+    background-color: #00e5a4;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+    border-color: #ffffff;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+/* остальные связи — синий */
+.highlight-next {
+    background-color: #ebd005;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+    border-color: #ffffff;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+.highlight-line {
+    stroke: #ffffff;
+    stroke-width: 1px;
+    transition: stroke 0.3s;
 }
 
 svg.lines {
@@ -315,7 +362,115 @@ svg.lines {
     pointer-events: none;
     z-index: 0;
 }
-`,w=`function connectLShape(fromId, toId, lineId) {
+`,w=`document.addEventListener('DOMContentLoaded', () => {
+    // connections с цветом для каждой связи
+    const connections = {
+        html: [{ id: 'css', color: 'highlight-next', lineId: 'html-css' }],
+        css: [
+            { id: 'html', color: 'highlight-prev', lineId: 'html-css' },
+            { id: 'sass', color: 'highlight-next', lineId: 'css-sass' },
+            { id: 'scss', color: 'highlight-next', lineId: 'css-scss' },
+            { id: 'less', color: 'highlight-next', lineId: 'css-less' },
+            {
+                id: 'javascript',
+                color: 'highlight-next',
+                lineId: 'css-javascript',
+            },
+        ],
+        javascript: [
+            { id: 'css', color: 'highlight-prev', lineId: 'css-javascript' },
+            {
+                id: 'typescript',
+                color: 'highlight-next',
+                lineId: 'javascript-typescript',
+            },
+            {
+                id: 'react',
+                color: 'highlight-next',
+                lineId: 'javascript-react',
+            },
+            { id: 'jest', color: 'highlight-other', lineId: 'javascript-jest' },
+            {
+                id: 'vitest',
+                color: 'highlight-next',
+                lineId: 'javascript-vitest',
+            },
+            { id: 'gsap', color: 'highlight-other', lineId: 'javascript-gsap' },
+            {
+                id: 'socketio',
+                color: 'highlight-next',
+                lineId: 'javascript-socketio',
+            },
+            {
+                id: 'nodejs',
+                color: 'highlight-next',
+                lineId: 'javascript-nodejs',
+            },
+            {
+                id: 'threejs',
+                color: 'highlight-next',
+                lineId: 'javascript-threejs',
+            },
+            {
+                id: 'vuejs',
+                color: 'highlight-next',
+                lineId: 'javascript-vuejs',
+            },
+            {
+                id: 'angularjs',
+                color: 'highlight-next',
+                lineId: 'javascript-angularjs',
+            },
+            {
+                id: 'electron',
+                color: 'highlight-next',
+                lineId: 'javascript-electron',
+            },
+            {
+                id: 'gsap',
+                color: 'highlight-next',
+                lineId: 'javascript-gsap',
+            },
+            {
+                id: 'jest',
+                color: 'highlight-next',
+                lineId: 'javascript-jest',
+            },
+        ],
+    }
+
+    document.querySelectorAll('.node').forEach((node) => {
+        node.addEventListener('mouseenter', () => {
+            const id = node.id
+            node.classList.add('highlight-self')
+            ;(connections[id] || []).forEach(({ id: cid, color, lineId }) => {
+                const cn = document.getElementById(cid)
+                if (cn) cn.classList.add(color)
+
+                if (lineId) {
+                    const line = document.getElementById(lineId)
+                    if (line) line.classList.add('highlight-line')
+                }
+            })
+        })
+
+        node.addEventListener('mouseleave', () => {
+            const id = node.id
+            node.classList.remove('highlight-self')
+            ;(connections[id] || []).forEach(({ id: cid, color, lineId }) => {
+                const cn = document.getElementById(cid)
+                if (cn) cn.classList.remove(color)
+
+                if (lineId) {
+                    const line = document.getElementById(lineId)
+                    if (line) line.classList.remove('highlight-line')
+                }
+            })
+        })
+    })
+})
+
+function connectLShape(fromId, toId, lineId) {
     const fromEl = document.getElementById(fromId).getBoundingClientRect()
     const toEl = document.getElementById(toId).getBoundingClientRect()
     const svg = document.querySelector('svg.lines')
@@ -434,7 +589,7 @@ function redrawLines() {
 
 window.addEventListener('load', redrawLines)
 window.addEventListener('resize', redrawLines)
-`,$=JSON.parse('{"title":"HTML","description":"","frontmatter":{},"headers":[],"relativePath":"html/page_1.md","filePath":"html/page_1.md"}'),b={name:"html/page_1.md"},L=Object.assign(b,{setup(e){return(t,n)=>(r(),d("div",null,[n[0]||(n[0]=i("h1",{id:"html",tabindex:"-1"},[l("HTML "),i("a",{class:"header-anchor",href:"#html","aria-label":'Permalink to "HTML"'},"​")],-1)),n[1]||(n[1]=i("h2",{id:"test-grid",tabindex:"-1"},[l("Test Grid "),i("a",{class:"header-anchor",href:"#test-grid","aria-label":'Permalink to "Test Grid"'},"​")],-1)),a(o,{html:s(j),css:s(F),js:s(w),height:"910px"},null,8,["html","css","js"]),n[2]||(n[2]=i("h2",{id:"test-canvas",tabindex:"-1"},[l("Test Canvas "),i("a",{class:"header-anchor",href:"#test-canvas","aria-label":'Permalink to "Test Canvas"'},"​")],-1)),a(o,{html:s(f),css:s(x),js:s(C),height:"470px"},null,8,["html","css","js"]),n[3]||(n[3]=k(`<h2 id="тест-iframe-c-html-css-javascript" tabindex="-1">Тест iframe c HTML, CSS, JavaScript <a class="header-anchor" href="#тест-iframe-c-html-css-javascript" aria-label="Permalink to &quot;Тест iframe c HTML, CSS, JavaScript&quot;">​</a></h2><p><strong><code>index.html</code></strong>:</p><div class="language-html vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">html</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">h1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;Hello World!&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">h1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+`,L=JSON.parse('{"title":"HTML","description":"","frontmatter":{},"headers":[],"relativePath":"html/page_1.md","filePath":"html/page_1.md"}'),F={name:"html/page_1.md"},$=Object.assign(F,{setup(e){return(t,n)=>(r(),d("div",null,[n[0]||(n[0]=i("h1",{id:"html",tabindex:"-1"},[l("HTML "),i("a",{class:"header-anchor",href:"#html","aria-label":'Permalink to "HTML"'},"​")],-1)),n[1]||(n[1]=i("h2",{id:"menu-grid",tabindex:"-1"},[l("Menu Grid "),i("a",{class:"header-anchor",href:"#menu-grid","aria-label":'Permalink to "Menu Grid"'},"​")],-1)),a(o,{html:s(C),css:s(b),js:s(w),height:"910px"},null,8,["html","css","js"]),n[2]||(n[2]=i("h2",{id:"canvas",tabindex:"-1"},[l("Canvas "),i("a",{class:"header-anchor",href:"#canvas","aria-label":'Permalink to "Canvas"'},"​")],-1)),a(o,{html:s(u),css:s(x),js:s(j),height:"470px"},null,8,["html","css","js"]),n[3]||(n[3]=g(`<h2 id="iframe-c-html-css-javascript" tabindex="-1">iframe c HTML, CSS, JavaScript <a class="header-anchor" href="#iframe-c-html-css-javascript" aria-label="Permalink to &quot;iframe c HTML, CSS, JavaScript&quot;">​</a></h2><p><strong><code>index.html</code></strong>:</p><div class="language-html vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">html</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">h1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;Hello World!&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">h1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">button</span></span>
 <span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">    style</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;padding: 8px 16px; border-radius: 4px&quot;</span></span>
 <span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">    onclick</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">console</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">log</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">(&#39;Hello!&#39;)&quot;</span></span>
@@ -454,4 +609,4 @@ window.addEventListener('resize', redrawLines)
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    color</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">#764ba2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    border</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">none</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    cursor</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">pointer</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span></code></pre></div><p><strong><code>script.js</code></strong>:</p><div class="language-js vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">js</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">console.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">log</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&#39;Preview loaded!&#39;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span></code></pre></div><p>Результат:</p>`,8)),a(o,{html:s(v),css:s(m),js:s(u),height:"170px"},null,8,["html","css","js"])]))}});export{$ as __pageData,L as default};
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span></code></pre></div><p><strong><code>script.js</code></strong>:</p><div class="language-js vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">js</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">console.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">log</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&#39;Preview loaded!&#39;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span></code></pre></div><p>Результат:</p>`,8)),a(o,{html:s(v),css:s(f),js:s(m),height:"170px"},null,8,["html","css","js"])]))}});export{L as __pageData,$ as default};
