@@ -9,11 +9,11 @@
     <link rel="preload stylesheet" href="/assets/style.D3tRDucK.css" as="style">
     <link rel="preload stylesheet" href="/vp-icons.css" as="style">
     
-    <script type="module" src="/assets/app.DghTYwOW.js"></script>
+    <script type="module" src="/assets/app.qk9u0XtR.js"></script>
     <link rel="preload" href="/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="modulepreload" href="/assets/chunks/theme.BsY2SMr0.js">
+    <link rel="modulepreload" href="/assets/chunks/theme.CMZzUfi1.js">
     <link rel="modulepreload" href="/assets/chunks/framework.BgId8OS5.js">
-    <link rel="modulepreload" href="/assets/html_page_1.md.BVtvqFQa.lean.js">
+    <link rel="modulepreload" href="/assets/html_page_1.md.l3D0qS8F.lean.js">
     <link rel="icon" href="/favicon/favicon.ico">
     <script>(function(e,a,s,u,t,n,r){e[t]=e[t]||function(){(e[t].a=e[t].a||[]).push(arguments)},e[t].l=1*new Date;for(var c=0;c<document.scripts.length;c++)if(document.scripts[c].src===u)return;n=a.createElement(s),r=a.getElementsByTagName(s)[0],n.async=1,n.src=u,r.parentNode.insertBefore(n,r)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym"),ym(102572208,"init",{clickmap:!0,trackLinks:!0,accurateTrackBounce:!0});</script>
     <noscript><div><img src="https://mc.yandex.ru/watch/102572208" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
@@ -517,90 +517,7 @@ window.addEventListener(&#39;resize&#39;, redrawLines)
 &lt;/script&gt;
             &lt;/body&gt;
         &lt;/html&gt;
-" class="preview-frame" style="height:910px;" sandbox="allow-scripts" data-v-21a63fd7></iframe></div><h2 id="canvas" tabindex="-1">Canvas <a class="header-anchor" href="#canvas" aria-label="Permalink to &quot;Canvas&quot;">​</a></h2><div class="code-preview" data-v-21a63fd7><iframe srcdoc="
-        &lt;!DOCTYPE html&gt;
-        &lt;html&gt;
-            &lt;head&gt;
-                &lt;style&gt;body {
-    background: #667eea;
-    color: white;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-}
-
-h1 {
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-}
-
-button {
-    background: white;
-    color: #764ba2;
-    border: none;
-    cursor: pointer;
-}
-
-#menuCanvas {
-    border: 1px solid #ccc;
-}
-&lt;/style&gt;
-            &lt;/head&gt;
-            &lt;body&gt;
-                &lt;canvas id=&quot;menuCanvas&quot; width=&quot;600&quot; height=&quot;400&quot;&gt;&lt;/canvas&gt;
-
-                &lt;script&gt;const canvas = document.getElementById(&#39;menuCanvas&#39;)
-const ctx = canvas.getContext(&#39;2d&#39;)
-
-const nodeWidth = 120
-const nodeHeight = 40
-
-const nodes = [
-    { id: 1, label: &#39;HTML&#39;, x: 0, y: 100, children: [2] },
-    { id: 2, label: &#39;CSS&#39;, x: 150, y: 100, children: [3] },
-    { id: 3, label: &#39;JavaScript&#39;, x: 300, y: 100, children: [4, 5, 6, 7] },
-    { id: 4, label: &#39;TypeScript&#39;, x: 450, y: 100, children: [] },
-    { id: 5, label: &#39;React&#39;, x: 450, y: 200, children: [] },
-    { id: 6, label: &#39;Jest&#39;, x: 300, y: 200, children: [] },
-    { id: 7, label: &#39;Vitest&#39;, x: 300, y: 300, children: [] },
-]
-
-function drawNode(node) {
-    ctx.fillStyle = &#39;#4CAF50&#39;
-    ctx.fillRect(node.x, node.y, nodeWidth, nodeHeight)
-    ctx.fillStyle = &#39;white&#39;
-    ctx.font = &#39;16px sans-serif&#39;
-    ctx.textAlign = &#39;center&#39;
-    ctx.textBaseline = &#39;middle&#39;
-    ctx.fillText(node.label, node.x + nodeWidth / 2, node.y + nodeHeight / 2)
-}
-
-function drawLine(from, to) {
-    ctx.beginPath()
-    ctx.moveTo(from.x + nodeWidth, from.y + nodeHeight / 2)
-    ctx.lineTo(to.x, to.y + nodeHeight / 2)
-    ctx.strokeStyle = &#39;#555&#39;
-    ctx.lineWidth = 2
-    ctx.stroke()
-}
-
-function drawTree() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height)
-    for (const node of nodes) {
-        drawNode(node)
-    }
-
-    for (const node of nodes) {
-        for (const childId of node.children) {
-            const child = nodes.find((n) =&gt; n.id === childId)
-            drawLine(node, child)
-        }
-    }
-}
-
-drawTree()
-&lt;/script&gt;
-            &lt;/body&gt;
-        &lt;/html&gt;
-" class="preview-frame" style="height:470px;" sandbox="allow-scripts" data-v-21a63fd7></iframe></div><h2 id="iframe-c-html-css-javascript" tabindex="-1">iframe c HTML, CSS, JavaScript <a class="header-anchor" href="#iframe-c-html-css-javascript" aria-label="Permalink to &quot;iframe c HTML, CSS, JavaScript&quot;">​</a></h2><p><strong><code>index.html</code></strong>:</p><div class="language-html vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">html</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">h1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;Hello World!&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">h1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+" class="preview-frame" style="height:910px;" sandbox="allow-scripts" data-v-21a63fd7></iframe></div><h2 id="iframe-c-html-css-javascript" tabindex="-1">iframe c HTML, CSS, JavaScript <a class="header-anchor" href="#iframe-c-html-css-javascript" aria-label="Permalink to &quot;iframe c HTML, CSS, JavaScript&quot;">​</a></h2><p><strong><code>index.html</code></strong>:</p><div class="language-html vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">html</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">h1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;Hello World!&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">h1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">button</span></span>
 <span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">    style</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;padding: 8px 16px; border-radius: 4px&quot;</span></span>
 <span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">    onclick</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">console</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">log</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">(&#39;Hello!&#39;)&quot;</span></span>
@@ -655,7 +572,7 @@ button {
             &lt;/body&gt;
         &lt;/html&gt;
 " class="preview-frame" style="height:170px;" sandbox="allow-scripts" data-v-21a63fd7></iframe></div></div></div></main><footer class="VPDocFooter" data-v-39a288b8 data-v-e257564d><!--[--><!--]--><!----><!----></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div></div>
-    <script>window.__VP_HASH_MAP__=JSON.parse("{\"gsap_page_1.md\":\"V_k8Qx_V\",\"html_page_1.md\":\"BVtvqFQa\",\"index.md\":\"CbXGr-3y\",\"jest_page_1.md\":\"3jGIL6Tf\",\"socketio_page_1.md\":\"Debdh7dL\",\"videos_page_1.md\":\"D2B7ZG2c\",\"vitepress_page_1.md\":\"CKugm1Ep\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"ru-RU\",\"dir\":\"ltr\",\"title\":\"MarkusFx (itPit)\",\"description\":\"Моя документация на VitePress\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"nav\":[{\"text\":\"Главная\",\"link\":\"/\"},{\"text\":\"VitePress\",\"link\":\"/vitepress/page_1\"},{\"text\":\"Jest\",\"link\":\"/jest/page_1\"},{\"text\":\"[ТЕСТ ФУНКЦИЙ]\",\"link\":\"/html/page_1\"}],\"sidebar\":{\"/videos/\":[{\"text\":\"Видео\",\"items\":[{\"text\":\"Разное\",\"link\":\"/videos/page_1\"}]}],\"/vitepress/\":[{\"text\":\"VitePress\",\"items\":[{\"text\":\"Введение\",\"link\":\"/vitepress/page_1\"}]}],\"/jest/\":[{\"text\":\"Jest\",\"items\":[{\"text\":\"Введение\",\"link\":\"/jest/page_1\"}]}],\"/gsap/\":[{\"text\":\"GSAP\",\"items\":[{\"text\":\"Введение\",\"link\":\"/gsap/page_1\"}]}],\"/socketio/\":[{\"text\":\"Socket.io\",\"items\":[{\"text\":\"Введение\",\"link\":\"/socketio/page_1\"}]}]},\"outlineTitle\":\"На этой странице\",\"lastUpdatedText\":\"Последнее обновление\",\"docFooter\":{\"prev\":\"Назад\",\"next\":\"Вперёд\"},\"darkModeSwitchLabel\":\"Темная тема\",\"lightModeSwitchTitle\":\"Переключить на светлую тему\",\"darkModeSwitchTitle\":\"Переключить на тёмную тему\",\"returnToTopLabel\":\"Наверх\",\"sidebarMenuLabel\":\"Навигация\",\"search\":{\"provider\":\"local\",\"options\":{\"translations\":{\"button\":{\"buttonText\":\"Поиск\",\"buttonAriaLabel\":\"Поиск по документации\"},\"modal\":{\"noResultsText\":\"Ничего не найдено\",\"resetButtonTitle\":\"Очистить\",\"footer\":{\"selectText\":\"Выбрать\",\"navigateText\":\"Навигация\",\"closeText\":\"Закрыть (Esc)\"},\"displayDetails\":\"Показать подробный список\"}}}}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"gsap_page_1.md\":\"V_k8Qx_V\",\"html_page_1.md\":\"l3D0qS8F\",\"index.md\":\"CbXGr-3y\",\"jest_page_1.md\":\"3jGIL6Tf\",\"socketio_page_1.md\":\"Debdh7dL\",\"videos_page_1.md\":\"D2B7ZG2c\",\"vitepress_page_1.md\":\"CKugm1Ep\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"ru-RU\",\"dir\":\"ltr\",\"title\":\"MarkusFx (itPit)\",\"description\":\"Моя документация на VitePress\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"nav\":[{\"text\":\"Главная\",\"link\":\"/\"},{\"text\":\"VitePress\",\"link\":\"/vitepress/page_1\"},{\"text\":\"Jest\",\"link\":\"/jest/page_1\"},{\"text\":\"[ТЕСТ ФУНКЦИЙ]\",\"link\":\"/html/page_1\"}],\"sidebar\":{\"/videos/\":[{\"text\":\"Видео\",\"items\":[{\"text\":\"Разное\",\"link\":\"/videos/page_1\"}]}],\"/vitepress/\":[{\"text\":\"VitePress\",\"items\":[{\"text\":\"Введение\",\"link\":\"/vitepress/page_1\"}]}],\"/jest/\":[{\"text\":\"Jest\",\"items\":[{\"text\":\"Введение\",\"link\":\"/jest/page_1\"}]}],\"/gsap/\":[{\"text\":\"GSAP\",\"items\":[{\"text\":\"Введение\",\"link\":\"/gsap/page_1\"}]}],\"/socketio/\":[{\"text\":\"Socket.io\",\"items\":[{\"text\":\"Введение\",\"link\":\"/socketio/page_1\"}]}]},\"outlineTitle\":\"На этой странице\",\"lastUpdatedText\":\"Последнее обновление\",\"docFooter\":{\"prev\":\"Назад\",\"next\":\"Вперёд\"},\"darkModeSwitchLabel\":\"Темная тема\",\"lightModeSwitchTitle\":\"Переключить на светлую тему\",\"darkModeSwitchTitle\":\"Переключить на тёмную тему\",\"returnToTopLabel\":\"Наверх\",\"sidebarMenuLabel\":\"Навигация\",\"search\":{\"provider\":\"local\",\"options\":{\"translations\":{\"button\":{\"buttonText\":\"Поиск\",\"buttonAriaLabel\":\"Поиск по документации\"},\"modal\":{\"noResultsText\":\"Ничего не найдено\",\"resetButtonTitle\":\"Очистить\",\"footer\":{\"selectText\":\"Выбрать\",\"navigateText\":\"Навигация\",\"closeText\":\"Закрыть (Esc)\"},\"displayDetails\":\"Показать подробный список\"}}}}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
     
   </body>
 </html>
