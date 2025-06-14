@@ -5,7 +5,12 @@ defineProps(['tiles'])
 <template>
     <div class="tile-grid">
         <div v-for="tile in tiles" :key="tile.link" class="tile">
-            <a :href="tile.link" class="tile-content">
+            <a
+                :href="tile.link"
+                class="tile-content"
+                :target="tile.target || null"
+                :rel="tile.target === '_blank' ? 'noopener' : null"
+            >
                 <div class="tile-icon">
                     <template
                         v-if="

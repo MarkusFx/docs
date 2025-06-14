@@ -1,0 +1,21 @@
+body {
+    background: #667eea;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background: white;
+    color: #764ba2;
+    border: none;
+    cursor: pointer;
+}
+
+#menuCanvas {
+    border: 1px solid #ccc;
+}

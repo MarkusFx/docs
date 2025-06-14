@@ -2,49 +2,85 @@ export default {
     lang: 'ru-RU',
     title: 'MarkusFx (itPit)',
     description: 'Моя документация на VitePress',
-    head: [['link', { rel: 'icon', href: '/favicon/favicon.ico' }]],
+    head: [
+        ['link', { rel: 'icon', href: '/favicon/favicon.ico' }],
+        [
+            'script',
+            {},
+            `(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                   m[i].l=1*new Date();
+                   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+                   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+                   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+                
+                   ym(102572208, "init", {
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true
+            });`,
+        ],
+        [
+            'noscript',
+            {},
+            `<div><img src="https://mc.yandex.ru/watch/102572208" style="position:absolute; left:-9999px;" alt="" /></div>`,
+        ],
+    ],
     // lastUpdated: true,
 
     themeConfig: {
         nav: [
             { text: 'Главная', link: '/' },
-            { text: 'VitePress', link: '/vitepress/page_1' },
-            { text: 'Jest', link: '/jest/page_1' },
-            { text: 'GSAP', link: '/gsap/page_1' },
-            { text: 'Socket.io', link: '/socketio/page_1' },
+            // { text: 'Видео', link: '/videos/page_001' },
+            { text: 'VitePress', link: '/vitepress/page_001' },
+            { text: 'Jest', link: '/jest/page_001' },
+            { text: '1С', link: '/1c/page_001' },
+            // { text: '[ТЕСТ ФУНКЦИЙ]', link: '/tests/page_001' },
+            // { text: 'GSAP', link: '/gsap/page_001' },
+            // { text: 'Socket.io', link: '/socketio/page_001' },
             // {
-            //     text: 'DropDown Menu Test)',
-            //     items: [
-            //         { text: 'Page_1', link: '/socketio/page_1' },
-            //         { text: 'Page_2', link: '/socketio/page_1' },
-            //         { text: 'Page_3', link: '/socketio/page_1' },
-            //     ],
+            //     text: 'Тестирование',
+            //     items: [{ text: 'Jest', link: '/jest/page_001' }],
             // },
         ],
 
         sidebar: {
+            '/videos/': [
+                {
+                    text: 'Видео',
+                    items: [{ text: 'Разное', link: '/videos/page_001' }],
+                },
+            ],
             '/vitepress/': [
                 {
                     text: 'VitePress',
-                    items: [{ text: 'Введение', link: '/vitepress/page_1' }],
+                    items: [{ text: 'Введение', link: '/vitepress/page_001' }],
                 },
             ],
             '/jest/': [
                 {
                     text: 'Jest',
-                    items: [{ text: 'Введение', link: '/jest/page_1' }],
+                    items: [{ text: 'Введение', link: '/jest/page_001' }],
                 },
             ],
             '/gsap/': [
                 {
                     text: 'GSAP',
-                    items: [{ text: 'Введение', link: '/gsap/page_1' }],
+                    items: [{ text: 'Введение', link: '/gsap/page_001' }],
                 },
             ],
             '/socketio/': [
                 {
                     text: 'Socket.io',
-                    items: [{ text: 'Введение', link: '/socketio/page_1' }],
+                    items: [{ text: 'Введение', link: '/socketio/page_001' }],
+                },
+            ],
+            '/1c/': [
+                {
+                    text: '1С',
+                    items: [
+                        { text: 'Введение', link: '/1c/page_001' },
+                        { text: 'Синтаксис 1С', link: '/1c/page_002' },
+                    ],
                 },
             ],
         },
@@ -82,6 +118,10 @@ export default {
                     },
                 },
             },
+        },
+        footer: {
+            message: '',
+            copyright: '© 2023-2025 MarkusFx (itPit)',
         },
     },
 }

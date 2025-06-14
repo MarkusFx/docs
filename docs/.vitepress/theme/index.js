@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import mediumZoom from 'medium-zoom'
+import './style.css'
 import './styles/zoom.css'
 import './styles/imgs.css'
 
