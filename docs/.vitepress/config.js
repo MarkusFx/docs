@@ -30,17 +30,16 @@ export default {
     themeConfig: {
         nav: [
             { text: 'Главная', link: '/' },
-            // { text: 'Видео', link: '/videos/page_001' },
-            { text: 'VitePress', link: '/vitepress/page_001' },
-            { text: 'Jest', link: '/jest/page_001' },
-            { text: '1С', link: '/1c/page_001' },
-            // { text: '[ТЕСТ ФУНКЦИЙ]', link: '/tests/page_001' },
-            // { text: 'GSAP', link: '/gsap/page_001' },
-            // { text: 'Socket.io', link: '/socketio/page_001' },
-            // {
-            //     text: 'Тестирование',
-            //     items: [{ text: 'Jest', link: '/jest/page_001' }],
-            // },
+            { text: 'Обновления', link: '/updates/page_001' },
+            {
+                text: 'Разделы',
+                items: [
+                    { text: 'VitePress', link: '/vitepress/page_001' },
+                    { text: 'HTML', link: '/html/page_001' },
+                    { text: 'Jest', link: '/jest/page_001' },
+                    { text: '1С', link: '/1c/page_001' },
+                ],
+            },
         ],
 
         sidebar: {
@@ -72,6 +71,27 @@ export default {
                 {
                     text: 'Socket.io',
                     items: [{ text: 'Введение', link: '/socketio/page_001' }],
+                },
+            ],
+            '/rust/': [
+                {
+                    text: 'Rust',
+                    items: [{ text: 'Введение', link: '/rust/page_001' }],
+                },
+            ],
+            '/html/': [
+                {
+                    text: 'HTML',
+                    items: [
+                        { text: 'Введение', link: '/html/page_001' },
+                        { text: 'Элементы', link: '/html/page_002' },
+                    ],
+                },
+            ],
+            '/css/': [
+                {
+                    text: 'CSS',
+                    items: [{ text: 'Введение', link: '/css/page_001' }],
                 },
             ],
             '/1c/': [

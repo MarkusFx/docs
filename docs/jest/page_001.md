@@ -1,3 +1,7 @@
+---
+outline: [2]
+---
+
 # Jest
 
 ## Что такое Jest?
@@ -537,6 +541,8 @@ test('Проверка, что возвращается массив тольк�
 
 ## Шпионы (spies)
 
+### Введение
+
 **Шпион (spy)** - это способ отслеживать вызовы реальной функции. С его помощью можно узнать: вызывалась ли функция, с какими аргументами и сколько раз.
 
 Например, изменим файл **`math.js`**:
@@ -595,5 +601,74 @@ test('Проверка, что функция cb не вызывалась', () 
     const result = filterArray(noPrice, hasPrice)
     expect(result).toEqual(filteredWithPrice)
     expect(logSpy).toHaveBeenCalledTimes(noPrice.length)            // [!code ++]
+})
+```
+
+### Пример с использованием `axios`
+
+- **`axios`** - это **JavaScript**-библиотека для выполнения HTTP-запросов из браузера или **Node.js**. Она позволяет взаимодействовать с REST API и другими веб-сервисами.
+
+Установим библиотеку. Выполним команду:
+
+```sh:line-numbers
+npm i axios
+```
+
+Например, изменим файл **`main.js`**:
+
+```js:line-numbers
+import axios from 'axios'
+
+export async function getTodos() {
+    try {
+        const { data } = await axios.get(
+            'https://jsonplaceholder.typicode.com/todos'
+        )
+        return data
+    } catch (err) {
+        console.error(err)
+        return []
+    }
+}
+```
+
+Например, изменим файл **`main.test.js`**:
+
+```js:line-numbers
+import axios from 'axios'
+
+import { getTodos } from './main'
+
+// шпионы для подмены поведения
+const axiosSpy = jest.spyOn(axios, 'get')
+const errorSpy = jest.spyOn(console, 'error')
+
+describe('getTodos', () => {
+    // после каждого теста сбрасываем все моки и шпионы
+    afterEach(() => {
+        jest.clearAllMocks()
+    })
+
+    test('Должен вернуть пустой массив в случае ошибки', async () => {
+        const errMessage = 'Network error'
+
+        // указываем, чтобы при следующем вызове вернулся промис с ошибкой
+        axiosSpy.mockRejectedValueOnce(errMessage)
+
+        const result = await getTodos()
+
+        expect(errorSpy).toHaveBeenCalledWith(errMessage)
+        expect(result).toEqual([])
+    })
+
+    test('Должен вернуть 200 todos', async () => {
+        const result = await getTodos()
+
+        expect(axiosSpy).toHaveBeenCalledWith(
+            'https://jsonplaceholder.typicode.com/todos'
+        )
+
+        expect(result).toHaveLength(200)
+    })
 })
 ```

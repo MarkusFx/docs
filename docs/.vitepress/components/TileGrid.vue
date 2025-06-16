@@ -45,6 +45,9 @@ defineProps(['tiles'])
 }
 
 .tile {
+    display: flex;
+    //justify-content: center;
+    //align-items: center;
     background-color: var(--vp-c-bg-soft);
     border: 1px solid var(--vp-c-border);
     border-radius: 12px;
@@ -60,20 +63,21 @@ defineProps(['tiles'])
 }
 
 .tile-content {
-    display: flex; /* горизонтальное расположение */
-    align-items: center; /* вертикальное выравнивание по центру */
+    display: flex;
+    align-items: center;
     padding: 1.2rem;
     text-decoration: none;
     color: var(--vp-c-text-1);
-    gap: 1rem; /* расстояние между иконкой и текстом */
+    gap: 1rem;
+    width: 100%;
 }
 
 .tile-icon {
     font-size: 2rem;
-    flex-shrink: 0; /* не сжимать иконку */
+    flex-shrink: 0;
     filter: brightness(0%) saturate(100%) invert(27%) sepia(85%) saturate(7470%)
         hue-rotate(180deg) brightness(97%) contrast(107%);
-    width: 2.5rem; /* размер иконки */
+    width: 2.5rem;
     height: 2.5rem;
 }
 

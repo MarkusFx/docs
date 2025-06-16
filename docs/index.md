@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 # Главная
 
 ## Меню
@@ -8,23 +12,35 @@ import CodePreview from './.vitepress/components/CodePreview.vue'
 
 const menu_tiles = [
   {
+    title: 'HTML',
+    icon: '/logos/html5-logo.svg',
+    // description: 'Генератор статических сайтов, используемый для создания документации',
+    link: '/html/page_001',
+  },  
+  {
     title: 'VitePress',
-    icon: '/logos/vitepress-logo.svg',
-    description: 'Генератор статических сайтов, используемый для создания документации',
+    icon: '/logos/vite-logo.svg',
+    // description: 'Генератор статических сайтов, используемый для создания документации',
     link: '/vitepress/page_001',
   },  
   {
     title: 'Jest',
-    icon: '/logos/jest-logo.svg',
-    description: 'Фреймворк для тестирования JavaScript',
+    icon: '/logos/jest-logo-002.svg',
+    // description: 'Фреймворк для тестирования JavaScript',
     link: '/jest/page_001',
   },
   {
     title: '1С',
     icon: '/logos/1c-logo.svg',
-    description: 'Документация, создание собственной конфигурации',
+    // description: 'Создание и настройка конфигураций',
     link: '/1c/page_001',
-  },
+  },  
+  // {
+  //   title: 'Rust',
+  //   icon: '/logos/rust-logo.svg',
+  //   // description: 'Создание и настройка конфигураций',
+  //   // link: '/rust/page_001',
+  // },
   // {
   //   title: 'GSAP',
   //   icon: '/logos/gsap-logo.svg',
@@ -42,8 +58,8 @@ const menu_tiles = [
 const rutube_tiles = [
   {
     title: 'RuTube',
-    icon: '/logos/rutube-logo.svg',
-    description: 'Основной канал',
+    icon: '/logos/rutube-logo-002.svg',
+    // description: 'Основной канал',
     link: 'https://rutube.ru/channel/24742327/',
     target: '_blank',
   },  
@@ -52,14 +68,14 @@ const rutube_tiles = [
 const telegram_tiles = [
   {
     title: 'Telegram',
-    icon: '/logos/telegram-logo.svg',
+    icon: '/logos/telegram-logo-002.svg',
     description: 'Основной канал',
     link: 'https://t.me/markusfx_itpit',
     target: '_blank',
   },  
   {
     title: 'Telegram',
-    icon: '/logos/telegram-logo.svg',
+    icon: '/logos/telegram-logo-002.svg',
     description: 'Life-канал',
     link: 'https://t.me/markusfx_itpit_any',
     target: '_blank',
@@ -80,14 +96,14 @@ const donats_tiles = [
   {
     title: 'Donation Alerts',
     icon: '/logos/da-logo.svg',
-    description: '-',
+    // description: '-',
     link: 'https://www.donationalerts.com/r/markusfx',
     target: '_blank',
   },
   {
     title: 'Boosty',
     icon: '/logos/boosty-logo.svg',
-    description: '-',
+    // description: '-',
     link: 'https://boosty.to/markusfx',
     target: '_blank',
   },  

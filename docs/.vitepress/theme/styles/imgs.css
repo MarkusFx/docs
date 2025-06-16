@@ -1,3 +1,13 @@
 .img-radius {
     border-radius: 12px;
 }
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-margin-bottom {
+    margin-bottom: 1rem;
+}
