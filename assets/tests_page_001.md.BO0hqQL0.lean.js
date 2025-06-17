@@ -1,11 +1,11 @@
-import{C as t}from"./chunks/CodePreview.CZAi66Qd.js";import{c as l,o,j as i,G as e,ag as d,a,k as s}from"./chunks/framework.BgId8OS5.js";/* empty css                                                                           */const r=`<h1>Hello World!</h1>
+import{C as t}from"./chunks/CodePreview.CZAi66Qd.js";import{c as l,o,j as s,G as e,ag as r,a,k as n}from"./chunks/framework.BgId8OS5.js";/* empty css                                                                           */const d=`<h1>Hello World!</h1>
 <button
     style="padding: 8px 16px; border-radius: 4px"
     onclick="console.log('Hello!')"
 >
     Чпоньк
 </button>
-`,h=`body {
+`,c=`body {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     padding: 20px;
@@ -20,7 +20,7 @@ button {
     border: none;
     cursor: pointer;
 }
-`,c=`console.log('Preview loaded!')
+`,h=`console.log('Preview loaded!')
 `,p=`<div class="grid-container" id="grid">
     <div class="node" id="html" style="grid-column: 1; grid-row: 4">HTML</div>
     <div class="node" id="css" style="grid-column: 2; grid-row: 4">CSS</div>
@@ -506,24 +506,238 @@ function redrawLines() {
 
 window.addEventListener('load', redrawLines)
 window.addEventListener('resize', redrawLines)
-`,j=JSON.parse('{"title":"Тесты","description":"","frontmatter":{},"headers":[],"relativePath":"tests/page_001.md","filePath":"tests/page_001.md"}'),E={name:"tests/page_001.md"},x=Object.assign(E,{setup(y){return(v,n)=>(o(),l("div",null,[n[0]||(n[0]=i("h1",{id:"тесты",tabindex:"-1"},[a("Тесты "),i("a",{class:"header-anchor",href:"#тесты","aria-label":'Permalink to "Тесты"'},"​")],-1)),n[1]||(n[1]=i("h2",{id:"menu-grid",tabindex:"-1"},[a("Menu Grid "),i("a",{class:"header-anchor",href:"#menu-grid","aria-label":'Permalink to "Menu Grid"'},"​")],-1)),e(t,{html:s(p),css:s(g),js:s(k),height:"910px"},null,8,["html","css","js"]),n[2]||(n[2]=d(`<h2 id="iframe-c-html-css-javascript" tabindex="-1">iframe c HTML, CSS, JavaScript <a class="header-anchor" href="#iframe-c-html-css-javascript" aria-label="Permalink to &quot;iframe c HTML, CSS, JavaScript&quot;">​</a></h2><p><strong><code>index.html</code></strong>:</p><div class="language-html vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">html</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">h1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;Hello World!&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">h1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">button</span></span>
-<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">    style</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;padding: 8px 16px; border-radius: 4px&quot;</span></span>
-<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">    onclick</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">console</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">log</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">(&#39;Hello!&#39;)&quot;</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    Чпоньк</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">button</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span></code></pre></div><p><strong><code>style.css</code></strong>:</p><div class="language-css vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">css</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">body</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> {</span></span>
-<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    background</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">linear-gradient</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">135</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">deg</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">#667eea</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> 0</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">%</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">#764ba2</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> 100</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">%</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
-<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    color</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">white</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
-<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    padding</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">20</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">px</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
-<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    font-family</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">Arial</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">sans-serif</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span>
-<span class="line"><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">h1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> {</span></span>
-<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    text-shadow</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">1</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">px</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> 1</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">px</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> 3</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">px</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> rgba</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">0.3</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span>
-<span class="line"><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">button</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> {</span></span>
-<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    background</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">white</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
-<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    color</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">#764ba2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
-<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    border</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">none</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
-<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">    cursor</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">pointer</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span></code></pre></div><p><strong><code>script.js</code></strong>:</p><div class="language-js vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">js</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">console.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">log</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&#39;Preview loaded!&#39;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span></code></pre></div><p>Результат:</p>`,8)),e(t,{html:s(r),css:s(h),js:s(c),height:"170px"},null,8,["html","css","js"])]))}});export{j as __pageData,x as default};
+`,v=`<div class="tile-grid">
+    <div class="tile-item" style="grid-column: 4; grid-row: 2">
+        <a class="list-item" href="">
+            <div class="tile-icon">
+                <img src="/logos/1c-logo.svg" alt="" />
+            </div>
+            <div class="tile-hover-text">HTML</div>
+        </a>
+    </div>
+    <div class="tile-item" style="grid-column: 3; grid-row: 2">
+        <a class="list-item" href="">
+            <div class="tile-icon">
+                <img src="/logos/1c-logo.svg" alt="" />
+            </div>
+            <div class="tile-hover-text">1С</div>
+        </a>
+    </div>
+
+    <div class="tile-item" style="grid-column: 2; grid-row: 1">
+        <a class="list-item" href="">
+            <div class="tile-icon">
+                <img src="/logos/html5-logo.svg" alt="" />
+            </div>
+            <div class="tile-hover-text">HTML</div>
+        </a>
+    </div>
+    <div class="tile-item" style="grid-column: 2; grid-row: 2">
+        <a class="list-item" href="">
+            <div class="tile-icon">
+                <img src="/logos/vite-logo.svg" alt="" />
+            </div>
+            <div class="tile-hover-text">VitePress</div>
+        </a>
+    </div>
+    <div class="tile-item" style="grid-column: 2; grid-row: 3">
+        <a class="list-item" href="">
+            <div class="tile-icon">
+                <img src="/logos/1c-logo.svg" alt="" />
+            </div>
+            <div class="tile-hover-text">1С</div>
+        </a>
+    </div>
+
+    <div class="tile-item" style="grid-column: 1; grid-row: 1">
+        <a class="list-item" href="">
+            <div class="tile-icon">
+                <img src="/logos/html5-logo.svg" alt="" />
+            </div>
+            <div class="tile-hover-text">HTML</div>
+        </a>
+    </div>
+    <div class="tile-item" style="grid-column: 1; grid-row: 2">
+        <a class="list-item" href="">
+            <div class="tile-icon">
+                <img src="/logos/vite-logo.svg" alt="" />
+            </div>
+            <div class="tile-hover-text">VitePress</div>
+        </a>
+    </div>
+    <div class="tile-item" style="grid-column: 1; grid-row: 3">
+        <a class="list-item" href="">
+            <div class="tile-icon">
+                <img src="/logos/1c-logo.svg" alt="" />
+            </div>
+            <div class="tile-hover-text">1С</div>
+        </a>
+    </div>
+</div>
+`,y=`/* ========== Базовые стили и сброс ========== */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue Cyrillic', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f2324;
+    transform: translate3d(0, 0, 0);
+}
+
+/* ========== Сетка плиток ========== */
+.tile-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    grid-auto-rows: auto;
+    gap: 1rem;
+    transform: rotate(-35deg) skew(20deg, 5deg);
+}
+
+.tile-item {
+    list-style: none;
+}
+
+/* ========== Плитка ========== */
+.list-item {
+    background: #272b2d;
+    color: #575757;
+    text-align: center;
+    height: 2.5em;
+    width: 4em;
+    line-height: 2.5em;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    transition: all 0.25s linear;
+}
+
+.list-item:hover {
+    background: #272b2d;
+    color: #fffcfb;
+    transform: translate(0.9em, -0.9em);
+    box-shadow: -2em 2em 0 #00e5a4;
+}
+
+/* ========== Псевдоэлементы плитки (грани) ========== */
+.list-item:before,
+.list-item:after {
+    content: '';
+    position: absolute;
+    transition: all 0.25s linear;
+    width: 0.5em;
+}
+
+.list-item:before {
+    height: 2.5em;
+    background: #272b2d;
+    top: 0.25em;
+    left: -0.5em;
+    transform: skewY(-45deg);
+    border: 1px solid #00e5a4;
+}
+
+.list-item:after {
+    height: 4em;
+    background: #272b2d;
+    bottom: -2.25em;
+    left: 1.5em;
+    transform: rotate(90deg) skew(0, 45deg);
+    border: 1px solid #00e5a4;
+}
+
+.list-item:hover:before {
+    background: #272b2d;
+    width: 1em;
+    top: 0.5em;
+    left: -1em;
+}
+
+.list-item:hover:after {
+    background: #272b2d;
+    width: 1em;
+    bottom: -2.5em;
+    left: 1em;
+    height: 4em;
+}
+
+/* ========== Обёртка для иконки и текста ========== */
+.tile-icon-text-wrapper {
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+/* ========== Иконка ========== */
+.tile-icon,
+.tile-hover-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+}
+
+.tile-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+    filter: brightness(0%) saturate(100%) invert(27%) sepia(85%) saturate(7470%)
+        hue-rotate(160deg) brightness(150%) contrast(107%);
+    opacity: 1;
+    z-index: 1;
+}
+
+.tile-icon img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.list-item:hover .tile-icon {
+    opacity: 0;
+}
+
+/* ========== Текст при наведении (вместо иконки) ========== */
+.tile-hover-text {
+    opacity: 0;
+    z-index: 2;
+    color: #00e5a4;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.list-item:hover .tile-hover-text {
+    opacity: 1;
+}
+
+/* ========== Подпись под плиткой (если нужна отдельно) ========== */
+.tile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.tile-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+}
+`,E="",w=JSON.parse('{"title":"Тесты","description":"","frontmatter":{},"headers":[],"relativePath":"tests/page_001.md","filePath":"tests/page_001.md"}'),m={name:"tests/page_001.md"},C=Object.assign(m,{setup(f){return(u,i)=>(o(),l("div",null,[i[0]||(i[0]=s("h1",{id:"тесты",tabindex:"-1"},[a("Тесты "),s("a",{class:"header-anchor",href:"#тесты","aria-label":'Permalink to "Тесты"'},"​")],-1)),i[1]||(i[1]=s("h2",{id:"menu-grid",tabindex:"-1"},[a("Menu Grid "),s("a",{class:"header-anchor",href:"#menu-grid","aria-label":'Permalink to "Menu Grid"'},"​")],-1)),e(t,{html:n(v),css:n(y),js:n(E),height:"900px"},null,8,["html","css","js"]),i[2]||(i[2]=s("h2",{id:"menu-grid-1",tabindex:"-1"},[a("Menu Grid "),s("a",{class:"header-anchor",href:"#menu-grid-1","aria-label":'Permalink to "Menu Grid"'},"​")],-1)),e(t,{html:n(p),css:n(g),js:n(k),height:"910px"},null,8,["html","css","js"]),i[3]||(i[3]=r("",8)),e(t,{html:n(d),css:n(c),js:n(h),height:"170px"},null,8,["html","css","js"])]))}});export{w as __pageData,C as default};
