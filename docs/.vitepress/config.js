@@ -58,7 +58,10 @@ export default {
             '/jest/': [
                 {
                     text: 'Jest',
-                    items: [{ text: 'Введение', link: '/jest/page_001' }],
+                    items: [
+                        { text: 'Введение', link: '/jest/page_001' },
+                        { text: 'Примеры', link: '/jest/page_002' },
+                    ],
                 },
             ],
             '/gsap/': [

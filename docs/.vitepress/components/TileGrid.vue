@@ -11,22 +11,20 @@ defineProps(['tiles'])
                 :target="tile.target || null"
                 :rel="tile.target === '_blank' ? 'noopener' : null"
             >
-                <div class="tile-icon">
-                    <template
-                        v-if="
-                            tile.icon &&
-                            (tile.icon.includes('/') ||
-                                tile.icon.endsWith('.png') ||
-                                tile.icon.endsWith('.jpg') ||
-                                tile.icon.endsWith('.svg'))
-                        "
-                    >
-                        <img :src="tile.icon" alt="" />
-                    </template>
-                    <template v-else>
-                        {{ tile.icon }}
-                    </template>
-                </div>
+                <!--                <div class="tile-icon">-->
+                <!--                    <template-->
+                <!--                        v-if="-->
+                <!--                            tile.icon &&-->
+                <!--                            (tile.icon.includes('/') ||-->
+                <!--                                tile.icon.endsWith('.png') ||-->
+                <!--                                tile.icon.endsWith('.jpg') ||-->
+                <!--                                tile.icon.endsWith('.svg'))-->
+                <!--                        "-->
+                <!--                    >-->
+                <!--                        <img :src="tile.icon" alt="" />-->
+                <!--                    </template>-->
+                <!--                </div>-->
+                <div class="tile-icon" v-if="tile.icon" v-html="tile.icon" />
                 <div class="tile-text">
                     <div class="tile-title">{{ tile.title }}</div>
                     <div class="tile-description">{{ tile.description }}</div>
@@ -46,8 +44,6 @@ defineProps(['tiles'])
 
 .tile {
     display: flex;
-    //justify-content: center;
-    //align-items: center;
     background-color: var(--vp-c-bg-soft);
     border: 1px solid var(--vp-c-border);
     border-radius: 12px;
@@ -75,10 +71,19 @@ defineProps(['tiles'])
 .tile-icon {
     font-size: 2rem;
     flex-shrink: 0;
-    filter: brightness(0%) saturate(100%) invert(27%) sepia(85%) saturate(7470%)
-        hue-rotate(180deg) brightness(97%) contrast(107%);
     width: 2.5rem;
     height: 2.5rem;
+    //color: var(--vp-c-brand);
+}
+
+.tile-icon :deep(svg) {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+}
+
+.tile-icon :deep(path) {
+    fill: currentColor !important;
 }
 
 .tile-icon img {

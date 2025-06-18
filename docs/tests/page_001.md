@@ -1,17 +1,17 @@
 <script setup>
-import CodePreview from '.././.vitepress/components/CodePreview.vue'
+import CodePreview from '.././.vitepress/components/CodePreview.vue';
 
-import html_1 from '.././.vitepress/examples/demo_1/index.html?raw'
-import css_1 from '.././.vitepress/examples/demo_1/style.css?raw'
-import js_1 from '.././.vitepress/examples/demo_1/script.js?raw'
+import html_1 from '../.vitepress/examples/different/demo_1/index.html?raw';
+import css_1 from '../.vitepress/examples/different/demo_1/style.css?raw';
+import js_1 from '../.vitepress/examples/different/demo_1/script.js?raw';
 
-import html_2 from '.././.vitepress/examples/demo_2/index.html?raw'
-import css_2 from '.././.vitepress/examples/demo_2/style.css?raw'
-import js_2 from '.././.vitepress/examples/demo_2/script.js?raw'
+import html_3 from '../.vitepress/examples/different/demo_3/index.html?raw';
+import css_3 from '../.vitepress/examples/different/demo_3/style.css?raw';
+import js_3 from '../.vitepress/examples/different/demo_3/script.js?raw';
 
-import html_3 from '.././.vitepress/examples/demo_3/index.html?raw'
-import css_3 from '.././.vitepress/examples/demo_3/style.css?raw'
-import js_3 from '.././.vitepress/examples/demo_3/script.js?raw'
+import html_004 from '../.vitepress/examples/different/demo_004/index.html?raw';
+import css_004 from '../.vitepress/examples/different/demo_004/style.css?raw';
+import js_004 from '../.vitepress/examples/different/demo_004/script.js?raw';
 
 </script>
 
@@ -19,11 +19,11 @@ import js_3 from '.././.vitepress/examples/demo_3/script.js?raw'
 
 ## Menu Grid
 
-<CodePreview :html="html_3" :css="css_3" :js="js_3" height="910px" />
+<CodePreview :html="html_004" :css="css_004" :js="js_004" height="900px" />
 
-[//]: # '## Canvas'
-[//]: #
-[//]: # '<CodePreview :html="html_2" :css="css_2" :js="js_2" height="470px" />'
+## Menu Grid
+
+<CodePreview :html="html_3" :css="css_3" :js="js_3" height="910px" />
 
 ## iframe c HTML, CSS, JavaScript
 
