@@ -1,4 +1,4 @@
-import{C as a}from"./chunks/theme.roFXR073.js";import{c as t,o as h,ag as n,G as l,k as s}from"./chunks/framework.BgId8OS5.js";const p=`<div>
+import{C as a}from"./chunks/theme.DTo_iuQf.js";import{c as t,o as h,ag as n,G as l,k as s}from"./chunks/framework.BgId8OS5.js";const p=`<div>
     <div>Первый блок</div>
     <div>Второй блок</div>
 </div>
