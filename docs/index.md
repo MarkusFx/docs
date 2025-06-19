@@ -23,7 +23,7 @@ import {
 
 ## Дорожная карта
 
-![road_map](/images/road_map.png){data-zoomable class="img-radius"}
+![road_map](/images/other/roadmap.png){data-zoomable class="img-radius"}
 
 ## RuTube
 

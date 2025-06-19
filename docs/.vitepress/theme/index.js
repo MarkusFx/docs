@@ -3,12 +3,15 @@ import mediumZoom from 'medium-zoom'
 import './style.css'
 import './styles/zoom.css'
 import './styles/imgs.css'
+import CodePreview from '../components/CodePreview.vue'
 
 let zoom = null
 
 export default {
     ...DefaultTheme,
-    enhanceApp({ router }) {
+    enhanceApp({ app, router }) {
+        app.component('CodePreview', CodePreview)
+
         if (typeof window !== 'undefined') {
             const applyZoom = () => {
                 if (zoom) zoom.detach()

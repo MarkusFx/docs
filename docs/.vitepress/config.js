@@ -88,6 +88,15 @@ export default {
                     items: [
                         { text: 'Введение', link: '/html/page_001' },
                         { text: 'Элементы', link: '/html/page_002' },
+                        { text: 'Формы', link: '/html/page_003' },
+                        {
+                            text: 'Семантические структуры',
+                            link: '/html/page_004',
+                        },
+                        {
+                            text: 'Мультимедиа',
+                            link: '/html/page_005',
+                        },
                     ],
                 },
             ],
