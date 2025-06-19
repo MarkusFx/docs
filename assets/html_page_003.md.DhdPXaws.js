@@ -1,4 +1,4 @@
-import{C as a}from"./chunks/theme.BZEvhVJL.js";import{c as l,o as h,ag as t,G as n,k as s}from"./chunks/framework.BgId8OS5.js";const p=`<form action="/submit" method="post">
+import{C as a}from"./chunks/theme.CneR771a.js";import{c as l,o as h,ag as t,G as n,k as s}from"./chunks/framework.BgId8OS5.js";const p=`<form action="/submit" method="post">
     <label for="name">Имя:</label>
     <input type="text" id="name" name="name" required />
 
