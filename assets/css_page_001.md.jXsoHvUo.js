@@ -1,4 +1,4 @@
-import{C as n}from"./chunks/theme.CSYdXTfD.js";import{c as t,o as h,ag as a,G as l,k as s}from"./chunks/framework.BgId8OS5.js";const p=`<!doctype html>
+import{C as n}from"./chunks/theme.BHZGIEPz.js";import{c as t,o as h,ag as a,G as l,k as s}from"./chunks/framework.BgId8OS5.js";const p=`<!doctype html>
 <html lang="ru">
     <head>
         <meta charset="UTF-8" />

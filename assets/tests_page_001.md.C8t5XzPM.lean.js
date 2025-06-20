@@ -1,4 +1,4 @@
-import{C as t}from"./chunks/theme.CSYdXTfD.js";import{c as l,o,j as s,G as e,ag as d,a,k as n}from"./chunks/framework.BgId8OS5.js";const r=`<h1>Hello World!</h1>
+import{C as t}from"./chunks/theme.BHZGIEPz.js";import{c as l,o,j as s,G as e,ag as d,a,k as n}from"./chunks/framework.BgId8OS5.js";const r=`<h1>Hello World!</h1>
 <button
     style="padding: 8px 16px; border-radius: 4px"
     onclick="console.log('Hello!')"
