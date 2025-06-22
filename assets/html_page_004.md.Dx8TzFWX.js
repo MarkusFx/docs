@@ -1,4 +1,4 @@
-import{C as a}from"./chunks/theme.CSD8G9hb.js";import{c as t,o as h,ag as n,G as l,k as s}from"./chunks/framework.BgId8OS5.js";const p=`<figure>
+import{C as a}from"./chunks/theme.D9K1gJ90.js";import{c as t,o as h,ag as n,G as l,k as s}from"./chunks/framework.BgId8OS5.js";const p=`<figure>
     <img style="height: 120px" src="/images/html/cat-001.png" alt="Кот" />
     <figcaption>Котэ</figcaption>
 </figure>
