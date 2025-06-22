@@ -1,0 +1,11 @@
+table {
+    border: 1px solid silver;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.empty-cells-table {
+    empty-cells: hide;
+}

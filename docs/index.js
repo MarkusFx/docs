@@ -5,29 +5,42 @@ import onecLogo from '/logos/1c-logo.svg?raw'
 import rutubeLogo from '/logos/rutube-logo-002.svg?raw'
 import telegramLogo from '/logos/telegram-logo-002.svg?raw'
 import vkLogo from '/logos/vk-logo.svg?raw'
-import da from '/logos/da-logo.svg?raw'
-import boosty from '/logos/boosty-logo.svg?raw'
+import daLogo from '/logos/da-logo.svg?raw'
+import boostyLogo from '/logos/boosty-logo.svg?raw'
+import cssLogo from '/logos/css-logo.svg?raw'
 
 export const menu_tiles = [
     {
         title: 'HTML',
         icon: htmlIcon,
         link: '/html/page_001',
+        color: '#E65100',
+    },
+    {
+        title: 'CSS',
+        icon: cssLogo,
+        link: '/css/page_001',
+        color: '#039BE5',
     },
     {
         title: 'VitePress',
         icon: viteLogo,
         link: '/vitepress/page_001',
+        color: '#9A64FD',
     },
     {
         title: 'Jest',
         icon: jestLogo,
         link: '/jest/page_001',
+        color: '#A74A57',
     },
     {
         title: '1С',
         icon: onecLogo,
         link: '/1c/page_001',
+        // color: '#FECD38',
+        color: '#C74343',
+        // color: '#EC7F7F',
     },
 ]
 
@@ -70,13 +83,13 @@ export const vk_tiles = [
 export const donats_tiles = [
     {
         title: 'Donation Alerts',
-        icon: da,
+        icon: daLogo,
         link: 'https://www.donationalerts.com/r/markusfx',
         target: '_blank',
     },
     {
         title: 'Boosty',
-        icon: boosty,
+        icon: boostyLogo,
         link: 'https://boosty.to/markusfx',
         target: '_blank',
     },

@@ -1,0 +1,11 @@
+.rad-grad {
+    width: 300px;
+    height: 150px;
+    background-image: radial-gradient(
+        circle at center,
+        #00e5a4,
+        #3e63dd,
+        #9c27b0
+    );
+    border: 1px solid #333;
+}

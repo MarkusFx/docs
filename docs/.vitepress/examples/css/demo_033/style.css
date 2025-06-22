@@ -1,0 +1,4 @@
+.highlight {
+    border: 2px solid; /* задаём толщину и стиль рамки */
+    border-color: orange; /* задаём цвет рамки */
+}

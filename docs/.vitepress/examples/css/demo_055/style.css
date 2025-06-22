@@ -1,0 +1,19 @@
+.content-box-example,
+.border-box-example {
+    width: 350px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.content-box-example {
+    border: 6px solid blue;
+    background: lightblue;
+    box-sizing: content-box;
+}
+
+.border-box-example {
+    border: 5px solid green;
+    background: lightgreen;
+    box-sizing: border-box;
+}

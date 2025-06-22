@@ -1,0 +1,13 @@
+.outlined-box {
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    background: #00e5a4;
+    outline: 3px dashed #5c73e7;
+    outline-offset: 5px;
+}
+
+.button:hover {
+    outline: 3px solid #3e63dd;
+    outline-offset: 2px;
+}

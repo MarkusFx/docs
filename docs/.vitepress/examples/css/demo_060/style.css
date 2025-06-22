@@ -1,0 +1,60 @@
+body {
+    font-size: 16px;
+}
+
+.em-box {
+    font-size: 2em;
+    background: #2196f3;
+    margin: 5px;
+    padding: 10px;
+}
+
+.rem-box {
+    font-size: 2rem;
+    background: #ff9800;
+    margin: 5px;
+    padding: 10px;
+}
+
+.percent-box {
+    width: 50%;
+    height: 50px;
+    background: #4caf50;
+    margin: 5px;
+}
+
+.vwvh-box {
+    width: 30vw;
+    height: 10vh;
+    background: #9c27b0;
+    margin: 5px;
+}
+
+.vmin-box {
+    width: 10vmin;
+    height: 10vmin;
+    background: #e91e63;
+    margin: 5px;
+}
+
+.vmax-box {
+    width: 10vmax;
+    height: 10vmax;
+    background: #607d8b;
+    margin: 5px;
+}
+
+.ch-box {
+    width: 20ch;
+    background: #795548;
+    margin: 5px;
+    padding: 10px;
+}
+
+.ex-box {
+    font-size: 20px;
+    height: 5ex;
+    background: #3f51b5;
+    margin: 5px;
+    padding: 10px;
+}

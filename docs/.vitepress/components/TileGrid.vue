@@ -24,7 +24,12 @@ defineProps(['tiles'])
                 <!--                        <img :src="tile.icon" alt="" />-->
                 <!--                    </template>-->
                 <!--                </div>-->
-                <div class="tile-icon" v-if="tile.icon" v-html="tile.icon" />
+                <div
+                    class="tile-icon"
+                    v-if="tile.icon"
+                    v-html="tile.icon"
+                    :style="{ color: tile.color || 'inherit' }"
+                />
                 <div class="tile-text">
                     <div class="tile-title">{{ tile.title }}</div>
                     <div class="tile-description">{{ tile.description }}</div>
@@ -73,7 +78,7 @@ defineProps(['tiles'])
     flex-shrink: 0;
     width: 2.5rem;
     height: 2.5rem;
-    //color: var(--vp-c-brand);
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.2));
 }
 
 .tile-icon :deep(svg) {

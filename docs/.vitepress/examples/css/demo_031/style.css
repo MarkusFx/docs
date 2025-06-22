@@ -1,0 +1,15 @@
+.example_1 {
+    color: red;
+}
+
+.example_2 {
+    color: #ff0000;
+}
+
+.example_3 {
+    color: rgb(255, 0, 0);
+}
+
+.example_4 {
+    color: hsl(0, 100%, 50%);
+}

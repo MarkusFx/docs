@@ -1,0 +1,9 @@
+.border-box {
+    padding: 20px;
+    margin: 10px;
+    border-top: 2px solid red;
+    border-right: 4px dotted green;
+    border-bottom: 3px double black;
+    border-left: 5px groove orange;
+    border-radius: 12px;
+}

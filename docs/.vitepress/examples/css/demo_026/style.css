@@ -1,0 +1,4 @@
+.note::after {
+    content: ' Спасибо за внимание!';
+    color: green;
+}

@@ -1,0 +1,41 @@
+.px-box {
+    width: 100px;
+    height: 50px;
+    background: #4caf50;
+    margin: 5px;
+}
+
+.cm-box {
+    width: 5cm;
+    height: 2cm;
+    background: #2196f3;
+    margin: 5px;
+}
+
+.mm-box {
+    width: 50mm;
+    height: 20mm;
+    background: #ff9800;
+    margin: 5px;
+}
+
+.in-box {
+    width: 2in;
+    height: 1in;
+    background: #9c27b0;
+    margin: 5px;
+}
+
+.pt-box {
+    width: 72pt; /* 1 дюйм */
+    height: 36pt;
+    background: #e91e63;
+    margin: 5px;
+}
+
+.pc-box {
+    width: 6pc; /* 72pt = 6pc = 1 дюйм */
+    height: 3pc;
+    background: #607d8b;
+    margin: 5px;
+}

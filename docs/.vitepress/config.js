@@ -36,6 +36,7 @@ export default {
                 items: [
                     { text: 'VitePress', link: '/vitepress/page_001' },
                     { text: 'HTML', link: '/html/page_001' },
+                    { text: 'CSS', link: '/css/page_001' },
                     { text: 'Jest', link: '/jest/page_001' },
                     { text: '1С', link: '/1c/page_001' },
                 ],
@@ -103,7 +104,11 @@ export default {
             '/css/': [
                 {
                     text: 'CSS',
-                    items: [{ text: 'Введение', link: '/css/page_001' }],
+                    items: [
+                        { text: 'Введение', link: '/css/page_001' },
+                        { text: 'Селекторы', link: '/css/page_002' },
+                        { text: 'Свойства', link: '/css/page_003' },
+                    ],
                 },
             ],
             '/1c/': [

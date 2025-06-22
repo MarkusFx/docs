@@ -1,0 +1,4 @@
+.note::before {
+    content: 'Внимание! ';
+    color: red;
+}

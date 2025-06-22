@@ -1,0 +1,7 @@
+.border-table {
+    border: 1px solid #333;
+}
+
+.border-table td {
+    border: 1px solid #999;
+}

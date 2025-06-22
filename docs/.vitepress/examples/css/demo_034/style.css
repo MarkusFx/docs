@@ -1,0 +1,13 @@
+.box_1,
+.box_2 {
+    background: blue;
+    color: white;
+}
+
+.box_2 {
+    opacity: 1;
+}
+
+.box_2 {
+    opacity: 0.5;
+}

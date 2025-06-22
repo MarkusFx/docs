@@ -1,0 +1,4 @@
+span[data-type='error'] {
+    color: red;
+    font-weight: bold;
+}
