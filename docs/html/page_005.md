@@ -3,23 +3,23 @@ outline: [2, 3]
 ---
 
 <script setup>
-    import CodePreview from '.././.vitepress/components/CodePreview.vue';
+import CodePreview from '.././.vitepress/components/CodePreview.vue';
 
-    import html_043 from '.././.vitepress/examples/html/demo_043/index.html?raw';
-    import css_043 from '.././.vitepress/examples/html/demo_043/style.css?raw';
-    import js_043 from '.././.vitepress/examples/html/demo_043/script.js?raw';
+import html_043 from '.././.vitepress/examples/html/demo_043/index.html?raw';
+import css_043 from '.././.vitepress/examples/html/demo_043/style.css?raw';
+import js_043 from '.././.vitepress/examples/html/demo_043/script.js?raw';
 
-    import html_044 from '.././.vitepress/examples/html/demo_044/index.html?raw';
-    import css_044 from '.././.vitepress/examples/html/demo_044/style.css?raw';
-    import js_044 from '.././.vitepress/examples/html/demo_044/script.js?raw';
+import html_044 from '.././.vitepress/examples/html/demo_044/index.html?raw';
+import css_044 from '.././.vitepress/examples/html/demo_044/style.css?raw';
+import js_044 from '.././.vitepress/examples/html/demo_044/script.js?raw';
 
-    import html_045 from '.././.vitepress/examples/html/demo_045/index.html?raw';
-    import css_045 from '.././.vitepress/examples/html/demo_045/style.css?raw';
-    import js_045 from '.././.vitepress/examples/html/demo_045/script.js?raw';
+import html_045 from '.././.vitepress/examples/html/demo_045/index.html?raw';
+import css_045 from '.././.vitepress/examples/html/demo_045/style.css?raw';
+import js_045 from '.././.vitepress/examples/html/demo_045/script.js?raw';
 
-    import html_024 from '.././.vitepress/examples/html/demo_024/index.html?raw';
-    import css_024 from '.././.vitepress/examples/html/demo_024/style.css?raw';
-    import js_024 from '.././.vitepress/examples/html/demo_024/script.js?raw';
+import html_024 from '.././.vitepress/examples/html/demo_024/index.html?raw';
+import css_024 from '.././.vitepress/examples/html/demo_024/style.css?raw';
+import js_024 from '.././.vitepress/examples/html/demo_024/script.js?raw';
 </script>
 
 # Мультимедиа
@@ -39,8 +39,17 @@ outline: [2, 3]
 
 Например:
 
-```html:line-numbers
-<img src="/images/html/img_001.jpg" alt="И так сойдёт" width="300" />
+```html [index.html] :line-numbers
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Моя первая страница</title>
+    </head>
+    <body>
+        <img src="/images/html/img_001.jpg" alt="И так сойдёт" width="300" />
+    </body>
+</html>
 ```
 
 <CodePreview :html="html_045" :css="css_045" :js="js_045" height="200px" />
@@ -57,7 +66,7 @@ outline: [2, 3]
 
 Например:
 
-```html:line-numbers
+```html [index.html] :line-numbers
 <audio src="/audios/audio_001.mp3" controls></audio>
 ```
 
@@ -82,7 +91,7 @@ outline: [2, 3]
 
 Например:
 
-```html:line-numbers
+```html [index.html] :line-numbers
 <video src="/videos/video_001.mp4" height="300" controls></video>
 ```
 
@@ -97,7 +106,7 @@ outline: [2, 3]
 
 Например:
 
-```html:line-numbers
+```html [index.html] :line-numbers
 <iframe src="https://markusfx.ru" width="400px"></iframe>
 ```
 

@@ -22,6 +22,7 @@
     },
     "dependencies": {
         "medium-zoom": "^1.1.0",
-        "prettier": "^3.5.3"
+        "prettier": "^3.5.3",
+        "vitepress-plugin-group-icons": "^1.6.0"
     }
 }

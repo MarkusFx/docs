@@ -13,7 +13,7 @@
 
 Выполним команды:
 
-```sh:line-numbers
+```sh :line-numbers
 npm create vitepress@latest my-wiki
 cd my-wiki
 npm install
@@ -21,7 +21,9 @@ npm install
 
 Итоговая структура каталогов и файлов:
 
-```sh:line-numbers
+<div class="no-lang-label">
+
+```sh :line-numbers
 my-wiki/
 ├── docs/
 │   ├── index.md
@@ -34,11 +36,13 @@ my-wiki/
 └── package.json
 ```
 
-Удалим файл **`config.ts`**. Добавим файл **`config.js`**. Добавим файл `html/page_1.md`.
+</div>
+
+Удалим файл **`docs/.vitepress/config.ts`**. Добавим файл **`docs/.vitepress/config.js`** и `docs/html/page_1.md`:
 
 <div class="no-lang-label">
 
-```sh:line-numbers
+```sh :line-numbers
 my-wiki/
 ├── docs/
 │   ├── index.md
@@ -56,13 +60,13 @@ my-wiki/
 
 </div>
 
-- `docs/.vitepress/config.js` - конфигурационный файл;
-- `docs/index.md` - главная страница сайта;
-- `docs/html/page_1.md` - дополнительные страницы сайта;
+- **`docs/.vitepress/config.js`** - конфигурационный файл;
+- **`docs/index.md`** - главная страница сайта;
+- **`docs/html/page_1.md`** - дополнительные страницы сайта;
 
-Изменим файл **`config.js`**:
+Изменим файл **`docs/.vitepress/config.js`**:
 
-```js:line-numbers
+```js [config.js] :line-numbers
 export default {
     title: 'My Wiki',
     description: 'Моя документация на VitePress',
@@ -83,20 +87,20 @@ export default {
 }
 ```
 
-- **`title: 'My Wiki'`** - заголовок сайта (_отображается на вкладке_);
-- **`description: 'Моя документация на VitePress'`** - описание сайта;
+- **`title`** - заголовок сайта (_отображается на вкладке_);
+- **`description`** - описание сайта;
 - **`themeConfig`** - настройка темы;
-- **`nav`** - верхнее меню навигации (_отображается на всех страницах сайта_);
-- **`{ text: 'Главная', link: '/' }`** - заголовок и путь до файла **`docs/index.md`** (_главная страница_);
-- **`{ text: 'HTML', link: '/html/page_1' }`** - заголовок и путь до файла **`docs/.vitepress/html/index.md`** (_дополнительная страница_);
-- **`sidebar`** - отображение бокового меню слева (_меню навигации по страницам_);
-- **`'/html/': []`** - меню будет отображаться для всех страниц начинающихся с **`html`**;
-- **`text: 'HTML'`** - группа пунктов в сайдбаре с заголовком `HTML`;
-- **`items: [{ text: 'Введение', link: '/html/page_1' }]`** - список страниц, которые будут отображаться в сайдбаре (_текст и путь до страницы_);
+    - **`nav`** - верхнее меню навигации (_отображается на всех страницах сайта_);
+        - **`{ text: 'Главная', link: '/' }`** - заголовок и путь до файла **`docs/index.md`** (_главная страница_);
+        - **`{ text: 'HTML', link: '/html/page_1' }`** - заголовок и путь до файла **`docs/.vitepress/html/index.md`** (_дополнительная страница_);
+    - **`sidebar`** - отображение бокового меню слева (_меню навигации по страницам_);
+        - **`'/html/'`** - меню будет отображаться для всех страниц начинающихся с **`html`**;
+            - **`text: 'HTML'`** - группа пунктов меню с заголовком **`HTML`**;
+            - **`items`** - список страниц, которые будут отображаться в сайдбаре;
 
 Изменим файл `docs/index.md`:
 
-```md:line-numbers
+```md [index.md] :line-numbers
 # Главная
 
 Описание...
@@ -104,7 +108,7 @@ export default {
 
 Изменим файл `docs/html/page_1.md`:
 
-```md:line-numbers
+```md [page_1.md] :line-numbers
 # HTML
 
 Тут будет документация по HTML...
@@ -112,7 +116,7 @@ export default {
 
 Запустим тестовый сервер. Выполним команду:
 
-```sh
+```sh :line-numbers
 npm run dev
 ```
 

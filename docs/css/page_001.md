@@ -3,23 +3,23 @@ outline: [2, 3]
 ---
 
 <script setup>
-    import CodePreview from '.././.vitepress/components/CodePreview.vue';
+import CodePreview from '.././.vitepress/components/CodePreview.vue';
 
-    import html_001 from '.././.vitepress/examples/css/demo_001/index.html?raw';
-    import css_001 from '.././.vitepress/examples/css/demo_001/style.css?raw';
-    import js_001 from '.././.vitepress/examples/css/demo_001/script.js?raw';
+import html_001 from '.././.vitepress/examples/css/demo_001/index.html?raw';
+import css_001 from '.././.vitepress/examples/css/demo_001/style.css?raw';
+import js_001 from '.././.vitepress/examples/css/demo_001/script.js?raw';
 
-    import html_002 from '.././.vitepress/examples/css/demo_002/index.html?raw';
-    import css_002 from '.././.vitepress/examples/css/demo_002/style.css?raw';
-    import js_002 from '.././.vitepress/examples/css/demo_002/script.js?raw';
+import html_002 from '.././.vitepress/examples/css/demo_002/index.html?raw';
+import css_002 from '.././.vitepress/examples/css/demo_002/style.css?raw';
+import js_002 from '.././.vitepress/examples/css/demo_002/script.js?raw';
 
-    import html_003 from '.././.vitepress/examples/css/demo_003/index.html?raw';
-    import css_003 from '.././.vitepress/examples/css/demo_003/style.css?raw';
-    import js_003 from '.././.vitepress/examples/css/demo_003/script.js?raw';
+import html_003 from '.././.vitepress/examples/css/demo_003/index.html?raw';
+import css_003 from '.././.vitepress/examples/css/demo_003/style.css?raw';
+import js_003 from '.././.vitepress/examples/css/demo_003/script.js?raw';
 
-    import html_004 from '.././.vitepress/examples/css/demo_004/index.html?raw';
-    import css_004 from '.././.vitepress/examples/css/demo_004/style.css?raw';
-    import js_004 from '.././.vitepress/examples/css/demo_004/script.js?raw';
+import html_004 from '.././.vitepress/examples/css/demo_004/index.html?raw';
+import css_004 from '.././.vitepress/examples/css/demo_004/style.css?raw';
+import js_004 from '.././.vitepress/examples/css/demo_004/script.js?raw';
 </script>
 
 # Введение
@@ -32,7 +32,7 @@ outline: [2, 3]
 
 Например, создадим и изменим файл **`index.html`**:
 
-```html:line-numbers
+```html [index.html] :line-numbers
 <!doctype html>
 <html lang="ru">
     <head>
@@ -74,10 +74,10 @@ outline: [2, 3]
 ```
 
 - **`<style>`** - таблица стилей;
-- **`body`** - задаёт фон и шрифт всей странице;
-- **`h1`** - стилизует заголовок (_цвет и выравнивание_);
-- **`p`** - задаёт стили для абзацев (_цвет текста, размер, межстрочный интервал, отступы_);
-- **`.highlight`** - класс для выделения текста цветом и жирным;
+    - **`body`** - задаёт фон и шрифт всей странице;
+    - **`h1`** - стилизует заголовок (_цвет и выравнивание_);
+    - **`p`** - задаёт стили для абзацев (_цвет текста, размер, межстрочный интервал, отступы_);
+    - **`.highlight`** - класс для выделения текста цветом и жирным;
 
 <CodePreview :html="html_001" :css="css_001" :js="js_001" height="200px" />
 
@@ -91,7 +91,7 @@ outline: [2, 3]
 
 Например:
 
-```css:line-numbers
+```css :line-numbers
 p {
     color: red;
     font-size: 16px;
@@ -99,9 +99,9 @@ p {
 ```
 
 - **`p`** - селектор;
-- **`{...}`** - блок деклараций;
-- **`color`, `font-size`** - свойства;
-- **`red`, `16px`** - значения;
+    - **`{...}`** - блок деклараций;
+        - **`color`, `font-size`** - свойства;
+        - **`red`, `16px`** - значения;
 
 ## Подключение стилей в HTML
 
@@ -117,7 +117,7 @@ CSS пишется прямо внутри тега с помощью атриб
 
 Например:
 
-```html:line-numbers
+```html [index.html] :line-numbers
 <p style="color: red; font-size: 18px">Привет, мир!</p>
 ```
 
@@ -129,7 +129,7 @@ CSS пишется в секции **`<style>`** внутри HTML-докуме�
 
 Например:
 
-```html:line-numbers
+```html [index.html] :line-numbers
 <!doctype html>
 <html lang="ru">
     <head>
@@ -156,7 +156,7 @@ CSS хранится в отдельном **`.css`**-файле, который
 
 Например, создадим и изменим файл **`index.html`**:
 
-```html:line-numbers
+```html [index.html] :line-numbers
 <!doctype html>
 <html lang="ru">
     <head>
@@ -172,7 +172,7 @@ CSS хранится в отдельном **`.css`**-файле, который
 
 Создадим и изменим файл **`styles.css`**:
 
-```css:line-numbers
+```css [styles.css] :line-numbers
 p {
     color: green;
     font-size: 20px;

@@ -20,7 +20,7 @@ import js_1 from '.././.vitepress/examples/html/demo_001/script.js?raw';
 
 Создадим и изменим файл **`index.html`**:
 
-```html:line-numbers
+```html [index.html] :line-numbers
 <!doctype html>
 <html lang="ru">
     <head>
@@ -36,11 +36,11 @@ import js_1 from '.././.vitepress/examples/html/demo_001/script.js?raw';
 ```
 
 - **`<html>`** - корневой элемент HTML-документа;
-- **`<head>`** - метаданные (_заголовок страницы, кодировка и т.д._);
-- **`<body>`** - основное содержимое страницы;
-- **`<h1>`** - заголовок первого уровня;
-- **`<p>`** - абзац текста;
-- **`<a>`** - гиперссылка;
+    - **`<head>`** - метаданные (_заголовок страницы, кодировка и т.д._);
+    - **`<body>`** - основное содержимое страницы;
+        - **`<h1>`** - заголовок первого уровня;
+        - **`<p>`** - абзац текста;
+        - **`<a>`** - гиперссылка;
 
 Откроем файл **`index.html`** в браузере:
 
@@ -52,21 +52,21 @@ import js_1 from '.././.vitepress/examples/html/demo_001/script.js?raw';
 
 Элементы могут иметь открывающий и закрывающий **тег**. Например:
 
-```html:line-numbers
+```html [index.html] :line-numbers
 <div>Привет</div>
 ```
 
 Элементы также могут состоять из одного **тега**. Например:
 
-```html:line-numbers
-<br/>
+```html [index.html] :line-numbers
+<br />
 ```
 
 ## Атрибуты
 
 Каждый элемент внутри открывающего **тега** может иметь **атрибуты**. Например:
 
-```html:line-numbers
+```html [index.html] :line-numbers
 <div style="color:red;">Привет</div>
 ```
 
@@ -74,7 +74,7 @@ import js_1 from '.././.vitepress/examples/html/demo_001/script.js?raw';
 
 Также существуют булевые (_логические_) атрибуты. Например:
 
-```html:line-numbers
+```html [index.html] :line-numbers
 <input type="button" value="Нажать" disabled />
 ```
 

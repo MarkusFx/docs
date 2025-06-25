@@ -8,39 +8,53 @@ import vkLogo from '/logos/vk-logo.svg?raw'
 import daLogo from '/logos/da-logo.svg?raw'
 import boostyLogo from '/logos/boosty-logo.svg?raw'
 import cssLogo from '/logos/css-logo.svg?raw'
+import javascriptLogo from '/logos/javascript-logo.svg?raw'
 
 export const menu_tiles = [
     {
         title: 'HTML',
         icon: htmlIcon,
         link: '/html/page_001',
-        color: '#E65100',
+        // color: '#DFDFD6FF',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #E65100, #E65100)',
+        // borderGradient:'linear-gradient(90deg, #E65100 30%, var(--vp-c-bg-soft) 70%)',
     },
     {
         title: 'CSS',
         icon: cssLogo,
         link: '/css/page_001',
-        color: '#039BE5',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #039BE5, #039BE5)',
+        // borderGradient: 'linear-gradient(90deg, #039BE5 30%, #9A64FD 70%)',
     },
+    // {
+    //     title: 'JavaScript',
+    //     icon: javascriptLogo,
+    //     link: '/css/javascript',
+    //     color: '#EEE',
+    //     gradient: 'linear-gradient(45deg, #F7DF1E, #F7DF1E)',
+    // },
     {
         title: 'VitePress',
         icon: viteLogo,
         link: '/vitepress/page_001',
-        color: '#9A64FD',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #9A64FD, #9A64FD)',
     },
     {
         title: 'Jest',
         icon: jestLogo,
         link: '/jest/page_001',
-        color: '#A74A57',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #A74A57, #A74A57)',
     },
     {
         title: '1С',
         icon: onecLogo,
         link: '/1c/page_001',
-        // color: '#FECD38',
-        color: '#C74343',
-        // color: '#EC7F7F',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #C74343, #C74343)',
     },
 ]
 
@@ -50,6 +64,8 @@ export const rutube_tiles = [
         icon: rutubeLogo,
         link: 'https://rutube.ru/channel/24742327/',
         target: '_blank',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #C74343, #C74343)',
     },
 ]
 
@@ -60,6 +76,8 @@ export const telegram_tiles = [
         description: 'Основной канал',
         link: 'https://t.me/markusfx_itpit',
         target: '_blank',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #24A1DE, #24A1DE)',
     },
     {
         title: 'Telegram',
@@ -67,6 +85,8 @@ export const telegram_tiles = [
         description: 'Life-канал',
         link: 'https://t.me/markusfx_itpit_any',
         target: '_blank',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #24A1DE, #24A1DE)',
     },
 ]
 
@@ -77,6 +97,8 @@ export const vk_tiles = [
         description: 'Основная группа',
         link: 'https://vk.com/markusfx_itpit',
         target: '_blank',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #0077FF, #0077FF)',
     },
 ]
 
@@ -86,11 +108,15 @@ export const donats_tiles = [
         icon: daLogo,
         link: 'https://www.donationalerts.com/r/markusfx',
         target: '_blank',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #e07405, #e07405)',
     },
     {
         title: 'Boosty',
         icon: boostyLogo,
         link: 'https://boosty.to/markusfx',
         target: '_blank',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #f15f2c, #f15f2c)',
     },
 ]
