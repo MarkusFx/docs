@@ -28,7 +28,10 @@ defineProps(['tiles'])
                         class="tile-icon"
                         v-if="tile.icon"
                         v-html="tile.icon"
-                        :style="{ color: tile.color || 'inherit' }"
+                        :style="{
+                            color: tile.color || 'inherit',
+                            filter: tile.iconFilter || 'none',
+                        }"
                     />
                 </div>
                 <div class="tile-text">
@@ -50,6 +53,8 @@ defineProps(['tiles'])
     display: grid;
     place-items: center;
     border: 0px solid var(--vp-c-bg-soft);
+    //filter: brightness(1.05) contrast(1.2) saturate(1);
+    //filter: brightness(1) contrast(1.2) saturate(1.4);
 }
 
 .tile-grid {
@@ -60,8 +65,7 @@ defineProps(['tiles'])
 }
 
 .tile {
-    position: relative; /* нужно для абсолютного позиционирования псевдоэлемента */
-
+    position: relative;
     display: flex;
     background-color: var(--vp-c-bg-soft);
     border: 0px solid var(--vp-c-border);
@@ -70,16 +74,14 @@ defineProps(['tiles'])
     transition:
         transform 0.2s ease,
         box-shadow 0.2s ease;
-
-    overflow: hidden; /* чтобы обрезать рамку по радиусам */
 }
 
 .tile::before {
     content: '';
     position: absolute;
     inset: 0;
-    padding: 2px; /* толщина рамки */
-    border-radius: 12px; /* тот же радиус, что у .tile */
+    padding: 2px;
+    border-radius: 12px;
     background: var(--border-gradient);
     -webkit-mask:
         linear-gradient(#fff 0 0) content-box,
@@ -108,7 +110,7 @@ defineProps(['tiles'])
     flex-shrink: 0;
     width: 2.5rem;
     height: 2.5rem;
-    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.2));
+    //filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.2));
 }
 
 .tile-icon :deep(svg) {

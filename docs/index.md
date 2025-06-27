@@ -11,15 +11,18 @@ import TileGrid from './.vitepress/components/TileGrid.vue';
 import CodePreview from './.vitepress/components/CodePreview.vue';
 
 import {
-  menu_tiles,
-  rutube_tiles,
-  telegram_tiles,
-  vk_tiles,
-  donats_tiles
+    menu_tiles,
+    new_menu_tiles,
+    rutube_tiles,
+    telegram_tiles,
+    vk_tiles,
+    donats_tiles
 } from './index.js';
 </script>
 
 <TileGrid :tiles="menu_tiles" />
+
+[//]: # '<TileGrid :tiles="new_menu_tiles" />'
 
 ## Дорожная карта
 

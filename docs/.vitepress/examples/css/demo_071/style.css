@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+}
+
+.block-example {
+    display: block;
+    background: lightblue;
+    padding: 10px;
+}
+
+.inline-example {
+    display: inline;
+    background: lightgreen;
+}
+
+.inline-example-second {
+    display: inline;
+    background: gold;
+}
+
+.inline-block-example {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background: salmon;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.inline-block-example-second {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background: orange;
+    text-align: center;
+}
+
+.none-example {
+    display: none;
+}

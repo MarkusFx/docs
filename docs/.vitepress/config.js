@@ -188,7 +188,7 @@ export default {
                         {
                             text: 'Элементы',
                             collapsible: true,
-                            collapsed: false,
+                            collapsed: true,
                             items: [
                                 {
                                     text: 'Элементы группировки',
@@ -231,7 +231,7 @@ export default {
                         {
                             text: 'Формы',
                             collapsible: true,
-                            collapsed: false,
+                            collapsed: true,
                             items: [
                                 {
                                     text: 'Создание формы',
@@ -246,7 +246,7 @@ export default {
                         {
                             text: 'Семантические структуры',
                             collapsible: true,
-                            collapsed: false,
+                            collapsed: true,
                             items: [
                                 {
                                     text: 'Введение',
@@ -274,7 +274,7 @@ export default {
                         {
                             text: 'Селекторы',
                             collapsible: true,
-                            collapsed: false,
+                            collapsed: true,
                             items: [
                                 {
                                     text: 'Основные типы селекторов',
@@ -309,7 +309,7 @@ export default {
                         {
                             text: 'Свойства',
                             collapsible: true,
-                            collapsed: false,
+                            collapsed: true,
                             items: [
                                 {
                                     text: 'Цвет',
@@ -369,6 +369,33 @@ export default {
                                 },
                             ],
                         },
+                        {
+                            text: 'Верстка',
+                            collapsible: true,
+                            collapsed: true,
+                            items: [
+                                {
+                                    text: 'Введение',
+                                    link: '/css/layout/page_001',
+                                },
+                                {
+                                    text: 'Блочная верстка',
+                                    link: '/css/layout/page_002',
+                                },
+                                {
+                                    text: 'Верстка на float',
+                                    link: '/css/layout/page_003',
+                                },
+                                {
+                                    text: 'Табличная верстка',
+                                    link: '/css/layout/page_004',
+                                },
+                                {
+                                    text: 'Свойство display',
+                                    link: '/css/layout/page_005',
+                                },
+                            ],
+                        },
                     ],
                 },
             ],
@@ -377,7 +404,65 @@ export default {
                     text: '1С',
                     items: [
                         { text: 'Введение', link: '/1c/page_001' },
-                        { text: 'Синтаксис 1С', link: '/1c/page_002' },
+                        {
+                            text: 'Синтаксис 1С',
+                            collapsible: true,
+                            collapsed: true,
+                            items: [
+                                {
+                                    text: 'Объявление переменной',
+                                    link: '/1c/syntax/page_001',
+                                },
+                                {
+                                    text: 'Вывод сообщения. Комментарии',
+                                    link: '/1c/syntax/page_002',
+                                },
+                                {
+                                    text: 'Простейшие арифметические операции',
+                                    link: '/1c/syntax/page_003',
+                                },
+                                {
+                                    text: 'Типы данных',
+                                    link: '/1c/syntax/page_004',
+                                },
+                                {
+                                    text: 'Проверка на тип данных',
+                                    link: '/1c/syntax/page_005',
+                                },
+                                {
+                                    text: 'Преобразование типов',
+                                    link: '/1c/syntax/page_006',
+                                },
+                                {
+                                    text: 'Условный оператор',
+                                    link: '/1c/syntax/page_007',
+                                },
+                                {
+                                    text: 'Операции',
+                                    link: '/1c/syntax/page_008',
+                                },
+                                {
+                                    text: 'Циклы',
+                                    link: '/1c/syntax/page_009',
+                                },
+                                {
+                                    text: 'Процедуры',
+                                    link: '/1c/syntax/page_010',
+                                },
+                                {
+                                    text: 'Функции',
+                                    link: '/1c/syntax/page_011',
+                                },
+                                {
+                                    text: 'Встроенные функции',
+                                    link: '/1c/syntax/page_012',
+                                },
+                                {
+                                    text: 'Примеры',
+                                    link: '/1c/syntax/page_013',
+                                },
+                            ],
+                        },
                     ],
                 },
             ],

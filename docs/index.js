@@ -19,6 +19,7 @@ export const menu_tiles = [
         color: '#EEE',
         gradient: 'linear-gradient(45deg, #E65100, #E65100)',
         // borderGradient:'linear-gradient(90deg, #E65100 30%, var(--vp-c-bg-soft) 70%)',
+        iconFilter: 'drop-shadow(0px 1px 1px #444444ff)',
     },
     {
         title: 'CSS',
@@ -27,6 +28,7 @@ export const menu_tiles = [
         color: '#EEE',
         gradient: 'linear-gradient(45deg, #039BE5, #039BE5)',
         // borderGradient: 'linear-gradient(90deg, #039BE5 30%, #9A64FD 70%)',
+        iconFilter: 'drop-shadow(0px 1px 1px #444444ff)',
     },
     // {
     //     title: 'JavaScript',
@@ -34,6 +36,7 @@ export const menu_tiles = [
     //     link: '/css/javascript',
     //     color: '#EEE',
     //     gradient: 'linear-gradient(45deg, #F7DF1E, #F7DF1E)',
+    //     // iconFilter: 'drop-shadow(4px 4px 2px #E65100AA)',
     // },
     {
         title: 'VitePress',
@@ -41,6 +44,7 @@ export const menu_tiles = [
         link: '/vitepress/page_001',
         color: '#EEE',
         gradient: 'linear-gradient(45deg, #9A64FD, #9A64FD)',
+        iconFilter: 'drop-shadow(0px 1px 1px #444444ff)',
     },
     {
         title: 'Jest',
@@ -48,6 +52,7 @@ export const menu_tiles = [
         link: '/jest/page_001',
         color: '#EEE',
         gradient: 'linear-gradient(45deg, #A74A57, #A74A57)',
+        iconFilter: 'drop-shadow(0px 1px 1px #444444ff)',
     },
     {
         title: '1С',
@@ -55,6 +60,60 @@ export const menu_tiles = [
         link: '/1c/page_001',
         color: '#EEE',
         gradient: 'linear-gradient(45deg, #C74343, #C74343)',
+        iconFilter: 'drop-shadow(0px 1px 1px #444444ff)',
+    },
+]
+
+export const new_menu_tiles = [
+    {
+        title: 'HTML',
+        icon: htmlIcon,
+        link: '/html/page_001',
+        color: '#EEE',
+        // borderGradient:'linear-gradient(90deg, #E65100 30%, var(--vp-c-bg-soft) 70%)',
+        gradient: 'linear-gradient(45deg, #F09819 40%, #e73827)',
+        iconFilter: 'drop-shadow(4px 4px 2px #e73827)',
+    },
+    {
+        title: 'CSS',
+        icon: cssLogo,
+        link: '/css/page_001',
+        color: '#EEE',
+        // borderGradient: 'linear-gradient(90deg, #039BE5 30%, #9A64FD 70%)',
+        gradient: 'linear-gradient(45deg, #16BFFD 40%, #2948ffaa)',
+        iconFilter: 'drop-shadow(4px 4px 2px #2948ffaa)',
+    },
+    {
+        title: 'JavaScript',
+        icon: javascriptLogo,
+        link: '/css/javascript',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #F7DF1E 20%, #E65100AA)',
+        iconFilter: 'drop-shadow(4px 4px 2px #E65100AA)',
+    },
+    {
+        title: 'VitePress',
+        icon: viteLogo,
+        link: '/vitepress/page_001',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #00dbde, #fc00ffAA)',
+        iconFilter: 'drop-shadow(4px 4px 2px #fc00ffAA)',
+    },
+    {
+        title: 'Jest',
+        icon: jestLogo,
+        link: '/jest/page_001',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #A74A57 40%, #780206aa)',
+        iconFilter: 'drop-shadow(4px 4px 2px #780206aa)',
+    },
+    {
+        title: '1С',
+        icon: onecLogo,
+        link: '/1c/page_001',
+        color: '#EEE',
+        gradient: 'linear-gradient(45deg, #C74343 40%, #780206aa)',
+        iconFilter: 'drop-shadow(4px 4px 2px #780206aa)',
     },
 ]
 
