@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+
+.flow-root-box {
+    display: flow-root;
+    border: 2px solid tomato;
+    padding: 10px;
+}
+
+.float-box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: lightcoral;
+    margin-right: 10px;
+}
+
+.item {
+    background: lightblue;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #666;
+}

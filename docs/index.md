@@ -12,7 +12,6 @@ import CodePreview from './.vitepress/components/CodePreview.vue';
 
 import {
     menu_tiles,
-    new_menu_tiles,
     rutube_tiles,
     telegram_tiles,
     vk_tiles,
@@ -21,8 +20,6 @@ import {
 </script>
 
 <TileGrid :tiles="menu_tiles" />
-
-[//]: # '<TileGrid :tiles="new_menu_tiles" />'
 
 ## Дорожная карта
 

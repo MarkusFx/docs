@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+
+.table-box {
+    display: table;
+    border: 2px solid darkblue;
+    width: 90%;
+}
+
+.inline-table-box {
+    display: inline-table;
+    border: 2px dashed darkgreen;
+    margin-top: 10px;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #333;
+    background: lightblue;
+    text-align: center;
+}

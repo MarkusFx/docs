@@ -1,0 +1,8 @@
+.scale {
+    border: 1px solid grey;
+    width: 200px;
+    margin: 80px 0 0 100px;
+    padding: 20px;
+    background: lightblue;
+    transform: scale(1.5);
+}

@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+.demo {
+    display: flex;
+    justify-content: center;
+    background: white;
+    border: 1px dashed #ccc;
+    padding: 10px;
+    height: 120px;
+}
+
+.box {
+    background: darkorange;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    width: 80px;
+    margin: 5px;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.center {
+    align-items: center;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.baseline .box:nth-child(1) {
+    font-size: 1rem;
+}
+
+.baseline .box:nth-child(2) {
+    font-size: 1.5rem;
+}
+
+.baseline .box:nth-child(3) {
+    font-size: 2rem;
+}

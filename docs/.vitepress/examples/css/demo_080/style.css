@@ -1,0 +1,12 @@
+.sticky {
+    position: sticky;
+    top: 0;
+    background: lightgreen;
+    padding: 20px;
+    border: 2px solid #333;
+}
+
+.content {
+    height: 1500px;
+    padding: 20px;
+}

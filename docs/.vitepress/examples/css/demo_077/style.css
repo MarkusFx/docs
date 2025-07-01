@@ -1,0 +1,8 @@
+.box {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    background: lightgreen;
+    padding: 20px;
+    border: 2px solid #000;
+}

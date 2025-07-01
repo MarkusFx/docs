@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.example {
+    border: 2px dashed #ccc;
+    padding: 10px;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    gap: 5px;
+    background: #eee;
+}
+
+.grid div {
+    background: steelblue;
+    color: white;
+    font-weight: bold;
+}
+
+.row {
+    grid-auto-flow: row;
+}
+
+.column {
+    grid-auto-flow: column;
+}
+
+.row-dense {
+    grid-auto-flow: row dense;
+}
+
+.column-dense {
+    grid-auto-flow: column dense;
+}
+
+.wide {
+    grid-column: span 2;
+}

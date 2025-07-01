@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background: #f2f2f2;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+}
+
+.flex-container {
+    display: flex;
+    background: white;
+    border: 2px dashed #ccc;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 10px;
+    /*min-width: 100px;*/
+    /*min-height: 80px;*/
+    background: teal;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 6px;
+}

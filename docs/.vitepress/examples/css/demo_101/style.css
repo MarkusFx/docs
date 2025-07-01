@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+.demo {
+    display: flex;
+    gap: 10px;
+    background: white;
+    border: 1px dashed #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+.box {
+    background: mediumseagreen;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-demo .a {
+    order: 3;
+}
+.order-demo .b {
+    order: 1;
+}
+.order-demo .c {
+    order: 2;
+}

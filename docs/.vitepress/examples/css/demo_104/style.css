@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+.demo {
+    display: flex;
+    background: white;
+    border: 1px dashed #ccc;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.box {
+    background: #8a2be2;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.default-basis .box {
+    flex-basis: auto;
+}
+
+.custom-basis .a {
+    flex-basis: 100px;
+}
+
+.custom-basis .b {
+    flex-basis: 150px;
+}
+
+.custom-basis .c {
+    flex-basis: 200px;
+}

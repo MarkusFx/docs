@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+.demo {
+    display: flex;
+    background: white;
+    border: 1px dashed #ccc;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.box {
+    background: #ff8c00;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.grow-demo .a {
+    flex-grow: 1;
+}
+.grow-demo .b {
+    flex-grow: 2;
+}
+.grow-demo .c {
+    flex-grow: 3;
+}
+
+.fixed-width {
+    width: 80px;
+}

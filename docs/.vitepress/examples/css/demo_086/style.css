@@ -1,0 +1,10 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    border: 1px solid grey;
+    margin: 20px 0 0 60px;
+    padding: 20px;
+    transform-origin: left center;
+    transform: rotate(30deg);
+}

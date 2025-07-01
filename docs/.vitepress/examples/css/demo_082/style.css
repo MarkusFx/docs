@@ -1,0 +1,7 @@
+.translate {
+    border: 1px solid grey;
+    width: 300px;
+    padding: 20px;
+    background: lightblue;
+    transform: translate(50px, 20px);
+}

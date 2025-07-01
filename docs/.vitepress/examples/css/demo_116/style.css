@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    background: #ddd;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [left] 1fr [middle] 2fr [right];
+    grid-template-rows: [top] 80px [center] 150px [bottom];
+    gap: 10px;
+    background: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item {
+    background: steelblue;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.a {
+    grid-column: left / middle;
+    grid-row: top / span 1;
+}
+
+.b {
+    grid-column: middle / right;
+    grid-row: center / bottom;
+}
+
+.c {
+    grid-column: left / right;
+    grid-row: bottom / span 1;
+}

@@ -1,0 +1,22 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 30px auto;
+
+    animation: bounce 2s ease-in-out 0.5s infinite alternate both;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(50px);
+    }
+}

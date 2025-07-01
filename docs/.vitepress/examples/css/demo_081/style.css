@@ -1,0 +1,19 @@
+.box1 {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 150px;
+    height: 150px;
+    background: lightblue;
+    z-index: 1;
+}
+
+.box2 {
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    width: 150px;
+    height: 150px;
+    background: coral;
+    z-index: 2;
+}

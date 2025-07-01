@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.section-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.inline-grid-box {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    border: 2px dashed #999;
+}
+
+.item {
+    background: lightblue;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #666;
+}

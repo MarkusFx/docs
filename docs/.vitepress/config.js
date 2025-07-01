@@ -1,55 +1,7 @@
-import fs from 'fs'
-import path from 'path'
 import {
     groupIconMdPlugin,
     groupIconVitePlugin,
 } from 'vitepress-plugin-group-icons'
-
-// function getFirstH1(filePath) {
-//     if (!fs.existsSync(filePath)) return null
-//     const content = fs.readFileSync(filePath, 'utf-8')
-//     const match = content.match(/^# (.+)/m)
-//     return match ? match[1].trim() : null
-// }
-//
-// function getSidebarItems(dir, basePath = '/css') {
-//     const fullPath = path.resolve(dir)
-//     const entries = fs.readdirSync(fullPath, { withFileTypes: true })
-//
-//     const items = entries
-//         .filter(
-//             (entry) =>
-//                 !entry.name.startsWith('.') && entry.name !== 'header.md',
-//         ) // ❗ исключаем header.md
-//         .map((entry) => {
-//             if (entry.isDirectory()) {
-//                 const subDir = path.join(dir, entry.name)
-//                 const headerPath = path.join(fullPath, entry.name, 'header.md')
-//                 const groupTitle =
-//                     getFirstH1(headerPath) || capitalize(entry.name)
-//
-//                 return {
-//                     text: groupTitle,
-//                     collapsed: true,
-//                     items: getSidebarItems(subDir, `${basePath}/${entry.name}`),
-//                 }
-//             } else if (entry.isFile() && entry.name.endsWith('.md')) {
-//                 const filePath = path.join(fullPath, entry.name)
-//                 const name = entry.name.replace(/\.md$/, '')
-//                 const link = `${basePath}${name === 'index' ? '/' : `/${name}`}`
-//                 const text = getFirstH1(filePath) || capitalize(name)
-//
-//                 return { text, link }
-//             }
-//         })
-//         .filter(Boolean)
-//
-//     return items
-// }
-//
-// function capitalize(str) {
-//     return str.charAt(0).toUpperCase() + str.slice(1)
-// }
 
 export default {
     markdown: {
@@ -91,7 +43,7 @@ export default {
     themeConfig: {
         nav: [
             { text: 'Главная', link: '/' },
-            { text: 'Обновления', link: '/updates/page_001' },
+            { text: 'Обновления', link: '/updates/2025/07-july' },
             {
                 text: 'Разделы',
                 items: [
@@ -121,17 +73,6 @@ export default {
         ],
 
         sidebar: {
-            // '/css/': [
-            //     {
-            //         // text: 'CSS_TEST',
-            //         items: [
-            //             {
-            //                 text: 'CSS',
-            //                 items: getSidebarItems('./docs/css'),
-            //             },
-            //         ],
-            //     },
-            // ],
             '/updates/': [
                 {
                     text: 'Обновления',
@@ -141,7 +82,14 @@ export default {
                             collapsible: true,
                             collapsed: false,
                             items: [
-                                { text: 'Июнь', link: '/updates/page_001' },
+                                {
+                                    text: 'Июль',
+                                    link: '/updates/2025/07-july',
+                                },
+                                {
+                                    text: 'Июнь',
+                                    link: '/updates/2025/06-june',
+                                },
                             ],
                         },
                     ],
@@ -394,7 +342,46 @@ export default {
                                     text: 'Свойство display',
                                     link: '/css/layout/page_005',
                                 },
+                                {
+                                    text: 'Flexbox',
+                                    link: '/css/layout/page_007',
+                                },
+                                {
+                                    text: 'Grid Layout',
+                                    link: '/css/layout/page_008',
+                                },
+                                {
+                                    text: 'Позиционирование',
+                                    link: '/css/layout/page_006',
+                                },
+                                {
+                                    text: 'Адаптивная верстка',
+                                    link: '/css/layout/page_009',
+                                },
                             ],
+                        },
+                        {
+                            text: 'Эффекты и анимации',
+                            collapsible: true,
+                            collapsed: true,
+                            items: [
+                                {
+                                    text: 'Трансформации',
+                                    link: '/css/animation/page_001',
+                                },
+                                {
+                                    text: 'Переходы',
+                                    link: '/css/animation/page_002',
+                                },
+                                {
+                                    text: 'Анимации',
+                                    link: '/css/animation/page_003',
+                                },
+                            ],
+                        },
+                        {
+                            text: 'Переменные',
+                            link: '/css/page_002',
                         },
                     ],
                 },
@@ -504,7 +491,7 @@ export default {
         },
         footer: {
             message: '',
-            copyright: '© 2023-2025 MarkusFx (itPit)',
+            copyright: '© 2023-2025, MarkusFx (itPit)',
         },
     },
 }

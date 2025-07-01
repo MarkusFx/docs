@@ -53,14 +53,12 @@ defineProps(['tiles'])
     display: grid;
     place-items: center;
     border: 0px solid var(--vp-c-bg-soft);
-    //filter: brightness(1.05) contrast(1.2) saturate(1);
-    //filter: brightness(1) contrast(1.2) saturate(1.4);
 }
 
 .tile-grid {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin-top: 2rem;
 }
 
@@ -108,9 +106,8 @@ defineProps(['tiles'])
 .tile-icon {
     font-size: 2rem;
     flex-shrink: 0;
-    width: 2.5rem;
-    height: 2.5rem;
-    //filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.2));
+    width: 2.7rem;
+    height: 2.7rem;
 }
 
 .tile-icon :deep(svg) {
