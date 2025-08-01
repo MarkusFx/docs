@@ -1,4 +1,11 @@
 :root {
+    /* Снять ограничение ширины */
+    /*--vp-layout-max-width: 100%;*/
+}
+
+.content > .content-container {
+    /* Минимальная ширина центрального блока */
+    /*min-width: 80%;*/
 }
 
 .no-lang-label span.lang {

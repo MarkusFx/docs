@@ -24,15 +24,17 @@ defineProps(['tiles'])
                     :class="['card-left', tile.cardClass]"
                     :style="tile.gradient ? { background: tile.gradient } : {}"
                 >
-                    <div
-                        class="tile-icon"
-                        v-if="tile.icon"
-                        v-html="tile.icon"
-                        :style="{
-                            color: tile.color || 'inherit',
-                            filter: tile.iconFilter || 'none',
-                        }"
-                    />
+                    <div class="inner-card-left">
+                        <div
+                            class="tile-icon"
+                            v-if="tile.icon"
+                            v-html="tile.icon"
+                            :style="{
+                                color: tile.color || 'inherit',
+                                filter: tile.iconFilter || 'none',
+                            }"
+                        />
+                    </div>
                 </div>
                 <div class="tile-text">
                     <div class="tile-title">{{ tile.title }}</div>
@@ -53,6 +55,16 @@ defineProps(['tiles'])
     display: grid;
     place-items: center;
     border: 0px solid var(--vp-c-bg-soft);
+}
+
+.inner-card-left {
+    height: 74px;
+    width: 74px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    background-color: #22222244;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .tile-grid {

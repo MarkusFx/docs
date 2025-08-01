@@ -2,13 +2,12 @@
 layout: home
 ---
 
-# Главная
-
-## Меню
-
 <script setup>
 import TileGrid from './.vitepress/components/TileGrid.vue';
 import CodePreview from './.vitepress/components/CodePreview.vue';
+import GridMenu from './.vitepress/components/GridMenu.vue';
+import CourseProgress from './.vitepress/components/CourseProgress.vue';
+import AudioVisualizer from './.vitepress/components/AudioVisualizer.vue';
 
 import {
     menu_tiles,
@@ -19,11 +18,21 @@ import {
 } from './index.js';
 </script>
 
+# Главная
+
+## Меню
+
 <TileGrid :tiles="menu_tiles" />
 
-## Дорожная карта
+[//]: # '<AudioVisualizer />'
 
-![road_map](/images/other/roadmap-001.png){data-zoomable class="img-radius"}
+## Текущие переводы
+
+<CourseProgress />
+
+[//]: # '## Дорожная карта'
+[//]: # '<GridMenu />'
+[//]: # '![road_map](/images/other/roadmap-001.png){data-zoomable class="img-radius"}'
 
 ## RuTube
 

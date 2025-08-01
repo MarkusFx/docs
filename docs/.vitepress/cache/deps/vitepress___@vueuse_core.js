@@ -283,6 +283,7 @@ import {
   whenever
 } from "./chunk-4JIJOCLY.js";
 import "./chunk-FA4MWVOB.js";
+import "./chunk-KVCYZR2Q.js";
 export {
   DefaultMagicKeysAliasMap,
   StorageSerializers,
