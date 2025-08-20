@@ -99,6 +99,6 @@ const percent = Math.round((props.done / props.total) * 100)
     white-space: nowrap;
     text-align: right;
     min-width: 120px;
-    max-width: 120px;
+    max-width: 130px;
 }
 </style>

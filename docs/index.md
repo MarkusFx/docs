@@ -4,13 +4,13 @@ layout: home
 
 <script setup>
 import TileGrid from './.vitepress/components/TileGrid.vue';
+import CourseProgress from './.vitepress/components/CourseProgress.vue';
 import CodePreview from './.vitepress/components/CodePreview.vue';
 import GridMenu from './.vitepress/components/GridMenu.vue';
-import CourseProgress from './.vitepress/components/CourseProgress.vue';
-import AudioVisualizer from './.vitepress/components/AudioVisualizer.vue';
 
 import {
-    menu_tiles,
+    courses,
+    notes,
     rutube_tiles,
     telegram_tiles,
     vk_tiles,
@@ -20,19 +20,23 @@ import {
 
 # Главная
 
-## Меню
+## Заметки
 
-<TileGrid :tiles="menu_tiles" />
+<TileGrid :tiles="notes" />
 
-[//]: # '<AudioVisualizer />'
+## Курсы
+
+<TileGrid :tiles="courses" />
 
 ## Текущие переводы
 
-<CourseProgress />
+::: warning ВНИМАНИЕ
+В связи с переходом на ручной перевод новых курсов возможны задержки в выходе новых частей — отрабатываются новые технологии.
 
-[//]: # '## Дорожная карта'
-[//]: # '<GridMenu />'
-[//]: # '![road_map](/images/other/roadmap-001.png){data-zoomable class="img-radius"}'
+_19.08.2025_
+:::
+
+<CourseProgress />
 
 ## RuTube
 

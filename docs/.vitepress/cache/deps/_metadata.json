@@ -1,95 +1,104 @@
 {
-  "hash": "67c85f4d",
+  "hash": "0e271206",
   "configHash": "8076f007",
-  "lockfileHash": "7c23fc94",
-  "browserHash": "8994e47f",
+  "lockfileHash": "dc349126",
+  "browserHash": "160cec48",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "467cd0e0",
+      "fileHash": "21025088",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "928e3232",
+      "fileHash": "10747c8f",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "003abdbf",
+      "fileHash": "40466fd0",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "dab72e0b",
+      "fileHash": "d65c61e2",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "91d9d27a",
+      "fileHash": "28852062",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "e17026a0",
+      "fileHash": "9c4bfa23",
       "needsInterop": false
     },
     "medium-zoom": {
       "src": "../../../../node_modules/medium-zoom/dist/medium-zoom.esm.js",
       "file": "medium-zoom.js",
-      "fileHash": "b4bc1116",
+      "fileHash": "40c754c8",
       "needsInterop": false
     },
     "hls.js": {
       "src": "../../../../node_modules/hls.js/dist/hls.mjs",
       "file": "hls__js.js",
-      "fileHash": "6fab4cdb",
+      "fileHash": "b4805739",
       "needsInterop": false
     },
     "gsap": {
       "src": "../../../../node_modules/gsap/index.js",
       "file": "gsap.js",
-      "fileHash": "6b1b5fe2",
+      "fileHash": "ff74923b",
       "needsInterop": false
     },
     "gsap/MotionPathPlugin": {
       "src": "../../../../node_modules/gsap/MotionPathPlugin.js",
       "file": "gsap_MotionPathPlugin.js",
-      "fileHash": "8ffaaa0e",
+      "fileHash": "edfffd34",
       "needsInterop": false
     },
     "pyodide": {
       "src": "../../../../node_modules/pyodide/pyodide.mjs",
       "file": "pyodide.js",
-      "fileHash": "4e94202c",
+      "fileHash": "87f2e744",
       "needsInterop": false
     },
     "chart.js": {
       "src": "../../../../node_modules/chart.js/dist/chart.js",
       "file": "chart__js.js",
-      "fileHash": "4c5d4db9",
+      "fileHash": "9d1af4b2",
       "needsInterop": false
     },
     "vue-chartjs": {
       "src": "../../../../node_modules/vue-chartjs/dist/index.js",
       "file": "vue-chartjs.js",
-      "fileHash": "c74f5b11",
+      "fileHash": "afc535c1",
       "needsInterop": false
     },
     "three": {
       "src": "../../../../node_modules/three/build/three.module.js",
       "file": "three.js",
-      "fileHash": "69d7c4e9",
+      "fileHash": "7cb0e620",
       "needsInterop": false
+    },
+    "mespeak": {
+      "src": "../../../../node_modules/mespeak/src/index.js",
+      "file": "mespeak.js",
+      "fileHash": "18a7a491",
+      "needsInterop": true
     }
   },
   "chunks": {
+    "node_fs-6FUIRYIC": {
+      "file": "node_fs-6FUIRYIC.js"
+    },
     "promises-BEBUHVUU": {
       "file": "promises-BEBUHVUU.js"
     },
@@ -108,17 +117,14 @@
     "node_child_process-GBRVV4JM": {
       "file": "node_child_process-GBRVV4JM.js"
     },
-    "chunk-4JIJOCLY": {
-      "file": "chunk-4JIJOCLY.js"
-    },
     "chunk-YNDNG6LJ": {
       "file": "chunk-YNDNG6LJ.js"
     },
     "node_url-JAQFZPQ4": {
       "file": "node_url-JAQFZPQ4.js"
     },
-    "node_fs-6FUIRYIC": {
-      "file": "node_fs-6FUIRYIC.js"
+    "chunk-4JIJOCLY": {
+      "file": "chunk-4JIJOCLY.js"
     },
     "chunk-FA4MWVOB": {
       "file": "chunk-FA4MWVOB.js"

@@ -43,7 +43,7 @@ export default {
         logo: 'favicon/android-chrome-192x192.png',
         nav: [
             { text: 'Главная', link: '/' },
-            { text: 'Обновления', link: '/updates/2025/07-july' },
+            { text: 'Обновления', link: '/updates/2025/08-august' },
             // {
             //     text: 'Разделы',
             //     items: [

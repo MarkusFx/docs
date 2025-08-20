@@ -1,6 +1,8 @@
 export default [
     {
         text: 'Socket.io',
-        items: [{ text: 'Введение', link: '/socketio/page_001' }],
+        items: [
+            { text: 'Роберт Банч', link: '/socketio/courses/robert_bunch' },
+        ],
     },
 ]

@@ -13,7 +13,19 @@ import swaggerLogo from '/logos/swagger-logo.svg?raw'
 import socketioLogo from '/logos/socketio-logo.svg?raw'
 import pythonLogo from '/logos/python-logo.svg?raw'
 
-export const menu_tiles = [
+export const courses = [
+    {
+        title: 'Socket.IO',
+        icon: socketioLogo,
+        link: '/socketio/courses/robert_bunch',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+        // iconFilter: 'drop-shadow(0px 0px 10px rgba(215,100,0,1.0)',
+        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+    },
+]
+
+export const notes = [
     // {
     //     title: 'Python',
     //     icon: pythonLogo,
