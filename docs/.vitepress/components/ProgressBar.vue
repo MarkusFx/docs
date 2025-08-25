@@ -132,7 +132,7 @@ const percent = Math.round((props.done / props.total) * 100)
     }
 
     .progress-text {
-        font-size: 0.5rem;
+        font-size: 0.55rem;
     }
 
     .bar-container {
