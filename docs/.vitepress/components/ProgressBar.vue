@@ -4,10 +4,6 @@
             <div class="top-line">
                 <div class="label-line">
                     <div class="label">{{ label }}</div>
-                    <div class="duration">({{ hours }}ч {{ minutes }}м)</div>
-                </div>
-                <div class="text">
-                    {{ done }} из {{ total }} ({{ percent }}%)
                 </div>
             </div>
             <div class="bar-container">
@@ -15,6 +11,9 @@
                     class="bar-fill"
                     :style="{ width: percent + '%', backgroundColor: color }"
                 />
+                <div class="progress-text">
+                    {{ done }} из {{ total }} ({{ percent }}%)
+                </div>
             </div>
         </div>
     </div>
@@ -23,14 +22,6 @@
 <script setup>
 const props = defineProps({
     label: String,
-    hours: {
-        type: Number,
-        default: 0,
-    },
-    minutes: {
-        type: Number,
-        default: 0,
-    },
     done: Number,
     total: Number,
     color: {
@@ -45,8 +36,8 @@ const percent = Math.round((props.done / props.total) * 100)
 <style scoped>
 .progress-row {
     display: flex;
-    margin: 14px 0;
     flex-wrap: wrap;
+    gap: 16px;
 }
 
 .bar-wrapper {
@@ -72,17 +63,12 @@ const percent = Math.round((props.done / props.total) * 100)
 .label {
     font-weight: 600;
     font-size: 1.1rem;
-    color: var(--vp-c-text-1);
-}
-
-.duration {
-    font-size: 0.85rem;
     color: var(--vp-c-text-2);
-    align-items: baseline;
 }
 
 .bar-container {
-    height: 10px;
+    position: relative;
+    height: 24px;
     background-color: var(--vp-c-bg-alt);
     border-radius: 6px;
     overflow: hidden;
@@ -93,12 +79,68 @@ const percent = Math.round((props.done / props.total) * 100)
     transition: width 0.4s ease;
 }
 
+.progress-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #333;
+    padding: 0 4px;
+}
+
 .text {
     font-size: 0.9rem;
-    color: var(--vp-c-text-2);
     white-space: nowrap;
     text-align: right;
     min-width: 120px;
     max-width: 130px;
+}
+
+@media (max-width: 768px) {
+    .progress-row {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .top-line {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .label-line {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .label {
+        font-size: 1rem;
+    }
+
+    .progress-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .label {
+        font-size: 0.9rem;
+    }
+
+    .progress-text {
+        font-size: 0.6rem;
+    }
+
+    .bar-container {
+        height: 24px;
+    }
+
+    .bar-fill {
+        transition: width 0.6s ease;
+    }
 }
 </style>
