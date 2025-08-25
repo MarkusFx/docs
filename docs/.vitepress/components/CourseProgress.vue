@@ -163,19 +163,19 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 45,
+                done: 0,
                 total: 45,
                 color: '#bd504d',
             },
             {
                 label: 'Озвучка',
-                done: 45,
+                done: 0,
                 total: 45,
                 color: '#ffd200',
             },
             {
                 label: 'Монтаж',
-                done: 45,
+                done: 0,
                 total: 45,
                 color: '#3bccb3',
             },
