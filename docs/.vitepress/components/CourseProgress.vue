@@ -16,28 +16,23 @@
 <script setup>
 import ProgressBar from './ProgressBar.vue'
 
-const progressBars = [
-    // {
-    //     label: 'JavaScript',
-    //     hours: 51,
-    //     minutes: 58,
-    //     done: 0,
-    //     total: 479,
-    //     color: '#ffd200',
-    // },
+const colors = [
     {
-        label: 'Python',
-        hours: 30,
-        minutes: 0,
-        done: 245,
-        total: 245,
-        color: '#4593e5',
+        1: '#bd504d',
+        2: '#ffa600',
+        3: '#ffd200',
+        4: '#3bccb3',
+        5: '#4593e5',
+        6: '#985de0',
     },
+]
+
+const progressBars = [
     {
         label: 'Socket.IO',
         hours: 14,
         minutes: 0,
-        done: 10,
+        done: 16,
         total: 83,
         color: '#ffd200',
     },
@@ -65,22 +60,38 @@ const progressBars = [
         total: 164,
         color: '#ffd200',
     },
-    // {
-    //     label: 'React Three Fiber',
-    //     hours: 9,
-    //     minutes: 17,
-    //     done: 0,
-    //     total: 34,
-    //     color: '#4593e5',
-    // },
-    // {
-    //     label: 'C#',
-    //     hours: 44,
-    //     minutes: 42,
-    //     done: 0,
-    //     total: 431,
-    //     color: '#985de0',
-    // },
+    {
+        label: 'OS',
+        hours: 21,
+        minutes: 40,
+        done: 0,
+        total: 50,
+        color: '#ffd200',
+    },
+    {
+        label: 'NGINX',
+        hours: 7,
+        minutes: 27,
+        done: 0,
+        total: 45,
+        color: '#3bccb3',
+    },
+    {
+        label: 'Nuxt.js',
+        hours: 15,
+        minutes: 30,
+        done: 0,
+        total: 113,
+        color: '#3bccb3',
+    },
+    {
+        label: 'NestJS',
+        hours: 13,
+        minutes: 33,
+        done: 0,
+        total: 125,
+        color: '#bd504d',
+    },
 ]
 </script>
 
