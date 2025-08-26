@@ -1,6 +1,5 @@
 <template>
     <div class="progress-list">
-        <!-- Перебираем все курсы -->
         <div v-for="(bar, index) in progressBars" :key="index" class="course">
             <div class="course-title">
                 {{ bar.label }}
@@ -9,7 +8,6 @@
                 >
             </div>
             <div class="progress-columns">
-                <!-- Перебираем этапы внутри курса и размещаем их в колонках -->
                 <div
                     v-for="(step, stepIndex) in bar.steps"
                     :key="stepIndex"
@@ -20,6 +18,8 @@
                         :done="step.done"
                         :total="step.total"
                         :color="step.color"
+                        :borderRadius="step.borderRadius"
+                        :progressTextColor="step.progressTextColor"
                     />
                 </div>
             </div>
@@ -40,13 +40,13 @@ const progressBars = [
                 label: 'Перевод',
                 done: 83,
                 total: 83,
-                color: '#bd504ddd',
+                color: '#FA5F51bb',
             },
             {
                 label: 'Озвучка',
                 done: 27,
                 total: 83,
-                color: '#ffd200cc',
+                color: '#ffa600cc',
             },
             {
                 label: 'Монтаж',
@@ -65,13 +65,13 @@ const progressBars = [
                 label: 'Перевод',
                 done: 90,
                 total: 90,
-                color: '#bd504ddd',
+                color: '#FA5F51bb',
             },
             {
                 label: 'Озвучка',
                 done: 0,
                 total: 90,
-                color: '#ffd200cc',
+                color: '#ffa600cc',
             },
             {
                 label: 'Монтаж',
@@ -90,13 +90,13 @@ const progressBars = [
                 label: 'Перевод',
                 done: 49,
                 total: 49,
-                color: '#bd504ddd',
+                color: '#FA5F51bb',
             },
             {
                 label: 'Озвучка',
                 done: 0,
                 total: 49,
-                color: '#ffd200cc',
+                color: '#ffa600cc',
             },
             {
                 label: 'Монтаж',
@@ -115,13 +115,13 @@ const progressBars = [
                 label: 'Перевод',
                 done: 164,
                 total: 164,
-                color: '#bd504ddd',
+                color: '#FA5F51bb',
             },
             {
                 label: 'Озвучка',
                 done: 0,
                 total: 164,
-                color: '#ffd200cc',
+                color: '#ffa600cc',
             },
             {
                 label: 'Монтаж',
@@ -138,15 +138,15 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 0,
+                done: 10,
                 total: 50,
-                color: '#bd504ddd',
+                color: '#FA5F51bb',
             },
             {
                 label: 'Озвучка',
                 done: 0,
                 total: 50,
-                color: '#ffd200cc',
+                color: '#ffa600cc',
             },
             {
                 label: 'Монтаж',
@@ -165,13 +165,13 @@ const progressBars = [
                 label: 'Перевод',
                 done: 0,
                 total: 45,
-                color: '#bd504ddd',
+                color: '#FA5F51bb',
             },
             {
                 label: 'Озвучка',
                 done: 0,
                 total: 45,
-                color: '#ffd200cc',
+                color: '#ffa600cc',
             },
             {
                 label: 'Монтаж',
@@ -190,13 +190,13 @@ const progressBars = [
                 label: 'Перевод',
                 done: 0,
                 total: 113,
-                color: '#bd504ddd',
+                color: '#FA5F51bb',
             },
             {
                 label: 'Озвучка',
                 done: 0,
                 total: 113,
-                color: '#ffd200cc',
+                color: '#ffa600cc',
             },
             {
                 label: 'Монтаж',
@@ -215,13 +215,13 @@ const progressBars = [
                 label: 'Перевод',
                 done: 0,
                 total: 125,
-                color: '#bd504ddd',
+                color: '#FA5F51bb',
             },
             {
                 label: 'Озвучка',
                 done: 0,
                 total: 125,
-                color: '#ffd200cc',
+                color: '#ffa600cc',
             },
             {
                 label: 'Монтаж',
@@ -238,7 +238,7 @@ const progressBars = [
 .progress-list {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     margin: 0 auto;
 }
 
@@ -266,7 +266,21 @@ const progressBars = [
     gap: 20px;
 }
 
+@media (max-width: 768px) {
+    .course-title {
+        font-size: 1.2rem;
+    }
+
+    .progress-columns {
+        gap: 10px;
+    }
+}
+
 @media (max-width: 480px) {
+    .course-title {
+        font-size: 1.2rem;
+    }
+
     .progress-columns {
         gap: 6px;
     }

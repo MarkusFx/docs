@@ -27,7 +27,7 @@ import {
 [//]: # '## Курсы'
 [//]: # '<TileGrid :tiles="courses" />'
 
-## Текущие переводы
+## Предстоящие курсы
 
 <CourseProgress />
 

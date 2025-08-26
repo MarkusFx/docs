@@ -3,7 +3,7 @@
         <div class="bar-wrapper">
             <div class="top-line">
                 <div class="label-line">
-                    <div class="label">{{ label }}</div>
+                    <!--                    <div class="label">{{ label }}</div>-->
                 </div>
             </div>
             <div class="bar-container">
@@ -12,7 +12,8 @@
                     :style="{ width: percent + '%', backgroundColor: color }"
                 />
                 <div class="progress-text">
-                    {{ done }} из {{ total }} ({{ percent }}%)
+                    <div>{{ done }} / {{ total }} ({{ percent }}%)</div>
+                    <div class="label">{{ label }}</div>
                 </div>
             </div>
         </div>
@@ -60,23 +61,20 @@ const percent = Math.round((props.done / props.total) * 100)
     gap: 6px;
 }
 
-.label {
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: var(--vp-c-text-2);
-}
-
 .bar-container {
     position: relative;
-    height: 24px;
+    height: 50px;
     background-color: var(--vp-c-bg-alt);
     border-radius: 6px;
     overflow: hidden;
 }
 
 .bar-fill {
-    height: 100%;
+    position: relative;
+    height: 50%;
+    top: 50%;
     transition: width 0.4s ease;
+    filter: contrast(90%);
 }
 
 .progress-text {
@@ -86,11 +84,21 @@ const percent = Math.round((props.done / props.total) * 100)
     right: 0;
     bottom: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 0.9rem;
-    color: #333;
+    color: var(--vp-c-text-1);
     padding: 0 4px;
+    text-transform: uppercase;
+}
+
+.label {
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--vp-c-text-1);
+    text-transform: capitalize;
 }
 
 .text {
@@ -118,29 +126,37 @@ const percent = Math.round((props.done / props.total) * 100)
     }
 
     .label {
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
 
     .progress-text {
         font-size: 0.8rem;
     }
+
+    .label {
+        font-size: 0.75rem;
+    }
 }
 
 @media (max-width: 480px) {
     .label {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .progress-text {
-        font-size: 0.55rem;
+        font-size: 0.6em;
     }
 
-    .bar-container {
-        height: 24px;
+    .label {
+        font-size: 0.55rem;
     }
 
     .bar-fill {
         transition: width 0.6s ease;
+    }
+
+    .bar-wrapper {
+        gap: 0;
     }
 }
 </style>
