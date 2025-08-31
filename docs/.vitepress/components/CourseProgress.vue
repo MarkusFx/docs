@@ -138,7 +138,7 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 10,
+                done: 50,
                 total: 50,
                 color: '#FA5F51bb',
             },
@@ -163,7 +163,7 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 0,
+                done: 45,
                 total: 45,
                 color: '#FA5F51bb',
             },
@@ -188,7 +188,7 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 0,
+                done: 70,
                 total: 113,
                 color: '#FA5F51bb',
             },

@@ -18,31 +18,8 @@ import {
 } from './index.js';
 </script>
 
-# Главная
+# Предстоящие курсы
 
-## Заметки
+---
 
-<TileGrid :tiles="notes" />
-
-## Курсы
-
-<TileGrid :tiles="courses" />
-
-[//]: # '## Предстоящие курсы'
-[//]: # '<CourseProgress />'
-
-## RuTube
-
-<TileGrid :tiles="rutube_tiles" />
-
-## Телеграм
-
-<TileGrid :tiles="telegram_tiles" />
-
-## VK
-
-<TileGrid :tiles="vk_tiles" />
-
-## Поддержать проект
-
-<TileGrid :tiles="donats_tiles" />
+<CourseProgress />
