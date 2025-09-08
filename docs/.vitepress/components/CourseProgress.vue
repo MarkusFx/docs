@@ -1,4 +1,9 @@
 <template>
+    <!--    <div class="header">-->
+    <!--        <div class="header-item">Перевод</div>-->
+    <!--        <div class="header-item">Озвучка</div>-->
+    <!--        <div class="header-item">Монтаж</div>-->
+    <!--    </div>-->
     <div class="progress-list">
         <div v-for="(bar, index) in progressBars" :key="index" class="course">
             <div class="course-title">
@@ -188,7 +193,7 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 70,
+                done: 113,
                 total: 113,
                 color: '#FA5F51bb',
             },
@@ -208,25 +213,75 @@ const progressBars = [
     },
     {
         label: 'NestJS',
-        hours: 13,
-        minutes: 33,
+        hours: 25,
+        minutes: 18,
         steps: [
             {
                 label: 'Перевод',
-                done: 0,
-                total: 125,
+                done: 235,
+                total: 235,
                 color: '#FA5F51bb',
             },
             {
                 label: 'Озвучка',
                 done: 0,
-                total: 125,
+                total: 235,
                 color: '#ffa600cc',
             },
             {
                 label: 'Монтаж',
                 done: 0,
-                total: 125,
+                total: 235,
+                color: '#3bccb3cc',
+            },
+        ],
+    },
+    {
+        label: 'Cypress',
+        hours: 6,
+        minutes: 13,
+        steps: [
+            {
+                label: 'Перевод',
+                done: 92,
+                total: 92,
+                color: '#FA5F51bb',
+            },
+            {
+                label: 'Озвучка',
+                done: 0,
+                total: 92,
+                color: '#ffa600cc',
+            },
+            {
+                label: 'Монтаж',
+                done: 0,
+                total: 92,
+                color: '#3bccb3cc',
+            },
+        ],
+    },
+    {
+        label: 'HTMX',
+        hours: 4,
+        minutes: 8,
+        steps: [
+            {
+                label: 'Перевод',
+                done: 31,
+                total: 61,
+                color: '#FA5F51bb',
+            },
+            {
+                label: 'Озвучка',
+                done: 0,
+                total: 61,
+                color: '#ffa600cc',
+            },
+            {
+                label: 'Монтаж',
+                done: 0,
+                total: 61,
                 color: '#3bccb3cc',
             },
         ],
@@ -235,6 +290,23 @@ const progressBars = [
 </script>
 
 <style scoped>
+.header {
+    display: flex;
+    gap: 16px;
+}
+
+.header-item {
+    flex: 1;
+    border-radius: 6px;
+    height: 30px;
+    background-color: var(--vp-c-bg-alt);
+    overflow: hidden;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .progress-list {
     display: flex;
     flex-direction: column;
