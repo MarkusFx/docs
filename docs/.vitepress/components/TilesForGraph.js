@@ -24,6 +24,17 @@ import electronLogo from '/logos/electron-logo.svg?raw'
 import angularjsLogo from '/logos/angularjs-logo.svg?raw'
 import webrtcLogo from '/logos/webrtc-logo.svg?raw'
 import mediaSoupLogo from '/logos/mediaSoup-logo.svg?raw'
+import pythonLogo from '/logos/python-logo.svg?raw'
+import djangoLogo from '/logos/django-logo.svg?raw'
+import flaskLogo from '/logos/flask-logo.svg?raw'
+import nginxLogo from '/logos/nginx-logo.svg?raw'
+import linuxLogo from '/logos/linux-logo.svg?raw'
+import dockerLogo from '/logos/docker-logo.svg?raw'
+import kubernetesLogo from '/logos/kubernetes-logo.svg?raw'
+import gitLogo from '/logos/git-logo.svg?raw'
+import githubLogo from '/logos/github-logo.svg?raw'
+import githubActionsLogo from '/logos/githubActions-logo.svg?raw'
+import catLogo from '/logos/cat-logo.svg?raw'
 
 // КРАСНЫЙ
 // gradient: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -325,6 +336,127 @@ export const mediaSoupCard = [
         // link: '/courses',
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const pythonCard = [
+    {
+        title: 'Python',
+        icon: pythonLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const djangoCard = [
+    {
+        title: 'Django',
+        icon: djangoLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const flaskCard = [
+    {
+        title: 'Flask',
+        icon: flaskLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const linuxCard = [
+    {
+        title: 'Linux',
+        icon: linuxLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const nginxCard = [
+    {
+        title: 'NGINX',
+        icon: nginxLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const dockerCard = [
+    {
+        title: 'Docker',
+        icon: dockerLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const kubernetesCard = [
+    {
+        title: 'Kubernetes',
+        icon: kubernetesLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const gitCard = [
+    {
+        title: 'Git',
+        icon: gitLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #e89820 0%, #ffa600 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const githubCard = [
+    {
+        title: 'GitHub',
+        icon: githubLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const githubActionsCard = [
+    {
+        title: 'GitHub Actions',
+        icon: githubActionsLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const catCard = [
+    {
+        title: 'MarkusFx',
+        icon: catLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
         iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]

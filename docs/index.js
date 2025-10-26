@@ -38,7 +38,7 @@ export const upcoming_courses = [
     {
         title: 'Предстоящие курсы',
         icon: catLogo,
-        link: '/courses',
+        link: '/upcoming_courses',
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
         // iconFilter: 'drop-shadow(0px 0px 10px rgba(215,100,0,1.0)',
@@ -208,6 +208,7 @@ export const vk_tiles = [
 export const donats_tiles = [
     {
         title: 'Donation Alerts',
+        description: 'Только во время стрима',
         icon: daLogo,
         link: 'https://www.donationalerts.com/r/markusfx',
         target: '_blank',
@@ -217,7 +218,19 @@ export const donats_tiles = [
         iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
     {
+        title: 'Dalink',
+        description: 'В любое время',
+        icon: daLogo,
+        link: 'https://dalink.to/markusfx',
+        target: '_blank',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(45deg, #e07405, #e07405)',
+        // iconFilter: 'drop-shadow(0px 0px 10px rgba(192,36,37,0.7))',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+    {
         title: 'Boosty',
+        description: 'В любое время',
         icon: boostyLogo,
         link: 'https://boosty.to/markusfx',
         target: '_blank',

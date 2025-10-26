@@ -237,31 +237,6 @@ const progressBars = [
         ],
     },
     {
-        label: 'HTMX',
-        hours: 4,
-        minutes: 8,
-        steps: [
-            {
-                label: 'Перевод',
-                done: 0,
-                total: 61,
-                color: '#FA5F51bb',
-            },
-            {
-                label: 'Озвучка',
-                done: 0,
-                total: 61,
-                color: '#ffa600cc',
-            },
-            {
-                label: 'Монтаж',
-                done: 0,
-                total: 61,
-                color: '#3bccb3cc',
-            },
-        ],
-    },
-    {
         label: 'Go',
         hours: 15,
         minutes: 19,

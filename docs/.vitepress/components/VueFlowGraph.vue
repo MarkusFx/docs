@@ -86,6 +86,17 @@ import {
     angularjsCard,
     webrtcCard,
     mediaSoupCard,
+    pythonCard,
+    djangoCard,
+    flaskCard,
+    linuxCard,
+    nginxCard,
+    dockerCard,
+    kubernetesCard,
+    gitCard,
+    githubCard,
+    githubActionsCard,
+    catCard,
 } from './TilesForGraph.js'
 
 const vueFlowRef = ref(null)
@@ -210,6 +221,7 @@ function createTileNode(id, tiles, col, row) {
 }
 
 const nodes = [
+    createTileNode(0, catCard, -1, 0),
     createTileNode(1, htmlCard, 0, 0),
     createTileNode(2, cssCard, 1, 0),
     createTileNode(3, javascriptCard, 2, 0),
@@ -236,6 +248,16 @@ const nodes = [
     createTileNode(15, angularjsCard, 3, 4),
     createTileNode(19, webrtcCard, 2, -2),
     createTileNode(20, mediaSoupCard, 2, -3),
+    createTileNode(27, pythonCard, 0, 6),
+    createTileNode(28, djangoCard, 1, 6),
+    createTileNode(29, flaskCard, 1, 7),
+    createTileNode(30, linuxCard, 0, -6),
+    createTileNode(31, nginxCard, 1, -6),
+    createTileNode(32, dockerCard, 0, -5),
+    createTileNode(33, kubernetesCard, 1, -5),
+    createTileNode(34, gitCard, 0, -4),
+    createTileNode(35, githubCard, 1, -4),
+    createTileNode(36, githubActionsCard, 2, -4),
 ]
 
 const edges = [
@@ -264,6 +286,17 @@ const edges = [
     { id: 'e3-24', source: '3', target: '24', type: 'customDown' },
     { id: 'e3-25', source: '3', target: '25', type: 'customDown' },
     { id: 'e3-26', source: '3', target: '26', type: 'customDown' },
+    { id: 'e27-28', source: '27', target: '28', type: 'smoothstep' },
+    { id: 'e27-29', source: '27', target: '29', type: 'smoothstep' },
+    { id: 'e30-31', source: '30', target: '31', type: 'smoothstep' },
+    { id: 'e32-33', source: '32', target: '33', type: 'smoothstep' },
+    { id: 'e34-35', source: '34', target: '35', type: 'smoothstep' },
+    { id: 'e35-36', source: '35', target: '36', type: 'smoothstep' },
+    { id: 'e0-1', source: '0', target: '1', type: 'smoothstep' },
+    { id: 'e0-34', source: '0', target: '34', type: 'smoothstep' },
+    { id: 'e0-32', source: '0', target: '32', type: 'smoothstep' },
+    { id: 'e0-30', source: '0', target: '30', type: 'smoothstep' },
+    { id: 'e0-27', source: '0', target: '27', type: 'smoothstep' },
 ]
 
 onMounted(async () => {

@@ -6,24 +6,24 @@ outline: [2, 3]
 
 - ### 01. Введение
 
-    - 001 - Добро пожаловать;
-    - 002 - Что такое HTMX и зачем его использовать;
+    - [001 - Добро пожаловать](https://vk.com/video-224325822_456246353?list=ln-P1mcEWoXRiJQ4m0z1Y);
+    - [002 - Что такое HTMX и зачем его использовать](https://vk.com/video-224325822_456246354?list=ln-0B5QJQLyc33f7H3llC);
 
 - ### 02. Основы
 
-    - 003 - Введение;
-    - 004 - Настройка проекта;
-    - 005 - Установка HTMX;
-    - 006 - Использование HTMX и отправка GET-запросов;
-    - 007 - Управление рендерингом ответа с помощью hx-swap;
-    - 008 - Где и как можно использовать HTMX;
-    - 009 - Определение цели ответа с помощью hx-target;
-    - 010 - Изменение триггера запроса с помощью hx-trigger;
-    - 011 - От GET к POST с hx-post;
-    - 012 - Отправка данных с HTMX;
-    - 013 - Обработка POST-запросов и ответов с HTMX;
-    - 014 - Выбор частей ответа с помощью hx-select;
-    - 015 - Практика;
+    - [003 - Введение](https://vk.com/video-224325822_456246355?list=ln-QvyauRWG3ZqMexHgw3);
+    - [004 - Настройка проекта](https://vk.com/video-224325822_456246356?list=ln-LBwH05EsAxz2BzZqxc);
+    - [005 - Установка HTMX](https://vk.com/video-224325822_456246357?list=ln-sW0yX5WhnDPfK6Xt2T);
+    - [006 - Использование HTMX и отправка GET-запросов](https://vk.com/video-224325822_456246358?list=ln-BSfwpZVaADvZZhRTJP);
+    - [007 - Управление рендерингом ответа с помощью hx-swap](https://vk.com/video-224325822_456246359?list=ln-Yg7weSrxCj5kE7OwXZ);
+    - [008 - Где и как можно использовать HTMX](https://vk.com/video-224325822_456246360?list=ln-ytoyamGRZhUQAzzwJf);
+    - [009 - Определение цели ответа с помощью hx-target](https://vk.com/video-224325822_456246361?list=ln-nAzNPKb7qVWYIPXXMF);
+    - [010 - Изменение триггера запроса с помощью hx-trigger](https://vk.com/video-224325822_456246362?list=ln-Hag7kYYdMTdatXPehP);
+    - [011 - От GET к POST с hx-post](https://vk.com/video-224325822_456246363?list=ln-QUvKMUGWUSzsarttz0);
+    - [012 - Отправка данных с HTMX](https://vk.com/video-224325822_456246364?list=ln-W8Cm9w8m7CyGCN0uzd);
+    - [013 - Обработка POST-запросов и ответов с HTMX](https://vk.com/video-224325822_456246365?list=ln-7Fzqcrd6MqFZqgUuVZ);
+    - [014 - Выбор частей ответа с помощью hx-select](https://vk.com/video-224325822_456246366?list=ln-leHlM5zUlTi9NwW2EV);
+    - [015 - Практика](https://vk.com/video-224325822_456246367?list=ln-HuB38Sztx6eGQKXpke);
 
 - ### 03. Продвинутый HTMX
 
