@@ -128,8 +128,8 @@ const props = defineProps({
 .tile-icon {
     font-size: 2rem;
     flex-shrink: 0;
-    width: 2.7rem;
-    height: 2.7rem;
+    width: 3.2rem;
+    height: 3.2rem;
 }
 
 .tile-icon :deep(svg) {

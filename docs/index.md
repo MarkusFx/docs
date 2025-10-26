@@ -7,7 +7,6 @@ import TileGrid from './.vitepress/components/TileGrid.vue';
 import CourseProgress from './.vitepress/components/CourseProgress.vue';
 import CodePreview from './.vitepress/components/CodePreview.vue';
 import GridMenu from './.vitepress/components/GridMenu.vue';
-import VueFlowGraph from '.vitepress/components/VueFlowGraph.vue';
 
 import {
     upcoming_courses,
@@ -21,8 +20,6 @@ import {
 </script>
 
 # Главная
-
-<VueFlowGraph />
 
 ## Курсы
 

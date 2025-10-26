@@ -8,7 +8,7 @@ import reactLogo from '/logos/react-logo.svg?raw'
 import socketioLogo from '/logos/socketio-logo.svg?raw'
 import nextjsLogo from '/logos/nextjs-logo.svg?raw'
 import reactnativeLogo from '/logos/react-native-logo.svg?raw'
-import jestLogo from '/logos/jest-logo-001.svg?raw'
+import jestLogo from '/logos/jest-logo-002.svg?raw'
 import vitestLogo from '/logos/vitest-logo.svg?raw'
 import cypressLogo from '/logos/cypress-logo.svg?raw'
 import sassLogo from '/logos/sass-logo.svg?raw'
@@ -35,6 +35,24 @@ import gitLogo from '/logos/git-logo.svg?raw'
 import githubLogo from '/logos/github-logo.svg?raw'
 import githubActionsLogo from '/logos/githubActions-logo.svg?raw'
 import catLogo from '/logos/cat-logo.svg?raw'
+import sqlLogo from '/logos/sql-logo.svg?raw'
+import postgresqlLogo from '/logos/postgresql-logo-002.svg?raw'
+import mongodbLogo from '/logos/mongodb-logo.svg?raw'
+import pyQtLogo from '/logos/pyqt-logo.svg?raw'
+import phpLogo from '/logos/php-logo.svg?raw'
+import laravelLogo from '/logos/laravel-logo.svg?raw'
+import rustLogo from '/logos/rust-logo.svg?raw'
+import goLogo from '/logos/go-logo.svg?raw'
+import javaLogo from '/logos/java-logo-002.svg?raw'
+import kotlinLogo from '/logos/kotlin-logo.svg?raw'
+import cSharpLogo from '/logos/cSharp-logo.svg?raw'
+import n8nLogo from '/logos/n8n-logo.svg?raw'
+import figmaLogo from '/logos/figma-logo.svg?raw'
+import excelVbaLogo from '/logos/excelVba-logo.svg?raw'
+import oneCLogo from '/logos/1c-logo.svg?raw'
+import blenderLogo from '/logos/blender-logo.svg?raw'
+import godotLogo from '/logos/godot-logo.svg?raw'
+import unityLogo from '/logos/unity-logo.svg?raw'
 
 // КРАСНЫЙ
 // gradient: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -457,6 +475,204 @@ export const catCard = [
         // link: '/courses',
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const sqlCard = [
+    {
+        title: 'SQL',
+        icon: sqlLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const postgresqlCard = [
+    {
+        title: 'PostgreSQL',
+        icon: postgresqlLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const mongodbCard = [
+    {
+        title: 'MongoDB',
+        icon: mongodbLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const pyQtCard = [
+    {
+        title: 'PyQt',
+        icon: pyQtLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const phpCard = [
+    {
+        title: 'PHP',
+        icon: phpLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const laravelCard = [
+    {
+        title: 'Laravel',
+        icon: laravelLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const rustCard = [
+    {
+        title: 'Rust',
+        icon: rustLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const goCard = [
+    {
+        title: 'Go',
+        icon: goLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const javaCard = [
+    {
+        title: 'Java',
+        icon: javaLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #e89820 0%, #ffa600 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const kotlinCard = [
+    {
+        title: 'Kotlin',
+        icon: kotlinLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #985de0 0%, #985de0 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const cSharpCard = [
+    {
+        title: 'C#',
+        icon: cSharpLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #985de0 0%, #985de0 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const n8nCard = [
+    {
+        title: 'n8n',
+        icon: n8nLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #985de0 0%, #985de0 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const figmaCard = [
+    {
+        title: 'Figma',
+        icon: figmaLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const excelVbaCard = [
+    {
+        title: 'Excel VBA',
+        icon: excelVbaLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const oneCCard = [
+    {
+        title: '1С',
+        icon: oneCLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const blenderCard = [
+    {
+        title: 'Blender',
+        icon: blenderLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #e89820 0%, #ffa600 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const godotCard = [
+    {
+        title: 'Godot',
+        icon: godotLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const unityCard = [
+    {
+        title: 'Unity',
+        icon: unityLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
         iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]

@@ -15,7 +15,7 @@ export default {
     },
     lang: 'ru-RU',
     title: 'MarkusFx (itPit)',
-    description: 'Моя документация на VitePress',
+    description: 'Берлога слегка ленивого кота...',
     head: [
         ['link', { rel: 'icon', href: '/favicon/favicon.ico' }],
         [
@@ -43,6 +43,7 @@ export default {
         logo: 'favicon/android-chrome-192x192.png',
         nav: [
             { text: 'Главная', link: '/' },
+            { text: 'Дорожная карта', link: '/road-map' },
             { text: 'Обновления', link: '/updates/2025/10-october' },
             // {
             //     text: 'Разделы',
