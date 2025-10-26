@@ -13,16 +13,57 @@ import swaggerLogo from '/logos/swagger-logo.svg?raw'
 import socketioLogo from '/logos/socketio-logo.svg?raw'
 import pythonLogo from '/logos/python-logo.svg?raw'
 import catLogo from '/logos/cat-logo.svg?raw'
+import cypressLogo from '/logos/cypress-logo.svg?raw'
+import htmxLogo from '/logos/htmx-logo.svg?raw'
 
-export const courses = [
+// КРАСНЫЙ
+// gradient: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
+
+// ОРАНЖЕВЫЙ
+// gradient: 'linear-gradient(225deg, #e89820 0%, #ffa600 0%)',
+
+// ЖЁЛТЫЙ
+// gradient: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+
+// ЗЕЛЁНЫЙ
+// gradient: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
+
+// СИНИЙ
+// gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+
+// ФИОЛЕТОВЫЙ
+// gradient: 'linear-gradient(225deg, #985de0 0%, #985de0 0%)',
+
+export const upcoming_courses = [
     {
         title: 'Предстоящие курсы',
         icon: catLogo,
         link: '/courses',
         color: 'rgba(255,255,255,0.9)',
-        gradient: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
+        gradient: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
         // iconFilter: 'drop-shadow(0px 0px 10px rgba(215,100,0,1.0)',
-        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const courses = [
+    {
+        title: 'Cypress',
+        icon: cypressLogo,
+        link: '/courses/cypress/page_001',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
+        // iconFilter: 'drop-shadow(0px 0px 10px rgba(100,100,100,1.0)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+    {
+        title: 'HTMX',
+        icon: htmxLogo,
+        link: '/courses/htmx/page_001',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        // iconFilter: 'drop-shadow(0px 0px 10px rgba(100,100,100,1.0)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]
 
@@ -45,7 +86,7 @@ export const notes = [
         // borderGradient: 'linear-gradient(225deg, #c02425 0%, #f09819 0%)',
         gradient: 'linear-gradient(225deg, #e89820 0%, #ffa600 0%)',
         // iconFilter: 'drop-shadow(0px 0px 10px rgba(192,36,37,0.7))',
-        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
     {
         title: 'CSS',
@@ -54,7 +95,7 @@ export const notes = [
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
         // iconFilter: 'drop-shadow(0px 0px 10px rgba(57,98,196,0.7))',
-        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
     // {
     //     title: 'JavaScript',
@@ -72,7 +113,7 @@ export const notes = [
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
         // iconFilter: 'drop-shadow(0px 0px 10px rgba(97,0,3,0.7))',
-        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
     {
         title: 'VitePress',
@@ -81,7 +122,7 @@ export const notes = [
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(225deg, #985de0 0%, #985de0 0%)',
         // iconFilter: 'drop-shadow(0px 0px 10px #47208f)',
-        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
     // {
     //     title: 'Swagger',
@@ -108,7 +149,7 @@ export const notes = [
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
         // iconFilter: 'drop-shadow(0px 0px 10px rgba(94,0,3,0.7))',
-        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]
 
@@ -121,7 +162,7 @@ export const rutube_tiles = [
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(45deg, #C74343, #C74343)',
         // iconFilter: 'drop-shadow(0px 0px 10px rgba(94,0,3,0.7))',
-        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]
 
@@ -135,7 +176,7 @@ export const telegram_tiles = [
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(45deg, #24A1DE, #24A1DE)',
         // iconFilter: 'drop-shadow(0px 0px 10px rgba(57,98,196,0.7))',
-        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
     {
         title: 'Telegram',
@@ -146,7 +187,7 @@ export const telegram_tiles = [
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(45deg, #24A1DE, #24A1DE)',
         // iconFilter: 'drop-shadow(0px 0px 10px rgba(57,98,196,0.7))',
-        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]
 
@@ -160,7 +201,7 @@ export const vk_tiles = [
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(45deg, #0077FF, #0077FF)',
         // iconFilter: 'drop-shadow(0px 0px 10px rgba(57,98,196,0.7))',
-        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]
 
@@ -173,7 +214,7 @@ export const donats_tiles = [
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(45deg, #e07405, #e07405)',
         // iconFilter: 'drop-shadow(0px 0px 10px rgba(192,36,37,0.7))',
-        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
     {
         title: 'Boosty',
@@ -183,6 +224,6 @@ export const donats_tiles = [
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(45deg, #f15f2c, #f15f2c)',
         // iconFilter: 'drop-shadow(0px 0px 10px rgba(192,36,37,0.7))',
-        iconFilter: 'drop-shadow(0px 0px 1px #22222244)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]

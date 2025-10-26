@@ -13,7 +13,7 @@
                 />
                 <div class="progress-text">
                     <div>{{ done }} / {{ total }} ({{ percent }}%)</div>
-                    <div class="label">{{ label }}</div>
+                    <!--                    <div class="label">{{ label }}</div>-->
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@ const props = defineProps({
     total: Number,
     color: {
         type: String,
-        default: 'var(--vp-c-brand-1)',
+        default: 'var(--vp-c-indigo-3)',
     },
 })
 
@@ -63,7 +63,7 @@ const percent = Math.round((props.done / props.total) * 100)
 
 .bar-container {
     position: relative;
-    height: 50px;
+    height: 24px;
     background-color: var(--vp-c-bg-alt);
     border-radius: 6px;
     overflow: hidden;
@@ -71,8 +71,7 @@ const percent = Math.round((props.done / props.total) * 100)
 
 .bar-fill {
     position: relative;
-    height: 50%;
-    top: 50%;
+    height: 100%;
     transition: width 0.4s ease;
     filter: contrast(90%);
 }

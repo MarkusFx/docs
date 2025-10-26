@@ -9,7 +9,7 @@ import CodePreview from './.vitepress/components/CodePreview.vue';
 import GridMenu from './.vitepress/components/GridMenu.vue';
 
 import {
-    courses,
+    upcoming_courses,
     notes,
     rutube_tiles,
     telegram_tiles,

@@ -9,6 +9,8 @@ import swagger from './swagger'
 import html from './html'
 import css from './css'
 import oneC from './1c'
+import cypressCourses from './courses/cypress.js'
+import htmxCourses from './courses/htmx.js'
 
 export default {
     '/updates/': updates,
@@ -22,4 +24,6 @@ export default {
     '/html/': html,
     '/css/': css,
     '/1c/': oneC,
+    '/courses/cypress/': cypressCourses,
+    '/courses/htmx/': htmxCourses,
 }

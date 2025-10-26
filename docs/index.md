@@ -7,29 +7,31 @@ import TileGrid from './.vitepress/components/TileGrid.vue';
 import CourseProgress from './.vitepress/components/CourseProgress.vue';
 import CodePreview from './.vitepress/components/CodePreview.vue';
 import GridMenu from './.vitepress/components/GridMenu.vue';
+import VueFlowGraph from '.vitepress/components/VueFlowGraph.vue';
 
 import {
+    upcoming_courses,
     courses,
     notes,
     rutube_tiles,
     telegram_tiles,
     vk_tiles,
     donats_tiles
-} from './index.js';
+} from './index.js'; 
 </script>
 
 # Главная
 
-## Заметки
-
-<TileGrid :tiles="notes" />
+<VueFlowGraph />
 
 ## Курсы
 
+<TileGrid :tiles="upcoming_courses" />
 <TileGrid :tiles="courses" />
 
-[//]: # '## Предстоящие курсы'
-[//]: # '<CourseProgress />'
+## Заметки
+
+<TileGrid :tiles="notes" />
 
 ## RuTube
 

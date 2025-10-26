@@ -1,9 +1,9 @@
 <template>
-    <!--    <div class="header">-->
-    <!--        <div class="header-item">Перевод</div>-->
-    <!--        <div class="header-item">Озвучка</div>-->
-    <!--        <div class="header-item">Монтаж</div>-->
-    <!--    </div>-->
+    <div class="header">
+        <div class="header-item">Перевод</div>
+        <div class="header-item">Озвучка</div>
+        <div class="header-item">Монтаж</div>
+    </div>
     <div class="progress-list">
         <div v-for="(bar, index) in progressBars" :key="index" class="course">
             <div class="course-title">
@@ -49,13 +49,13 @@ const progressBars = [
             },
             {
                 label: 'Озвучка',
-                done: 27,
+                done: 83,
                 total: 83,
                 color: '#ffa600cc',
             },
             {
                 label: 'Монтаж',
-                done: 16,
+                done: 40,
                 total: 83,
                 color: '#3bccb3cc',
             },
@@ -68,13 +68,13 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 90,
+                done: 11,
                 total: 90,
                 color: '#FA5F51bb',
             },
             {
                 label: 'Озвучка',
-                done: 0,
+                done: 10,
                 total: 90,
                 color: '#ffa600cc',
             },
@@ -93,7 +93,7 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 49,
+                done: 0,
                 total: 49,
                 color: '#FA5F51bb',
             },
@@ -118,13 +118,13 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 164,
+                done: 26,
                 total: 164,
                 color: '#FA5F51bb',
             },
             {
                 label: 'Озвучка',
-                done: 0,
+                done: 13,
                 total: 164,
                 color: '#ffa600cc',
             },
@@ -143,7 +143,7 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 50,
+                done: 0,
                 total: 50,
                 color: '#FA5F51bb',
             },
@@ -168,7 +168,7 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 45,
+                done: 0,
                 total: 45,
                 color: '#FA5F51bb',
             },
@@ -193,7 +193,7 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 113,
+                done: 0,
                 total: 113,
                 color: '#FA5F51bb',
             },
@@ -218,7 +218,7 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 235,
+                done: 0,
                 total: 235,
                 color: '#FA5F51bb',
             },
@@ -232,31 +232,6 @@ const progressBars = [
                 label: 'Монтаж',
                 done: 0,
                 total: 235,
-                color: '#3bccb3cc',
-            },
-        ],
-    },
-    {
-        label: 'Cypress',
-        hours: 6,
-        minutes: 13,
-        steps: [
-            {
-                label: 'Перевод',
-                done: 92,
-                total: 92,
-                color: '#FA5F51bb',
-            },
-            {
-                label: 'Озвучка',
-                done: 0,
-                total: 92,
-                color: '#ffa600cc',
-            },
-            {
-                label: 'Монтаж',
-                done: 0,
-                total: 92,
                 color: '#3bccb3cc',
             },
         ],
@@ -268,7 +243,7 @@ const progressBars = [
         steps: [
             {
                 label: 'Перевод',
-                done: 31,
+                done: 0,
                 total: 61,
                 color: '#FA5F51bb',
             },
@@ -286,32 +261,87 @@ const progressBars = [
             },
         ],
     },
+    {
+        label: 'Go',
+        hours: 15,
+        minutes: 19,
+        steps: [
+            {
+                label: 'Перевод',
+                done: 0,
+                total: 190,
+                color: '#FA5F51bb',
+            },
+            {
+                label: 'Озвучка',
+                done: 0,
+                total: 190,
+                color: '#ffa600cc',
+            },
+            {
+                label: 'Монтаж',
+                done: 0,
+                total: 190,
+                color: '#3bccb3cc',
+            },
+        ],
+    },
+    {
+        label: 'n8n',
+        hours: 19,
+        minutes: 51,
+        steps: [
+            {
+                label: 'Перевод',
+                done: 0,
+                total: 105,
+                color: '#FA5F51bb',
+            },
+            {
+                label: 'Озвучка',
+                done: 0,
+                total: 105,
+                color: '#ffa600cc',
+            },
+            {
+                label: 'Монтаж',
+                done: 0,
+                total: 105,
+                color: '#3bccb3cc',
+            },
+        ],
+    },
 ]
 </script>
 
 <style scoped>
 .header {
     display: flex;
-    gap: 16px;
+    gap: 20px;
+    margin-top: 10px;
 }
 
 .header-item {
     flex: 1;
-    border-radius: 6px;
     height: 30px;
-    background-color: var(--vp-c-bg-alt);
     overflow: hidden;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid var(--vp-c-divider);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .progress-list {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .course {
@@ -346,6 +376,14 @@ const progressBars = [
     .progress-columns {
         gap: 10px;
     }
+
+    .header {
+        gap: 10px;
+    }
+
+    .header-item {
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -354,7 +392,15 @@ const progressBars = [
     }
 
     .progress-columns {
-        gap: 6px;
+        gap: 8px;
+    }
+
+    .header {
+        gap: 8px;
+    }
+
+    .header-item {
+        font-size: 0.8rem;
     }
 }
 
