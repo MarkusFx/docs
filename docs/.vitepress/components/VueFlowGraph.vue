@@ -117,18 +117,18 @@ const CELL_WIDTH = 300
 const CELL_HEIGHT = 160
 
 function pathUpLeftVertical(sX, sY, tX, tY) {
-    return `M${sX + 15},${sY}
-        L${sX + 15},${sY - 80}
-        L${tX - 15},${sY - 80}
-        L${tX - 15},${tY}
+    return `M${sX - 120},${sY}
+        L${sX - 120},${sY - 80}
+        L${tX - 20},${sY - 80}
+        L${tX - 20},${tY}
         L${tX},${tY}`
 }
 
 function pathDownLeftVertical(sX, sY, tX, tY) {
-    return `M${sX + 15},${sY}
-        L${sX + 15},${sY + 80}
-        L${tX - 15},${sY + 80}
-        L${tX - 15},${tY}
+    return `M${sX - 120},${sY}
+        L${sX - 120},${sY + 80}
+        L${tX - 20},${sY + 80}
+        L${tX - 20},${tY}
         L${tX},${tY}`
 }
 
@@ -204,7 +204,7 @@ const TileNode = markRaw((props) => {
                     width: '8px',
                     height: '8px',
                     zIndex: 3,
-                    opacity: 0.9,
+                    opacity: 0,
                 },
                 isConnectable: false,
             }),
