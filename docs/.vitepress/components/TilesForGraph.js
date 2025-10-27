@@ -122,7 +122,8 @@ export const javascriptCard = [
         icon: javascriptLogo,
         // link: '/courses',
         color: 'rgba(255,255,255,0.9)',
-        gradient: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+        // gradient: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+        gradient: 'linear-gradient(225deg, #e89820 0%, #ffa600 0%)',
         iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]
@@ -155,7 +156,8 @@ export const socketioCard = [
         icon: socketioLogo,
         // link: '/courses',
         color: 'rgba(255,255,255,0.9)',
-        gradient: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+        // gradient: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+        gradient: 'linear-gradient(225deg, #e89820 0%, #ffa600 0%)',
         iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]
@@ -199,7 +201,8 @@ export const vitestCard = [
         icon: vitestLogo,
         // link: '/courses',
         color: 'rgba(255,255,255,0.9)',
-        gradient: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+        // gradient: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+        gradient: 'linear-gradient(225deg, #e89820 0%, #ffa600 0%)',
         iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]
@@ -397,7 +400,8 @@ export const linuxCard = [
         icon: linuxLogo,
         // link: '/courses',
         color: 'rgba(255,255,255,0.9)',
-        gradient: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+        // gradient: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+        gradient: 'linear-gradient(225deg, #e89820 0%, #ffa600 0%)',
         iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]

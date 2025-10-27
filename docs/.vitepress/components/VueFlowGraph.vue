@@ -579,7 +579,8 @@ onMounted(async () => {
 .vue-flow__edge-path,
 .custom-edge-up,
 .custom-edge-down {
-    stroke: var(--vp-c-border);
+    //stroke: var(--vp-c-border);
+    stroke: var(--vp-c-text-3);
     stroke-width: 2;
     opacity: 1;
     fill: none;
