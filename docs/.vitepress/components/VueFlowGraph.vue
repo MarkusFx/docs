@@ -6,7 +6,7 @@
                 :nodes="nodes"
                 :edges="edges"
                 :default-viewport="{ zoom: 1 }"
-                :min-zoom="0.2"
+                :min-zoom="0.1"
                 :max-zoom="2"
                 :nodeTypes="nodeTypes"
                 :edgeTypes="edgeTypes"
@@ -23,8 +23,8 @@
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
+                            width="16"
+                            height="16"
                             viewBox="0 0 24 24"
                             fill="none"
                             stroke="currentColor"
@@ -107,6 +107,7 @@ import {
     blenderCard,
     godotCard,
     unityCard,
+    r3fCard,
 } from './TilesForGraph.js'
 
 const vueFlowRef = ref(null)
@@ -280,53 +281,53 @@ const nodes = [
     createTileNode(27, pythonCard, 0, 6),
     createTileNode(28, djangoCard, 1, 6),
     createTileNode(29, flaskCard, 1, 7),
-    createTileNode(31, nginxCard, 1, -6),
-    createTileNode(33, kubernetesCard, 1, -5),
-    createTileNode(35, githubCard, 1, -4),
-    createTileNode(36, githubActionsCard, 2, -4),
-    createTileNode(30, linuxCard, 0, -6, { Left: 'target', Right: 'source' }),
+    createTileNode(30, linuxCard, 0, -7, { Left: 'target', Right: 'source' }),
+    createTileNode(31, nginxCard, 1, -7),
     createTileNode(1, htmlCard, 0, 0, { Left: 'target', Right: 'source' }),
-    createTileNode(32, dockerCard, 0, -5, { Left: 'target', Right: 'source' }),
-    createTileNode(34, gitCard, 0, -4, { Left: 'target', Right: 'source' }),
-    createTileNode(37, sqlCard, -2, 0, { Right: 'target', Left: 'source' }),
-    createTileNode(38, postgresqlCard, -3, 0, {
+    createTileNode(32, dockerCard, 0, -6, { Left: 'target', Right: 'source' }),
+    createTileNode(33, kubernetesCard, 1, -6),
+    createTileNode(34, gitCard, 0, -5, { Left: 'target', Right: 'source' }),
+    createTileNode(35, githubCard, 1, -5),
+    createTileNode(36, githubActionsCard, 2, -5),
+    createTileNode(37, sqlCard, -3, 0, { Right: 'target', Left: 'source' }),
+    createTileNode(38, postgresqlCard, -4, 0, {
         Right: 'target',
         Left: 'source',
     }),
-    createTileNode(39, mongodbCard, -2, 1, {
+    createTileNode(39, mongodbCard, -3, 1, {
         Right: 'target',
         Left: 'source',
     }),
     createTileNode(40, pyQtCard, 1, 8),
-    createTileNode(41, phpCard, -2, -1, {
+    createTileNode(41, phpCard, -3, -1, {
         Right: 'target',
         Left: 'source',
     }),
-    createTileNode(42, laravelCard, -3, -1, {
+    createTileNode(42, laravelCard, -4, -1, {
         Right: 'target',
         Left: 'source',
     }),
-    createTileNode(43, rustCard, -2, -2, {
+    createTileNode(43, rustCard, -3, -2, {
         Right: 'target',
         Left: 'source',
     }),
-    createTileNode(44, goCard, -2, -3, {
+    createTileNode(44, goCard, -3, -3, {
         Right: 'target',
         Left: 'source',
     }),
-    createTileNode(45, javaCard, -2, -4, {
+    createTileNode(45, javaCard, -3, -4, {
         Right: 'target',
         Left: 'source',
     }),
-    createTileNode(46, kotlinCard, -3, -4, {
+    createTileNode(46, kotlinCard, -4, -4, {
         Right: 'target',
         Left: 'source',
     }),
-    createTileNode(47, cSharpCard, -2, -5, {
+    createTileNode(47, cSharpCard, -3, -5, {
         Right: 'target',
         Left: 'source',
     }),
-    createTileNode(48, n8nCard, -2, 2, {
+    createTileNode(48, n8nCard, -2, -7, {
         Right: 'target',
         Left: 'source',
     }),
@@ -354,6 +355,7 @@ const nodes = [
         Right: 'target',
         Left: 'source',
     }),
+    createTileNode(55, r3fCard, 4, -3),
 ]
 
 const edges = [
@@ -565,6 +567,7 @@ const edges = [
         sourceHandle: '0-Left-source',
         targetHandle: '54-Right-target',
     },
+    { id: 'e13-55', source: '13', target: '55', type: 'smoothstep' },
 ]
 
 onMounted(async () => {
@@ -579,9 +582,8 @@ onMounted(async () => {
 .vue-flow__edge-path,
 .custom-edge-up,
 .custom-edge-down {
-    //stroke: var(--vp-c-border);
     stroke: var(--vp-c-text-3);
-    stroke-width: 2;
+    stroke-width: 1;
     opacity: 1;
     fill: none;
     stroke-dasharray: 10;

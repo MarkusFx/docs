@@ -53,6 +53,7 @@ import oneCLogo from '/logos/1c-logo.svg?raw'
 import blenderLogo from '/logos/blender-logo.svg?raw'
 import godotLogo from '/logos/godot-logo.svg?raw'
 import unityLogo from '/logos/unity-logo.svg?raw'
+import r3fLogo from '/logos/r3f-logo.svg?raw'
 
 // КРАСНЫЙ
 // gradient: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -476,9 +477,10 @@ export const catCard = [
     {
         title: 'MarkusFx',
         icon: catLogo,
-        // link: '/courses',
+        link: '/',
         color: 'rgba(255,255,255,0.9)',
-        gradient: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
+        // gradient: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
+        gradient: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
         iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
     },
 ]
@@ -674,6 +676,17 @@ export const unityCard = [
     {
         title: 'Unity',
         icon: unityLogo,
+        // link: '/courses',
+        color: 'rgba(255,255,255,0.9)',
+        gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
+        iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    },
+]
+
+export const r3fCard = [
+    {
+        title: 'React Three Fiber',
+        icon: r3fLogo,
         // link: '/courses',
         color: 'rgba(255,255,255,0.9)',
         gradient: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
