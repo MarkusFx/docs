@@ -1,0 +1,28 @@
+---
+outline: [2, 3]
+---
+
+# Fundamentals of Operating Systems
+
+- ### 01. Введение
+
+    - [001 - Добро пожаловать](https://vkvideo.ru/video-224325822_456246414);
+    - [002 - Для кого этот курс](https://vkvideo.ru/video-224325822_456246415);
+    - [003 - Обзор курса и его структура](https://vkvideo.ru/video-224325822_456246416);
+
+- ### 02. Операционная система
+
+    - [004 - Введение в раздел](https://vkvideo.ru/video-224325822_456246417?t=2s);
+    - [005 - Зачем нам нужна операционная система](https://vkvideo.ru/video-224325822_456246418?t=25m9s);
+    - [006 - Обзор архитектуры системы](https://vkvideo.ru/video-224325822_456246419);
+
+- ### 03. Анатомия процесса
+
+    - [007 - Введение в раздел](https://vk.com/video-224325822_456246420?list=ln-wmHEi16fHxUPQVg6Rn);
+    - [008 - Программа vs процесс](https://vk.com/video-224325822_456246421?list=ln-7xeyZXltViuazA35lL);
+    - [009 - Простое выполнение процесса](https://vk.com/video-224325822_456246422?list=ln-JvbNbbJxERthIB6bml);
+    - [010 - Стек](https://vk.com/video-224325822_456246423?list=ln-jjMRHLDEJg1gxfvTSY);
+    - [011 - Выполнение процесса со стеком](https://vk.com/video-224325822_456246424?list=ln-PdZok4c2FRXaaezbUI);
+    - [012 - Секция данных](https://vk.com/video-224325822_456246425?list=ln-y5EoEFgLH0TFmkHPMu);
+    - [013 - Куча](https://vk.com/video-224325822_456246426?list=ln-SnVUL3fqQ2zkz9e9GG);
+    - [014 - Демонстрация процесса](https://vk.com/video-224325822_456246427?list=ln-xFJi1fZd1tmUaNnG7s);

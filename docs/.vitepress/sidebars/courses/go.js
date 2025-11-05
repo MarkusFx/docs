@@ -1,10 +1,10 @@
 export default [
     {
-        text: 'HTMX',
+        text: 'Go',
         items: [
             {
                 text: 'Maximilian Schwarzmüller',
-                link: '/courses/htmx/maximilian-schwarzmuller',
+                link: '/courses/go/maximilian-schwarzmuller',
             },
         ],
     },

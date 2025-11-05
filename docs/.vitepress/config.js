@@ -44,7 +44,7 @@ export default {
         nav: [
             { text: 'Главная', link: '/' },
             { text: 'Дорожная карта', link: '/road-map' },
-            { text: 'Обновления', link: '/updates/2025/10-october' },
+            { text: 'Обновления', link: '/updates/2025/11-november' },
             // {
             //     text: 'Разделы',
             //     items: [

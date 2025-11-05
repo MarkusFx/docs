@@ -11,6 +11,8 @@ import css from './css'
 import oneC from './1c'
 import cypressCourses from './courses/cypress.js'
 import htmxCourses from './courses/htmx.js'
+import osCourses from './courses/os.js'
+import goCourses from './courses/go.js'
 
 export default {
     '/updates/': updates,
@@ -26,4 +28,6 @@ export default {
     '/1c/': oneC,
     '/courses/cypress/': cypressCourses,
     '/courses/htmx/': htmxCourses,
+    '/courses/os/': osCourses,
+    '/courses/go/': goCourses,
 }

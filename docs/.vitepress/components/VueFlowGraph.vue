@@ -14,7 +14,7 @@
                 :connectable="false"
                 :nodes-connectable="false"
             >
-                <Background />
+                <Background class="flowBG" />
                 <Controls>
                     <button
                         @click="resetViewport"
@@ -108,6 +108,7 @@ import {
     godotCard,
     unityCard,
     r3fCard,
+    osCard,
 } from './TilesForGraph.js'
 
 const vueFlowRef = ref(null)
@@ -327,7 +328,7 @@ const nodes = [
         Right: 'target',
         Left: 'source',
     }),
-    createTileNode(48, n8nCard, -2, -7, {
+    createTileNode(48, n8nCard, -2, -6, {
         Right: 'target',
         Left: 'source',
     }),
@@ -356,6 +357,10 @@ const nodes = [
         Left: 'source',
     }),
     createTileNode(55, r3fCard, 4, -3),
+    createTileNode(56, osCard, -2, -7, {
+        Right: 'target',
+        Left: 'source',
+    }),
 ]
 
 const edges = [
@@ -568,6 +573,14 @@ const edges = [
         targetHandle: '54-Right-target',
     },
     { id: 'e13-55', source: '13', target: '55', type: 'smoothstep' },
+    {
+        id: 'e0-56',
+        source: '0',
+        target: '56',
+        type: 'smoothstep',
+        sourceHandle: '0-Left-source',
+        targetHandle: '56-Right-target',
+    },
 ]
 
 onMounted(async () => {

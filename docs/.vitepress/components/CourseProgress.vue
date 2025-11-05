@@ -137,31 +137,6 @@ const progressBars = [
         ],
     },
     {
-        label: 'OS',
-        hours: 21,
-        minutes: 40,
-        steps: [
-            {
-                label: 'Перевод',
-                done: 0,
-                total: 50,
-                color: '#FA5F51bb',
-            },
-            {
-                label: 'Озвучка',
-                done: 0,
-                total: 50,
-                color: '#ffa600cc',
-            },
-            {
-                label: 'Монтаж',
-                done: 0,
-                total: 50,
-                color: '#3bccb3cc',
-            },
-        ],
-    },
-    {
         label: 'NGINX',
         hours: 7,
         minutes: 27,
@@ -232,31 +207,6 @@ const progressBars = [
                 label: 'Монтаж',
                 done: 0,
                 total: 235,
-                color: '#3bccb3cc',
-            },
-        ],
-    },
-    {
-        label: 'Go',
-        hours: 15,
-        minutes: 19,
-        steps: [
-            {
-                label: 'Перевод',
-                done: 0,
-                total: 190,
-                color: '#FA5F51bb',
-            },
-            {
-                label: 'Озвучка',
-                done: 0,
-                total: 190,
-                color: '#ffa600cc',
-            },
-            {
-                label: 'Монтаж',
-                done: 0,
-                total: 190,
                 color: '#3bccb3cc',
             },
         ],

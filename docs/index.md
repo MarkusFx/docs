@@ -23,7 +23,8 @@ import {
 
 ## Курсы
 
-<TileGrid :tiles="upcoming_courses" />
+[//]: # '<TileGrid :tiles="upcoming_courses" />'
+
 <TileGrid :tiles="courses" />
 
 ## Заметки

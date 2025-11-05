@@ -4,7 +4,7 @@ export default [
         items: [
             {
                 text: 'Maximilian Schwarzmüller',
-                link: '/courses/cypress/page_001',
+                link: '/courses/cypress/maximilian-schwarzmuller',
             },
         ],
     },

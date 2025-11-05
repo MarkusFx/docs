@@ -4,28 +4,26 @@ outline: [2, 3]
 
 # Cypress End-to-End Testing - Getting Started
 
-[//]: # '## VK'
-
 - ### 01. Введение
 
-    - [001 - Добро пожаловать на курс](https://vk.com/video-224325822_456246262?list=ln-ZzEJtwZKnSrIe3BF0D);
-    - [002 - Что такое Cypress](https://vk.com/video-224325822_456246263?list=ln-Wtor7z4SM5ytG31Qrf);
-    - [003 - Установка и использование Cypress](https://vk.com/video-224325822_456246264?list=ln-TrN6C5E6yBmFOfhZmQ);
-    - [004 - Как организованы и хранятся тесты Cypress](https://vk.com/video-224325822_456246265?list=ln-0eGhQ50NoczJJ1CLbZ);
-    - [005 - Настройка нашего первого теста](https://vk.com/video-224325822_456246266?list=ln-ZBePD1zOP2fLtNcv3O);
-    - [006 - Написание более реалистичного теста](https://vk.com/video-224325822_456246267?list=ln-x8ryLpe66AcSgby30c);
-    - [007 - О курсе](https://vk.com/video-224325822_456246268?list=ln-AWoL5Xk6wljhbQz5Xv);
+    - [001 - Добро пожаловать на курс](https://vkvideo.ru/video-224325822_456246262);
+    - [002 - Что такое Cypress](https://vkvideo.ru/video-224325822_456246263);
+    - [003 - Установка и использование Cypress](https://vkvideo.ru/video-224325822_456246264);
+    - [004 - Как организованы и хранятся тесты Cypress](https://vkvideo.ru/video-224325822_456246265);
+    - [005 - Настройка нашего первого теста](https://vkvideo.ru/video-224325822_456246266?t=1s);
+    - [006 - Написание более реалистичного теста](https://vkvideo.ru/video-224325822_456246267);
+    - [007 - О курсе](https://vkvideo.ru/video-224325822_456246268);
 
 - ### 02. Основы
 
-    - [008 - Введение](https://vk.com/video-224325822_456246269?list=ln-kVoAWHogMRYdtZIkEn);
-    - [009 - Настройка проекта](https://vk.com/video-224325822_456246270?list=ln-O14IWMj0TZGoiMVxW4);
-    - [010 - Создание наборов и тестов](https://vk.com/video-224325822_456246271?list=ln-CgCctSAshWGhYv7Pls);
-    - [011 - Переход на страницы в E2E-тестах](https://vk.com/video-224325822_456246272?list=ln-Fam74Au48zNMU8bHQn);
-    - [012 - Пусть IDE помогает вам](https://vk.com/video-224325822_456246273?list=ln-cQZEBRZqmRNwKb0CBd);
-    - [013 - Выбор элементов и оценка результатов тестов](https://vk.com/video-224325822_456246274?list=ln-zCCuZF5FBDuUkOfV7Y);
-    - [014 - Выбор по тексту](https://vk.com/video-224325822_456246275?list=ln-J1DCnkG9AjUylqHGzl);
-    - [015 - Неявные и явные утверждения](https://vk.com/video-224325822_456246276?list=ln-zbJSOi9RjSugKbLARI);
+    - [008 - Введение](https://vkvideo.ru/video-224325822_456246269);
+    - [009 - Настройка проекта](https://vkvideo.ru/video-224325822_456246270?t=1s);
+    - [010 - Создание наборов и тестов](https://vkvideo.ru/video-224325822_456246271);
+    - [011 - Переход на страницы в E2E-тестах](https://vkvideo.ru/video-224325822_456246272);
+    - [012 - Пусть IDE помогает вам](https://vkvideo.ru/video-224325822_456246273);
+    - [013 - Выбор элементов и оценка результатов тестов](https://vkvideo.ru/video-224325822_456246274);
+    - [014 - Выбор по тексту](https://vkvideo.ru/video-224325822_456246275);
+    - [015 - Неявные и явные утверждения](https://vkvideo.ru/video-224325822_456246276);
     - [016 - get() против find()](https://vk.com/video-224325822_456246277?list=ln-GVUrVZEHZfOnGOEVKX);
     - [017 - Зачем нужно симулировать взаимодействие пользователя](https://vk.com/video-224325822_456246278?list=ln-wqzznnShiYqh9jtFwz);
     - [018 - Симуляция взаимодействия пользователя](https://vk.com/video-224325822_456246279?list=ln-ZDAfwZMVHroCvaqNH3);
