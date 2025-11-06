@@ -38,6 +38,21 @@ export default {
             {},
             `<div><img src="https://mc.yandex.ru/watch/102572208" style="position:absolute; left:-9999px;" alt="" /></div>`,
         ],
+        [
+            'script',
+            {
+                async: true,
+                src: 'https://www.googletagmanager.com/gtag/js?id=G-5EP1K84ZGJ',
+            },
+        ],
+        [
+            'script',
+            {},
+            `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5EP1K84ZGJ');`,
+        ],
     ],
     themeConfig: {
         logo: 'favicon/android-chrome-192x192.png',

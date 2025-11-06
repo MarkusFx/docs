@@ -1,11 +1,19 @@
 <template>
     <ClientOnly>
-        <div ref="container" style="width: 100%; height: calc(100vh - 150px)">
+        <div
+            ref="container"
+            :style="{
+                width: '100%',
+                height: 'calc(100vh - 150px)',
+                opacity: isReady ? 1 : 0,
+                transition: 'opacity 0.2s ease',
+            }"
+        >
             <VueFlow
                 ref="vueFlowRef"
                 :nodes="nodes"
                 :edges="edges"
-                :default-viewport="{ zoom: 1 }"
+                :default-viewport="{ zoom: 0.5 }"
                 :min-zoom="0.1"
                 :max-zoom="2"
                 :nodeTypes="nodeTypes"
@@ -13,6 +21,7 @@
                 :nodesDraggable="false"
                 :connectable="false"
                 :nodes-connectable="false"
+                @init="onInit"
             >
                 <Background class="flowBG" />
                 <Controls>
@@ -171,6 +180,7 @@ function resetViewport() {
         })
     }
 }
+
 const BlockNode = markRaw((props) =>
     h('div', { class: 'block-node' }, [
         h(Handle, {
@@ -218,7 +228,11 @@ const TileNode = markRaw((props) => {
     ])
 })
 
-const nodeTypes = markRaw({ blockNode: BlockNode, tileNode: TileNode })
+const nodeTypes = markRaw({
+    blockNode: BlockNode,
+    tileNode: TileNode,
+})
+
 const edgeTypes = markRaw({
     smoothstep: StepEdge,
     customUp: CustomEdgeUp,
@@ -583,12 +597,17 @@ const edges = [
     },
 ]
 
-onMounted(async () => {
-    await nextTick()
-    setTimeout(() => {
-        vueFlowRef.value?.fitView({ padding: 0.05, includeHiddenNodes: true })
-    }, 50)
-})
+// Первичная отрисовка - центрирование
+const isReady = ref(false)
+
+function onInit(instance) {
+    instance.fitView({
+        padding: 0.05,
+        includeHiddenNodes: true,
+        duration: 0,
+    })
+    isReady.value = true
+}
 </script>
 
 <style>
