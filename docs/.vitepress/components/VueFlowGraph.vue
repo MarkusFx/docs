@@ -611,6 +611,14 @@ function onInit(instance) {
 </script>
 
 <style>
+.vue-flow__edge,
+.vue-flow__edge-path,
+.custom-edge-up,
+.custom-edge-down {
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
 .vue-flow__edge-path,
 .custom-edge-up,
 .custom-edge-down {
