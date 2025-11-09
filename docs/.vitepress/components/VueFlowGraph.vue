@@ -22,7 +22,22 @@
                 :connectable="false"
                 :nodes-connectable="false"
                 @init="onInit"
+                @viewport-change="onViewportChange"
             >
+                <!-- Паук на фоне -->
+                <!--                <SpiderEgor-->
+                <!--                    ref="spider"-->
+                <!--                    :style="{-->
+                <!--                        position: 'absolute',-->
+                <!--                        top: 0,-->
+                <!--                        left: 0,-->
+                <!--                        width: '100%',-->
+                <!--                        height: '100%',-->
+                <!--                        transform: `translate(${x}px, ${y}px) scale(${zoom})`,-->
+                <!--                        transformOrigin: '0 0',-->
+                <!--                        zIndex: 0,-->
+                <!--                    }"-->
+                <!--                />-->
                 <Background class="flowBG" />
                 <Controls>
                     <button
@@ -119,9 +134,20 @@ import {
     r3fCard,
     osCard,
 } from './TilesForGraph.js'
+import SpiderEgor from './SpiderEgor.vue'
 
 const vueFlowRef = ref(null)
 const container = ref(null)
+
+const zoom = ref(1)
+const x = ref(0)
+const y = ref(0)
+
+function onViewportChange(viewport) {
+    zoom.value = viewport.zoom
+    x.value = viewport.x
+    y.value = viewport.y
+}
 
 // Размер ячейки (положение нод)
 const CELL_WIDTH = 300

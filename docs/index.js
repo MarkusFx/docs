@@ -17,12 +17,12 @@ import cypressLogo from '/logos/cypress-logo.svg?raw'
 import htmxLogo from '/logos/htmx-logo.svg?raw'
 import osLogo from '/logos/os-logo.svg?raw'
 import goLogo from '/logos/go-logo.svg?raw'
+import linuxLogo from '/logos/linux-logo.svg?raw'
 
 export const gradients = {
     RED: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
-    // ORANGE: 'linear-gradient(225deg, #e89820 0%, #ffa600 0%)',
     ORANGE: 'linear-gradient(45deg, #e07405, #e07405)',
-    YELLOW: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+    YELLOW: 'linear-gradient(225deg, #F9B44E 0%, #ffa600 0%)',
     GREEN: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
     BLUE: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
     PURPLE: 'linear-gradient(225deg, #985de0 0%, #985de0 0%)',
@@ -78,6 +78,22 @@ export const courses = [
         link: '/courses/go/maximilian-schwarzmuller',
         color: commonColor,
         gradient: gradients.BLUE,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'Linux',
+        icon: linuxLogo,
+        link: '/courses/linux/colt-steele',
+        color: commonColor,
+        gradient: gradients.YELLOW,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'Socket.IO',
+        icon: socketioLogo,
+        link: '/courses/socketio/robert-bunch',
+        color: commonColor,
+        gradient: gradients.YELLOW,
         iconFilter: commonIconFilter,
     },
 ]
@@ -176,7 +192,7 @@ export const vk_tiles = [
 export const donats_tiles = [
     {
         title: 'Donation Alerts',
-        description: 'Только во время стрима',
+        description: 'Только на стриме',
         icon: daLogo,
         link: 'https://www.donationalerts.com/r/markusfx',
         target: '_blank',

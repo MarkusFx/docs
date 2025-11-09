@@ -54,7 +54,7 @@ defineProps(['tiles'])
     border-radius: 12px;
     display: grid;
     place-items: center;
-    border: 0px solid var(--vp-c-bg-soft);
+    border: 0 solid var(--vp-c-bg-soft);
 }
 
 .inner-card-left {
@@ -78,7 +78,7 @@ defineProps(['tiles'])
     position: relative;
     display: flex;
     background-color: var(--vp-c-bg-soft);
-    border: 0px solid var(--vp-c-border);
+    border: 0 solid var(--vp-c-border);
     border-radius: 12px;
     box-shadow: var(--vp-shadow-1);
     transition:

@@ -13,6 +13,8 @@ import cypressCourses from './courses/cypress.js'
 import htmxCourses from './courses/htmx.js'
 import osCourses from './courses/os.js'
 import goCourses from './courses/go.js'
+import linuxCourses from './courses/linux.js'
+import socketIo from './courses/socketio.js'
 
 export default {
     '/updates/': updates,
@@ -30,4 +32,6 @@ export default {
     '/courses/htmx/': htmxCourses,
     '/courses/os/': osCourses,
     '/courses/go/': goCourses,
+    '/courses/linux/': linuxCourses,
+    '/courses/socketio/': socketIo,
 }

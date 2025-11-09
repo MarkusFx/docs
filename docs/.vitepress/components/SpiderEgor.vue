@@ -170,22 +170,38 @@ const spiderPhrases = [
     'Кота не видели?...',
     'Прувет...',
     'Я Павук Грёгорий!...',
-    'Меня программировали неучи...',
-    'Я жертва процедурной анимации...',
+    'Жертва процедурной анимации...',
     'Мои ноги живут своей жизнью...',
-    'Каждый тик цикла — боль...',
-    'У меня восемь ног и ни одной стабильной походки...',
-    'Я вижу твой курсор... и он близко...',
-    'Я слышу, как FPS падает...',
-    'Мой фреймрейт падает, как самооценка...',
-    'Кто-то сказал "рефакторинг"? — *шипит*',
-    'Я паук, а не фича!',
-    'Мой алгоритм писал демон...',
-    'Ты вообще пробовал ходить на восемь ног?!',
-    'Где мои ноги, Карл?!',
+    'Я вижу твой курсор...',
+    'Кто-то сказал "рефакторинг"? — *шипит*...',
+    'Я паук, а не фича!...',
+    'Где мои ноги, Карл?!...',
     'Поставь мне GSAP, я хочу жить красиво...',
-    'Я паук, а не NPC!',
+    'Я паук, а не NPC!...',
+    'Я знаю, что вы сделали прошлым летом...',
+    'Кек...',
+    '>.<...',
+    '^-^...',
+    '( 0_0)...',
+    '(0_0 )...',
+    '(0_0)...',
+    '(-_0)...',
+    '(0_-)...',
+    '(-_-)...',
+    '(-.-)...',
+    'Пвук...',
+    'Крутануть сальтуху?...',
 ]
+
+// Новые состояния
+const mouse = reactive({ x: 0, y: 0 })
+
+if (typeof window !== 'undefined') {
+    window.addEventListener('mousemove', (e) => {
+        mouse.x = e.clientX
+        mouse.y = e.clientY
+    })
+}
 
 // Вычисляем угол направления движения
 const movementAngle = computed(() => {
@@ -253,91 +269,48 @@ const startSpeaking = () => {
 const moveSpider = () => {
     if (typeof window === 'undefined') return
 
-    const maxX = window.innerWidth
-    const maxY = window.innerHeight
+    const targetOffset = 100 // расстояние от курсора в пикселях
+    const sideAngle = Math.PI / 6 // угол "в сторону" от курсора (30°)
 
-    // Плавное изменение скорости
-    smoothVelocity.x += (velocity.x - smoothVelocity.x) * 0.1
-    smoothVelocity.y += (velocity.y - smoothVelocity.y) * 0.1
+    // Направление от паука к курсору
+    const dx = mouse.x - position.x
+    const dy = mouse.y - position.y
+    const distance = Math.hypot(dx, dy)
 
-    // Обновляем позицию с плавной скоростью
-    position.x += smoothVelocity.x * props.speed
-    position.y += smoothVelocity.y * props.speed
+    // Цель — точка сбоку от курсора
+    const targetAngle = Math.atan2(dy, dx) + sideAngle
+    const targetX = mouse.x - Math.cos(targetAngle) * targetOffset
+    const targetY = mouse.y - Math.sin(targetAngle) * targetOffset
 
-    // Обновляем цикл походки на основе скорости
-    const speed = Math.hypot(smoothVelocity.x, smoothVelocity.y)
-    gaitCycle.value += speed * 0.2
+    // Движение к цели с плавностью
+    const followSpeed = 0.002 * props.speed
+    position.x += (targetX - position.x) * followSpeed
+    position.y += (targetY - position.y) * followSpeed
 
-    // Добавляем точку в след
+    // Обновляем направление (куда "смотрит" паук)
+    velocity.x = targetX - position.x
+    velocity.y = targetY - position.y
+
+    // Обновляем походку
+    const speed = Math.hypot(velocity.x, velocity.y)
+    gaitCycle.value += speed * 0.02
+
+    // След паутины
     const lastPoint = webTrail.value[webTrail.value.length - 1]
     if (
         !lastPoint ||
         Math.hypot(position.x - lastPoint.x, position.y - lastPoint.y) > 15
     ) {
         webTrail.value.push({ x: position.x, y: position.y })
-
-        if (webTrail.value.length > props.trailLength) {
-            webTrail.value.shift()
-        }
+        if (webTrail.value.length > props.trailLength) webTrail.value.shift()
     }
 
-    // Более плавное изменение направления
-    const time = Date.now() * 0.0001
-    velocity.x +=
-        (Math.sin(time * 0.3) * 0.02 + Math.cos(time * 0.2) * 0.01) * 0.5
-    velocity.y +=
-        (Math.cos(time * 0.4) * 0.02 + Math.sin(time * 0.25) * 0.01) * 0.5
+    // Иногда болтает
+    if (!isSpeaking.value && Math.random() < 0.002) startSpeaking()
 
-    // Ограничиваем скорость
-    const maxSpeed = 0.15
-    const currentSpeed = Math.hypot(velocity.x, velocity.y)
-    if (currentSpeed > maxSpeed) {
-        velocity.x = (velocity.x / currentSpeed) * maxSpeed
-        velocity.y = (velocity.y / currentSpeed) * maxSpeed
-    }
-
-    // Минимальная скорость
-    const minSpeed = 0.4
-    if (currentSpeed < minSpeed) {
-        velocity.x = (velocity.x / currentSpeed) * minSpeed
-        velocity.y = (velocity.y / currentSpeed) * minSpeed
-    }
-
-    // Мягкий отскок от границ
-    const margin = 80
-    if (position.x <= margin) {
-        velocity.x = Math.abs(velocity.x) * 0.8
-        position.x = margin
-
-        // Чаще говорить при столкновениях
-        if (Math.random() < 0.6) startSpeaking()
-    } else if (position.x >= maxX - margin) {
-        velocity.x = -Math.abs(velocity.x) * 0.8
-        position.x = maxX - margin
-        if (Math.random() < 0.6) startSpeaking()
-    }
-
-    if (position.y <= margin) {
-        velocity.y = Math.abs(velocity.y) * 0.8
-        position.y = margin
-        if (Math.random() < 0.6) startSpeaking()
-    } else if (position.y >= maxY - margin) {
-        velocity.y = -Math.abs(velocity.y) * 0.8
-        position.y = maxY - margin
-        if (Math.random() < 0.6) startSpeaking()
-    }
-
-    // Случайная речь (5% шанс каждый кадр когда не говорит)
-    if (!isSpeaking.value && Math.random() < 0.005) {
-        startSpeaking()
-    }
-
-    // Обновляем ноги
-    updateSpiderLegs(time)
+    updateSpiderLegs(Date.now() * 0.0001)
 }
 
-// Более "живое" движение ног — процедурное, с опорой и фазами
-// Более органичная походка с асимметрией и фазовым сдвигом
 const legPhaseOffsets = Array.from({ length: 8 }, () => Math.random()) // индивидуальный оффсет фаз
 
 const updateSpiderLegs = (time) => {

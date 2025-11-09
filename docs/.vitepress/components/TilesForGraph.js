@@ -772,7 +772,7 @@ const Colors = {
 const Gradients = {
     red: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
     orange: 'linear-gradient(225deg, #e89820 0%, #ffa600 0%)',
-    yellow: 'linear-gradient(225deg, #f56217 0%, #ffd200 0%)',
+    yellow: 'linear-gradient(225deg, #f56217 0%, #ffa600 0%)',
     green: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
     blue: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
     purple: 'linear-gradient(225deg, #985de0 0%, #985de0 0%)',
@@ -812,6 +812,17 @@ export const osCard = [
 export const goCard = [
     makeCard('Go', goLogo, 'blue', '/courses/go/maximilian-schwarzmuller'),
 ]
+export const linuxCard = [
+    makeCard('Linux', linuxLogo, 'yellow', '/courses/linux/colt-steele'),
+]
+export const socketioCard = [
+    makeCard(
+        'Socket.IO',
+        socketioLogo,
+        'yellow',
+        '/courses/socketio/robert-bunch',
+    ),
+]
 
 // export const gsapCard = [makeCard('GSAP', gsapLogo, 'green')]
 // export const cssCard = [makeCard('CSS', cssLogo, 'blue')]
@@ -819,7 +830,6 @@ export const goCard = [
 // export const javascriptCard = [makeCard('JavaScript', javascriptLogo, 'orange')]
 // export const typescriptCard = [makeCard('TypeScript', typescriptLogo, 'blue')]
 // export const reactCard = [makeCard('React', reactLogo, 'blue')]
-// export const socketioCard = [makeCard('Socket.IO', socketioLogo, 'orange')]
 // export const nextjsCard = [makeCard('Next.js', nextjsLogo, 'blue')]
 // export const reactNativeCard = [
 //     makeCard('React Native', reactnativeLogo, 'blue'),
@@ -842,7 +852,6 @@ export const goCard = [
 // export const pythonCard = [makeCard('Python', pythonLogo, 'blue')]
 // export const djangoCard = [makeCard('Django', djangoLogo, 'green')]
 // export const flaskCard = [makeCard('Flask', flaskLogo, 'blue')]
-// export const linuxCard = [makeCard('Linux', linuxLogo, 'orange')]
 // export const nginxCard = [makeCard('NGINX', nginxLogo, 'green')]
 // export const dockerCard = [makeCard('Docker', dockerLogo, 'blue')]
 // export const kubernetesCard = [makeCard('Kubernetes', kubernetesLogo, 'blue')]
@@ -876,7 +885,6 @@ export const htmlCard = [makeCard('HTML', htmlLogo, 'silver')]
 export const javascriptCard = [makeCard('JavaScript', javascriptLogo, 'silver')]
 export const typescriptCard = [makeCard('TypeScript', typescriptLogo, 'silver')]
 export const reactCard = [makeCard('React', reactLogo, 'silver')]
-export const socketioCard = [makeCard('Socket.IO', socketioLogo, 'silver')]
 export const nextjsCard = [makeCard('Next.js', nextjsLogo, 'silver')]
 export const reactNativeCard = [
     makeCard('React Native', reactnativeLogo, 'silver'),
@@ -899,7 +907,6 @@ export const mediaSoupCard = [makeCard('MediaSoup', mediaSoupLogo, 'silver')]
 export const pythonCard = [makeCard('Python', pythonLogo, 'silver')]
 export const djangoCard = [makeCard('Django', djangoLogo, 'silver')]
 export const flaskCard = [makeCard('Flask', flaskLogo, 'silver')]
-export const linuxCard = [makeCard('Linux', linuxLogo, 'silver')]
 export const nginxCard = [makeCard('NGINX', nginxLogo, 'silver')]
 export const dockerCard = [makeCard('Docker', dockerLogo, 'silver')]
 export const kubernetesCard = [makeCard('Kubernetes', kubernetesLogo, 'silver')]
