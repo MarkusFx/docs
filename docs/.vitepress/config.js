@@ -45,6 +45,7 @@ export default {
             { text: 'Главная', link: '/' },
             { text: 'Дорожная карта', link: '/road-map' },
             { text: 'Обновления', link: '/updates/2025/11-november' },
+            { text: 'FAQ', link: '/faq' },
             // {
             //     text: 'Разделы',
             //     items: [
