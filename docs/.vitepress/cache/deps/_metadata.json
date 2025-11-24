@@ -1,80 +1,68 @@
 {
-  "hash": "e61df292",
+  "hash": "a7e64e35",
   "configHash": "8076f007",
-  "lockfileHash": "b05e5635",
-  "browserHash": "97dfd901",
+  "lockfileHash": "29ffa1ab",
+  "browserHash": "d0a6d4a6",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "021016eb",
+      "fileHash": "a2883583",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "b6e20b3d",
+      "fileHash": "23145f69",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "95e0eee6",
+      "fileHash": "03ea242e",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "d0715c3d",
+      "fileHash": "68c5651f",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "6446d16e",
+      "fileHash": "19274378",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "dc402ae6",
+      "fileHash": "15736167",
       "needsInterop": false
     },
     "medium-zoom": {
       "src": "../../../../node_modules/medium-zoom/dist/medium-zoom.esm.js",
       "file": "medium-zoom.js",
-      "fileHash": "9a1cf57d",
+      "fileHash": "2bc42909",
       "needsInterop": false
     },
     "@vue-flow/core": {
       "src": "../../../../node_modules/@vue-flow/core/dist/vue-flow-core.mjs",
       "file": "@vue-flow_core.js",
-      "fileHash": "55d46e86",
-      "needsInterop": false
-    },
-    "@vue-flow/minimap": {
-      "src": "../../../../node_modules/@vue-flow/minimap/dist/vue-flow-minimap.mjs",
-      "file": "@vue-flow_minimap.js",
-      "fileHash": "c5007c00",
+      "fileHash": "1616cdaf",
       "needsInterop": false
     },
     "@vue-flow/controls": {
       "src": "../../../../node_modules/@vue-flow/controls/dist/vue-flow-controls.mjs",
       "file": "@vue-flow_controls.js",
-      "fileHash": "138891d8",
+      "fileHash": "7d6cbcff",
       "needsInterop": false
     },
     "@vue-flow/background": {
       "src": "../../../../node_modules/@vue-flow/background/dist/vue-flow-background.mjs",
       "file": "@vue-flow_background.js",
-      "fileHash": "c015247d",
+      "fileHash": "38afb13e",
       "needsInterop": false
-    },
-    "dagre": {
-      "src": "../../../../node_modules/dagre/index.js",
-      "file": "dagre.js",
-      "fileHash": "05e520f3",
-      "needsInterop": true
     }
   },
   "chunks": {
@@ -86,9 +74,6 @@
     },
     "chunk-FA4MWVOB": {
       "file": "chunk-FA4MWVOB.js"
-    },
-    "chunk-VUNV25KB": {
-      "file": "chunk-VUNV25KB.js"
     }
   }
 }

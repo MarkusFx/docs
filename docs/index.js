@@ -17,7 +17,13 @@ import cypressLogo from '/logos/cypress-logo.svg?raw'
 import htmxLogo from '/logos/htmx-logo.svg?raw'
 import osLogo from '/logos/os-logo.svg?raw'
 import goLogo from '/logos/go-logo.svg?raw'
-import linuxLogo from '/logos/linux-logo.svg?raw'
+import linuxLogo from '/logos/linux-logo-002.svg?raw'
+import webrtcLogo from '/logos/webrtc-logo.svg?raw'
+import cSharpLogo from '/logos/cSharp-logo.svg?raw'
+import threejsLogo from '/logos/threejs-logo.svg?raw'
+import rustLogo from '/logos/rust-logo.svg?raw'
+import gsapLogo from '/logos/gsap-logo-001.svg?raw'
+import expressLogo from '/logos/express-logo.svg?raw'
 
 export const gradients = {
     RED: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -94,6 +100,54 @@ export const courses = [
         link: '/courses/socketio/robert-bunch',
         color: commonColor,
         gradient: gradients.YELLOW,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'WebRTC',
+        icon: webrtcLogo,
+        link: '/courses/webrtc/marek-gryszkiewicz',
+        color: commonColor,
+        gradient: gradients.GREEN,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'C#',
+        icon: cSharpLogo,
+        link: '/courses/c-sharp/denis-panjuta',
+        color: commonColor,
+        gradient: gradients.PURPLE,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'Three.js',
+        icon: threejsLogo,
+        link: '/courses/three-js/bruno-simong',
+        color: commonColor,
+        gradient: gradients.BLUE,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'Rust',
+        icon: rustLogo,
+        link: '/courses/rust/stephen-grider',
+        color: commonColor,
+        gradient: gradients.ORANGE,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'GSAP',
+        icon: gsapLogo,
+        link: '/courses/gsap/carl-creative-coding-club',
+        color: commonColor,
+        gradient: gradients.GREEN,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'Express',
+        icon: expressLogo,
+        link: '/courses/express/jonas-schmedtmann',
+        color: commonColor,
+        gradient: gradients.GREEN,
         iconFilter: commonIconFilter,
     },
 ]

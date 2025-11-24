@@ -1,5 +1,3 @@
-import "./chunk-VUNV25KB.js";
-
 // node_modules/minisearch/dist/es/index.js
 var ENTRIES = "ENTRIES";
 var KEYS = "KEYS";

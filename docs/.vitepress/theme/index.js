@@ -14,7 +14,6 @@ export default {
     NotFound: NotFound,
     enhanceApp({ app, router }) {
         app.component('CodePreview', CodePreview)
-
         if (typeof window !== 'undefined') {
             const applyZoom = () => {
                 if (zoom) zoom.detach()

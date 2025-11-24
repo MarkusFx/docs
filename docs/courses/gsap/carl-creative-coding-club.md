@@ -1,0 +1,60 @@
+---
+outline: [2, 3]
+---
+
+# GSAP3 - Beyond the Basics
+
+- [001 - Введение](https://vkvideo.ru/video-224325822_456247940);
+- [002 - От Illustrator к анимации](https://vkvideo.ru/video-224325822_456247941);
+- [003 - Геттеры-сеттеры методов](https://vkvideo.ru/video-224325822_456247942);
+- [004 - Умная кнопка Play-Pause-Restart](https://vkvideo.ru/video-224325822_456247943);
+- [005 - Прокрутка анимации с помощью HTML-слайдера](https://vkvideo.ru/video-224325822_456247944);
+- [006 - Метод progress() анимации](https://vkvideo.ru/video-224325822_456247945);
+- [007 - Нужно починить кнопки](https://vkvideo.ru/video-224325822_456247946);
+- [008 - Колбэки](https://vkvideo.ru/video-224325822_456247947);
+- [009 - Создание визуализатора таймлайна с getChildren()](https://vkvideo.ru/video-224325822_456247948);
+- [010 - Метод killTweensOf()](https://vk.com/video-224325822_456247969?list=ln-RqkYW26bSRnAozQ9YA);
+- [011 - gsap.utils.wrap()](https://vk.com/video-224325822_456247970?list=ln-9vCoMKhPfMc9LxzY0Y);
+- [012 - gsap.registerEffect()](https://vk.com/video-224325822_456247971?list=ln-yJCXioeRGCG3ypiBQy);
+- [013 - CSSPlugin - Использование clearProps для удаления inline-стилей](https://vk.com/video-224325822_456247972?list=ln-R4KzTzdE1Ahxx8EzOw);
+- [014 - 3D-трансформации](https://vk.com/video-224325822_456247973?list=ln-WiqmAKZFnvHm8GxwZV);
+- [015 - Свойство immediateRender в GSAP](https://vk.com/video-224325822_456247974?list=ln-MZcWzxMmmEHGI6KS8B);
+- [016 - GSAP Utils - mapRange()](https://vk.com/video-224325822_456247975?list=ln-OyORfmduQf5Qb2SbOF);
+- [017 - GSAP Utils - mapRange() с расстоянием мыши от центра](https://vk.com/video-224325822_456247976?list=ln-gCrCr9hpHTmfK4uHJV);
+- [018 - GSAP Utils - Цепочка утилит с pipe()](https://vk.com/video-224325822_456247977?list=ln-DkQjBZHKOPHl66TSZ7);
+- [019 - GSAP Utils - Скроллер мышью с mapRange()](https://vk.com/video-224325822_456247978?list=ln-cPVZ2SmREiZ9HlRCtZ);
+- [020 - Анимация значений на основе функций](https://vk.com/video-224325822_456247979?list=ln-20C0HJWDCyDYJpEgN9);
+- [021 - Распределение времени старта на основе ease-функций](https://vk.com/video-224325822_456247980?list=ln-jLOK7nx5avWQet9zu9);
+- [022 - Использование функции weightedRandom()](https://vk.com/video-224325822_456247981?list=ln-pkCqxNfcBBDPp1dZkT);
+- [023 - Использование функции distribute()](https://vk.com/video-224325822_456247982?list=ln-7W3s1Stwg5EsRrN5az);
+- [024 - Эффект резинового текста (Rubberbander)](https://vk.com/video-224325822_456247983?list=ln-oal6ZEzXRWcTtBfE2j);
+- [025 - Каскадные stagger-эффекты](https://vk.com/video-224325822_456247984?list=ln-Adtpqs0y2fDA4dMxEj);
+- [026 - 3D-вращение текста](https://vk.com/video-224325822_456247985?list=ln-bfAQgfNuuA4OL6sNqZ);
+- [027 - Repeat в Tween vs Stagger-объекте](https://vk.com/video-224325822_456247986?list=ln-HbT0nPaLFOCIazEzzI);
+- [028 - Использование колбэков в stagger-анимациях](https://vk.com/video-224325822_456247987?list=ln-NEeJyOdAg2DirLwH90);
+- [029 - Каскадные stagger-эффекты без промежутков](https://vk.com/video-224325822_456247988?list=ln-2P06TYHBBYKAqmWFOq);
+- [030 - Линейная навигация с addPause()](https://vkvideo.ru/video-224325822_456247989?list=ln-GobLGv1KepBP8cC3bz);
+- [031 - Нелинейная навигация с использованием меток](https://vkvideo.ru/video-224325822_456247990?list=ln-I1bq4o52aSMlEmZ7CD);
+- [032 - Добавление паузы в таймлайн на заданное время](https://vkvideo.ru/video-224325822_456247991?list=ln-9uGa3JoH4SVgJugz7s);
+- [033 - Вложенные таймлайны](https://vkvideo.ru/video-224325822_456247992?list=ln-Isdzj8aCfceiCmE64O);
+- [034 - Функции, возвращающие таймлайны](https://vkvideo.ru/video-224325822_456247993?list=ln-QV08xUPmDxTvaKr42G);
+- [035 - tweenTo() и tweenFromTo()](https://vkvideo.ru/video-224325822_456247994?list=ln-tz5p1MUqVwm4Xlz4HA);
+- [036 - Настройка файла](https://vkvideo.ru/video-224325822_456247995?list=ln-nuRInaRUn6BKj2FWE0);
+- [037 - Анимация панели](https://vkvideo.ru/video-224325822_456247996?list=ln-iMa3iDPbx1x3U9c0zi);
+- [038 - Создание функции для анимации трёх панелей](https://vkvideo.ru/video-224325822_456247997?list=ln-iOmYcnXTmtImedIwCz);
+- [039 - Изменение кривой с помощью AttrPlugin](https://vkvideo.ru/video-224325822_456247998?list=ln-GVjTzINtzVL44APavL);
+- [040 - Генератор эффектов заголовков - Часть 1](https://vkvideo.ru/video-224325822_456247999?list=ln-CC4XToTFFycjOAOMKE);
+- [041 - Генератор эффектов заголовков - Часть 2](https://vkvideo.ru/video-224325822_456248000?list=ln-tza73WO914Gyva1wBq);
+- [042 - Генератор эффектов заголовков - Часть 3 - Завершение](https://vkvideo.ru/video-224325822_456248001?list=ln-zRFXEZttcXKrbACS6u);
+- [043 - Обзор SlowMo](https://vkvideo.ru/video-224325822_456248002?list=ln-iqUSBzXHEY0YohFSla);
+- [044 - Эффект Прямо в лицо](https://vkvideo.ru/video-224325822_456248003?list=ln-92ni4X22Z5y2vkRKQe);
+- [045 - Эффект вращающегося текста](https://vkvideo.ru/video-224325822_456248004?list=ln-cgD6KCUcUtBzyetpTi);
+- [046 - Обзор RoughEase](https://vkvideo.ru/video-224325822_456248005?list=ln-5zSfCBC0xtP9yGZW1S);
+- [047 - Жуткое мерцание](https://vkvideo.ru/video-224325822_456248006?list=ln-J4fjfXELTdkzcIvZuS);
+- [048 - Дрожь](https://vkvideo.ru/video-224325822_456248007?list=ln-Wqqv9b7fyVia0qTDL0);
+- [049 - Настройка elastic-эффекта](https://vkvideo.ru/video-224325822_456248008?list=ln-urYGLaoZs5GiW1lvSI);
+- [050 - Steps-эффект для анимации спрайтов](https://vkvideo.ru/video-224325822_456248009?list=ln-HXFcmIHrhlYoo7V95k);
+- [051 - Быстрый старт с CustomEase](https://vkvideo.ru/video-224325822_456248010?list=ln-x9tFr0JZlMHivArPRB);
+- [052 - Рефакторинг нескольких таймлайнов в один твин](https://vkvideo.ru/video-224325822_456248011?list=ln-Rnna2WcbsdAbVgFeoJ);
+- [053 - Вариации каскадных анимаций](https://vkvideo.ru/video-224325822_456248012?list=ln-S7egYBqPl2tu6CBQNX);
+- [054 - Эффект текста - Выпуклое сияние](https://vkvideo.ru/video-224325822_456248013?list=ln-QrAF2wrn7EGkUWc4jW);

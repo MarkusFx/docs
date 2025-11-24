@@ -9,12 +9,18 @@ import swagger from './swagger'
 import html from './html'
 import css from './css'
 import oneC from './1c'
+import webrtc from './webrtc.js'
 import cypressCourses from './courses/cypress.js'
 import htmxCourses from './courses/htmx.js'
 import osCourses from './courses/os.js'
 import goCourses from './courses/go.js'
 import linuxCourses from './courses/linux.js'
 import socketIo from './courses/socketio.js'
+import cSharp from './courses/c-sharp.js'
+import threeJs from './courses/three-js.js'
+import rustCourses from './courses/rust.js'
+import gsapCourses from './courses/gsap.js'
+import expressCourses from './courses/express.js'
 
 export default {
     '/updates/': updates,
@@ -34,4 +40,10 @@ export default {
     '/courses/go/': goCourses,
     '/courses/linux/': linuxCourses,
     '/courses/socketio/': socketIo,
+    '/courses/webrtc/': webrtc,
+    '/courses/c-sharp/': cSharp,
+    '/courses/three-js/': threeJs,
+    '/courses/rust/': rustCourses,
+    '/courses/gsap/': gsapCourses,
+    '/courses/express/': expressCourses,
 }
