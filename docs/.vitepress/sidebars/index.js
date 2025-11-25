@@ -9,7 +9,7 @@ import swagger from './swagger'
 import html from './html'
 import css from './css'
 import oneC from './1c'
-import webrtc from './webrtc.js'
+import webrtcCourses from './courses/webrtc.js'
 import cypressCourses from './courses/cypress.js'
 import htmxCourses from './courses/htmx.js'
 import osCourses from './courses/os.js'
@@ -40,7 +40,7 @@ export default {
     '/courses/go/': goCourses,
     '/courses/linux/': linuxCourses,
     '/courses/socketio/': socketIo,
-    '/courses/webrtc/': webrtc,
+    '/courses/webrtc/': webrtcCourses,
     '/courses/c-sharp/': cSharp,
     '/courses/three-js/': threeJs,
     '/courses/rust/': rustCourses,
