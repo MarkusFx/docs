@@ -47,24 +47,93 @@ outline: [2, 3]
 
 - ### 02. Логические и условные операторы
 
-    - 039 - Введение;
-    - 040 - Тип данных Bool;
-    - 041 - Условный оператор If;
-    - 042 - Операторы OR и NOT;
-    - 043 - Оператор AND;
-    - 044 - Операторы сравнения;
-    - 045 - Ключевое слово Else;
-    - 046 - Else If и порядок приоритетов;
-    - 047 - Оператор равенства и неравенства;
-    - 048 - Вложенные условия If;
-    - 049 - Область видимости переменных;
-    - 050 - Задача - Идти в клуб или нет?;
-    - 051 - Однострочные условия If;
-    - 052 - Оператор Switch и ключевое слово Switch;
-    - 053 - Switch или If - Что выбрать?;
-    - 054 - Наше небольшое приложение-викторина;
-    - 055 - Использование методов строк Trim и ToLower;
-    - 056 - Инкремент и пре-инкремент;
-    - 057 - Декремент и оператор Modulo;
-    - 058 - Как использовать TryParse;
-    - 059 - Как сгенерировать случайное число;
+    - [039 - Введение](https://vk.com/video-224325822_456248291?list=ln-ptEolCnraQtnntzI66);
+    - [040 - Тип данных Bool](https://vk.com/video-224325822_456248292?list=ln-XMTKt98AhMwL9hzDDZ);
+    - [041 - Условный оператор If](https://vk.com/video-224325822_456248293?list=ln-bbhhTmIKXKASqHf3a1);
+    - [042 - Операторы OR и NOT](https://vk.com/video-224325822_456248294?list=ln-we4PbNrpZwLaqiYVRJ);
+    - [043 - Оператор AND](https://vk.com/video-224325822_456248295?list=ln-yCmOL5itwVcK7igvRC);
+    - [044 - Операторы сравнения](https://vk.com/video-224325822_456248296?list=ln-3UOJAlJz25h8JgWaTJ);
+    - [045 - Ключевое слово Else](https://vk.com/video-224325822_456248297?list=ln-ejBxKK9mAbtpvkRoX2);
+    - [046 - Else If и порядок приоритетов](https://vk.com/video-224325822_456248298?list=ln-PjvdcaX6iLn2UGoVwC);
+    - [047 - Оператор равенства и неравенства](https://vk.com/video-224325822_456248299?list=ln-FV66aUVzulVwgStZvt);
+    - [048 - Вложенные условия If](https://vk.com/video-224325822_456248300?list=ln-k9xuO4QzziZbKH8zft);
+    - [049 - Область видимости переменных](https://vk.com/video-224325822_456248301?list=ln-GcCNcmtQbKxU269r3i);
+    - [050 - Задача - Идти в клуб или нет?](https://vk.com/video-224325822_456248302?list=ln-D0hzlz1ElNV6RZD9r8);
+    - [051 - Однострочные условия If](https://vk.com/video-224325822_456248303?list=ln-Pvmzszz5F8FcoEy0V1);
+    - [052 - Оператор Switch и ключевое слово Switch](https://vk.com/video-224325822_456248304?list=ln-kZv3NiCSd9VF2v7VUC);
+    - [053 - Switch или If - Что выбрать?](https://vk.com/video-224325822_456248305?list=ln-ThaqARIxuS5Uw1ZwFJ);
+    - [054 - Наше небольшое приложение-викторина](https://vk.com/video-224325822_456248306?list=ln-r7N5nuxIxObMpQzSrE);
+    - [055 - Использование методов строк Trim и ToLower](https://vk.com/video-224325822_456248307?list=ln-HvzDjUb89fdUnCZIdd);
+    - [056 - Инкремент и пре-инкремент](https://vk.com/video-224325822_456248308?list=ln-CP9amaexSzp32OTBxZ);
+    - [057 - Декремент и оператор Modulo](https://vk.com/video-224325822_456248309?list=ln-GhcZ4DtwQVSMTXWH8n);
+    - [058 - Как использовать TryParse](https://vk.com/video-224325822_456248310?list=ln-7BeZrseN72unjLzZON);
+    - [059 - Как сгенерировать случайное число](https://vk.com/video-224325822_456248311?list=ln-zZO9xopXTKN5UViKvr);
+
+- ### 03. Циклы
+
+    - [060 - Обзор циклов](https://vkvideo.ru/video-224325822_456248312?list=ln-cPTID0b78XbjoHZtvL);
+    - [061 - Цикл for](https://vkvideo.ru/video-224325822_456248313?list=ln-I3lRZdt1m8y3hZLyux);
+    - [062 - Цикл for - Задача обратного отсчёта](https://vkvideo.ru/video-224325822_456248314?list=ln-Rxfp8PIvpJvzjdHYgS);
+    - [063 - Управляющие символы r и n, а также Thread.Sleep](https://vkvideo.ru/video-224325822_456248315?list=ln-5JyENzzSoQmWWZzK4S);
+    - [064 - Посадка ракеты с использованием цикла for](https://vkvideo.ru/video-224325822_456248316?list=ln-FVTKuYpHjTfC1IhC1o);
+    - [065 - Цикл while и его использование в качестве счётчика](https://vkvideo.ru/video-224325822_456248317?list=ln-yRVUkCVlYCwlk4pHwv);
+    - [066 - Сильные стороны цикла while](https://vkvideo.ru/video-224325822_456248318?list=ln-CRBEzeiuOnxAsuo7O9);
+    - [067 - Решение задачи Угадай число](https://vkvideo.ru/video-224325822_456248319?list=ln-pecgqYxXvz8kByOYJe);
+    - [068 - Создание текстовой приключенческой игры](https://vkvideo.ru/video-224325822_456248320?list=ln-J5QSJ7rGjsKhOmqYNG);
+    - [069 - Цикл do while](https://vkvideo.ru/video-224325822_456248321?list=ln-n1ZCylLY4GcDRzCsGW);
+    - [070 - Решение - Калькулятор среднего значения](https://vkvideo.ru/video-224325822_456248322?list=ln-rFa2zlrKaTC8Q5lkfb);
+    - [071 - Операторы break и continue](https://vkvideo.ru/video-224325822_456248323?list=ln-hRMfd6jp5Pso75IxOR);
+    - [072 - Простые массивы](https://vkvideo.ru/video-224325822_456248324?list=ln-EVsPsUSV6DE29DaB66);
+    - [073 - Объявление и инициализация массивов в одной строке](https://vkvideo.ru/video-224325822_456248325?list=ln-0JfnIs3VCeIbooECKU);
+    - [074 - Цикл foreach и длина массива](https://vkvideo.ru/video-224325822_456248326?list=ln-I3HfvE4caZSDrSJsx9);
+    - [075 - Двумерные массивы](https://vkvideo.ru/video-224325822_456248327?list=ln-pAwKiYPiCpGPvWwZOK);
+    - [076 - Трёхмерные массивы](https://vkvideo.ru/video-224325822_456248328?list=ln-tvXFfVNa6xkzWTTrW0);
+
+- ### 04. Функции и методы
+
+    - [077 - Введение в функции и методы](https://vk.com/video-224325822_456248329?list=ln-DYVIAMUKDfv2e8KD9k);
+    - [078 - Void-метод без параметров](https://vk.com/video-224325822_456248330?list=ln-ibYMaZfqds02olUZSM);
+    - [079 - Void-метод с параметром - Часть 1](https://vk.com/video-224325822_456248331?list=ln-6EyAc8wlknN3ZyVz0U);
+    - [080 - Void-метод с параметром - Часть 2](https://vk.com/video-224325822_456248332?list=ln-OJZB0eluzp2KcHi572);
+    - [081 - Область видимости переменных и параметров](https://vk.com/video-224325822_456248333?list=ln-VCsipFGWAzO5IARKcD);
+    - [082 - Переход к классическому шаблону](https://vk.com/video-224325822_456248334?list=ln-GKVZ5Cv5ENzPZ9PeAs);
+    - [083 - Вынос методов за пределы Main-метода](https://vk.com/video-224325822_456248335?list=ln-0paM15BY4LOSam0zSh);
+    - [084 - Поля, переменные экземпляра и их отличие от локальных](https://vk.com/video-224325822_456248336?list=ln-jo9lH0ua9GSdaCn960);
+    - [085 - Симулятор погоды - Использование массивов, Random и циклов for](https://vk.com/video-224325822_456248337?list=ln-nnXkSU2Yhh1f6zPAtR);
+    - [086 - Вычисление средней температуры](https://vk.com/video-224325822_456248338?list=ln-0ORsnm5AozN8AsZ9QS);
+    - [087 - Смешивание double и int при вычислениях](https://vk.com/video-224325822_456248339?list=ln-mR2R21PZVjOxudP7LE);
+    - [088 - Поиск минимального и максимального значений в массиве](https://vk.com/video-224325822_456248340?list=ln-VJfnsLGFrMTVIMph8k);
+    - [089 - Определение наиболее частого погодного условия](https://vk.com/video-224325822_456248341?list=ln-tHKNR3UorbGKhN5kPS);
+
+- ### 05. ООП
+
+    - [090 - Введение в объекты](https://vkvideo.ru/video-224325822_456248342?list=ln-VX7SHc5wHejoBwF7mF);
+    - [091 - Введение в классы и объекты](https://vkvideo.ru/video-224325822_456248343?list=ln-XrdmssT8i8OSwVpHSi);
+    - [092 - Создание первого собственного класса](https://vkvideo.ru/video-224325822_456248344?list=ln-FSlrnpZAks6z8u681X);
+    - [093 - Поля класса и пользовательский конструктор](https://vkvideo.ru/video-224325822_456248345?list=ln-QXyviWdSKAMC51OfPn);
+    - [094 - Автосвойства для защиты полей класса](https://vkvideo.ru/video-224325822_456248346?list=ln-4b1oVK0iaj3U9JWJtY);
+    - [095 - Определение логики установки свойства](https://vkvideo.ru/video-224325822_456248347?list=ln-G1MbRLWpTGAR8EqCPQ);
+    - [096 - Модификация get-аксессора свойства - Часть 1](https://vkvideo.ru/video-224325822_456248348?list=ln-GSZ6sq8MwJr8cgXHA3);
+    - [097 - Модификация get-аксессора свойства - Часть 2](https://vkvideo.ru/video-224325822_456248349?list=ln-EqsnWT42l9E6PMooZ3);
+    - [098 - Использование нескольких конструкторов](https://vkvideo.ru/video-224325822_456248350?list=ln-a229TkR2rbIWvNI66a);
+    - [099 - Конструктор по умолчанию и случаи использования](https://vkvideo.ru/video-224325822_456248351?list=ln-N6rTJbR4vhgRMTMb1V);
+    - [100 - Методы в классах](https://vkvideo.ru/video-224325822_456248352?list=ln-i74IGL6ZQ87xnYLyPr);
+    - [101 - Методы в классах (подробнее)](https://vkvideo.ru/video-224325822_456248353?list=ln-g4ZyX7sLVst1oP3JBL);
+    - [102 - Необязательные параметры](https://vkvideo.ru/video-224325822_456248354?list=ln-sexh9cn1Vx2HIPRpVw);
+    - [103 - Именованные параметры](https://vkvideo.ru/video-224325822_456248355?list=ln-3YsWx1dzf9DetrC81E);
+    - [104 - Вычисляемые свойства и отсутствие конструктора](https://vkvideo.ru/video-224325822_456248356?list=ln-vpZbmZhiXrjUAL3Pnu);
+    - [105 - Статические методы](https://vkvideo.ru/video-224325822_456248357?list=ln-MjJgpsUvtF9JOlGih7);
+    - [106 - Статические поля](https://vkvideo.ru/video-224325822_456248358?list=ln-ELyfME9kzp7iSzTSOx);
+    - [107 - Модификаторы public и private](https://vkvideo.ru/video-224325822_456248359?list=ln-aYSsJUHYyTzUK99nuH);
+    - [108 - ID-ключ и модификатор readonly](https://vkvideo.ru/video-224325822_456248360?list=ln-fK4znoEr2Lk6QkNuRP);
+    - [109 - Свойства только для чтения](https://vkvideo.ru/video-224325822_456248361?list=ln-DXlrWqcFxi7tfNt4LF);
+    - [110 - Свойства только для записи](https://vkvideo.ru/video-224325822_456248362?list=ln-MWbqZ2Gzecb6OuzLwV);
+    - [111 - Const и ReadOnly](https://vkvideo.ru/video-224325822_456248363?list=ln-uP88lIgCsKljq7N0hm);
+    - [112 - Введение в проект Quiz](https://vkvideo.ru/video-224325822_456248364?list=ln-QmGTC5Wf3PDQfaLU09);
+    - 113 - QuizApp - Класс Question.mp4;
+    - 114 - Ключевое слово this.mp4;
+    - 115 - Отображение вопросов.mp4;
+    - 116 - Отображение ответов, Console.Write и Console.ForegroundColor.mp4;
+    - 117 - Получение пользовательского ввода и проверка ответа.mp4;
+    - 118 - Отображение нескольких вопросов и проверка правильности.mp4;
+    - 119 - Отображение результатов.mp4;

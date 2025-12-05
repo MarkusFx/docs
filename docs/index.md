@@ -8,8 +8,10 @@ import CourseProgress from './.vitepress/components/CourseProgress.vue';
 import CodePreview from './.vitepress/components/CodePreview.vue';
 import GridMenu from './.vitepress/components/GridMenu.vue';
 import {
-    upcoming_courses,
-    courses,
+    courses_1,
+    courses_2,
+    courses_3,
+    courses_4,
     notes,
     rutube_tiles,
     telegram_tiles,
@@ -22,9 +24,10 @@ import {
 
 ## Курсы
 
-[//]: # '<TileGrid :tiles="upcoming_courses" />'
-
-<TileGrid :tiles="courses" />
+<TileGrid :tiles="courses_3" />
+<TileGrid :tiles="courses_1" />
+<TileGrid :tiles="courses_2" />
+<TileGrid :tiles="courses_4" />
 
 ## Заметки
 

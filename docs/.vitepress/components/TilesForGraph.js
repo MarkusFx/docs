@@ -148,6 +148,14 @@ export const expressCard = [
         '/courses/express/jonas-schmedtmann',
     ),
 ]
+export const vitestCard = [
+    makeCard(
+        'Vitest',
+        vitestLogo,
+        'yellow',
+        '/courses/vitest/maximilian-schwarzmuller',
+    ),
+]
 
 // export const cssCard = [makeCard('CSS', cssLogo, 'blue')]
 // export const htmlCard = [makeCard('HTML', htmlLogo, 'orange')]
@@ -159,7 +167,6 @@ export const expressCard = [
 //     makeCard('React Native', reactnativeLogo, 'blue'),
 // ]
 // export const jestCard = [makeCard('Jest', jestLogo, 'purple')]
-// export const vitestCard = [makeCard('Vitest', vitestLogo, 'orange')]
 // export const sassCard = [makeCard('SASS', sassLogo, 'purple')]
 // export const scssCard = [makeCard('SCSS', scssLogo, 'purple')]
 // export const lessCard = [makeCard('LESS', lessLogo, 'blue')]
@@ -208,7 +215,6 @@ export const reactNativeCard = [
     makeCard('React Native', reactnativeLogo, 'silver'),
 ]
 export const jestCard = [makeCard('Jest', jestLogo, 'silver')]
-export const vitestCard = [makeCard('Vitest', vitestLogo, 'silver')]
 export const sassCard = [makeCard('SASS', sassLogo, 'silver')]
 export const scssCard = [makeCard('SCSS', scssLogo, 'silver')]
 export const lessCard = [makeCard('LESS', lessLogo, 'silver')]

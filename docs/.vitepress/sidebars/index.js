@@ -21,6 +21,7 @@ import threeJs from './courses/three-js.js'
 import rustCourses from './courses/rust.js'
 import gsapCourses from './courses/gsap.js'
 import expressCourses from './courses/express.js'
+import vitestCourses from './courses/vitest.js'
 
 export default {
     '/updates/': updates,
@@ -46,4 +47,5 @@ export default {
     '/courses/rust/': rustCourses,
     '/courses/gsap/': gsapCourses,
     '/courses/express/': expressCourses,
+    '/courses/vitest/': vitestCourses,
 }

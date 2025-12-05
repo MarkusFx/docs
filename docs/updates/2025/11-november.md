@@ -1,5 +1,11 @@
 # Обновления
 
+## 29.11.2025
+
+- Обновлен раздел - **Курсы**:
+    - Добавлена страница - **Vitest**:
+        - Добавлен курс - **Maximilian Schwarzmuller** - **JavaScript Unit Testing - The Practical Guide**;
+
 ## 25.11.2025
 
 - Обновлен раздел - **Курсы** - **WebRTC**:

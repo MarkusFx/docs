@@ -24,6 +24,7 @@ import threejsLogo from '/logos/threejs-logo.svg?raw'
 import rustLogo from '/logos/rust-logo.svg?raw'
 import gsapLogo from '/logos/gsap-logo-001.svg?raw'
 import expressLogo from '/logos/express-logo.svg?raw'
+import vitestLogo from '/logos/vitest-logo.svg?raw'
 
 export const gradients = {
     RED: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -53,31 +54,7 @@ export const upcoming_courses = [
     },
 ]
 
-export const courses = [
-    {
-        title: 'Cypress',
-        icon: cypressLogo,
-        link: '/courses/cypress/maximilian-schwarzmuller',
-        color: commonColor,
-        gradient: gradients.GREEN,
-        iconFilter: commonIconFilter,
-    },
-    {
-        title: 'HTMX',
-        icon: htmxLogo,
-        link: '/courses/htmx/maximilian-schwarzmuller',
-        color: commonColor,
-        gradient: gradients.BLUE,
-        iconFilter: commonIconFilter,
-    },
-    {
-        title: 'OS',
-        icon: osLogo,
-        link: '/courses/os/hussein-nasser',
-        color: commonColor,
-        gradient: gradients.RED,
-        iconFilter: commonIconFilter,
-    },
+export const courses_1 = [
     {
         title: 'Go',
         icon: goLogo,
@@ -87,13 +64,43 @@ export const courses = [
         iconFilter: commonIconFilter,
     },
     {
-        title: 'Linux',
-        icon: linuxLogo,
-        link: '/courses/linux/colt-steele',
+        title: 'C#',
+        icon: cSharpLogo,
+        link: '/courses/c-sharp/denis-panjuta',
+        color: commonColor,
+        gradient: gradients.PURPLE,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'Rust',
+        icon: rustLogo,
+        link: '/courses/rust/stephen-grider',
+        color: commonColor,
+        gradient: gradients.ORANGE,
+        iconFilter: commonIconFilter,
+    },
+]
+
+export const courses_2 = [
+    {
+        title: 'Vitest',
+        icon: vitestLogo,
+        link: '/courses/vitest/maximilian-schwarzmuller',
         color: commonColor,
         gradient: gradients.YELLOW,
         iconFilter: commonIconFilter,
     },
+    {
+        title: 'Cypress',
+        icon: cypressLogo,
+        link: '/courses/cypress/maximilian-schwarzmuller',
+        color: commonColor,
+        gradient: gradients.GREEN,
+        iconFilter: commonIconFilter,
+    },
+]
+
+export const courses_3 = [
     {
         title: 'Socket.IO',
         icon: socketioLogo,
@@ -110,12 +117,32 @@ export const courses = [
         gradient: gradients.GREEN,
         iconFilter: commonIconFilter,
     },
+]
+
+export const courses_4 = [
     {
-        title: 'C#',
-        icon: cSharpLogo,
-        link: '/courses/c-sharp/denis-panjuta',
+        title: 'HTMX',
+        icon: htmxLogo,
+        link: '/courses/htmx/maximilian-schwarzmuller',
         color: commonColor,
-        gradient: gradients.PURPLE,
+        gradient: gradients.BLUE,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'OS',
+        icon: osLogo,
+        link: '/courses/os/hussein-nasser',
+        color: commonColor,
+        gradient: gradients.RED,
+        iconFilter: commonIconFilter,
+    },
+
+    {
+        title: 'Linux',
+        icon: linuxLogo,
+        link: '/courses/linux/colt-steele',
+        color: commonColor,
+        gradient: gradients.YELLOW,
         iconFilter: commonIconFilter,
     },
     {
@@ -126,14 +153,7 @@ export const courses = [
         gradient: gradients.BLUE,
         iconFilter: commonIconFilter,
     },
-    {
-        title: 'Rust',
-        icon: rustLogo,
-        link: '/courses/rust/stephen-grider',
-        color: commonColor,
-        gradient: gradients.ORANGE,
-        iconFilter: commonIconFilter,
-    },
+
     {
         title: 'GSAP',
         icon: gsapLogo,

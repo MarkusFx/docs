@@ -13,6 +13,7 @@ export default [
                     { text: 'Сентябрь', link: '/updates/2025/09-september' },
                     { text: 'Октябрь', link: '/updates/2025/10-october' },
                     { text: 'Ноябрь', link: '/updates/2025/11-november' },
+                    { text: 'Декабрь', link: '/updates/2025/12-december' },
                 ],
             },
         ],
