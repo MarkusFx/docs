@@ -27,32 +27,32 @@ outline: [2, 3]
     - [018 - Анимации](https://vkvideo.ru/video-224325822_456248499?list=ln-RzEG9JOuIcYGEDjjYw);
 
 - ### 03. Мастер
-    - 019 - Физика;
-    - 020 - Работа со сценой;
-    - 021 - Представления;
-    - 022 - Управление камерой;
-    - 023 - Цель рендеринга;
-    - 024 - Постобработка;
-    - 025 - Theatre.js;
-    - 026 - Оптимизация;
+    - [019 - Физика](https://vkvideo.ru/video-224325822_456248500?list=ln-LayujYNCjtzy6uIoCv);
+    - [020 - Работа со сценой](https://vkvideo.ru/video-224325822_456248501?list=ln-aeZJYPenN2eRNtwZEA);
+    - [021 - Представления](https://vkvideo.ru/video-224325822_456248502?list=ln-U4M1iSuDat7dEkJ37m);
+    - [022 - Управление камерой](https://vkvideo.ru/video-224325822_456248503?list=ln-Xt8ivOV48p5egUAJmb);
+    - [023 - Цель рендеринга](https://vkvideo.ru/video-224325822_456248504?list=ln-dOt2rUfpiRTnvX4cMx);
+    - [024 - Постобработка](https://vkvideo.ru/video-224325822_456248505?list=ln-43Hhg5ixZfwKioTSkR);
+    - [025 - Theatre.js](https://vkvideo.ru/video-224325822_456248506?list=ln-mO1a4G36DzlKBPEZus);
+    - [026 - Оптимизация](https://vkvideo.ru/video-224325822_456248507?list=ln-CbBuN7vgfh2dXfFzDW);
 
 - ### 04. Шейдеры
-    - 027 - Введение в шейдеры;
-    - 028 - Функции формирования;
-    - 029 - Слайдер изображений;
-    - 030 - Водный шейдер;
-    - 031 - Переходы шейдеров;
+    - [027 - Введение в шейдеры](https://vkvideo.ru/video-224325822_456248508?list=ln-YUtCBXcJ904r90c6XX);
+    - [028 - Функции формирования](https://vkvideo.ru/video-224325822_456248509?list=ln-OFTn5iUaVT8OvV6rpW);
+    - [029 - Слайдер изображений](https://vkvideo.ru/video-224325822_456248510?list=ln-TYe9h4TPIhMhSgMaTB);
+    - [030 - Водный шейдер](https://vkvideo.ru/video-224325822_456248511?list=ln-gOGkkYw9Otnnku3sdy);
+    - [031 - Переходы шейдеров](https://vkvideo.ru/video-224325822_456248512?list=ln-7WLVhXzRpxW0NAdy5F);
 
 - ### 05. VFX
-    - 032 - Частицы;
-    - 033 - Следы;
-    - 034 - VFX-движок;
-    - 035 - Фейерверки;
-    - 036 - Игра Волшебник;
-    - 037 - WebGPU, TSL;
-    - 038 - GPGPU-частицы с TSL, WebGPU;
+    - [032 - Частицы](https://vkvideo.ru/video-224325822_456248513?list=ln-Qcpyinlexk2smUYWQX);
+    - [033 - Следы](https://vkvideo.ru/video-224325822_456248514?list=ln-543fejCGXsSWa5ooXh);
+    - [034 - VFX-движок](https://vkvideo.ru/video-224325822_456248515?list=ln-P0yyL8BFldJrZrloLf);
+    - [035 - Фейерверки](https://vkvideo.ru/video-224325822_456248516?list=ln-RUz5foQDkbaFJhxLXy);
+    - [036 - Игра Волшебник](https://vkvideo.ru/video-224325822_456248517?list=ln-K2NBA9mIOzZHApeo6j);
+    - [037 - WebGPU, TSL](https://vkvideo.ru/video-224325822_456248518?list=ln-kF2pdK4RXgypUSS30k);
+    - [038 - GPGPU-частицы с TSL, WebGPU](https://vkvideo.ru/video-224325822_456248519?list=ln-8lzDv1pPpx05JaBd6w);
 
 - ### 06. Портфолио
-    - 039 - 3D-мир;
-    - 040 - HTML-интерфейс;
-    - 041 - Адаптивность;
+    - [039 - 3D-мир](https://vkvideo.ru/video-224325822_456248520?list=ln-itLF9YAMVfFpq16v4m);
+    - [040 - HTML-интерфейс](https://vkvideo.ru/video-224325822_456248521?list=ln-kYfp6AgenLap7ryB1b);
+    - [041 - Адаптивность](https://vkvideo.ru/video-224325822_456248522?list=ln-86PiCosC1FVS4iDflP);
