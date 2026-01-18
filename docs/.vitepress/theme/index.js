@@ -5,13 +5,13 @@ import './styles/zoom.css'
 import './styles/imgs.css'
 import CodePreview from '../components/CodePreview.vue'
 import 'virtual:group-icons.css'
-import NotFound from './error/NotFound.vue'
+import NotFound from './.error/NotFound.vue'
 
 let zoom = null
 
 export default {
     ...DefaultTheme,
-    NotFound: NotFound,
+    // NotFound: NotFound,
     enhanceApp({ app, router }) {
         app.component('CodePreview', CodePreview)
         if (typeof window !== 'undefined') {

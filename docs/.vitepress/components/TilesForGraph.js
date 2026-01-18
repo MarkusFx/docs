@@ -156,6 +156,9 @@ export const vitestCard = [
         '/courses/vitest/maximilian-schwarzmuller',
     ),
 ]
+export const r3fCard = [
+    makeCard('React Three Fiber', r3fLogo, 'blue', '/courses/r3f/wawa_sensei'),
+]
 
 // export const cssCard = [makeCard('CSS', cssLogo, 'blue')]
 // export const htmlCard = [makeCard('HTML', htmlLogo, 'orange')]
@@ -203,7 +206,6 @@ export const vitestCard = [
 // export const blenderCard = [makeCard('Blender', blenderLogo, 'orange')]
 // export const godotCard = [makeCard('Godot', godotLogo, 'blue')]
 // export const unityCard = [makeCard('Unity', unityLogo, 'blue')]
-// export const r3fCard = [makeCard('React Three Fiber', r3fLogo, 'blue')]
 
 export const cssCard = [makeCard('CSS', cssLogo, 'silver')]
 export const htmlCard = [makeCard('HTML', htmlLogo, 'silver')]
@@ -251,4 +253,3 @@ export const oneCCard = [makeCard('1С', oneCLogo, 'silver')]
 export const blenderCard = [makeCard('Blender', blenderLogo, 'silver')]
 export const godotCard = [makeCard('Godot', godotLogo, 'silver')]
 export const unityCard = [makeCard('Unity', unityLogo, 'silver')]
-export const r3fCard = [makeCard('React Three Fiber', r3fLogo, 'silver')]

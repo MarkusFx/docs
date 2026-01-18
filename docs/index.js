@@ -25,6 +25,7 @@ import rustLogo from '/logos/rust-logo.svg?raw'
 import gsapLogo from '/logos/gsap-logo-001.svg?raw'
 import expressLogo from '/logos/express-logo.svg?raw'
 import vitestLogo from '/logos/vitest-logo.svg?raw'
+import r3fLogo from '/logos/r3f-logo.svg?raw'
 
 export const gradients = {
     RED: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -136,7 +137,6 @@ export const courses_4 = [
         gradient: gradients.RED,
         iconFilter: commonIconFilter,
     },
-
     {
         title: 'Linux',
         icon: linuxLogo,
@@ -145,15 +145,6 @@ export const courses_4 = [
         gradient: gradients.YELLOW,
         iconFilter: commonIconFilter,
     },
-    {
-        title: 'Three.js',
-        icon: threejsLogo,
-        link: '/courses/three-js/bruno-simong',
-        color: commonColor,
-        gradient: gradients.BLUE,
-        iconFilter: commonIconFilter,
-    },
-
     {
         title: 'GSAP',
         icon: gsapLogo,
@@ -168,6 +159,25 @@ export const courses_4 = [
         link: '/courses/express/jonas-schmedtmann',
         color: commonColor,
         gradient: gradients.GREEN,
+        iconFilter: commonIconFilter,
+    },
+]
+
+export const courses_5 = [
+    {
+        title: 'Three.js',
+        icon: threejsLogo,
+        link: '/courses/three-js/bruno-simong',
+        color: commonColor,
+        gradient: gradients.BLUE,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'React Three Fiber',
+        icon: r3fLogo,
+        link: '/courses/r3f/wawa_sensei',
+        color: commonColor,
+        gradient: gradients.BLUE,
         iconFilter: commonIconFilter,
     },
 ]

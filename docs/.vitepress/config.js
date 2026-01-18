@@ -11,7 +11,14 @@ export default {
         },
     },
     vite: {
+        server: {
+            host: true,
+            port: 5173,
+        },
         plugins: [groupIconVitePlugin()],
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+        },
     },
     lang: 'ru-RU',
     title: 'MarkusFx (itPit)',
@@ -44,7 +51,7 @@ export default {
         nav: [
             { text: 'Главная', link: '/' },
             { text: 'Дорожная карта', link: '/road-map' },
-            { text: 'Обновления', link: '/updates/2025/12-december' },
+            { text: 'Обновления', link: '/updates/2026/01-january' },
             { text: 'FAQ', link: '/faq' },
             // {
             //     text: 'Разделы',
@@ -89,6 +96,7 @@ export default {
         returnToTopLabel: 'Наверх',
         sidebarMenuLabel: 'Навигация',
 
+        // Поиск
         search: {
             provider: 'local',
             options: {
@@ -110,9 +118,10 @@ export default {
                 },
             },
         },
+
         footer: {
             message: '',
-            copyright: '© 2023-2025, MarkusFx (itPit)',
+            copyright: '© 2023-2026, MarkusFx (itPit)',
         },
     },
 }
