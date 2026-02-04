@@ -51,7 +51,7 @@ export default {
         nav: [
             { text: 'Главная', link: '/' },
             { text: 'Дорожная карта', link: '/road-map' },
-            { text: 'Обновления', link: '/updates/2026/01-january' },
+            { text: 'Обновления', link: '/updates/2026/02-february' },
             { text: 'FAQ', link: '/faq' },
             // {
             //     text: 'Разделы',

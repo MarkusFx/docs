@@ -113,7 +113,7 @@ export const courses_3 = [
     {
         title: 'WebRTC',
         icon: webrtcLogo,
-        link: '/courses/webrtc/marek-gryszkiewicz',
+        link: '/courses/webrtc/robert-bunch',
         color: commonColor,
         gradient: gradients.GREEN,
         iconFilter: commonIconFilter,

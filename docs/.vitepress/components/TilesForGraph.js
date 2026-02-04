@@ -116,12 +116,7 @@ export const socketioCard = [
     ),
 ]
 export const webrtcCard = [
-    makeCard(
-        'WebRTC',
-        webrtcLogo,
-        'green',
-        '/courses/webrtc/marek-gryszkiewicz',
-    ),
+    makeCard('WebRTC', webrtcLogo, 'green', '/courses/webrtc/robert-bunch'),
 ]
 export const cSharpCard = [
     makeCard('C#', cSharpLogo, 'purple', '/courses/c-sharp/denis-panjuta'),

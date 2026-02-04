@@ -6,7 +6,10 @@ export default [
                 text: '2026',
                 collapsible: true,
                 collapsed: false,
-                items: [{ text: 'Январь', link: '/updates/2026/01-january' }],
+                items: [
+                    { text: 'Февраль', link: '/updates/2026/02-february' },
+                    { text: 'Январь', link: '/updates/2026/01-january' },
+                ],
             },
             {
                 text: '2025',

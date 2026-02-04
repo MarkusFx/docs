@@ -6,6 +6,10 @@ export default [
                 text: 'Bruno Simong',
                 link: '/courses/three-js/bruno-simong',
             },
+            {
+                text: 'Jesse Zhou',
+                link: '/courses/three-js/jesse-zhou',
+            },
         ],
     },
 ]
