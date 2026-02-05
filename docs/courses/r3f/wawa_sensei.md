@@ -5,54 +5,60 @@ outline: [2, 3]
 # The Ultimate Guide to 3D Web Development
 
 - ### 01. Основы
-    - [001 - Настройка](https://vkvideo.ru/video-224325822_456248482);
-    - [002 - 3D-объекты](https://vkvideo.ru/video-224325822_456248483);
-    - [003 - Трансформации](https://vkvideo.ru/video-224325822_456248484);
-    - [004 - Камера](https://vkvideo.ru/video-224325822_456248485);
-    - [005 - Отладка](https://vkvideo.ru/video-224325822_456248486);
-    - [006 - Освещение](https://vkvideo.ru/video-224325822_456248487);
-    - [007 - Тени](https://vkvideo.ru/video-224325822_456248488);
-    - [008 - React-хуки](https://vkvideo.ru/video-224325822_456248489);
+
+<VkVideo title="001 - Настройка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248482&hash=2c255a0a2713506a&hd=3" />
+<VkVideo title="002 - 3D-объекты" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248483&hash=dc096afac9188215&hd=3" />
+<VkVideo title="003 - Трансформации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248484&hash=d49fc432ac4dab03&hd=3" />
+<VkVideo title="004 - Камера" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248485&hash=5426d6679f8f3bbf&hd=3" />
+<VkVideo title="005 - Отладка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248486&hash=a7917c91c65281ee&hd=3" />
+<VkVideo title="006 - Освещение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248487&hash=44c312516837d185&hd=3" />
+<VkVideo title="007 - Тени" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248488&hash=b32110857fd36a9d&hd=3" />
+<VkVideo title="008 - React-хуки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248489&hash=7a5983b02ae9407a&hd=3" />
 
 - ### 02. Ядро
-    - [009 - Хуки React Three Fiber](https://vkvideo.ru/video-224325822_456248490?list=ln-kdrSwJbzTEMxql2J9y);
-    - [010 - Элементы управления](https://vkvideo.ru/video-224325822_456248491?list=ln-TeFWFZ5SXvPxRhHdta);
-    - [011 - События](https://vkvideo.ru/video-224325822_456248492?list=ln-1t1ONDS7s1NVTc7E0J);
-    - [012 - 3D-модели](https://vkvideo.ru/video-224325822_456248493?list=ln-dn2YCYksSzP7IkZFHx);
-    - [013 - Текстуры изображений и видео](https://vkvideo.ru/video-224325822_456248494?list=ln-GsoKCifVZp4Cdz35WO);
-    - [014 - HTML](https://vkvideo.ru/video-224325822_456248495?list=ln-NrVI5eUs8jclXsZQ7v);
-    - [015 - Текст](https://vkvideo.ru/video-224325822_456248496?list=ln-4QUAYWJNgeePiVAVVW);
-    - [016 - Экран загрузки](https://vkvideo.ru/video-224325822_456248497?list=ln-BSagimiTLpAKmjvt1U);
-    - [017 - Скролл](https://vkvideo.ru/video-224325822_456248498?list=ln-CoGJF64O4HU1qb7S2J);
-    - [018 - Анимации](https://vkvideo.ru/video-224325822_456248499?list=ln-RzEG9JOuIcYGEDjjYw);
+
+<VkVideo title="009 - Хуки React Three Fiber" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248490&hash=3aa45a7d2f0d8b35&hd=3" />
+<VkVideo title="010 - Элементы управления" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248491&hash=5fe5319b4149d059&hd=3" />
+<VkVideo title="011 - События" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248492&hash=e65914b7b1a1f93e&hd=3" />
+<VkVideo title="012 - 3D-модели" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248493&hash=7ca5d88bdf5a8b80&hd=3" />
+<VkVideo title="013 - Текстуры изображений и видео" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248494&hash=e02d9d0eb91da957&hd=3" />
+<VkVideo title="014 - HTML" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248495&hash=6903dc0a8b0a4551&hd=3" />
+<VkVideo title="015 - Текст" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248496&hash=6a3d24d2f53ca58e&hd=3" />
+<VkVideo title="016 - Экран загрузки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248497&hash=7103f455939c3af5&hd=3" />
+<VkVideo title="017 - Скролл" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248498&hash=1dd8d8cfd5d5006b&hd=3" />
+<VkVideo title="018 - Анимации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248499&hash=eeed8aec20d80fbc&hd=3" />
 
 - ### 03. Мастер
-    - [019 - Физика](https://vkvideo.ru/video-224325822_456248500?list=ln-LayujYNCjtzy6uIoCv);
-    - [020 - Работа со сценой](https://vkvideo.ru/video-224325822_456248501?list=ln-aeZJYPenN2eRNtwZEA);
-    - [021 - Представления](https://vkvideo.ru/video-224325822_456248502?list=ln-U4M1iSuDat7dEkJ37m);
-    - [022 - Управление камерой](https://vkvideo.ru/video-224325822_456248503?list=ln-Xt8ivOV48p5egUAJmb);
-    - [023 - Цель рендеринга](https://vkvideo.ru/video-224325822_456248504?list=ln-dOt2rUfpiRTnvX4cMx);
-    - [024 - Постобработка](https://vkvideo.ru/video-224325822_456248505?list=ln-43Hhg5ixZfwKioTSkR);
-    - [025 - Theatre.js](https://vkvideo.ru/video-224325822_456248506?list=ln-mO1a4G36DzlKBPEZus);
-    - [026 - Оптимизация](https://vkvideo.ru/video-224325822_456248507?list=ln-CbBuN7vgfh2dXfFzDW);
+
+<VkVideo title="019 - Физика" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248500&hash=a8d6114e86c8482f&hd=3" />
+<VkVideo title="020 - Работа со сценой" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248501&hash=e1b168512b36bccd&hd=3" />
+<VkVideo title="021 - Представления" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248502&hash=ff1e228f78467f0c&hd=3" />
+<VkVideo title="022 - Управление камерой" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248503&hash=0d5022f62c2f968c&hd=3" />
+<VkVideo title="023 - Цель рендеринга" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248504&hash=917a658df892873e&hd=3" />
+<VkVideo title="024 - Постобработка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248505&hash=35e6132d746a736f&hd=3" />
+<VkVideo title="025 - Theatre.js" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248506&hash=77c8d3c22d03d981&hd=3" />
+<VkVideo title="026 - Оптимизация" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248507&hash=49865d47fa6b5c25&hd=3" />
 
 - ### 04. Шейдеры
-    - [027 - Введение в шейдеры](https://vkvideo.ru/video-224325822_456248508?list=ln-YUtCBXcJ904r90c6XX);
-    - [028 - Функции формирования](https://vkvideo.ru/video-224325822_456248509?list=ln-OFTn5iUaVT8OvV6rpW);
-    - [029 - Слайдер изображений](https://vkvideo.ru/video-224325822_456248510?list=ln-TYe9h4TPIhMhSgMaTB);
-    - [030 - Водный шейдер](https://vkvideo.ru/video-224325822_456248511?list=ln-gOGkkYw9Otnnku3sdy);
-    - [031 - Переходы шейдеров](https://vkvideo.ru/video-224325822_456248512?list=ln-7WLVhXzRpxW0NAdy5F);
+
+<VkVideo title="027 - Введение в шейдеры" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248508&hash=243328b4eb463867&hd=3" />
+<VkVideo title="028 - Функции формирования" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248509&hash=72ad03129a8da19d&hd=3" />
+<VkVideo title="029 - Слайдер изображений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248510&hash=bdf0b700ef58e315&hd=3" />
+<VkVideo title="030 - Водный шейдер" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248511&hash=db19ee513466c094&hd=3" />
+<VkVideo title="031 - Переходы шейдеров" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248512&hash=e76eb9e05a71468d&hd=3" />
 
 - ### 05. VFX
-    - [032 - Частицы](https://vkvideo.ru/video-224325822_456248513?list=ln-Qcpyinlexk2smUYWQX);
-    - [033 - Следы](https://vkvideo.ru/video-224325822_456248514?list=ln-543fejCGXsSWa5ooXh);
-    - [034 - VFX-движок](https://vkvideo.ru/video-224325822_456248515?list=ln-P0yyL8BFldJrZrloLf);
-    - [035 - Фейерверки](https://vkvideo.ru/video-224325822_456248516?list=ln-RUz5foQDkbaFJhxLXy);
-    - [036 - Игра Волшебник](https://vkvideo.ru/video-224325822_456248517?list=ln-K2NBA9mIOzZHApeo6j);
-    - [037 - WebGPU, TSL](https://vkvideo.ru/video-224325822_456248518?list=ln-kF2pdK4RXgypUSS30k);
-    - [038 - GPGPU-частицы с TSL, WebGPU](https://vkvideo.ru/video-224325822_456248519?list=ln-8lzDv1pPpx05JaBd6w);
+
+<VkVideo title="032 - Частицы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248513&hash=16ba754da1ad93cb&hd=3" />
+<VkVideo title="033 - Следы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248514&hash=e3fdea00a0ca9bf6&hd=3" />
+<VkVideo title="034 - VFX-движок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248515&hash=7580faca950943dc&hd=3" />
+<VkVideo title="035 - Фейерверки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248516&hash=5e3820e8c8fa55cd&hd=3" />
+<VkVideo title="036 - Игра Волшебник" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248517&hash=1e305e1f9bbb494c&hd=3" />
+<VkVideo title="037 - WebGPU, TSL" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248518&hash=f3c9e52800d5b1eb&hd=3" />
+<VkVideo title="038 - GPGPU-частицы с TSL, WebGPU" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248519&hash=422561d230fc8499&hd=3" />
 
 - ### 06. Портфолио
-    - [039 - 3D-мир](https://vkvideo.ru/video-224325822_456248520?list=ln-itLF9YAMVfFpq16v4m);
-    - [040 - HTML-интерфейс](https://vkvideo.ru/video-224325822_456248521?list=ln-kYfp6AgenLap7ryB1b);
-    - [041 - Адаптивность](https://vkvideo.ru/video-224325822_456248522?list=ln-86PiCosC1FVS4iDflP);
+
+<VkVideo title="039 - 3D-мир" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248520&hash=d3986ab5152245ba&hd=3" />
+<VkVideo title="040 - HTML-интерфейс" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248521&hash=8f4fafd754baa7ee&hd=3" />
+<VkVideo title="041 - Адаптивность" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248522&hash=273c2262c0e628e8&hd=3" />

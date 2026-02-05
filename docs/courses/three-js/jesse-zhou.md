@@ -8,6 +8,8 @@ outline: [2, 3]
 
 <VkVideo title="001 - Three.js Bootcamp - От нуля до мастера" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248606&hash=aa11046c68923280&hd=3" />
 
+" src="" />
+
 - ### 02. Начало работы
 
 <VkVideo title="002 - Примеры Three.js" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248607&hash=dac2b03f30a7657a&hd=3" />
