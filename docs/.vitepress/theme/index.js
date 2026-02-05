@@ -7,6 +7,7 @@ import CodePreview from '../components/CodePreview.vue'
 import 'virtual:group-icons.css'
 import NotFound from './.error/NotFound.vue'
 import VkVideo from './components/VkVideo.vue'
+import CourseVideos from './components/CourseVideos.vue'
 
 let zoom = null
 
@@ -16,6 +17,7 @@ export default {
     enhanceApp({ app, router }) {
         app.component('CodePreview', CodePreview)
         app.component('VkVideo', VkVideo)
+        app.component('CourseVideos', CourseVideos)
 
         if (typeof window !== 'undefined') {
             const applyZoom = () => {

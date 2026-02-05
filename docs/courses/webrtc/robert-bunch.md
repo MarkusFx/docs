@@ -5,50 +5,54 @@ outline: [2, 3]
 # Mastering webRTC - make a video chat app
 
 - ### 01. Введение
-    - [001 - Что такое WebRTC и что он делает](https://vkvideo.ru/video-224325822_456248548);
-    - [002 - Получение базы кода для конкретного видео](https://vkvideo.ru/video-224325822_456248549);
-    - [003 - Как я пишу код](https://vkvideo.ru/video-224325822_456248550);
-    - [004 - Почему я использую WebRTC вместо SDK (например, Zoom)](https://vkvideo.ru/video-224325822_456248551);
+
+<VkVideo title="001 - Что такое WebRTC и что он делает" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248548&hash=28e5c95be180519b&hd=3" />
+<VkVideo title="002 - Получение базы кода для конкретного видео" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248549&hash=f16a258b7cc23a09&hd=3" />
+<VkVideo title="003 - Как я пишу код" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248550&hash=25af33babe70ca19&hd=3" />
+<VkVideo title="004 - Почему я использую WebRTC вместо SDK (например, Zoom)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248551&hash=3a4104fa5cb5ffc9&hd=3" />
 
 - ### 02. Базовый проект
-    - [005 - Настройка файлов проекта](https://vkvideo.ru/video-224325822_456248552);
-    - [006 - getUserMedia - с чего всё начинается](https://vkvideo.ru/video-224325822_456248553);
-    - [007 - Воспроизведение потока, getTracks() и MediaStreamTracks](https://vkvideo.ru/video-224325822_456248554);
-    - [008 - Несколько обновлений UI](https://vkvideo.ru/video-224325822_456248555);
-    - [009 - Обзор ограничений](https://vkvideo.ru/video-224325822_456248556);
-    - [010 - Изменение разрешения, частоты кадров, соотношения сторон](https://vkvideo.ru/video-224325822_456248557);
-    - [011 - Запись потока - MediaRecorder и WebRTC](https://vkvideo.ru/video-224325822_456248558);
-    - [012 - Обновление кнопок](https://vkvideo.ru/video-224325822_456248559);
-    - [013 - Захват экрана](https://vkvideo.ru/video-224325822_456248560);
-    - [014 - Получение доступных входных-выходных устройств - Часть 1](https://vkvideo.ru/video-224325822_456248561);
-    - [015 - Загрузка параметров входных-выходных устройств - Часть 2](https://vkvideo.ru/video-224325822_456248562);
+
+<VkVideo title="005 - Настройка файлов проекта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248552&hash=360fe5a7aa25f028&hd=3" />
+<VkVideo title="006 - getUserMedia - с чего всё начинается" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248553&hash=12664f2bace2f72f&hd=3" />
+<VkVideo title="007 - Воспроизведение потока, getTracks() и MediaStreamTracks" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248554&hash=b6234aaed1ded273&hd=3" />
+<VkVideo title="008 - Несколько обновлений UI" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248555&hash=223a9364add25bee&hd=3" />
+<VkVideo title="009 - Обзор ограничений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248556&hash=beb7954c938560d6&hd=3" />
+<VkVideo title="010 - Изменение разрешения, частоты кадров, соотношения сторон" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248557&hash=30a3fa80975661bc&hd=3" />
+<VkVideo title="011 - Запись потока - MediaRecorder и WebRTC" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248558&hash=7abc7c5ae1e75a4e&hd=3" />
+<VkVideo title="012 - Обновление кнопок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248559&hash=9a3b2bf74fd1dc73&hd=3" />
+<VkVideo title="013 - Захват экрана" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248560&hash=fd320f2c8b920b2e&hd=3" />
+<VkVideo title="014 - Получение доступных входных-выходных устройств - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248561&hash=347c653bb0c4a9a4&hd=3" />
+<VkVideo title="015 - Загрузка параметров входных-выходных устройств - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248562&hash=d873f7789634e7ad&hd=3" />
 
 - ### 03. Потоковое видео (peer-to-peer)
-    - [016 - Демонстрация и обзор раздела](https://vkvideo.ru/video-224325822_456248563?list=ln-Z9BCluSUl99iZdl5I3);
-    - [017 - rtcPeerConnection и сигнализация](https://vkvideo.ru/video-224325822_456248564?list=ln-Com4B1d3i0c9nmDVks);
-    - [018 - Сигнализация - SDP](https://vkvideo.ru/video-224325822_456248565?list=ln-BcwPWxzoyVs4JO6TcF);
-    - [019 - Сигнализация - ICE (и STUN)](https://vkvideo.ru/video-224325822_456248566?list=ln-RjyvnmZp44xGr15NBv);
-    - [020 - Структура файлов](https://vkvideo.ru/video-224325822_456248567?list=ln-C6r4kURhXPeMzXpwqi);
-    - [021 - Локальное RTC](https://vkvideo.ru/video-224325822_456248568?list=ln-dV5e5kzgp9Y2s5wWeZ);
-    - [022 - setLocalDescription()](https://vkvideo.ru/video-224325822_456248569?list=ln-M0BgBbx2wS6wiS1D5K);
-    - [023 - Настройка Socket.io и HTTPS](https://vkvideo.ru/video-224325822_456248570?list=ln-1GxOsZHVMwkXZtECqr);
-    - [024 - Список задач подключения - Часть 1](https://vkvideo.ru/video-224325822_456248571?list=ln-MCjrt66JbCmUKDFCio);
-    - [025 - Список задач подключения - Часть 2](https://vkvideo.ru/video-224325822_456248572?list=ln-62rjLWEZxRJAs4uMsi);
-    - [026 - emit newOffer](https://vkvideo.ru/video-224325822_456248573?list=ln-T36hppey9lMiCcD5oC);
-    - [027 - Emit iceCandidates](https://vkvideo.ru/video-224325822_456248574?list=ln-PqYZHG4G9bLK6xap5m);
-    - [028 - Загрузка существующих и новых предложений](https://vkvideo.ru/video-224325822_456248575?list=ln-1mchuqPBqZeSThz8ID);
-    - [029 - Создание ответа](https://vkvideo.ru/video-224325822_456248576?list=ln-hAI9JPvgqdnvz5znqf);
-    - [030 - Обработка ошибок в процессе сигнализации](https://vkvideo.ru/video-224325822_456248577?list=ln-UU3cKBONQZK8Pd04kg);
-    - [031 - Отправка ответа](https://vkvideo.ru/video-224325822_456248578?list=ln-oHvlemKxA8TH5T4Jqh);
-    - [032 - Прослушивание ответа и setRemoteDescription(answer)](https://vkvideo.ru/video-224325822_456248579?list=ln-IZE86lgQenJiD7jffL);
-    - [033 - Применение ICE кандидатов - Часть 1](https://vkvideo.ru/video-224325822_456248580?list=ln-DXeGo2XYK1PKaNfWl2);
-    - [034 - Применение ICE кандидатов - Часть 2](https://vkvideo.ru/video-224325822_456248581?list=ln-9ygmJvzEIa9c18YzQQ);
-    - [035 - Добавление треков от удалённого пира](https://vkvideo.ru/video-224325822_456248582?list=ln-jl8xeQjZeVPH9Rhhms);
-    - [036 - Загрузка на другое устройство в той же сети](https://vkvideo.ru/video-224325822_456248583?list=ln-q7K94H0F05z8BZpnz3);
+
+<VkVideo title="016 - Демонстрация и обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248563&hash=0c95fd2ec5be3f08&hd=3" />
+<VkVideo title="017 - rtcPeerConnection и сигнализация" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248564&hash=d54df9b522377521&hd=3" />
+<VkVideo title="018 - Сигнализация - SDP" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248565&hash=642c6eeae2365174&hd=3" />
+<VkVideo title="019 - Сигнализация - ICE (и STUN)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248566&hash=34a93d47dd4f6ae5&hd=3" />
+<VkVideo title="020 - Структура файлов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248567&hash=b25da18f5afc863e&hd=3" />
+<VkVideo title="021 - Локальное RTC" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248568&hash=8b961fe93ea2a858&hd=3" />
+<VkVideo title="022 - setLocalDescription()" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248569&hash=e2b487f42718a640&hd=3" />
+<VkVideo title="023 - Настройка Socket.io и HTTPS" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248570&hash=362d99cb224b6dfa&hd=3" />
+<VkVideo title="024 - Список задач подключения - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248571&hash=2ecd22fd7015619b&hd=3" />
+<VkVideo title="025 - Список задач подключения - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248572&hash=c21503102dc80339&hd=3" />
+<VkVideo title="026 - emit newOffer" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248573&hash=f41dc6da641a026e&hd=3" />
+<VkVideo title="027 - Emit iceCandidates" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248574&hash=48ef604ad27fc288&hd=3" />
+<VkVideo title="028 - Загрузка существующих и новых предложений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248575&hash=23401b24fb083462&hd=3" />
+<VkVideo title="029 - Создание ответа" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248576&hash=3facf25bfba5d001&hd=3" />
+<VkVideo title="030 - Обработка ошибок в процессе сигнализации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248577&hash=d9f24343db4fb2a6&hd=3" />
+<VkVideo title="031 - Отправка ответа" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248578&hash=3558a9f800018819&hd=3" />
+<VkVideo title="032 - Прослушивание ответа и setRemoteDescription(answer)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248579&hash=890b3684c6f689ae&hd=3" />
+<VkVideo title="033 - Применение ICE кандидатов - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248580&hash=7f4d1d40837ed513&hd=3" />
+<VkVideo title="034 - Применение ICE кандидатов - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248581&hash=aa50713510ca4fbe&hd=3" />
+<VkVideo title="035 - Добавление треков от удалённого пира" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248582&hash=d6b4eba4a6ea95be&hd=3" />
+<VkVideo title="036 - Загрузка на другое устройство в той же сети" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248583&hash=f3a75003050471ae&hd=3" />
 
 - ### 04. Обзор процесса WebRTC
-    - [037 - Процесс на доске](https://vkvideo.ru/video-224325822_456248585?list=ln-K7qmMrmgZSXHLeo8eD);
-    - 038 - Обзор кода;
+
+<VkVideo title="037 - Процесс на доске" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248585&hash=a175278321f9ffc8&hd=3" />
+<VkVideo title="038 - Обзор кода (НЕ ДОБАВЛЕНО)" src="" />
 
 - ### 05. Проект TeleLegal - React
     - 039 - Демонстрация проекта;
