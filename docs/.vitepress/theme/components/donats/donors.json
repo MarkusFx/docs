@@ -1,0 +1,11 @@
+[
+    { "name": "Val_1", "amount": 5 },
+    { "name": "Val_2", "amount": 5 },
+    { "name": "Val_3", "amount": 20 },
+    { "name": "Val_4", "amount": 20 },
+    { "name": "Val_3", "amount": 100 },
+    { "name": "Val_5", "amount": 100 },
+    { "name": "Val_6", "amount": 100 },
+    { "name": "Val_7", "amount": 50 },
+    { "name": "Val_8", "amount": 50 }
+]

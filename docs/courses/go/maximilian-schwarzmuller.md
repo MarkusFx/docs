@@ -6,226 +6,226 @@ outline: [2, 3]
 
 - ### 01. Начало работы
 
-    - [001 - Добро пожаловать на курс](https://vkvideo.ru/video-224325822_456246428);
-    - [002 - Что такое Go и почему это круто](https://vkvideo.ru/video-224325822_456246429);
-    - [003 - Установка Go](https://vkvideo.ru/video-224325822_456246430);
-    - [004 - Настройка редактора кода](https://vkvideo.ru/video-224325822_456246431);
-    - [005 - Написание первой программы](https://vkvideo.ru/video-224325822_456246432);
-    - [006 - О курсе и содержании курса](https://vkvideo.ru/video-224325822_456246433);
-    - [007 - Как получить максимум от этого курса](https://vkvideo.ru/video-224325822_456246434);
+<VkVideo title="001 - Добро пожаловать на курс" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246428&hash=ca12e15a0ab17cd6&hd=3" />
+<VkVideo title="002 - Что такое Go и почему это круто" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246429&hash=e4e236b59e4b0507&hd=3" />
+<VkVideo title="003 - Установка Go" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246430&hash=08c9dd4fe77f471c&hd=3" />
+<VkVideo title="004 - Настройка редактора кода" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246431&hash=c8e85bf3a9eb5312&hd=3" />
+<VkVideo title="005 - Написание первой программы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246432&hash=927ea5bb6838ca25&hd=3" />
+<VkVideo title="006 - О курсе и содержании курса" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246433&hash=5f6b71d4bb384a12&hd=3" />
+<VkVideo title="007 - Как получить максимум от этого курса" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246434&hash=1b9368ce05bc6ba0&hd=3" />
 
 - ### 02. Основы Go
 
-    - [008 - Введение](https://vkvideo.ru/video-224325822_456246435);
-    - [009 - Работа с функциями и значениями](https://vkvideo.ru/video-224325822_456246436);
-    - [010 - Организация кода с помощью пакетов](https://vkvideo.ru/video-224325822_456246437);
-    - [011 - Важность имени main](https://vkvideo.ru/video-224325822_456246438);
-    - [012 - Модули и сборка программ](https://vkvideo.ru/video-224325822_456246439);
-    - [013 - Функция main имеет значение](https://vkvideo.ru/video-224325822_456246440);
-    - [014 - Переход к новому проекту](https://vkvideo.ru/video-224325822_456246441);
-    - [015 - Работа с переменными, значениями и операторами](https://vkvideo.ru/video-224325822_456246442);
-    - [016 - Типы значений](https://vk.com/video-224325822_456246443?list=ln-VagwdRRz87Ld0o0H2x);
-    - [017 - Вывод значений](https://vk.com/video-224325822_456246444?list=ln-yFPTYwXbtupRdCDMD0);
-    - [018 - Преобразование типов и явное присваивание типов](https://vk.com/video-224325822_456246445?list=ln-NAoGEatrqwuN1LHNBs);
-    - [019 - Использование альтернативных способов объявления переменных](https://vk.com/video-224325822_456246446?list=ln-w4MSf8cSPkSsjVzR5N);
-    - [020 - Осмысление константных значений](https://vk.com/video-224325822_456246447?list=ln-xQdnuqYDxRpJDm0JlG);
-    - [021 - Важность переменных](https://vk.com/video-224325822_456246448?list=ln-NVk5NC8hclA0NutZps);
-    - [022 - Улучшенный ввод данных от пользователя](https://vk.com/video-224325822_456246449?list=ln-xD6EoJr4U1qcKeqzEz);
-    - [023 - Упражнение - Создание калькулятора прибыли](https://vk.com/video-224325822_456246450?list=ln-cxUknzsUvuzVr4fEGW);
-    - [024 - Решение упражнения](https://vk.com/video-224325822_456246451?list=ln-zmF4rwgXMzj0OeTm8r);
-    - [025 - Форматирование строк](https://vk.com/video-224325822_456246452?list=ln-jlo9B41yh2W5yP36EM);
-    - [026 - Форматирование чисел с плавающей точкой в строках](https://vk.com/video-224325822_456246453?list=ln-C1vMgyAOxYCOuz3hyA);
-    - [027 - Создание форматированных строк](https://vk.com/video-224325822_456246454?list=ln-VaNh233UOtroMm6AIh);
-    - [028 - Создание многострочных строк](https://vk.com/video-224325822_456246455?list=ln-0zTX2hCL4DuEtxZunx);
-    - [029 - Функции](https://vk.com/video-224325822_456246456?list=ln-pdUeWbbnvfFKl9lxD7);
-    - [030 - Возвращаемые значения функций и область видимости переменных](https://vk.com/video-224325822_456246457?list=ln-yVbcIv3mDzCmgEUWch);
-    - [031 - Альтернативный синтаксис возвращаемых значений](https://vk.com/video-224325822_456246458?list=ln-OgQRMY8MrZmKquMVlP);
-    - [032 - Упражнение - Работа с функциями](https://vk.com/video-224325822_456246459?list=ln-lC3Sb4QvxVRuNz4zlO);
-    - [033 - Переход к управляющим конструкциям](https://vk.com/video-224325822_456246460?list=ln-91mrfpQzS4GJhCqJsz);
-    - [034 - Введение в if и логические значения](https://vk.com/video-224325822_456246461?list=ln-bPcAMuOMLM08AkUb2z);
-    - [035 - Работа с else if](https://vk.com/video-224325822_456246462?list=ln-yzKAn74nHYOqjniksh);
-    - [036 - Упражнение - if-выражения](https://vk.com/video-224325822_456246463?list=ln-AoalP47bJe1OUXPGF3);
-    - [037 - Использование else](https://vk.com/video-224325822_456246464?list=ln-BQPwgzDKIY7KRDnW9s);
-    - [038 - Вложенные if и использование return для остановки выполнения](https://vk.com/video-224325822_456246465?list=ln-8zZgwogvFjrFWrOjJL);
-    - [039 - Повторение кода с помощью циклов for](https://vk.com/video-224325822_456246466?list=ln-AiqxbndzZd5NMURubK);
-    - [040 - Бесконечные циклы, break и continue](https://vk.com/video-224325822_456246467?list=ln-JL7f9ae1TZoUv1XauC);
-    - [041 - Осмысление switch](https://vkvideo.ru/video-224325822_456246468?list=ln-F1K6hl8MKSikAh1sbx);
-    - [042 - Запись в файлы](https://vkvideo.ru/video-224325822_456246469?list=ln-PeyHAaGi8PVwZASuDG);
-    - [043 - Чтение из файлов](https://vkvideo.ru/video-224325822_456246470?list=ln-rqH6O0mzbQ3Vf6ShOE);
-    - [044 - Обработка ошибок](https://vkvideo.ru/video-224325822_456246471?list=ln-1dyJZ1a0zmWqbuRQNM);
-    - [045 - Время паниковать](https://vkvideo.ru/video-224325822_456246472?list=ln-ao4W2bnjNHFTukNkRO);
-    - [046 - Задание по разделу](https://vkvideo.ru/video-224325822_456246473?list=ln-nUgW7kVLIvyz0BkIAG);
-    - [047 - Решение задания](https://vkvideo.ru/video-224325822_456246474?list=ln-ewHPHrHyiJsLPWqAqD);
-    - [048 - Итоги модуля](https://vkvideo.ru/video-224325822_456246475?list=ln-FoejAQqFvbfa6MFNIn);
+<VkVideo title="008 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246435&hash=9e444ff0df348a8b&hd=3" />
+<VkVideo title="009 - Работа с функциями и значениями" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246436&hash=e10c66c3b98c023d&hd=3" />
+<VkVideo title="010 - Организация кода с помощью пакетов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246437&hash=81a6595acc73ac41&hd=3" />
+<VkVideo title="011 - Важность имени main" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246438&hash=e5f6dd9f16977064&hd=3" />
+<VkVideo title="012 - Модули и сборка программ" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246439&hash=d97b4b2350ae8544&hd=3" />
+<VkVideo title="013 - Функция main имеет значение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246440&hash=5cac92cf021a65f3&hd=3" />
+<VkVideo title="014 - Переход к новому проекту" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246441&hash=200dc3e8409d3f31&hd=3" />
+<VkVideo title="015 - Работа с переменными, значениями и операторами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246442&hash=08b3dbde658402ee&hd=3" />
+<VkVideo title="016 - Типы значений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246443&hash=031416a179d698e6&hd=3" />
+<VkVideo title="017 - Вывод значений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246444&hash=9a32e35e73a5f2cf&hd=3" />
+<VkVideo title="018 - Преобразование типов и явное присваивание типов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246445&hash=2498b2be2702835c&hd=3" />
+<VkVideo title="019 - Использование альтернативных способов объявления переменных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246446&hash=84696c2d45b43d8a&hd=3" />
+<VkVideo title="020 - Осмысление константных значений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246447&hash=722616e1c77fc17f&hd=3" />
+<VkVideo title="021 - Важность переменных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246448&hash=84b4025ed84da874&hd=3" />
+<VkVideo title="022 - Улучшенный ввод данных от пользователя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246449&hash=91bd877aa53ad96c&hd=3" />
+<VkVideo title="023 - Упражнение - Создание калькулятора прибыли" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246450&hash=a10c3cd9e43fd7dd&hd=3" />
+<VkVideo title="024 - Решение упражнения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246451&hash=8239c61eb15628ab&hd=3" />
+<VkVideo title="025 - Форматирование строк" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246452&hash=2e3126a7b01a4111&hd=3" />
+<VkVideo title="026 - Форматирование чисел с плавающей точкой в строках" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246453&hash=76bb44c0c984f044&hd=3" />
+<VkVideo title="027 - Создание форматированных строк" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246454&hash=1db7410c93b84886&hd=3" />
+<VkVideo title="028 - Создание многострочных строк" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246455&hash=18e7c19be25f4ab5&hd=3" />
+<VkVideo title="029 - Функции" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246456&hash=92cbf03b78209c1c&hd=3" />
+<VkVideo title="030 - Возвращаемые значения функций и область видимости переменных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246457&hash=000d5852200620db&hd=3" />
+<VkVideo title="031 - Альтернативный синтаксис возвращаемых значений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246458&hash=029a6cd393910eec&hd=3" />
+<VkVideo title="032 - Упражнение - Работа с функциями" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246459&hash=268b445aba76bf42&hd=3" />
+<VkVideo title="033 - Переход к управляющим конструкциям" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246460&hash=31cb98694d69aad1&hd=3" />
+<VkVideo title="034 - Введение в if и логические значения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246461&hash=7f83002577d16795&hd=3" />
+<VkVideo title="035 - Работа с else if" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246462&hash=e73e4775c681bd61&hd=3" />
+<VkVideo title="036 - Упражнение - if-выражения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246463&hash=15fb460b4e455d2d&hd=3" />
+<VkVideo title="037 - Использование else" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246464&hash=36b39caa164fd83e&hd=3" />
+<VkVideo title="038 - Вложенные if и использование return для остановки выполнения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246465&hash=f1bb862e6bd0a0be&hd=3" />
+<VkVideo title="039 - Повторение кода с помощью циклов for" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246466&hash=b61bfe920fcd45e1&hd=3" />
+<VkVideo title="040 - Бесконечные циклы, break и continue" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246467&hash=6fae3c18fe251053&hd=3" />
+<VkVideo title="041 - Осмысление switch" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246468&hash=9513fe677423bc7b&hd=3" />
+<VkVideo title="042 - Запись в файлы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246469&hash=efc2475cce88eac8&hd=3" />
+<VkVideo title="043 - Чтение из файлов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246470&hash=962e91c1da0d67e9&hd=3" />
+<VkVideo title="044 - Обработка ошибок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246471&hash=224cae5aa9a0745d&hd=3" />
+<VkVideo title="045 - Время паниковать" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246472&hash=fbbd5e2e37af1533&hd=3" />
+<VkVideo title="046 - Задание по разделу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246473&hash=5a9b0e9de8a24ff0&hd=3" />
+<VkVideo title="047 - Решение задания" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246474&hash=576b023f2ca4dcdc&hd=3" />
+<VkVideo title="048 - Итоги модуля" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246475&hash=bb46c39c25dbbbad&hd=3" />
 
 - ### 03. Работа с пакетами
 
-    - [049 - Введение](https://vk.com/video-224325822_456246697?list=ln-jgsoqSe9iayXCnz3kW);
-    - [050 - Разделение кода по файлам в одном пакете](https://vk.com/video-224325822_456246698?list=ln-s49qZsQIykZ5xPZBVy);
-    - [051 - Зачем использовать несколько пакетов](https://vk.com/video-224325822_456246699?list=ln-0h2pbU7h9l0LY8yik4);
-    - [052 - Подготовка кода для нескольких пакетов](https://vk.com/video-224325822_456246700?list=ln-ZR4EuazLpsA6TW3oYz);
-    - [053 - Разделение кода между пакетами](https://vk.com/video-224325822_456246701?list=ln-rNxmg4k9spAMl8x3ru);
-    - [054 - Импорт пакетов](https://vk.com/video-224325822_456246702?list=ln-aNdTLYE2P1oMInrpuv);
-    - [055 - Экспорт и импорт идентификаторов (переменных, функций и др.)](https://vk.com/video-224325822_456246703?list=ln-xFi9ifbKaCgbLnMXAu);
-    - [056 - Использование сторонних пакетов](https://vk.com/video-224325822_456246704?list=ln-x85091zYYFyyP8Mgqw);
-    - [057 - Итоги модуля](https://vk.com/video-224325822_456246705?list=ln-xRjmOjhpJ6zFfNqAjw);
+<VkVideo title="049 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246697&hash=601ed098bfe9c2ed&hd=3" />
+<VkVideo title="050 - Разделение кода по файлам в одном пакете" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246698&hash=9697a6287d74fd5f&hd=3" />
+<VkVideo title="051 - Зачем использовать несколько пакетов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246699&hash=2f668e9e08fb447c&hd=3" />
+<VkVideo title="052 - Подготовка кода для нескольких пакетов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246700&hash=0071d8662d5e45dc&hd=3" />
+<VkVideo title="053 - Разделение кода между пакетами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246701&hash=80ce54d3cd6af298&hd=3" />
+<VkVideo title="054 - Импорт пакетов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246702&hash=dcf7db560af50b9b&hd=3" />
+<VkVideo title="055 - Экспорт и импорт идентификаторов (переменных, функций и др.)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246703&hash=9373781d54a8c6ad&hd=3" />
+<VkVideo title="056 - Использование сторонних пакетов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246704&hash=ffcbe91d1cabbb0e&hd=3" />
+<VkVideo title="057 - Итоги модуля" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246705&hash=4232d321930423c0&hd=3" />
 
 - ### 04. Указатели
 
-    - [058 - Введение](https://vk.com/video-224325822_456246706?list=ln-uJjWpAzLyogtmpyHGQ);
-    - [059 - Указатели](https://vk.com/video-224325822_456246707?list=ln-0KmDdoF3gcEuvvibgQ);
-    - [060 - Написание кода без указателей](https://vk.com/video-224325822_456246708?list=ln-bGFZlUTrONcGst9Vo2);
-    - [061 - Создание указателя](https://vk.com/video-224325822_456246709?list=ln-rrtwZTGkd75nRB6ikX);
-    - [062 - Указатели как значения](https://vk.com/video-224325822_456246710?list=ln-vF08LIAIuBXHAzrY9E);
-    - [063 - Использование указателей и передача в функции](https://vk.com/video-224325822_456246711?list=ln-0480AcchQoOHerudjT);
-    - [064 - Использование указателей для изменения данных](https://vk.com/video-224325822_456246712?list=ln-2bHzesvrxalcFEeo1Z);
-    - [065 - Пример - Функция Scan()](https://vk.com/video-224325822_456246713?list=ln-5gTXn9GUEPZTZRpqmg);
-    - [066 - Итоги модуля](https://vk.com/video-224325822_456246714?list=ln-i6NaVzrg9Mht2wpao0);
+<VkVideo title="058 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246706&hash=d46ababef4e07617&hd=3" />
+<VkVideo title="059 - Указатели" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246707&hash=2d74ccb28dedd567&hd=3" />
+<VkVideo title="060 - Написание кода без указателей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246708&hash=b8e40939affc0448&hd=3" />
+<VkVideo title="061 - Создание указателя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246709&hash=07d73b8bb6874256&hd=3" />
+<VkVideo title="062 - Указатели как значения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246710&hash=5f5723138cda78af&hd=3" />
+<VkVideo title="063 - Использование указателей и передача в функции" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246711&hash=3de805ae5a0338bb&hd=3" />
+<VkVideo title="064 - Использование указателей для изменения данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246712&hash=a570839805ce10e5&hd=3" />
+<VkVideo title="065 - Пример - Функция Scan()" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246713&hash=e142428cc4016867&hd=3" />
+<VkVideo title="066 - Итоги модуля" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246714&hash=77ca81d27f9e6c12&hd=3" />
 
 - ### 05. Структуры и пользовательские типы
 
-    - [067 - Введение](https://vkvideo.ru/video-224325822_456246715?list=ln-KOc0w1o5eTZ5mQjfu6);
-    - [068 - Стартовый проект](https://vkvideo.ru/video-224325822_456246716?list=ln-PQ80JQXVgrx8Jeitzv);
-    - [069 - Какую проблему решают структуры](https://vkvideo.ru/video-224325822_456246717?list=ln-WzvFJ4qMu0twuGJyWk);
-    - [070 - Определение типа структуры](https://vkvideo.ru/video-224325822_456246718?list=ln-uPB8Z0bNIx8if3hW3B);
-    - [071 - Создание экземпляров структур и литералы](https://vkvideo.ru/video-224325822_456246719?list=ln-8RBPkeOBZZdeGF6455);
-    - [072 - Альтернативная запись литералов и нулевые значения](https://vkvideo.ru/video-224325822_456246720?list=ln-q5l8jsZcTyvZaKn5rq);
-    - [073 - Передача структур как аргументов](https://vkvideo.ru/video-224325822_456246721?list=ln-kGlcvdUagsqN7eNKjo);
-    - [074 - Структуры и указатели](https://vkvideo.ru/video-224325822_456246722?list=ln-m3vh2BI76UJsw5opYh);
-    - [075 - Введение в методы](https://vkvideo.ru/video-224325822_456246723?list=ln-STQliZF4H6nNN8PmSp);
-    - [076 - Методы для изменения данных](https://vkvideo.ru/video-224325822_456246724?list=ln-uoQ4UmzbCnziQ2U8O0);
-    - [077 - Использование функций-конструкторов](https://vkvideo.ru/video-224325822_456246725?list=ln-P6gGWeRzYLlyxThgU9);
-    - [078 - Конструкторы для валидации](https://vkvideo.ru/video-224325822_456246726?list=ln-CM5SK989lJVynvbvWg);
-    - [079 - Структуры, пакеты и экспорт](https://vkvideo.ru/video-224325822_456246727?list=ln-FD5ry91q7woQUwxieX);
-    - [080 - Публичные методы и другое имя конструктора](https://vkvideo.ru/video-224325822_456246728?list=ln-wDw6qOhzzUgnT4ObcW);
-    - [081 - Встраивание структур](https://vkvideo.ru/video-224325822_456246729?list=ln-qTZSv2xtJfNHD9Potf);
-    - [082 - Итоги](https://vkvideo.ru/video-224325822_456246730?list=ln-DYIrU4joKRukjaRVwq);
-    - [083 - Создание других типов и добавление методов](https://vkvideo.ru/video-224325822_456246731?list=ln-FF5eVZAcZh1Jo5XPBe);
-    - [084 - Практика - Ввод данных от пользователя](https://vkvideo.ru/video-224325822_456246732?list=ln-mVH0ZidZDFhXRKBopg);
-    - [085 - Практика - Создание структуры и конструктора](https://vkvideo.ru/video-224325822_456246733?list=ln-gbuTbi0zOmEnuZ2I5N);
-    - [086 - Практика - Добавление метода](https://vkvideo.ru/video-224325822_456246734?list=ln-Y2AfaDS8hTuhZufJlU);
-    - [087 - Практика - Работа с длинным вводом текста](https://vkvideo.ru/video-224325822_456246735?list=ln-Lqd23W8QzFlvaKl1zb);
-    - [088 - Практика - Подготовка сохранения в файл](https://vkvideo.ru/video-224325822_456246736?list=ln-hoYe24nvToCXdZyFF3);
-    - [089 - Практика - Кодирование содержимого в JSON](https://vkvideo.ru/video-224325822_456246737?list=ln-bfZWJrSCVnxJJT6fYF);
-    - [090 - Практика - Исправления](https://vkvideo.ru/video-224325822_456246738?list=ln-Rlr28le7CD1dQwxtZe);
-    - [091 - Теги структур](https://vkvideo.ru/video-224325822_456246739?list=ln-XZaLd48ucoP4lfr0xm);
+<VkVideo title="067 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246715&hash=42555e48e715b262&hd=3" />
+<VkVideo title="068 - Стартовый проект" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246716&hash=872e0d2db00b5c63&hd=3" />
+<VkVideo title="069 - Какую проблему решают структуры" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246717&hash=8ef23a1a6fca7ae1&hd=3" />
+<VkVideo title="070 - Определение типа структуры" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246718&hash=88c6dc012fedbd6f&hd=3" />
+<VkVideo title="071 - Создание экземпляров структур и литералы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246719&hash=757ad477a68c6483&hd=3" />
+<VkVideo title="072 - Альтернативная запись литералов и нулевые значения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246720&hash=c433c602b6ebadad&hd=3" />
+<VkVideo title="073 - Передача структур как аргументов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246721&hash=874ba5270ecb5b99&hd=3" />
+<VkVideo title="074 - Структуры и указатели" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246722&hash=ce29084d7d36f8bd&hd=3" />
+<VkVideo title="075 - Введение в методы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246723&hash=7cca2f188ecdd26b&hd=3" />
+<VkVideo title="076 - Методы для изменения данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246724&hash=378e67b5a3c6f020&hd=3" />
+<VkVideo title="077 - Использование функций-конструкторов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246725&hash=e3da91c772e73f15&hd=3" />
+<VkVideo title="078 - Конструкторы для валидации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246726&hash=e5321553c698ffbd&hd=3" />
+<VkVideo title="079 - Структуры, пакеты и экспорт" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246727&hash=a082fc648d8a7ce6&hd=3" />
+<VkVideo title="080 - Публичные методы и другое имя конструктора" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246728&hash=4745e4b8ffd7db4c&hd=3" />
+<VkVideo title="081 - Встраивание структур" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246729&hash=a3df682347695aba&hd=3" />
+<VkVideo title="082 - Итоги" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246730&hash=58f0bf3011cc289d&hd=3" />
+<VkVideo title="083 - Создание других типов и добавление методов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246731&hash=37664365329c811b&hd=3" />
+<VkVideo title="084 - Практика - Ввод данных от пользователя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246732&hash=d5023059884b0048&hd=3" />
+<VkVideo title="085 - Практика - Создание структуры и конструктора" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246733&hash=02964f855f4d483e&hd=3" />
+<VkVideo title="086 - Практика - Добавление метода" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246734&hash=7250a1b1340cc299&hd=3" />
+<VkVideo title="087 - Практика - Работа с длинным вводом текста" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246735&hash=dfaee71c3d6a4086&hd=3" />
+<VkVideo title="088 - Практика - Подготовка сохранения в файл" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246736&hash=80e4ce0044b497e5&hd=3" />
+<VkVideo title="089 - Практика - Кодирование содержимого в JSON" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246737&hash=15b18fca3dfc2279&hd=3" />
+<VkVideo title="090 - Практика - Исправления" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246738&hash=222be3e7fb1fddeb&hd=3" />
+<VkVideo title="091 - Теги структур" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246739&hash=e5caaff4bb5605f8&hd=3" />
 
 - ### 06. Интерфейсы и обобщённый код
 
-    - [092 - Введение](https://vkvideo.ru/video-224325822_456246740?list=ln-N66kMJJvY1RZUa51JI);
-    - [093 - Подготовка примера для интерфейсов](https://vkvideo.ru/video-224325822_456246741?list=ln-v5hZccW9Mk9hPW3245);
-    - [094 - Завершение подготовки к интерфейсам](https://vkvideo.ru/video-224325822_456246742?list=ln-ujNMvxX62rfIpEeJDi);
-    - [095 - Создание первого интерфейса](https://vkvideo.ru/video-224325822_456246743?list=ln-l8iBakWnmTSJzRSEJK);
-    - [096 - Использование интерфейса](https://vkvideo.ru/video-224325822_456246744?list=ln-HOClvaTLmLjIT4JlCq);
-    - [097 - Встраиваемые интерфейсы](https://vkvideo.ru/video-224325822_456246745?list=ln-hRPSQK5UZM5I9LkOXZ);
-    - [098 - Специальный тип any](https://vkvideo.ru/video-224325822_456246746?list=ln-llxuPYgxWROA87RIXF);
-    - [099 - Работа с type switch](https://vkvideo.ru/video-224325822_456246747?list=ln-8zfhcT3PLuyzM7K1Mu);
-    - [100 - Извлечение информации о типе из значений](https://vkvideo.ru/video-224325822_456246748?list=ln-v9YpinD0y0DfmSnmOH);
-    - [101 - Интерфейсы, динамические типы и ограничения](https://vkvideo.ru/video-224325822_456246749?list=ln-FGPsS1is3m0jimfyle);
-    - [102 - Введение в дженерики](https://vkvideo.ru/video-224325822_456246750?list=ln-UdoSXUxxDzrH9sJ98P);
+<VkVideo title="092 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246740&hash=28b34b38482ef62a&hd=3" />
+<VkVideo title="093 - Подготовка примера для интерфейсов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246741&hash=2b28a10cf2e8086c&hd=3" />
+<VkVideo title="094 - Завершение подготовки к интерфейсам" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246742&hash=ee4dc1cc0e3caa1c&hd=3" />
+<VkVideo title="095 - Создание первого интерфейса" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246743&hash=b6aa1d45901be2da&hd=3" />
+<VkVideo title="096 - Использование интерфейса" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246744&hash=d3da0bbb550d179e&hd=3" />
+<VkVideo title="097 - Встраиваемые интерфейсы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246745&hash=b4b5102aff0b744a&hd=3" />
+<VkVideo title="098 - Специальный тип any" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246746&hash=1d3ddd725c86f53e&hd=3" />
+<VkVideo title="099 - Работа с type switch" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246747&hash=3aced1b3fcaec8f5&hd=3" />
+<VkVideo title="100 - Извлечение информации о типе из значений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246748&hash=73a5552b7c8eda1e&hd=3" />
+<VkVideo title="101 - Интерфейсы, динамические типы и ограничения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246749&hash=3d8da19d99137964&hd=3" />
+<VkVideo title="102 - Введение в дженерики" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246750&hash=e499d07c02747a81&hd=3" />
 
 - ### 07. Массивы, срезы и карты
 
-    - [103 - Введение](https://vkvideo.ru/video-224325822_456246751?list=ln-8jabvIyeiPbFXJfQhx);
-    - [104 - Введение в массивы](https://vkvideo.ru/video-224325822_456246752?list=ln-ciy1gEgjzDRV3Y10zA);
-    - [105 - Работа с массивами](https://vkvideo.ru/video-224325822_456246753?list=ln-Vat1BmIFDpOF6r24WW);
-    - [106 - Выбор частей массива с помощью срезов](https://vkvideo.ru/video-224325822_456246754?list=ln-dDhtSL4jzA2uehTZmS);
-    - [107 - Другие способы выбора срезов](https://vkvideo.ru/video-224325822_456246755?list=ln-fpOZlP01jZKhJlQJZ6);
-    - [108 - Более глубокое понимание срезов](https://vkvideo.ru/video-224325822_456246756?list=ln-ZIiLTfAFPlcPCZy2MS);
-    - [109 - Создание динамических списков со срезами](https://vkvideo.ru/video-224325822_456246757?list=ln-UPNfurWBlLnZKzPjys);
-    - [110 - Задача](https://vkvideo.ru/video-224325822_456246758?list=ln-rGgFiklvC7QTV4aRvu);
-    - [111 - Решение](https://vkvideo.ru/video-224325822_456246759?list=ln-AahQUf9oGfgxM57yiP);
-    - [112 - Распаковка значений списка](https://vkvideo.ru/video-224325822_456246760?list=ln-qImY5i6cb74i7asIcr);
-    - [113 - Введение в карты (maps)](https://vkvideo.ru/video-224325822_456246761?list=ln-8ply2lKugTuDUqYcoK);
-    - [114 - Изменение карт](https://vkvideo.ru/video-224325822_456246762?list=ln-yziX4WFPFnEzeNZCZ4);
-    - [115 - Карты vs структуры](https://vkvideo.ru/video-224325822_456246763?list=ln-29dxkmMkpFDiNRC1Or);
-    - [116 - Использование специальной функции make](https://vkvideo.ru/video-224325822_456246764?list=ln-jJUwKH4oimB0cHpXIN);
-    - [117 - Создание карт](https://vkvideo.ru/video-224325822_456246765?list=ln-OBfW4VChk0Ko9OwPNX);
-    - [118 - Работа с псевдонимами типов](https://vkvideo.ru/video-224325822_456246766?list=ln-cD19ZJzRxP4hJGfdZe);
-    - [119 - Циклы for с массивами, срезами и картами](https://vkvideo.ru/video-224325822_456246767?list=ln-Feye9gp6ZczVZU5okZ);
+<VkVideo title="103 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246751&hash=25bc8384d573b8b9&hd=3" />
+<VkVideo title="104 - Введение в массивы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246752&hash=5ce47294efdd800b&hd=3" />
+<VkVideo title="105 - Работа с массивами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246753&hash=8d0579821163f8a4&hd=3" />
+<VkVideo title="106 - Выбор частей массива с помощью срезов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246754&hash=74771b1c18bf1d85&hd=3" />
+<VkVideo title="107 - Другие способы выбора срезов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246755&hash=4621e27f00bc2dc3&hd=3" />
+<VkVideo title="108 - Более глубокое понимание срезов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246756&hash=48078a4297c7f7b7&hd=3" />
+<VkVideo title="109 - Создание динамических списков со срезами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246757&hash=6e7cc1a1fa5a5515&hd=3" />
+<VkVideo title="110 - Задача" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246758&hash=8f8cf28c082ab1b1&hd=3" />
+<VkVideo title="111 - Решение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246759&hash=d6adc0925d2555b0&hd=3" />
+<VkVideo title="112 - Распаковка значений списка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246760&hash=38a884639bfd3827&hd=3" />
+<VkVideo title="113 - Введение в карты (maps)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246761&hash=a75383de8a7fd172&hd=3" />
+<VkVideo title="114 - Изменение карт" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246762&hash=1e644cb78a726a07&hd=3" />
+<VkVideo title="115 - Карты vs структуры" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246763&hash=61a194632c335167&hd=3" />
+<VkVideo title="116 - Использование специальной функции make" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246764&hash=5e026fe2ebc1a437&hd=3" />
+<VkVideo title="117 - Создание карт" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246765&hash=19741bdb78433a2e&hd=3" />
+<VkVideo title="118 - Работа с псевдонимами типов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246766&hash=05fad39ba6e66482&hd=3" />
+<VkVideo title="119 - Циклы for с массивами, срезами и картами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246767&hash=7c0607f18208542c&hd=3" />
 
 - ### 08. Глубокое погружение в функции
 
-    - [120 - Введение](https://vk.com/video-224325822_456246768?list=ln-mDzZZtZQlCcsaVpI3O);
-    - [121 - Функции как значения и типы функций](https://vk.com/video-224325822_456246769?list=ln-tP9OtiTrwPulNgZdVQ);
-    - [122 - Возврат функций как значений](https://vk.com/video-224325822_456246770?list=ln-EAcKD9JDXrZz3ZaVf9);
-    - [123 - Введение в анонимные функции](https://vk.com/video-224325822_456246771?list=ln-3e2QR4dHKLgZOonGZR);
-    - [124 - Замыкания](https://vk.com/video-224325822_456246772?list=ln-g4RMzSr1N19jANaZUj);
-    - [125 - Осмысление рекурсии](https://vk.com/video-224325822_456246773?list=ln-wKbohsp4K2ZpIVMijm);
-    - [126 - Использование вариативных функций](https://vk.com/video-224325822_456246774?list=ln-1JJdMHTSfNCATbOM0s);
-    - [127 - Разделение срезов на параметры](https://vk.com/video-224325822_456246775?list=ln-ZvGJPTIak6hnV7nRrS);
+<VkVideo title="120 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246768&hash=178776b93e255d92&hd=3" />
+<VkVideo title="121 - Функции как значения и типы функций" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246769&hash=2d5e512cc8ee70a4&hd=3" />
+<VkVideo title="122 - Возврат функций как значений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246770&hash=85c35bddc996f21b&hd=3" />
+<VkVideo title="123 - Введение в анонимные функции" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246771&hash=a7881bc4e57f564a&hd=3" />
+<VkVideo title="124 - Замыкания" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246772&hash=556a28b5bef4d129&hd=3" />
+<VkVideo title="125 - Осмысление рекурсии" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246773&hash=35160a18b9e920c8&hd=3" />
+<VkVideo title="126 - Использование вариативных функций" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246774&hash=5f7de268ba267045&hd=3" />
+<VkVideo title="127 - Разделение срезов на параметры" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246775&hash=21c6837442a80ceb&hd=3" />
 
 - ### 09. Калькулятор цен
 
-    - [128 - Введение](https://vk.com/video-224325822_456246776?list=ln-ygkhO1qlceOotDb75t);
-    - [129 - Создание первой базовой версии программы](https://vk.com/video-224325822_456246777?list=ln-9z59zqTTURqVPO9H3E);
-    - [130 - Настройка первой структуры](https://vk.com/video-224325822_456246778?list=ln-V8KhAzQtvBzUzzoN20);
-    - [131 - Добавление функции-конструктора](https://vk.com/video-224325822_456246779?list=ln-1LbvGZoMnSe5zb0ZAr);
-    - [132 - Добавление метода](https://vk.com/video-224325822_456246780?list=ln-7Y80aq3Pb4owijX6NS);
-    - [133 - Загрузка данных из файла](https://vk.com/video-224325822_456246781?list=ln-BewejFV3IU7vdFx1zw);
-    - [134 - Работа с данными файла](https://vk.com/video-224325822_456246782?list=ln-zLU3vbWczXR8hq8qeW);
-    - [135 - Вынос общей логики в пакет](https://vk.com/video-224325822_456246783?list=ln-7rAmzlxzza7U7hmTfR);
-    - [136 - Вынос доступа к файлам в пакет](https://vk.com/video-224325822_456246784?list=ln-8Ukj5FKFUU6ZdK2h5k);
-    - [137 - Сохранение данных JSON в файлы](https://vk.com/video-224325822_456246785?list=ln-YksekxqKcXpjMlMuad);
-    - [138 - Добавление структуры FileManager](https://vk.com/video-224325822_456246786?list=ln-mRP4he3j7Z49uOMToS);
-    - [139 - Добавление и использование тегов структур](https://vk.com/video-224325822_456246787?list=ln-6Kd7ttseDVSdYSnIin);
-    - [140 - Работа над заменяемой структурой](https://vkvideo.ru/video-224325822_456246788?list=ln-CwqZflmQdr3h88Btc5);
-    - [141 - Интерфейсы в помощь](https://vkvideo.ru/video-224325822_456246789?list=ln-qmz1SvURydeitFK4CZ);
-    - [142 - Обработка ошибок](https://vkvideo.ru/video-224325822_456246790?list=ln-YiEhCSRzvcRv04Phiq);
-    - [143 - Итоги модуля](https://vkvideo.ru/video-224325822_456246791?list=ln-UPz5iZ6OdxKTZeD1Xf);
+<VkVideo title="128 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246776&hash=66e6f2a296478153&hd=3" />
+<VkVideo title="129 - Создание первой базовой версии программы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246777&hash=7fff2bc2049dec8a&hd=3" />
+<VkVideo title="130 - Настройка первой структуры" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246778&hash=08a024ae9fa6f04c&hd=3" />
+<VkVideo title="131 - Добавление функции-конструктора" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246779&hash=30b91a0043ad159a&hd=3" />
+<VkVideo title="132 - Добавление метода" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246780&hash=c42e0a988d8af314&hd=3" />
+<VkVideo title="133 - Загрузка данных из файла" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246781&hash=1fe3f20fce84b870&hd=3" />
+<VkVideo title="134 - Работа с данными файла" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246782&hash=5d40104c85f80152&hd=3" />
+<VkVideo title="135 - Вынос общей логики в пакет" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246783&hash=7296924e32cf4528&hd=3" />
+<VkVideo title="136 - Вынос доступа к файлам в пакет" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246784&hash=59bdf427e79299ff&hd=3" />
+<VkVideo title="137 - Сохранение данных JSON в файлы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246785&hash=6bd62b89476e33aa&hd=3" />
+<VkVideo title="138 - Добавление структуры FileManager" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246786&hash=2c0416eb797e788f&hd=3" />
+<VkVideo title="139 - Добавление и использование тегов структур" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246787&hash=2bbb48e4cee7d583&hd=3" />
+<VkVideo title="140 - Работа над заменяемой структурой" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246788&hash=94ab41a643a7aa68&hd=3" />
+<VkVideo title="141 - Интерфейсы в помощь" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246789&hash=3cc552585855d308&hd=3" />
+<VkVideo title="142 - Обработка ошибок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246790&hash=1f12f2e07c3c7c9b&hd=3" />
+<VkVideo title="143 - Итоги модуля" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246791&hash=acb135b9c4b15f25&hd=3" />
 
 - ### 10. Калькулятор цен
 
-    - [144 - Введение](https://vkvideo.ru/video-224325822_456246792?list=ln-1Lq0CsLoYPo1D946jW);
-    - [145 - Введение в горутины](https://vkvideo.ru/video-224325822_456246793?list=ln-0ieMK6XkJ9KwgZn2la);
-    - [146 - Запуск функций как горутин](https://vkvideo.ru/video-224325822_456246794?list=ln-Jq3LF5Jug3CVB1EzkC);
-    - [147 - Поведение горутин](https://vkvideo.ru/video-224325822_456246795?list=ln-DzZHsqVCCyIgjatV8l);
-    - [148 - Введение и использование каналов](https://vkvideo.ru/video-224325822_456246796?list=ln-Ep1GmaKNXRRmSrX9Rj);
-    - [149 - Работа с несколькими каналами и горутинами](https://vkvideo.ru/video-224325822_456246797?list=ln-BTfEsQjZj07Rg6YIIi);
-    - [150 - Горутины и каналы в проекте](https://vkvideo.ru/video-224325822_456246798?list=ln-alTdBZCrwbHLw39HWi);
-    - [151 - Настройка канала ошибок](https://vkvideo.ru/video-224325822_456246799?list=ln-zLaLgZACuz62fla6ef);
-    - [152 - Управление каналами с помощью select](https://vkvideo.ru/video-224325822_456246800?list=ln-x5rnx63WXbqQkLOx6j);
-    - [153 - Отложенное выполнение кода с defer](https://vkvideo.ru/video-224325822_456246801?list=ln-OByolbtrWUnvNgONiC);
+<VkVideo title="144 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246792&hash=2e3a0751f1437d42&hd=3" />
+<VkVideo title="145 - Введение в горутины" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246793&hash=62bf813ece174681&hd=3" />
+<VkVideo title="146 - Запуск функций как горутин" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246794&hash=766d29d147850479&hd=3" />
+<VkVideo title="147 - Поведение горутин" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246795&hash=6b9251c8c54bfa18&hd=3" />
+<VkVideo title="148 - Введение и использование каналов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246796&hash=380300237d9ff3d2&hd=3" />
+<VkVideo title="149 - Работа с несколькими каналами и горутинами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246797&hash=90435383cba5f812&hd=3" />
+<VkVideo title="150 - Горутины и каналы в проекте" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246798&hash=c028bf8d322f73eb&hd=3" />
+<VkVideo title="151 - Настройка канала ошибок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246799&hash=46f6491357b8de6e&hd=3" />
+<VkVideo title="152 - Управление каналами с помощью select" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246800&hash=5f95ad00002a626e&hd=3" />
+<VkVideo title="153 - Отложенное выполнение кода с defer" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246801&hash=7999422bc910bb2d&hd=3" />
 
 - ### 11. Создание REST API
 
-    - [154 - Введение](https://vkvideo.ru/video-224325822_456246802?list=ln-UDX36MreXDtYzjNY2Z);
-    - [155 - Планирование API](https://vkvideo.ru/video-224325822_456246803?list=ln-VT75a8r5llwKJqYxdW);
-    - [156 - Установка фреймворка Gin](https://vkvideo.ru/video-224325822_456246804?list=ln-hgPxmjRZqpAm5sijKp);
-    - [157 - Настройка первого маршрута и обработка запроса](https://vkvideo.ru/video-224325822_456246805?list=ln-bc6leV6S5x0eps6Tub);
-    - [158 - Настройка модели события](https://vkvideo.ru/video-224325822_456246806?list=ln-m48vD5YXX3fBNBlUjQ);
-    - [159 - Регистрация маршрута POST](https://vkvideo.ru/video-224325822_456246807?list=ln-FhKJKyGvbOtutHkxK3);
-    - [160 - Тестирование и исправление обработчика POST-запроса](https://vkvideo.ru/video-224325822_456246808?list=ln-il7RSNc4t1tvIcUUgb);
-    - [161 - Добавление базы данных SQL](https://vkvideo.ru/video-224325822_456246809?list=ln-TFlScr6ti7AU2xPeY5);
-    - [162 - Создание таблицы в SQL](https://vkvideo.ru/video-224325822_456246810?list=ln-usz2YeewWQE6JZcfKc);
-    - [163 - Сохранение данных в базе (INSERT)](https://vkvideo.ru/video-224325822_456246811?list=ln-ltG8K0U74x3q6pD12z);
-    - [164 - Получение событий из базы (SELECT)](https://vkvideo.ru/video-224325822_456246812?list=ln-Wrb9eAzkiVTNJF6SXy);
-    - [165 - Получение одного события по ID](https://vkvideo.ru/video-224325822_456246813?list=ln-PqzDi3nmORzZLokxJk);
-    - [166 - Рефакторинг кода и вынос маршрутов](https://vkvideo.ru/video-224325822_456246814?list=ln-8YhAK8VGA4JKCeFWin);
-    - [167 - Регистрация маршрута обновления события и обработчика](https://vkvideo.ru/video-224325822_456246815?list=ln-b2tzSTzuTYadeqspke);
-    - [168 - Обновление событий](https://vkvideo.ru/video-224325822_456246816?list=ln-JEHZ3XSzzoPGmBmuZc);
-    - [169 - Удаление событий](https://vkvideo.ru/video-224325822_456246817?list=ln-Zzj6JpL9PgNkpigxr0);
-    - [170 - Добавление таблицы пользователей в SQL-базу](https://vkvideo.ru/video-224325822_456246818?list=ln-EIdGdxpgR5yvC0gzbt);
-    - [171 - Добавление регистрации пользователя](https://vkvideo.ru/video-224325822_456246819?list=ln-UmuU60ckjZVvm502Yy);
-    - [172 - Не храните пароли в открытом виде](https://vkvideo.ru/video-224325822_456246820?list=ln-h99bKazmZqZ2qBQNJ5);
-    - [173 - Хэширование паролей](https://vkvideo.ru/video-224325822_456246821?list=ln-LhybNcM0iZpkTOqjhL);
-    - [174 - Начало работы с токенами аутентификации (JWT)](https://vkvideo.ru/video-224325822_456246822?list=ln-bp4hAz8zyqTMiUothJ);
-    - [175 - Начало работы с маршрутом входа (Login)](https://vkvideo.ru/video-224325822_456246823?list=ln-YiaVJEAnZTvD8QvlzW);
-    - [176 - Завершение логики входа](https://vkvideo.ru/video-224325822_456246824?list=ln-CYOjxw97N2VQBm0Wb9);
-    - [177 - Генерация JWT](https://vkvideo.ru/video-224325822_456246825?list=ln-KLQm0jrCKgRnehkbGn);
-    - [178 - Завершение логики JWT](https://vkvideo.ru/video-224325822_456246826?list=ln-rwnmqlUiu0CBQro9Zz);
-    - [179 - Добавление проверки токенов](https://vkvideo.ru/video-224325822_456246827?list=ln-iJ24Z8mneu4DghFsAn);
-    - [180 - Добавление защиты маршрутов](https://vkvideo.ru/video-224325822_456246828?list=ln-o3u9Vl27Wivoi3aiIU);
-    - [181 - Извлечение и сохранение ID пользователей и событий](https://vkvideo.ru/video-224325822_456246829?list=ln-KHhM8rZ5ro9rbVkIqc);
-    - [182 - Добавление middleware для аутентификации](https://vkvideo.ru/video-224325822_456246830?list=ln-vNCYuhbQJCKL5jpAgU);
-    - [183 - Улучшение и использование middleware](https://vkvideo.ru/video-224325822_456246831?list=ln-sVSg1syuFTIjMlb5cf);
-    - [184 - Добавление авторизации для ограничения редактирования](https://vkvideo.ru/video-224325822_456246832?list=ln-P2dEpJk1hbAZlvKz4w);
-    - [185 - Добавление таблицы регистраций](https://vkvideo.ru/video-224325822_456246833?list=ln-5QVJcJnBKlufpfDLZ0);
-    - [186 - Регистрация пользователей](https://vkvideo.ru/video-224325822_456246834?list=ln-6AiTTlv9x7GCvj8iXO);
-    - [187 - Тестирование и исправление маршрута регистрации](https://vkvideo.ru/video-224325822_456246835?list=ln-tybeDTinR5l7XXXYvO);
-    - [188 - Отмена регистраций](https://vkvideo.ru/video-224325822_456246836?list=ln-EGo6H6OrGQlGz9Q5WX);
-    - [189 - Итоги модуля](https://vkvideo.ru/video-224325822_456246837?list=ln-pIiyFZpmT8K22J0asz);
+<VkVideo title="154 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246802&hash=9e792ab4c82a8ac9&hd=3" />
+<VkVideo title="155 - Планирование API" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246803&hash=7d1902a2f4f56282&hd=3" />
+<VkVideo title="156 - Установка фреймворка Gin" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246804&hash=e676f6efba2f811c&hd=3" />
+<VkVideo title="157 - Настройка первого маршрута и обработка запроса" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246805&hash=f0226c70ce5bc609&hd=3" />
+<VkVideo title="158 - Настройка модели события" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246806&hash=446f6409993da71c&hd=3" />
+<VkVideo title="159 - Регистрация маршрута POST" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246807&hash=f63e20d4257f2af6&hd=3" />
+<VkVideo title="160 - Тестирование и исправление обработчика POST-запроса" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246808&hash=1c9a54832657671e&hd=3" />
+<VkVideo title="161 - Добавление базы данных SQL" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246809&hash=c35c14136fffe723&hd=3" />
+<VkVideo title="162 - Создание таблицы в SQL" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246810&hash=fc66c5e556a2497a&hd=3" />
+<VkVideo title="163 - Сохранение данных в базе (INSERT)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246811&hash=62e40b1ce852a08b&hd=3" />
+<VkVideo title="164 - Получение событий из базы (SELECT)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246812&hash=20f64d15eb061c31&hd=3" />
+<VkVideo title="165 - Получение одного события по ID" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246813&hash=7ed29acc850b51f8&hd=3" />
+<VkVideo title="166 - Рефакторинг кода и вынос маршрутов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246814&hash=f58230fdeffef199&hd=3" />
+<VkVideo title="167 - Регистрация маршрута обновления события и обработчика" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246815&hash=9b595b6f9eb9093b&hd=3" />
+<VkVideo title="168 - Обновление событий" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246816&hash=a53aeaad360529cf&hd=3" />
+<VkVideo title="169 - Удаление событий" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246817&hash=d681e9e89b3b549a&hd=3" />
+<VkVideo title="170 - Добавление таблицы пользователей в SQL-базу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246818&hash=516e3c79aff75b4e&hd=3" />
+<VkVideo title="171 - Добавление регистрации пользователя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246819&hash=922b79f0971319ab&hd=3" />
+<VkVideo title="172 - Не храните пароли в открытом виде" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246820&hash=e1b39bde7a6ec950&hd=3" />
+<VkVideo title="173 - Хэширование паролей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246821&hash=eeae92085dd48640&hd=3" />
+<VkVideo title="174 - Начало работы с токенами аутентификации (JWT)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246822&hash=093104e6b8d0bc22&hd=3" />
+<VkVideo title="175 - Начало работы с маршрутом входа (Login)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246823&hash=74b545a453a1cc07&hd=3" />
+<VkVideo title="176 - Завершение логики входа" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246824&hash=e0e823b2909ce689&hd=3" />
+<VkVideo title="177 - Генерация JWT" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246825&hash=13eb9faf9697d1db&hd=3" />
+<VkVideo title="178 - Завершение логики JWT" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246826&hash=3c81a7fe93b0f1d7&hd=3" />
+<VkVideo title="179 - Добавление проверки токенов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246827&hash=79210980f16b414e&hd=3" />
+<VkVideo title="180 - Добавление защиты маршрутов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246828&hash=480d9c85bcc8c8a3&hd=3" />
+<VkVideo title="181 - Извлечение и сохранение ID пользователей и событий" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246829&hash=709d3f22c8f6052d&hd=3" />
+<VkVideo title="182 - Добавление middleware для аутентификации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246830&hash=fbe7b851d220ca74&hd=3" />
+<VkVideo title="183 - Улучшение и использование middleware" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246831&hash=18cf600752ff25b4&hd=3" />
+<VkVideo title="184 - Добавление авторизации для ограничения редактирования" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246832&hash=897ec475af92ef5f&hd=3" />
+<VkVideo title="185 - Добавление таблицы регистраций" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246833&hash=9b2eaa0ca30b8b7a&hd=3" />
+<VkVideo title="186 - Регистрация пользователей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246834&hash=6bd46dc1f343aeb2&hd=3" />
+<VkVideo title="187 - Тестирование и исправление маршрута регистрации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246835&hash=3241e59b5ee2a1cc&hd=3" />
+<VkVideo title="188 - Отмена регистраций" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246836&hash=9212dcd1f5a25f77&hd=3" />
+<VkVideo title="189 - Итоги модуля" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246837&hash=7eb5386e830214b3&hd=3" />
 
 - ### 12. Итоги
 
-    - [190 - Итоги курса](https://vkvideo.ru/video-224325822_456246838?list=ln-y6H5zv0t8cTbCZhiva);
+<VkVideo title="190 - Итоги курса" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246838&hash=b9bc2ae7b38d5533&hd=3" />

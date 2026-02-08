@@ -6,267 +6,267 @@ outline: [2, 3]
 
 - ### 01. Добро пожаловать
 
-    - [001 - Структура курса и проекты](https://vk.com/video-224325822_456248014);
-    - [002 - Установим Node.js](https://vk.com/video-224325822_456248015);
+<VkVideo title="001 - Структура курса и проекты" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248014&hash=0e7f4fc403086407&hd=3" />
+<VkVideo title="002 - Установим Node.js" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248015&hash=5c65ab01ba69b238&hd=3" />
 
 - ### 02. Введение в Node.js и NPM
 
-    - [003 - Вступление к разделу](https://vk.com/video-224325822_456248016);
-    - [004 - Что такое Node.js и зачем его использовать](https://vk.com/video-224325822_456248017);
-    - [005 - Запуск JavaScript вне браузера](https://vk.com/video-224325822_456248018);
-    - [006 - Встроенные модули](https://vk.com/video-224325822_456248019);
-    - [007 - Чтение и запись файлов](https://vk.com/video-224325822_456248020);
-    - [008 - Блокирующая и неблокирующая асинхронная природа](https://vk.com/video-224325822_456248021);
-    - [009 - Асинхронное чтение и запись файлов](https://vk.com/video-224325822_456248022);
-    - [010 - Создание простого веб-сервера](https://vk.com/video-224325822_456248023);
-    - [011 - Маршрутизация](https://vk.com/video-224325822_456248024?list=ln-DWIgbxIXBwSK4WizBA);
-    - [012 - Создание (очень) простого API](https://vk.com/video-224325822_456248025?list=ln-cHZq1uDbdsALqzddsu);
-    - [013 - HTML-шаблоны - Создание шаблонов](https://vk.com/video-224325822_456248026?list=ln-b2La3mqqESNLoQ7Jni);
-    - [014 - HTML-шаблоны - Заполнение шаблонов](https://vk.com/video-224325822_456248027?list=ln-UHZzrzvvCcY7W3Pl5T);
-    - [015 - Разбор переменных из URL](https://vk.com/video-224325822_456248028?list=ln-1n7zxyCB7ZDuPD1rjb);
-    - [016 - Собственные модули](https://vk.com/video-224325822_456248029?list=ln-82F86HCj9zpYOq4wdH);
-    - [017 - Введение в NPM и файл package.json](https://vk.com/video-224325822_456248030?list=ln-gEBgjrpiOQpE2htWEW);
-    - [018 - Типы пакетов и способы установки](https://vk.com/video-224325822_456248031?list=ln-JR64l5EST806Gklhkv);
-    - [019 - Сторонние модули](https://vk.com/video-224325822_456248032?list=ln-UM31xhdRzUmxjybOHF);
-    - [020 - Версионирование пакетов и обновления](https://vk.com/video-224325822_456248033?list=ln-ziLDEsaLm4eGz4gBNa);
-    - [021 - Настройка Prettier в VS Code](https://vk.com/video-224325822_456248034?list=ln-KugOQvVdSorOV5FiHz);
-    - [022 - Итоги и что дальше](https://vk.com/video-224325822_456248035?list=ln-clMFc4pOOw9ZxszBqq);
+<VkVideo title="003 - Вступление к разделу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248016&hash=3fd5fa082a90127d&hd=3" />
+<VkVideo title="004 - Что такое Node.js и зачем его использовать" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248017&hash=d808c76d0dddc1a2&hd=3" />
+<VkVideo title="005 - Запуск JavaScript вне браузера" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248018&hash=b977fdf1f7e42245&hd=3" />
+<VkVideo title="006 - Встроенные модули" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248019&hash=ec146b19e484901d&hd=3" />
+<VkVideo title="007 - Чтение и запись файлов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248020&hash=3b63bb2e88642a51&hd=3" />
+<VkVideo title="008 - Блокирующая и неблокирующая асинхронная природа" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248021&hash=f8831308fc6bca17&hd=3" />
+<VkVideo title="009 - Асинхронное чтение и запись файлов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248022&hash=327bfd4053682316&hd=3" />
+<VkVideo title="010 - Создание простого веб-сервера" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248023&hash=2bdbee3b9eb5fe6b&hd=3" />
+<VkVideo title="011 - Маршрутизация" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248024&hash=e9201df8d5769aa4&hd=3" />
+<VkVideo title="012 - Создание (очень) простого API" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248025&hash=121b18eba938b5ce&hd=3" />
+<VkVideo title="013 - HTML-шаблоны - Создание шаблонов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248026&hash=7936e038f9e861ea&hd=3" />
+<VkVideo title="014 - HTML-шаблоны - Заполнение шаблонов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248027&hash=82f97d2d6611cc2d&hd=3" />
+<VkVideo title="015 - Разбор переменных из URL" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248028&hash=33197169189ba849&hd=3" />
+<VkVideo title="016 - Собственные модули" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248029&hash=d3738e7069d568d4&hd=3" />
+<VkVideo title="017 - Введение в NPM и файл package.json" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248030&hash=7cd9c58f386fdd36&hd=3" />
+<VkVideo title="018 - Типы пакетов и способы установки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248031&hash=e47043eb016e0a7d&hd=3" />
+<VkVideo title="019 - Сторонние модули" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248032&hash=98b2e8788e73e131&hd=3" />
+<VkVideo title="020 - Версионирование пакетов и обновления" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248033&hash=84fb0f89809c78a6&hd=3" />
+<VkVideo title="021 - Настройка Prettier в VS Code" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248034&hash=c01c6b84f3a08562&hd=3" />
+<VkVideo title="022 - Итоги и что дальше" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248035&hash=7811168fe80d022d&hd=3" />
 
 - ### 03. Введение в серверную веб-разработку
 
-    - [023 - Вступление к разделу](https://vk.com/video-224325822_456248036?list=ln-SR5vLGe8rXXO795j6W);
-    - [024 - Обзор того, как работает веб](https://vk.com/video-224325822_456248037?list=ln-2WhEshHqFeoJ9Iht7V);
-    - [025 - HTTP в действии](https://vk.com/video-224325822_456248038?list=ln-x3yiNQXuVTWQNmBHQF);
-    - [026 - Front-End vs Back-End разработка](https://vk.com/video-224325822_456248039?list=ln-LOr59y40shE6MFAHYg);
-    - [027 - Статические, динамические сайты и API](https://vk.com/video-224325822_456248040?list=ln-k0ycFpDo5erYYzKbPC);
+<VkVideo title="023 - Вступление к разделу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248036&hash=2be2b7852033311c&hd=3" />
+<VkVideo title="024 - Обзор того, как работает веб" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248037&hash=4f10857128969952&hd=3" />
+<VkVideo title="025 - HTTP в действии" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248038&hash=794e5fa31b13e670&hd=3" />
+<VkVideo title="026 - Front-End vs Back-End разработка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248039&hash=8c57854f1279daac&hd=3" />
+<VkVideo title="027 - Статические, динамические сайты и API" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248040&hash=e0d9ed9295cb9582&hd=3" />
 
 - ### 04. Как работает Node.js
 
-    - [028 - Вступление к разделу](https://vkvideo.ru/video-224325822_456248041?list=ln-LO7PjtYK8zcEqREOZC);
-    - [029 - Node, V8, Libuv и C++](https://vkvideo.ru/video-224325822_456248042?list=ln-QLzlH0YZ8l0SZMGIi2);
-    - [030 - Процессы, потоки и пул потоков](https://vkvideo.ru/video-224325822_456248043?list=ln-4bfY7sqqw8WyH48pXL);
-    - [031 - Цикл событий Node.js](https://vkvideo.ru/video-224325822_456248044?list=ln-ZAgopkplMMDfSbJJcF);
-    - [032 - Цикл событий на практике](https://vkvideo.ru/video-224325822_456248045?list=ln-OZcCOjTgrbdE7eWpAk);
-    - [033 - События и событийно-ориентированная архитектура](https://vkvideo.ru/video-224325822_456248046?list=ln-3t5XsgSnRoOTU6I6UF);
-    - [034 - События на практике](https://vkvideo.ru/video-224325822_456248047?list=ln-H4Rmz304IfqLm4cMxi);
-    - [035 - Введение в потоки (Streams)](https://vkvideo.ru/video-224325822_456248048?list=ln-CKBNUCMP5u3sPKZOAt);
-    - [036 - Потоки на практике](https://vkvideo.ru/video-224325822_456248049?list=ln-xAmkKf2L7diivJjqyd);
-    - [037 - Как на самом деле работает require модулей](https://vkvideo.ru/video-224325822_456248050?list=ln-bpp953EjN7PikVuKue);
-    - [038 - Использование require на практике](https://vkvideo.ru/video-224325822_456248051?list=ln-DocXIs5a7IGhM8AJkO);
+<VkVideo title="028 - Вступление к разделу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248041&hash=9bddbaeab033e3b9&hd=3" />
+<VkVideo title="029 - Node, V8, Libuv и C++" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248042&hash=36f671d10c30f78a&hd=3" />
+<VkVideo title="030 - Процессы, потоки и пул потоков" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248043&hash=7853700a13d43fdc&hd=3" />
+<VkVideo title="031 - Цикл событий Node.js" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248044&hash=613d0b789d6acdfc&hd=3" />
+<VkVideo title="032 - Цикл событий на практике" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248045&hash=eada5e3e2ed6cb71&hd=3" />
+<VkVideo title="033 - События и событийно-ориентированная архитектура" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248046&hash=c6bd908d506b5dd6&hd=3" />
+<VkVideo title="034 - События на практике" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248047&hash=aa65b83082fc54c1&hd=3" />
+<VkVideo title="035 - Введение в потоки (Streams)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248048&hash=27702f643ff5fb4f&hd=3" />
+<VkVideo title="036 - Потоки на практике" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248049&hash=0fb5d9299e018294&hd=3" />
+<VkVideo title="037 - Как на самом деле работает require модулей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248050&hash=e20080c4783734a4&hd=3" />
+<VkVideo title="038 - Использование require на практике" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248051&hash=f0d27da76a6d5441&hd=3" />
 
 - ### 05. Асинхронный JavaScript
 
-    - [039 - Вступление к разделу](https://vkvideo.ru/video-224325822_456248052?list=ln-RP910se3EmFOsKc1TW);
-    - [040 - Проблема колбэков - Ад колбэков](https://vkvideo.ru/video-224325822_456248053?list=ln-zfItl41BPPATTX8xzw);
-    - [041 - От ада колбэков к промисам](https://vkvideo.ru/video-224325822_456248054?list=ln-bFOgFFuTuLFY4P7DIu);
-    - [042 - Создание промисов](https://vkvideo.ru/video-224325822_456248055?list=ln-VeUCh4Bd11K6veZhot);
-    - [043 - Использование промисов с Async, Await](https://vkvideo.ru/video-224325822_456248056?list=ln-iQS7jvfPFWkrwLkN9Q);
-    - [044 - Возврат значений из async-функций](https://vkvideo.ru/video-224325822_456248057?list=ln-2vOjoBuVAEsFTUgxpi);
-    - [045 - Ожидание нескольких промисов одновременно](https://vkvideo.ru/video-224325822_456248058?list=ln-zRgUoSa3SJLaPe8e92);
+<VkVideo title="039 - Вступление к разделу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248052&hash=1c05cfd4cd1741cd&hd=3" />
+<VkVideo title="040 - Проблема колбэков - Ад колбэков" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248053&hash=a0d758addccee7e8&hd=3" />
+<VkVideo title="041 - От ада колбэков к промисам" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248054&hash=ad3c8e325bf5bd9c&hd=3" />
+<VkVideo title="042 - Создание промисов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248055&hash=b8e1cd3c468ed20d&hd=3" />
+<VkVideo title="043 - Использование промисов с Async, Await" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248056&hash=51dded31ddb6e614&hd=3" />
+<VkVideo title="044 - Возврат значений из async-функций" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248057&hash=e021b0373a1102df&hd=3" />
+<VkVideo title="045 - Ожидание нескольких промисов одновременно" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248058&hash=2815e3dfeef95d2b&hd=3" />
 
 - ### 06. Создаем Natours API
 
-    - [046 - Вступление к разделу](https://vkvideo.ru/video-224325822_456248059?list=ln-ZLU0pm7BgmZW2p3tWD);
-    - [047 - Что такое Express](https://vkvideo.ru/video-224325822_456248060?list=ln-byZDZJZVNYaF0M6xzt);
-    - [048 - Установка Postman](https://vkvideo.ru/video-224325822_456248061?list=ln-10vGYduPyX6FLZZD3z);
-    - [049 - Настройка Express и базовая маршрутизация](https://vkvideo.ru/video-224325822_456248062?list=ln-81KnHBFHtki2a0gHoS);
-    - [050 - API и RESTful-дизайн](https://vkvideo.ru/video-224325822_456248063?list=ln-ZYvuaVqpueCRH5ESv0);
-    - [051 - Обработка GET-запросов](https://vkvideo.ru/video-224325822_456248064?list=ln-OV2r8MdT3Ra2y5ux69);
-    - [052 - Обработка POST-запросов](https://vkvideo.ru/video-224325822_456248065?list=ln-wU6tUARok1KezyXpIZ);
-    - [053 - Ответы на параметрах URL](https://vkvideo.ru/video-224325822_456248066?list=ln-noumNVysYQ351X158e);
-    - [054 - Обработка PATCH-запросов](https://vkvideo.ru/video-224325822_456248067?list=ln-5mFBWMHnxJYcNRVbhk);
-    - [055 - Обработка DELETE-запросов](https://vkvideo.ru/video-224325822_456248068?list=ln-fYGmzMjrraaoczdqak);
-    - [056 - Рефакторинг наших маршрутов](https://vkvideo.ru/video-224325822_456248069?list=ln-hzBGZJqeT74LaI8mJd);
-    - [057 - Middleware и цикл запрос-ответ](https://vkvideo.ru/video-224325822_456248070?list=ln-uSOp3yrtnbOM4ZNEgb);
-    - [058 - Создание собственного middleware](https://vkvideo.ru/video-224325822_456248071?list=ln-hZnUTjE0qyokyvcthe);
-    - [059 - Использование стороннего middleware](https://vkvideo.ru/video-224325822_456248072?list=ln-fnmkiSBTg1TFJTqefO);
-    - [060 - Реализация маршрутов пользователей](https://vkvideo.ru/video-224325822_456248073?list=ln-c5U7AMRhn3b1ikLBp6);
-    - [061 - Создание и подключение нескольких роутеров](https://vkvideo.ru/video-224325822_456248074?list=ln-ZhS9FzGKE0tzPwH7Ny);
-    - [062 - Лучшая структура файлов](https://vkvideo.ru/video-224325822_456248075?list=ln-XSVmVKELqAgxWD6g5Z);
-    - [063 - Param middleware](https://vkvideo.ru/video-224325822_456248076?list=ln-OjPKFOrkUAX8EK4cVB);
-    - [064 - Цепочка нескольких middleware-функций](https://vkvideo.ru/video-224325822_456248077?list=ln-ezV90GzBMMQasOXZr5);
-    - [065 - Раздача статических файлов](https://vkvideo.ru/video-224325822_456248078?list=ln-hwBckReScSFgE8Sr0V);
-    - [066 - Переменные окружения](https://vkvideo.ru/video-224325822_456248079?list=ln-XMxCMLFJGPEIxkc3Zn);
-    - [067 - Настройка ESLint + Prettier в VS Code](https://vkvideo.ru/video-224325822_456248080?list=ln-4tqyra0UiYD15OIYI8);
+<VkVideo title="046 - Вступление к разделу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248059&hash=b3f26db245d4e406&hd=3" />
+<VkVideo title="047 - Что такое Express" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248060&hash=793bd725d169bacd&hd=3" />
+<VkVideo title="048 - Установка Postman" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248061&hash=9a88a1952bc94647&hd=3" />
+<VkVideo title="049 - Настройка Express и базовая маршрутизация" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248062&hash=ce682c81565e1e5c&hd=3" />
+<VkVideo title="050 - API и RESTful-дизайн" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248063&hash=589659f1d7cba8c5&hd=3" />
+<VkVideo title="051 - Обработка GET-запросов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248064&hash=9683b6ee86fdc7fa&hd=3" />
+<VkVideo title="052 - Обработка POST-запросов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248065&hash=2a63465d58c80fbd&hd=3" />
+<VkVideo title="053 - Ответы на параметрах URL" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248066&hash=362d2beae4e72e15&hd=3" />
+<VkVideo title="054 - Обработка PATCH-запросов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248067&hash=69ad7bf0c8271117&hd=3" />
+<VkVideo title="055 - Обработка DELETE-запросов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248068&hash=2ce8d03ad87089f8&hd=3" />
+<VkVideo title="056 - Рефакторинг наших маршрутов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248069&hash=40e9a1472ccbe510&hd=3" />
+<VkVideo title="057 - Middleware и цикл запрос-ответ" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248070&hash=41604ad7addbeba3&hd=3" />
+<VkVideo title="058 - Создание собственного middleware" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248071&hash=bc369c0e96e3e793&hd=3" />
+<VkVideo title="059 - Использование стороннего middleware" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248072&hash=d99bc5a9b980fea7&hd=3" />
+<VkVideo title="060 - Реализация маршрутов пользователей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248073&hash=6a8b807cc698621d&hd=3" />
+<VkVideo title="061 - Создание и подключение нескольких роутеров" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248074&hash=175965cfca55776d&hd=3" />
+<VkVideo title="062 - Лучшая структура файлов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248075&hash=d0442acc63690895&hd=3" />
+<VkVideo title="063 - Param middleware" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248076&hash=c476e7dd085bc057&hd=3" />
+<VkVideo title="064 - Цепочка нескольких middleware-функций" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248077&hash=86a568637b928d27&hd=3" />
+<VkVideo title="065 - Раздача статических файлов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248078&hash=2f1843c83e8c344e&hd=3" />
+<VkVideo title="066 - Переменные окружения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248079&hash=bb01ea6780175e6e&hd=3" />
+<VkVideo title="067 - Настройка ESLint + Prettier в VS Code" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248080&hash=5cda59646ae31f92&hd=3" />
 
 - ### 07. Введение в MongoDB
 
-    - [068 - Вступление к разделу](https://vkvideo.ru/video-224325822_456248081?list=ln-pCCtzW9J6wQh2Dum3Y);
-    - [069 - Что такое MongoDB](https://vkvideo.ru/video-224325822_456248082?list=ln-zwEctbOzz1budg3WOx);
-    - [070 - Установка MongoDB на macOS](https://vkvideo.ru/video-224325822_456248083?list=ln-ge5QzR3BwOZBCB0UQL);
-    - [071 - Установка MongoDB на Windows](https://vkvideo.ru/video-224325822_456248084?list=ln-PTzX2CaSTxpwmblat6);
-    - [072 - Создание локальной базы данных](https://vkvideo.ru/video-224325822_456248085?list=ln-JrIwjycNtl9pw7MiN7);
-    - [073 - CRUD - Создание документов](https://vkvideo.ru/video-224325822_456248086?list=ln-q19lMwZb09g8zL9EG5);
-    - [074 - CRUD - Запросы (чтение) документов](https://vkvideo.ru/video-224325822_456248087?list=ln-0pQogGK11tGANTLWp8);
-    - [075 - CRUD - Обновление документов](https://vkvideo.ru/video-224325822_456248088?list=ln-CdXSo0TmdBbtubPLkQ);
-    - [076 - CRUD - Удаление документов](https://vkvideo.ru/video-224325822_456248089?list=ln-oz4oOadm8CVYKUrUc8);
-    - [077 - Использование приложения Compass для операций CRUD](https://vkvideo.ru/video-224325822_456248090?list=ln-9o1TupihNIzxarUQKM);
-    - [078 - Создание хостинговой базы данных в Atlas](https://vkvideo.ru/video-224325822_456248091?list=ln-saBonzazk7aqGIYiqy);
-    - [079 - Подключение к нашей хостинговой базе данных](https://vkvideo.ru/video-224325822_456248092?list=ln-WaIpovsvLZFKlDvLbB);
+<VkVideo title="068 - Вступление к разделу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248081&hash=2dbd2ca3b4bb17b6&hd=3" />
+<VkVideo title="069 - Что такое MongoDB" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248082&hash=8b7021e38c9391f4&hd=3" />
+<VkVideo title="070 - Установка MongoDB на macOS" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248083&hash=443748b4eccabba9&hd=3" />
+<VkVideo title="071 - Установка MongoDB на Windows" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248084&hash=875bdce1ff534265&hd=3" />
+<VkVideo title="072 - Создание локальной базы данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248085&hash=fe11237df4ed4c23&hd=3" />
+<VkVideo title="073 - CRUD - Создание документов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248086&hash=7a43134cd5538905&hd=3" />
+<VkVideo title="074 - CRUD - Запросы (чтение) документов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248087&hash=50f2726c480d7252&hd=3" />
+<VkVideo title="075 - CRUD - Обновление документов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248088&hash=98085b34ea7a54fe&hd=3" />
+<VkVideo title="076 - CRUD - Удаление документов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248089&hash=dd646df0abfef076&hd=3" />
+<VkVideo title="077 - Использование приложения Compass для операций CRUD" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248090&hash=da0d6dbd06c0186b&hd=3" />
+<VkVideo title="078 - Создание хостинговой базы данных в Atlas" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248091&hash=cfa0378ee61bbaff&hd=3" />
+<VkVideo title="079 - Подключение к нашей хостинговой базе данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248092&hash=17c52c2b6a349a1f&hd=3" />
 
 - ### 08. Использование Mongoose
 
-    - [080 - Вступление к разделу](https://vkvideo.ru/video-224325822_456248093?list=ln-pbu5wLPhuRkjbwp2De);
-    - [081 - Подключение базы данных к приложению Express](https://vkvideo.ru/video-224325822_456248094?list=ln-QaK0fzknRMo4fO5lwB);
-    - [082 - Что такое Mongoose](https://vkvideo.ru/video-224325822_456248095?list=ln-9YcrW41FVYu7s9drDc);
-    - [083 - Создание простой модели Tour](https://vkvideo.ru/video-224325822_456248096?list=ln-Tg56zp2WdegzCeCR2j);
-    - [084 - Создание документов и тестирование модели](https://vkvideo.ru/video-224325822_456248097?list=ln-1cTPe92cQiv5pVJitR);
-    - [085 - Введение в серверную архитектуру](https://vkvideo.ru/video-224325822_456248098?list=ln-y7aabyLSors3lZXhgE);
-    - [086 - Рефакторинг под MVC](https://vkvideo.ru/video-224325822_456248099?list=ln-EIE4DzFiamTdRCrz7d);
-    - [087 - Другой способ создания документов](https://vkvideo.ru/video-224325822_456248100?list=ln-qPSYUk5seDmFJtYGu8);
-    - [088 - Чтение документов](https://vkvideo.ru/video-224325822_456248101?list=ln-b3GAy1mvq44ZWP2uR2);
-    - [089 - Обновление документов](https://vkvideo.ru/video-224325822_456248102?list=ln-rNjsdaF3V1Eoee6KAv);
-    - [090 - Удаление документов](https://vkvideo.ru/video-224325822_456248103?list=ln-InJA3kahhjYTobrZGk);
-    - [091 - Моделирование туров](https://vkvideo.ru/video-224325822_456248104?list=ln-Ziq4CyjTDJ7IytrAEF);
-    - [092 - Импорт данных для разработки](https://vkvideo.ru/video-224325822_456248105?list=ln-d1l0mlZeXzDi9wiBpJ);
-    - [093 - Улучшение API - Фильтрация](https://vkvideo.ru/video-224325822_456248106?list=ln-XI72HXugut1mZkq2Yh);
-    - [094 - Улучшение API - Продвинутая фильтрация](https://vkvideo.ru/video-224325822_456248107?list=ln-MJJxqAXw5z6sFiT9cm);
-    - [095 - Улучшение API - Сортировка](https://vkvideo.ru/video-224325822_456248108?list=ln-qt62LVYBaUx3WiU0EW);
-    - [096 - Улучшение API - Ограничение полей](https://vkvideo.ru/video-224325822_456248109?list=ln-uIYjZDgty6jKaZW0Ck);
-    - [097 - Улучшение API - Пагинация](https://vkvideo.ru/video-224325822_456248110?list=ln-dXsyjTFnZecbyaYGVM);
-    - [098 - Улучшение API - Псевдонимы](https://vkvideo.ru/video-224325822_456248111?list=ln-KGB3eMINgUP9vOFOfG);
-    - [099 - Рефакторинг функционала API](https://vkvideo.ru/video-224325822_456248112?list=ln-qbgMOkJEvJYcS2ms3g);
-    - [100 - Конвейер агрегации - match и group](https://vkvideo.ru/video-224325822_456248113?list=ln-nrZbXA3YnDT8JduOFG);
-    - [101 - Конвейер агрегации - unwind и project](https://vkvideo.ru/video-224325822_456248114?list=ln-RTDsZytNQwcoxyMPKk);
-    - [102 - Виртуальные свойства](https://vkvideo.ru/video-224325822_456248115?list=ln-dKTIKoqPdZsWM24q0P);
-    - [103 - Middleware документов](https://vkvideo.ru/video-224325822_456248116?list=ln-BDN2RsSz6DBlpDCcpa);
-    - [104 - Middleware запросов](https://vkvideo.ru/video-224325822_456248117?list=ln-6Yxqr9jmErPZN741E2);
-    - [105 - Middleware агрегации](https://vkvideo.ru/video-224325822_456248118?list=ln-riGkjspz4c9mCiLNVe);
-    - [106 - Проверка данных - Встроенные валидаторы](https://vkvideo.ru/video-224325822_456248119?list=ln-PDbgWg2YzvEAVwJ8lZ);
-    - [107 - Проверка данных - Кастомные валидаторы](https://vkvideo.ru/video-224325822_456248120?list=ln-PNso5rr4Or0EnSF4zp);
+<VkVideo title="080 - Вступление к разделу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248093&hash=25a1b6f68f0bee52&hd=3" />
+<VkVideo title="081 - Подключение базы данных к приложению Express" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248094&hash=3d8b245c354bc003&hd=3" />
+<VkVideo title="082 - Что такое Mongoose" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248095&hash=7d483119be20c450&hd=3" />
+<VkVideo title="083 - Создание простой модели Tour" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248096&hash=df8750cb18e4b30f&hd=3" />
+<VkVideo title="084 - Создание документов и тестирование модели" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248097&hash=6c26f31da77ceed2&hd=3" />
+<VkVideo title="085 - Введение в серверную архитектуру" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248098&hash=5906f1a24c8fe56f&hd=3" />
+<VkVideo title="086 - Рефакторинг под MVC" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248099&hash=58fa42c055901da0&hd=3" />
+<VkVideo title="087 - Другой способ создания документов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248100&hash=2461bbb6b520b137&hd=3" />
+<VkVideo title="088 - Чтение документов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248101&hash=e05340d011f7a5b1&hd=3" />
+<VkVideo title="089 - Обновление документов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248102&hash=9b8f3e25a85b0f09&hd=3" />
+<VkVideo title="090 - Удаление документов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248103&hash=47495bf1a23e5712&hd=3" />
+<VkVideo title="091 - Моделирование туров" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248104&hash=7bba6524190019e4&hd=3" />
+<VkVideo title="092 - Импорт данных для разработки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248105&hash=6003b829a02a55cb&hd=3" />
+<VkVideo title="093 - Улучшение API - Фильтрация" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248106&hash=79fa31afc838bfa9&hd=3" />
+<VkVideo title="094 - Улучшение API - Продвинутая фильтрация" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248107&hash=436a1ad29f210027&hd=3" />
+<VkVideo title="095 - Улучшение API - Сортировка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248108&hash=cc5c77fc6117dbe5&hd=3" />
+<VkVideo title="096 - Улучшение API - Ограничение полей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248109&hash=c0c0b836d6d62bc5&hd=3" />
+<VkVideo title="097 - Улучшение API - Пагинация" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248110&hash=f9887b0d211c7107&hd=3" />
+<VkVideo title="098 - Улучшение API - Псевдонимы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248111&hash=d16e110db5ecd8a3&hd=3" />
+<VkVideo title="099 - Рефакторинг функционала API" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248112&hash=a60c5ac82f21fec6&hd=3" />
+<VkVideo title="100 - Конвейер агрегации - match и group" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248113&hash=6c4d96aa79300a00&hd=3" />
+<VkVideo title="101 - Конвейер агрегации - unwind и project" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248114&hash=fa3460d8ed9448fc&hd=3" />
+<VkVideo title="102 - Виртуальные свойства" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248115&hash=5fa5e137c6de201f&hd=3" />
+<VkVideo title="103 - Middleware документов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248116&hash=f6d36b4556854be5&hd=3" />
+<VkVideo title="104 - Middleware запросов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248117&hash=88b12d9a57da0691&hd=3" />
+<VkVideo title="105 - Middleware агрегации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248118&hash=b9e346682f13a036&hd=3" />
+<VkVideo title="106 - Проверка данных - Встроенные валидаторы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248119&hash=46d76f43b1659717&hd=3" />
+<VkVideo title="107 - Проверка данных - Кастомные валидаторы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248120&hash=271f9f9ced63c558&hd=3" />
 
 - ### 09. Обработка ошибок в Express
 
-    - [108 - Вступление к разделу](https://vkvideo.ru/video-224325822_456248121?list=ln-a6a2r5j7NCaKGQgznI);
-    - [109 - Отладка Node.js с помощью ndb](https://vkvideo.ru/video-224325822_456248122?list=ln-TGUZ4EZs8AEIVDax9g);
-    - [110 - Обработка необработанных маршрутов](https://vkvideo.ru/video-224325822_456248123?list=ln-GdU5pdmESIRGxUHeBd);
-    - [111 - Обзор обработки ошибок](https://vkvideo.ru/video-224325822_456248124?list=ln-Irohjb6n56JnQfweJT);
-    - [112 - Реализация глобального middleware для обработки ошибок](https://vkvideo.ru/video-224325822_456248125?list=ln-WS1WlebUcXDCxyvddo);
-    - [113 - Улучшенные ошибки и рефакторинг](https://vkvideo.ru/video-224325822_456248126?list=ln-9omHgOHCu3THooxiO7);
-    - [114 - Отлов ошибок в асинхронных функциях](https://vkvideo.ru/video-224325822_456248127?list=ln-YXtg9KtHOAInPOk5FZ);
-    - [115 - Добавление ошибок 404 Not Found](https://vkvideo.ru/video-224325822_456248128?list=ln-v9PdZlciukXOfcs2Mb);
-    - [116 - Ошибки в режиме разработки и в продакшене](https://vkvideo.ru/video-224325822_456248129?list=ln-X3X5kAT963Z39fDSDx);
-    - [117 - Обработка неверных ID в базе данных](https://vkvideo.ru/video-224325822_456248130?list=ln-1V342wS8RYZRTT6uk7);
-    - [118 - Обработка дублирующихся значений в базе данных](https://vkvideo.ru/video-224325822_456248131?list=ln-NfAGSltAbhR11QFquj);
-    - [119 - Обработка ошибок валидации Mongoose](https://vkvideo.ru/video-224325822_456248132?list=ln-fjGUavvI1Kr6bfNem0);
-    - [120 - Ошибки вне Express - Необработанные отклонения промисов](https://vkvideo.ru/video-224325822_456248133?list=ln-Uc5R0IHNGyHHoVX1se);
-    - [121 - Отлов необработанных исключений](https://vkvideo.ru/video-224325822_456248134?list=ln-o9ykP0TEtolwlfnJHO);
+<VkVideo title="108 - Вступление к разделу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248121&hash=2c674c2e21e9dfc2&hd=3" />
+<VkVideo title="109 - Отладка Node.js с помощью ndb" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248122&hash=7396d9ebe6eca322&hd=3" />
+<VkVideo title="110 - Обработка необработанных маршрутов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248123&hash=1b1cf0e1bc24040b&hd=3" />
+<VkVideo title="111 - Обзор обработки ошибок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248124&hash=254d817bf09aec0f&hd=3" />
+<VkVideo title="112 - Реализация глобального middleware для обработки ошибок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248125&hash=4b920d970732638f&hd=3" />
+<VkVideo title="113 - Улучшенные ошибки и рефакторинг" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248126&hash=ff37706defe784b3&hd=3" />
+<VkVideo title="114 - Отлов ошибок в асинхронных функциях" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248127&hash=b22e856ac12f8e34&hd=3" />
+<VkVideo title="115 - Добавление ошибок 404 Not Found" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248128&hash=6fe32611c1b7133b&hd=3" />
+<VkVideo title="116 - Ошибки в режиме разработки и в продакшене" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248129&hash=c18b8108e6491f06&hd=3" />
+<VkVideo title="117 - Обработка неверных ID в базе данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248130&hash=b729a6d54dc8a281&hd=3" />
+<VkVideo title="118 - Обработка дублирующихся значений в базе данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248131&hash=ef88c5603f398d2a&hd=3" />
+<VkVideo title="119 - Обработка ошибок валидации Mongoose" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248132&hash=724623011bb14a47&hd=3" />
+<VkVideo title="120 - Ошибки вне Express - Необработанные отклонения промисов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248133&hash=e14af855036eee65&hd=3" />
+<VkVideo title="121 - Отлов необработанных исключений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248134&hash=a4243b1f4f70cc46&hd=3" />
 
 - ### 10. Аутентификация
 
-    - [122 - Вступление к разделу](https://vkvideo.ru/video-224325822_456248135?list=ln-MjILZVfEUzJmiQg3iQ);
-    - [123 - Моделирование пользователей](https://vkvideo.ru/video-224325822_456248136?list=ln-rTxJJBycTjeIZBkycD);
-    - [124 - Создание новых пользователей](https://vkvideo.ru/video-224325822_456248137?list=ln-mUJz6MTLd7QVUqFsl6);
-    - [125 - Управление паролями](https://vkvideo.ru/video-224325822_456248138?list=ln-8BMxc3o8m5fCi9R0Gn);
-    - [126 - Как работает аутентификация с JWT](https://vkvideo.ru/video-224325822_456248139?list=ln-V9SciayCTHz5esMDhZ);
-    - [127 - Регистрация пользователей](https://vkvideo.ru/video-224325822_456248140?list=ln-DUw5g0SIzDQzEfnqCx);
-    - [128 - Вход пользователей](https://vkvideo.ru/video-224325822_456248141?list=ln-KGDWcS4I8F21DJXGCp);
-    - [129 - Защита маршрутов - Часть 1](https://vkvideo.ru/video-224325822_456248142?list=ln-5ZPpwtZsXyctsfFPzX);
-    - [130 - Защита маршрутов - Часть 2](https://vkvideo.ru/video-224325822_456248143?list=ln-Dw7zE6gh7QezYmxKDF);
-    - [131 - Расширенная настройка Postman](https://vkvideo.ru/video-224325822_456248144?list=ln-RcXjJp1ARuPjUrOIEV);
-    - [132 - Авторизация - Роли пользователей и разрешения](https://vkvideo.ru/video-224325822_456248145?list=ln-eg6lw7r5s1PBWtaa7p);
-    - [133 - Сброс пароля - Токен сброса](https://vkvideo.ru/video-224325822_456248146?list=ln-qN3yq8wpt77O1jdgpZ);
-    - [134 - Отправка email с Nodemailer](https://vkvideo.ru/video-224325822_456248147?list=ln-Z2SzGlJVtVaTZJ7FGi);
-    - [135 - Сброс пароля - Установка нового пароля](https://vkvideo.ru/video-224325822_456248148?list=ln-KVILZ8l8myvJXU250M);
-    - [136 - Обновление пароля текущего пользователя](https://vkvideo.ru/video-224325822_456248149?list=ln-MolZbsWJ6EEYKYwjo6);
-    - [137 - Обновление данных текущего пользователя](https://vkvideo.ru/video-224325822_456248150?list=ln-31ywKt0LHz93wBYQtR);
-    - [138 - Удаление текущего пользователя](https://vkvideo.ru/video-224325822_456248151?list=ln-egQg8jmpxelBXTiKxO);
-    - [139 - Лучшие практики безопасности](https://vkvideo.ru/video-224325822_456248152?list=ln-QQSBZcaLxGjzmjMn82);
-    - [140 - Отправка JWT через cookie](https://vkvideo.ru/video-224325822_456248153?list=ln-tdY2zR3ANqUeEtc4kG);
-    - [141 - Реализация ограничения частоты запросов](https://vkvideo.ru/video-224325822_456248154?list=ln-ZWZVMht8uVQCDy29n5);
-    - [142 - Настройка защищённых HTTP-заголовков](https://vkvideo.ru/video-224325822_456248155?list=ln-fhCxLQcJJKKRnq44iV);
-    - [143 - Санитизация данных](https://vkvideo.ru/video-224325822_456248156?list=ln-Qv7Gpw7C2PIz0QdL47);
-    - [144 - Предотвращение загрязнения параметров](https://vkvideo.ru/video-224325822_456248157?list=ln-S5jBxoozX8wMZzy3jS);
+<VkVideo title="122 - Вступление к разделу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248135&hash=9304cb71a5a3ce2a&hd=3" />
+<VkVideo title="123 - Моделирование пользователей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248136&hash=0f3586003390b4a8&hd=3" />
+<VkVideo title="124 - Создание новых пользователей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248137&hash=516d4c73529f1dfb&hd=3" />
+<VkVideo title="125 - Управление паролями" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248138&hash=f595c91e8da6b7d7&hd=3" />
+<VkVideo title="126 - Как работает аутентификация с JWT" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248139&hash=dbde242acda473b1&hd=3" />
+<VkVideo title="127 - Регистрация пользователей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248140&hash=87b0b89156bb8e7f&hd=3" />
+<VkVideo title="128 - Вход пользователей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248141&hash=55fbf820b77636a0&hd=3" />
+<VkVideo title="129 - Защита маршрутов - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248142&hash=308206b62b1d1979&hd=3" />
+<VkVideo title="130 - Защита маршрутов - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248143&hash=0f7050b87c785f30&hd=3" />
+<VkVideo title="131 - Расширенная настройка Postman" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248144&hash=0e2cf6db1772a7b9&hd=3" />
+<VkVideo title="132 - Авторизация - Роли пользователей и разрешения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248145&hash=00ce75813f73061a&hd=3" />
+<VkVideo title="133 - Сброс пароля - Токен сброса" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248146&hash=8741c2deb57f9f06&hd=3" />
+<VkVideo title="134 - Отправка email с Nodemailer" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248147&hash=87bb25e892bb4600&hd=3" />
+<VkVideo title="135 - Сброс пароля - Установка нового пароля" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248148&hash=7496f920d9ddd077&hd=3" />
+<VkVideo title="136 - Обновление пароля текущего пользователя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248149&hash=7e6d7a5409eb68b4&hd=3" />
+<VkVideo title="137 - Обновление данных текущего пользователя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248150&hash=50d6cb6096232286&hd=3" />
+<VkVideo title="138 - Удаление текущего пользователя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248151&hash=5e6db4b1975b2e1b&hd=3" />
+<VkVideo title="139 - Лучшие практики безопасности" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248152&hash=78a690f133780cfb&hd=3" />
+<VkVideo title="140 - Отправка JWT через cookie" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248153&hash=d2fdf6a0705fc20d&hd=3" />
+<VkVideo title="141 - Реализация ограничения частоты запросов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248154&hash=fe9b123c83d5b9b7&hd=3" />
+<VkVideo title="142 - Настройка защищённых HTTP-заголовков" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248155&hash=8691fa2be6d87f35&hd=3" />
+<VkVideo title="143 - Санитизация данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248156&hash=07cd3a9bd8dff38b&hd=3" />
+<VkVideo title="144 - Предотвращение загрязнения параметров" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248157&hash=15151ad09d155e28&hd=3" />
 
 - ### 11. Моделирование данных
 
-    - [145 - Вступление к разделу](https://vkvideo.ru/video-224325822_456248158?list=ln-0xqqM2hbzLwSlfN1pK);
-    - [146 - Моделирование данных в MongoDB](https://vkvideo.ru/video-224325822_456248159?list=ln-8HmcCIM6S0vXp02Z3w);
-    - [147 - Проектирование нашей модели данных](https://vkvideo.ru/video-224325822_456248160?list=ln-rFvzCZFgqxFRvD78KY);
-    - [148 - Моделирование локаций (геопространственные данные)](https://vkvideo.ru/video-224325822_456248161?list=ln-1cUeP50uhPVywuY2iL);
-    - [149 - Моделирование гидов тура - Встраивание](https://vkvideo.ru/video-224325822_456248162?list=ln-OdMiLy65W2RlhwahZb);
-    - [150 - Моделирование гидов тура - Дочерние ссылки](https://vkvideo.ru/video-224325822_456248163?list=ln-U5uyO4j27CzutguewD);
-    - [151 - Популяция гидов тура](https://vkvideo.ru/video-224325822_456248164?list=ln-8CvP5kHaRTzmjkMrAc);
-    - [152 - Моделирование отзывов - Родительские ссылки](https://vkvideo.ru/video-224325822_456248165?list=ln-0M6vvA55SrUjvI5kDl);
-    - [153 - Создание и получение отзывов](https://vkvideo.ru/video-224325822_456248166?list=ln-Kda5VTlzCvl8EFJFo5);
-    - [154 - Популяция отзывов](https://vkvideo.ru/video-224325822_456248167?list=ln-6w1tJUbdiR89lMb8li);
-    - [155 - Виртуальная популяция - Туры и отзывы](https://vkvideo.ru/video-224325822_456248168?list=ln-eGpIQmZV9bdKWrkk0G);
-    - [156 - Реализация простых вложенных маршрутов](https://vkvideo.ru/video-224325822_456248169?list=ln-zdhJQcn2fuyEOWq65m);
-    - [157 - Вложенные маршруты с Express](https://vkvideo.ru/video-224325822_456248170?list=ln-DCFAvwkXkHM4MuNsQW);
-    - [158 - Добавление вложенного GET-эндпоинта](https://vkvideo.ru/video-224325822_456248171?list=ln-y0OZOsUDVZbLngq3FC);
-    - [159 - Фабричные функции - Удаление](https://vkvideo.ru/video-224325822_456248172?list=ln-iuQPz7XpqMO3KXi0ww);
-    - [160 - Фабричные функции - Обновление и создание](https://vkvideo.ru/video-224325822_456248173?list=ln-9zfSfZPxScyGLmjksO);
-    - [161 - Фабричные функции - Чтение](https://vkvideo.ru/video-224325822_456248174?list=ln-jb9sdHm01DRNNd7BJb);
-    - [162 - Добавление эндпоинта me](https://vkvideo.ru/video-224325822_456248175?list=ln-slHAVx66VkItbkixdh);
-    - [163 - Добавление отсутствующей аутентификации и авторизации](https://vkvideo.ru/video-224325822_456248176?list=ln-BjH5X2Hoc08BsGdWVf);
-    - [164 - Импорт отзывов и данных пользователей](https://vkvideo.ru/video-224325822_456248177?list=ln-FyDR0DJctQY7ZWpD2s);
-    - [165 - Повышение производительности чтения с помощью индексов](https://vkvideo.ru/video-224325822_456248178?list=ln-fppA0njHAjrH4YLWzl);
-    - [166 - Расчёт среднего рейтинга туров - Часть 1](https://vkvideo.ru/video-224325822_456248179?list=ln-wAlnsLyz5UuL1QEfbi);
-    - [167 - Расчёт среднего рейтинга туров - Часть 2](https://vkvideo.ru/video-224325822_456248180?list=ln-Z9ZZOwGbGZhjSmaNeJ);
-    - [168 - Предотвращение дублирования отзывов](https://vkvideo.ru/video-224325822_456248181?list=ln-EHZA56rqO1qIN4Wpbf);
-    - [169 - Геопространственные запросы - Поиск туров в радиусе](https://vkvideo.ru/video-224325822_456248182?list=ln-W93P8k2qbzwdNbrQf9);
-    - [170 - Геопространственная агрегация - Вычисление расстояний](https://vkvideo.ru/video-224325822_456248183?list=ln-fcw67jC0dfJuDZMcJZ);
-    - [171 - Создание документации API с помощью Postman](https://vkvideo.ru/video-224325822_456248184?list=ln-Z79QcXW3uZsL2VMsWS);
+<VkVideo title="145 - Вступление к разделу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248158&hash=d739aacddae7878f&hd=3" />
+<VkVideo title="146 - Моделирование данных в MongoDB" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248159&hash=67debdf0e125f4a5&hd=3" />
+<VkVideo title="147 - Проектирование нашей модели данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248160&hash=7055a18443090ffd&hd=3" />
+<VkVideo title="148 - Моделирование локаций (геопространственные данные)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248161&hash=d0e8da11a976d79e&hd=3" />
+<VkVideo title="149 - Моделирование гидов тура - Встраивание" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248162&hash=8999acc7cb823cb0&hd=3" />
+<VkVideo title="150 - Моделирование гидов тура - Дочерние ссылки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248163&hash=d8aee6e76754d5ec&hd=3" />
+<VkVideo title="151 - Популяция гидов тура" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248164&hash=efadae84e965a88c&hd=3" />
+<VkVideo title="152 - Моделирование отзывов - Родительские ссылки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248165&hash=36e89f74ea168280&hd=3" />
+<VkVideo title="153 - Создание и получение отзывов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248166&hash=3023de6c9a555a60&hd=3" />
+<VkVideo title="154 - Популяция отзывов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248167&hash=51787bcea26cad58&hd=3" />
+<VkVideo title="155 - Виртуальная популяция - Туры и отзывы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248168&hash=e7be6baa38bbdf18&hd=3" />
+<VkVideo title="156 - Реализация простых вложенных маршрутов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248169&hash=ffc4d9984a4d03ba&hd=3" />
+<VkVideo title="157 - Вложенные маршруты с Express" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248170&hash=a46a9786c3cfb33a&hd=3" />
+<VkVideo title="158 - Добавление вложенного GET-эндпоинта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248171&hash=bbddb718a685f5cd&hd=3" />
+<VkVideo title="159 - Фабричные функции - Удаление" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248172&hash=ba519435da2dc731&hd=3" />
+<VkVideo title="160 - Фабричные функции - Обновление и создание" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248173&hash=4fb6321ed92eefb1&hd=3" />
+<VkVideo title="161 - Фабричные функции - Чтение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248174&hash=500f42d78fd788a8&hd=3" />
+<VkVideo title="162 - Добавление эндпоинта me" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248175&hash=66b8ce27c3d9e534&hd=3" />
+<VkVideo title="163 - Добавление отсутствующей аутентификации и авторизации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248176&hash=fa1a071b0c325fa4&hd=3" />
+<VkVideo title="164 - Импорт отзывов и данных пользователей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248177&hash=025fa80d3cb3d8f2&hd=3" />
+<VkVideo title="165 - Повышение производительности чтения с помощью индексов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248178&hash=09e6139955eb0e26&hd=3" />
+<VkVideo title="166 - Расчёт среднего рейтинга туров - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248179&hash=19782a71f8685042&hd=3" />
+<VkVideo title="167 - Расчёт среднего рейтинга туров - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248180&hash=277ca56f97d079ec&hd=3" />
+<VkVideo title="168 - Предотвращение дублирования отзывов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248181&hash=3786bad62451be24&hd=3" />
+<VkVideo title="169 - Геопространственные запросы - Поиск туров в радиусе" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248182&hash=4f9419788339ec75&hd=3" />
+<VkVideo title="170 - Геопространственная агрегация - Вычисление расстояний" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248183&hash=b698e1274fef9016&hd=3" />
+<VkVideo title="171 - Создание документации API с помощью Postman" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248184&hash=b95516fdba830a37&hd=3" />
 
 - ### 12. Серверный рендеринг с Pug
 
-    - [172 - Введение раздела](https://vkvideo.ru/video-224325822_456248185?list=ln-s15iCCSXZT1KltCU09);
-    - [173 - Серверный vs клиентский рендеринг](https://vkvideo.ru/video-224325822_456248186?list=ln-2JAOkRSlrFpqkdNryU);
-    - [174 - Настройка Pug в Express](https://vkvideo.ru/video-224325822_456248187?list=ln-1buE8bt5y1ffmsi58f);
-    - [175 - Первые шаги с Pug](https://vkvideo.ru/video-224325822_456248188?list=ln-S4NWXGn8r7uRsJ6J9L);
-    - [176 - Создание базового шаблона](https://vkvideo.ru/video-224325822_456248189?list=ln-eZsyN542z5rwDLETMR);
-    - [177 - Включение файлов в шаблоны Pug](https://vkvideo.ru/video-224325822_456248190?list=ln-HZ5c3NFBUzXDblYExd);
-    - [178 - Расширение базового шаблона с блоками](https://vkvideo.ru/video-224325822_456248191?list=ln-T9MqVC57YWPzLmqWkg);
-    - [179 - Настройка структуры проекта](https://vkvideo.ru/video-224325822_456248192?list=ln-d4yZ8f0g4HdjZCI6W9);
-    - [180 - Создание обзорной страницы туров - Часть 1](https://vkvideo.ru/video-224325822_456248193?list=ln-ZvgOpxHdzQDKZkulrM);
-    - [181 - Создание обзорной страницы туров - Часть 2](https://vkvideo.ru/video-224325822_456248194?list=ln-4vqx6LILZ07zmzEoEc);
-    - [182 - Создание страницы тура - Часть 1](https://vkvideo.ru/video-224325822_456248195?list=ln-zTpnDyW4PrZkkkJYjt);
-    - [183 - Создание страницы тура - Часть 2](https://vkvideo.ru/video-224325822_456248196?list=ln-hH3WWBaNQnU3ZPIftW);
-    - [184 - Включение карты с Mapbox - Часть 1](https://vkvideo.ru/video-224325822_456248197?list=ln-tEK239M6sjtd5DubwY);
-    - [185 - Включение карты с Mapbox - Часть 2](https://vkvideo.ru/video-224325822_456248198?list=ln-yZlZkT6aH7PUgGHz1r);
-    - [186 - Создание экрана входа](https://vkvideo.ru/video-224325822_456248199?list=ln-RPEBuw6NAZZFDDSZxP);
-    - [187 - Авторизация пользователей через наш API - Часть 1](https://vkvideo.ru/video-224325822_456248200?list=ln-N4IedroIozgvvbOUzd);
-    - [188 - Авторизация пользователей через наш API - Часть 2](https://vkvideo.ru/video-224325822_456248201?list=ln-a50fBcePZOtiwzLTG8);
-    - [189 - Авторизация пользователей через наш API - Часть 3](https://vkvideo.ru/video-224325822_456248202?list=ln-zv4CTOt5J9zVGoZAZl);
-    - [190 - Выход пользователей из системы](https://vkvideo.ru/video-224325822_456248203?list=ln-wbqOga6ExrR67gZhpR);
-    - [191 - Рендеринг страниц ошибок](https://vkvideo.ru/video-224325822_456248204?list=ln-fsKACSZnAOUg7465yn);
-    - [192 - Создание страницы аккаунта пользователя](https://vkvideo.ru/video-224325822_456248205?list=ln-NSPJL1s31OHVZsq4pz);
-    - [193 - Обновление пользовательских данных](https://vkvideo.ru/video-224325822_456248206?list=ln-Kdy8qfvli6hZwhzSBF);
-    - [194 - Обновление пользовательских данных через наш API](https://vkvideo.ru/video-224325822_456248207?list=ln-huKlvLbrRH3iWFcuxv);
-    - [195 - Обновление пароля пользователя через наш API](https://vkvideo.ru/video-224325822_456248208?list=ln-K50YezootbZzNY58ED);
+<VkVideo title="172 - Введение раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248185&hash=3ac5050a241ad9cd&hd=3" />
+<VkVideo title="173 - Серверный vs клиентский рендеринг" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248186&hash=984efe8bfe560449&hd=3" />
+<VkVideo title="174 - Настройка Pug в Express" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248187&hash=7ffd2cc9a5aad59c&hd=3" />
+<VkVideo title="175 - Первые шаги с Pug" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248188&hash=1e853f3aba525138&hd=3" />
+<VkVideo title="176 - Создание базового шаблона" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248189&hash=0c48a5b325942d3e&hd=3" />
+<VkVideo title="177 - Включение файлов в шаблоны Pug" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248190&hash=0c76fc2c637bfbb2&hd=3" />
+<VkVideo title="178 - Расширение базового шаблона с блоками" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248191&hash=427e3b61050ef3cb&hd=3" />
+<VkVideo title="179 - Настройка структуры проекта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248192&hash=cbfb7c58174211b1&hd=3" />
+<VkVideo title="180 - Создание обзорной страницы туров - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248193&hash=8c6da0ad00cf6a1c&hd=3" />
+<VkVideo title="181 - Создание обзорной страницы туров - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248194&hash=b3833f1b5a9e9936&hd=3" />
+<VkVideo title="182 - Создание страницы тура - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248195&hash=c6b95d17c09c7b3e&hd=3" />
+<VkVideo title="183 - Создание страницы тура - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248196&hash=3e0759b66ed9ded7&hd=3" />
+<VkVideo title="184 - Включение карты с Mapbox - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248197&hash=78e3bc4f62989676&hd=3" />
+<VkVideo title="185 - Включение карты с Mapbox - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248198&hash=18d26d0836774bf3&hd=3" />
+<VkVideo title="186 - Создание экрана входа" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248199&hash=985c5040090d485d&hd=3" />
+<VkVideo title="187 - Авторизация пользователей через наш API - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248200&hash=6eb6b6ec0c6374e5&hd=3" />
+<VkVideo title="188 - Авторизация пользователей через наш API - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248201&hash=25bb8b992c00b2b9&hd=3" />
+<VkVideo title="189 - Авторизация пользователей через наш API - Часть 3" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248202&hash=f376716208432ccd&hd=3" />
+<VkVideo title="190 - Выход пользователей из системы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248203&hash=f125d6981efde5c6&hd=3" />
+<VkVideo title="191 - Рендеринг страниц ошибок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248204&hash=8a6e7ae01e35fe39&hd=3" />
+<VkVideo title="192 - Создание страницы аккаунта пользователя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248205&hash=1fd84f805dfb032d&hd=3" />
+<VkVideo title="193 - Обновление пользовательских данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248206&hash=d2cc39f7dd7ee96c&hd=3" />
+<VkVideo title="194 - Обновление пользовательских данных через наш API" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248207&hash=43acee9b12ff159e&hd=3" />
+<VkVideo title="195 - Обновление пароля пользователя через наш API" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248208&hash=d0c4a0833a632630&hd=3" />
 
 - ### 13. Расширенные возможности
 
-    - [196 - Введение в раздел](https://vkvideo.ru/video-224325822_456248209?list=ln-WLzgGy7PnvhJOl0r8I);
-    - [197 - Загрузка изображений с Multer](https://vkvideo.ru/video-224325822_456248210?list=ln-KIfKde11izCghyDGES);
-    - [198 - Настройка Multer](https://vkvideo.ru/video-224325822_456248211?list=ln-JlF2mvqddJSL1lprvz);
-    - [199 - Сохранение имени изображения в базу данных](https://vkvideo.ru/video-224325822_456248212?list=ln-vW5IzdlKnmZYp0SOk6);
-    - [200 - Изменение размеров изображений](https://vkvideo.ru/video-224325822_456248213?list=ln-ezdLCvn24vSYZNMhF8);
-    - [201 - Добавление загрузки изображений в форму](https://vkvideo.ru/video-224325822_456248214?list=ln-nzqnRT83LI6A2iDvvl);
-    - [202 - Загрузка нескольких изображений](https://vkvideo.ru/video-224325822_456248215?list=ln-ZNsCbuWyV50gLV1g36);
-    - [203 - Обработка нескольких изображений](https://vkvideo.ru/video-224325822_456248216?list=ln-PAIRVqnyMu7RC4JS1w);
-    - [204 - Создание сложного обработчика email-ов](https://vkvideo.ru/video-224325822_456248217?list=ln-c1bbpsWvRvXzZzl5pT);
-    - [205 - Email-шаблоны с Pug](https://vkvideo.ru/video-224325822_456248218?list=ln-RDJz27RfP7kyz1qgwF);
-    - [206 - Отправка писем для сброса пароля](https://vkvideo.ru/video-224325822_456248219?list=ln-QpNXjVDtrrcY5GFWTh);
-    - [207 - Использование SendGrid для реальных писем](https://vkvideo.ru/video-224325822_456248220?list=ln-lyI3cvrNyFxZZ4C8gn);
-    - [208 - Платежи по кредитным картам через Stripe](https://vkvideo.ru/video-224325822_456248221?list=ln-GK9wUTFFCXlmPqmtAv);
-    - [209 - Интеграция Stripe в back-end](https://vkvideo.ru/video-224325822_456248222?list=ln-nYTXId5APAozZBqC89);
-    - [210 - Обработка платежей на front-end](https://vkvideo.ru/video-224325822_456248223?list=ln-NP7dhJpltWcz285cr0);
-    - [211 - Моделирование бронирований](https://vkvideo.ru/video-224325822_456248224?list=ln-Bpgm9XsLt0vbitC59s);
-    - [212 - Создание новых бронирований при успешной оплате](https://vkvideo.ru/video-224325822_456248225?list=ln-MzA77vWADvMxmPte3O);
-    - [213 - Рендеринг туров, забронированных пользователем](https://vkvideo.ru/video-224325822_456248226?list=ln-4Vz2vWY9Fva65NqpgL);
-    - [214 - Завершение API бронирований](https://vkvideo.ru/video-224325822_456248227?list=ln-FXssItSiAzp5uZOx67);
-    - [215 - Заключительные замечания](https://vkvideo.ru/video-224325822_456248228?list=ln-JpcBQz9b8q6O65ndSt);
+<VkVideo title="196 - Введение в раздел" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248209&hash=224de8d686953fc5&hd=3" />
+<VkVideo title="197 - Загрузка изображений с Multer" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248210&hash=1ba34b364909771c&hd=3" />
+<VkVideo title="198 - Настройка Multer" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248211&hash=c015ec4a11bd6ffd&hd=3" />
+<VkVideo title="199 - Сохранение имени изображения в базу данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248212&hash=b97692452d2e4514&hd=3" />
+<VkVideo title="200 - Изменение размеров изображений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248213&hash=3e088b71a9ad0b36&hd=3" />
+<VkVideo title="201 - Добавление загрузки изображений в форму" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248214&hash=dc31f4274864716f&hd=3" />
+<VkVideo title="202 - Загрузка нескольких изображений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248215&hash=246ab27d9e423313&hd=3" />
+<VkVideo title="203 - Обработка нескольких изображений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248216&hash=7f2bfcd36aed1dba&hd=3" />
+<VkVideo title="204 - Создание сложного обработчика email-ов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248217&hash=9b10b0c0feab56ce&hd=3" />
+<VkVideo title="205 - Email-шаблоны с Pug" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248218&hash=a61d2c4dacc84938&hd=3" />
+<VkVideo title="206 - Отправка писем для сброса пароля" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248219&hash=896093a9dea0d160&hd=3" />
+<VkVideo title="207 - Использование SendGrid для реальных писем" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248220&hash=b39809aa8c137ff8&hd=3" />
+<VkVideo title="208 - Платежи по кредитным картам через Stripe" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248221&hash=ee7d4961ded03cd4&hd=3" />
+<VkVideo title="209 - Интеграция Stripe в back-end" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248222&hash=f721f1637c0ae42d&hd=3" />
+<VkVideo title="210 - Обработка платежей на front-end" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248223&hash=7d01a94dbf9c229b&hd=3" />
+<VkVideo title="211 - Моделирование бронирований" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248224&hash=b4b4dbe53ed8b5f5&hd=3" />
+<VkVideo title="212 - Создание новых бронирований при успешной оплате" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248225&hash=3155e88a946c292a&hd=3" />
+<VkVideo title="213 - Рендеринг туров, забронированных пользователем" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248226&hash=ffd9d08f714e1d6e&hd=3" />
+<VkVideo title="214 - Завершение API бронирований" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248227&hash=8d41cc48dc6084a2&hd=3" />
+<VkVideo title="215 - Заключительные замечания" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248228&hash=24a13a947189ada6&hd=3" />
 
 - ### 14. Настройка Git и деплой
 
-    - [216 - Введение в раздел](https://vkvideo.ru/video-224325822_456248229?list=ln-YKBmVS53S3uSe7o6mr);
-    - [217 - Настройка Git и GitHub](https://vkvideo.ru/video-224325822_456248230?list=ln-6Nyx9FdzhkzBD7lVy2);
-    - [218 - Основы Git](https://vkvideo.ru/video-224325822_456248231?list=ln-f3fPeRMDJQzI3UYZke);
-    - [219 - Отправка проекта на GitHub](https://vkvideo.ru/video-224325822_456248232?list=ln-ZAuEAKdpFmLZ0u2w1q);
-    - [220 - Подготовка приложения к деплою](https://vkvideo.ru/video-224325822_456248233?list=ln-8w5sbzdrmd40JN0wAJ);
-    - [221 - Деплой приложения на Heroku](https://vkvideo.ru/video-224325822_456248234?list=ln-YcFeyMnZsr9Qgt2tvg);
-    - [222 - Тестирование безопасных HTTPS-соединений](https://vkvideo.ru/video-224325822_456248235?list=ln-EtJLPEkzXB35wQQ2LM);
-    - [223 - Обработка сигнала SIGTERM](https://vkvideo.ru/video-224325822_456248236?list=ln-0vEypXutgxnN8Kh4tZ);
-    - [224 - Реализация CORS](https://vkvideo.ru/video-224325822_456248237?list=ln-bOxhpbJxAdwzittGJN);
-    - [225 - Завершение платежей через Stripe Webhooks](https://vkvideo.ru/video-224325822_456248238?list=ln-Qpwj517vidZqSXGJSI);
+<VkVideo title="216 - Введение в раздел" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248229&hash=5269c1c9f9f03014&hd=3" />
+<VkVideo title="217 - Настройка Git и GitHub" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248230&hash=f2010a382d3e7d88&hd=3" />
+<VkVideo title="218 - Основы Git" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248231&hash=66e061f383aae311&hd=3" />
+<VkVideo title="219 - Отправка проекта на GitHub" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248232&hash=eacf0fb3d3b182db&hd=3" />
+<VkVideo title="220 - Подготовка приложения к деплою" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248233&hash=4ae5ee67c9de594d&hd=3" />
+<VkVideo title="221 - Деплой приложения на Heroku" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248234&hash=0a58ccce5880cc07&hd=3" />
+<VkVideo title="222 - Тестирование безопасных HTTPS-соединений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248235&hash=ad4a1698a5a46de1&hd=3" />
+<VkVideo title="223 - Обработка сигнала SIGTERM" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248236&hash=2de7502014bf8b05&hd=3" />
+<VkVideo title="224 - Реализация CORS" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248237&hash=fc012f59776a5f35&hd=3" />
+<VkVideo title="225 - Завершение платежей через Stripe Webhooks" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248238&hash=00e491e44521341d&hd=3" />
