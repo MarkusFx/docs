@@ -26,6 +26,7 @@ import gsapLogo from '/logos/gsap-logo-001.svg?raw'
 import expressLogo from '/logos/express-logo.svg?raw'
 import vitestLogo from '/logos/vitest-logo.svg?raw'
 import r3fLogo from '/logos/r3f-logo.svg?raw'
+import reactLogo from '/logos/react-logo.svg?raw'
 
 export const gradients = {
     RED: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -151,6 +152,14 @@ export const courses_4 = [
         link: '/courses/gsap/carl-creative-coding-club',
         color: commonColor,
         gradient: gradients.GREEN,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'React',
+        icon: reactLogo,
+        link: '/courses/react/jonas-schmedtmann',
+        color: commonColor,
+        gradient: gradients.BLUE,
         iconFilter: commonIconFilter,
     },
     {

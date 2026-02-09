@@ -39,7 +39,7 @@ outline: [2, 3]
 - ### 03. Выбор элементов, утверждения
 
 <VkVideo title="027 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246288&hash=2d21c32990c4b953&hd=3" />
-<VkVideo title="028 - Настройка проекта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246289&hash=bed6e58025d40ffe&hd=3" />
+<VkVideo title="028 - Настройка проекта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249253&hash=23c03c580ea0bd9a&hd=3" />
 <VkVideo title="029 - Выбор элементов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246290&hash=e03b0066d562e7c9&hd=3" />
 <VkVideo title="030 - Тестирование навигации по страницам" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246291&hash=b1ae314fcb531d27&hd=3" />
 <VkVideo title="031 - Дополнительно о выборе элементов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246292&hash=487eb412f75f1b68&hd=3" />

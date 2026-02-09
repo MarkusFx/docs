@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, onMounted, onBeforeUnmount } from 'vue'
 
 const props = defineProps<{
     src: string
@@ -16,25 +16,62 @@ const mounted = ref(false)
 // iframe реально загрузился
 const iframeLoaded = ref(false)
 
+// модальное окно
+const showModal = ref(false)
+
 function onToggle(e: Event) {
     const el = e.target as HTMLDetailsElement
     isOpen.value = el.open
 
     if (el.open) {
-        // при открытии создаём iframe
         mounted.value = true
     } else {
-        // при закрытии — удаляем iframe
         mounted.value = false
         iframeLoaded.value = false
+        showModal.value = false
+        document.body.style.overflow = ''
     }
 }
+
+function openModal() {
+    showModal.value = true
+    document.body.style.overflow = 'hidden'
+}
+
+function closeModal() {
+    showModal.value = false
+    document.body.style.overflow = ''
+}
+
+function onEsc(e: KeyboardEvent) {
+    if (e.key === 'Escape' && showModal.value) {
+        closeModal()
+    }
+}
+
+onMounted(() => {
+    window.addEventListener('keydown', onEsc)
+})
+
+onBeforeUnmount(() => {
+    window.removeEventListener('keydown', onEsc)
+})
 </script>
 
 <template>
     <details class="vk-details" :open="open" @toggle="onToggle">
         <summary class="vk-summary">
-            {{ title ?? 'Видео' }}
+            <span>{{ title ?? 'Видео' }}</span>
+
+            <!-- кнопка развернуть -->
+            <button
+                v-if="isOpen && iframeLoaded"
+                class="vk-expand"
+                title="Развернуть"
+                @click.stop.prevent="openModal"
+            >
+                ⛶
+            </button>
         </summary>
 
         <div class="vk-wrap">
@@ -67,6 +104,33 @@ function onToggle(e: Event) {
             />
         </div>
     </details>
+
+    <!-- МОДАЛКА -->
+    <teleport to="body">
+        <div v-if="showModal" class="vk-modal" @click.self="closeModal">
+            <div class="vk-modal-content">
+                <header class="vk-modal-header">
+                    <span>{{ title ?? 'Видео' }}</span>
+                    <button class="vk-close" @click="closeModal">✕</button>
+                </header>
+
+                <div class="vk-modal-video">
+                    <iframe
+                        class="vk-iframe visible"
+                        :src="src"
+                        allow="
+                            autoplay;
+                            encrypted-media;
+                            fullscreen;
+                            picture-in-picture;
+                        "
+                        allowfullscreen
+                        frameborder="0"
+                    />
+                </div>
+            </div>
+        </div>
+    </teleport>
 </template>
 
 <style scoped>
@@ -85,6 +149,22 @@ function onToggle(e: Event) {
     cursor: pointer;
     font-weight: 700;
     font-size: var(--vp-custom-block-font-size);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* expand button */
+.vk-expand {
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.vk-expand:hover {
+    opacity: 1;
 }
 
 /* video container */
@@ -134,5 +214,53 @@ function onToggle(e: Event) {
     to {
         transform: rotate(360deg);
     }
+}
+
+/* modal */
+.vk-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 9999;
+    display: grid;
+    place-items: center;
+}
+
+.vk-modal-content {
+    width: calc(100vw - 40px);
+    height: calc(100vh - 40px);
+    background: #000;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vk-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    font-weight: 700;
+    background: #111;
+}
+
+.vk-close {
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.vk-modal-video {
+    flex: 1;
+    position: relative;
+}
+
+.vk-modal-video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
 }
 </style>

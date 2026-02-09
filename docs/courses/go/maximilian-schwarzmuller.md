@@ -49,7 +49,7 @@ outline: [2, 3]
 <VkVideo title="038 - Вложенные if и использование return для остановки выполнения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246465&hash=f1bb862e6bd0a0be&hd=3" />
 <VkVideo title="039 - Повторение кода с помощью циклов for" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246466&hash=b61bfe920fcd45e1&hd=3" />
 <VkVideo title="040 - Бесконечные циклы, break и continue" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246467&hash=6fae3c18fe251053&hd=3" />
-<VkVideo title="041 - Осмысление switch" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246468&hash=9513fe677423bc7b&hd=3" />
+<VkVideo title="041 - Осмысление switch" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249254&hash=410652b1a459be18&hd=3" />
 <VkVideo title="042 - Запись в файлы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246469&hash=efc2475cce88eac8&hd=3" />
 <VkVideo title="043 - Чтение из файлов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246470&hash=962e91c1da0d67e9&hd=3" />
 <VkVideo title="044 - Обработка ошибок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246471&hash=224cae5aa9a0745d&hd=3" />
@@ -76,7 +76,7 @@ outline: [2, 3]
 <VkVideo title="059 - Указатели" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246707&hash=2d74ccb28dedd567&hd=3" />
 <VkVideo title="060 - Написание кода без указателей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246708&hash=b8e40939affc0448&hd=3" />
 <VkVideo title="061 - Создание указателя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246709&hash=07d73b8bb6874256&hd=3" />
-<VkVideo title="062 - Указатели как значения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246710&hash=5f5723138cda78af&hd=3" />
+<VkVideo title="062 - Указатели как значения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249255&hash=96842a76243e831a&hd=3" />
 <VkVideo title="063 - Использование указателей и передача в функции" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246711&hash=3de805ae5a0338bb&hd=3" />
 <VkVideo title="064 - Использование указателей для изменения данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246712&hash=a570839805ce10e5&hd=3" />
 <VkVideo title="065 - Пример - Функция Scan()" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246713&hash=e142428cc4016867&hd=3" />

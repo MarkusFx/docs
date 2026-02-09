@@ -1,0 +1,621 @@
+---
+outline: [2, 3]
+---
+
+# The Ultimate React Course - React, Redux & More
+
+- ### 01. Добро пожаловать!
+
+<VkVideo title="001 - План курса и проекты" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248755&hash=b7bf1ab9e77baad8&hd=3" />
+<VkVideo title="002 - Создание нашего первого React-приложения!" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248756&hash=9574f7c414154a08&hd=3" />
+<VkVideo title="003 - Посмотрите перед началом!" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248757&hash=4bcc05841147127e&hd=3" />
+<VkVideo title="004 - Загрузка материалов курса" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248758&hash=2738debf9e06b034&hd=3" />
+
+- ### 02. Часть 1
+
+<VkVideo title="005 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248759&hash=448bf9137e0622a9&hd=3" />
+
+- ### 03. Первый взгляд на React
+
+<VkVideo title="006 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248760&hash=60001cbf93b78ea5&hd=3" />
+<VkVideo title="007 - Почему существуют фронтенд-фреймворки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248761&hash=3b8dd9c9e0efd5ed&hd=3" />
+<VkVideo title="008 - React против чистого JavaScript" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248762&hash=4ad0a8fd47b6ed3e&hd=3" />
+<VkVideo title="009 - Что такое React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248763&hash=8e91c08dd4c41d33&hd=3" />
+<VkVideo title="010 - Настройка среды разработки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248764&hash=190c7b35f249accd&hd=3" />
+<VkVideo title="011 - Чистый React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248765&hash=0402652186aa776b&hd=3" />
+<VkVideo title="012 - Краткий обзор официальной документации React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248766&hash=053dfff8251877f2&hd=3" />
+<VkVideo title="013 - Создание нового React-проекта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248767&hash=cd98ae28cf7efb7d&hd=3" />
+<VkVideo title="014 - Создание проекта с помощью Create React App" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248768&hash=d681b5b0718c032a&hd=3" />
+
+- ### 04. Повторение основ JavaScript
+
+<VkVideo title="015 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248769&hash=a1dd03d078980c1f&hd=3" />
+<VkVideo title="016 - Деструктуризация объектов и массивов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248770&hash=e716309ad594f35a&hd=3" />
+<VkVideo title="017 - Оператор Rest, Spread" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248771&hash=e993404eaf07d27e&hd=3" />
+<VkVideo title="018 - Шаблонные строки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248772&hash=c33e408ff36d316a&hd=3" />
+<VkVideo title="019 - Тернарные операторы вместо if, else" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248773&hash=1122786714e29095&hd=3" />
+<VkVideo title="020 - Стрелочные функции" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248774&hash=cc3dd1aeedbebaeb&hd=3" />
+<VkVideo title="021 - Короткое замыкание и логические операторы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248775&hash=73c7d28608ecbb96&hd=3" />
+<VkVideo title="022 - Опциональная цепочка (Optional Chaining)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248776&hash=64148360228acae3&hd=3" />
+<VkVideo title="023 - Метод массива map" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248777&hash=475a0da417644c4a&hd=3" />
+<VkVideo title="024 - Метод массива filter" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248778&hash=68a061c2534a16c1&hd=3" />
+<VkVideo title="025 - Метод массива reduce" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248779&hash=1cb30b37f5b47f59&hd=3" />
+<VkVideo title="026 - Метод массива sort" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248780&hash=b0a14d23023dc32d&hd=3" />
+<VkVideo title="027 - Работа с иммутабельными массивами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248781&hash=5357275ee047b297&hd=3" />
+<VkVideo title="028 - Асинхронный JavaScript - Promises" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248782&hash=827270d16fc788ce&hd=3" />
+<VkVideo title="029 - Асинхронный JavaScript - Async, Await" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248783&hash=412984d1a92f6243&hd=3" />
+
+- ### 05. Компоненты, props и JSX
+
+<VkVideo title="030 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248784&hash=efd67557bc200123&hd=3" />
+<VkVideo title="031 - Рендеринг корневого компонента и Strict Mode" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248785&hash=c06b3af46d4e3fb5&hd=3" />
+<VkVideo title="032 - Перед тем как начать кодить - Отладка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248786&hash=c7acc039131d574a&hd=3" />
+<VkVideo title="033 - Компоненты как строительные блоки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248787&hash=71304ce0f2e33693&hd=3" />
+<VkVideo title="034 - Создание и повторное использование компонента" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248788&hash=af730bb26dfc74ff&hd=3" />
+<VkVideo title="035 - Что такое JSX" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248789&hash=922cf7d6e987f799&hd=3" />
+<VkVideo title="036 - Создание большего количества компонентов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248790&hash=77fa7a8d2cbe73c8&hd=3" />
+<VkVideo title="037 - JavaScript-логика в компонентах" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248791&hash=d277c9e52f920636&hd=3" />
+<VkVideo title="038 - Разделение ответственности" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248792&hash=02777426787f7f1d&hd=3" />
+<VkVideo title="039 - Стилизация React-приложений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248793&hash=06e02b0cea6dab68&hd=3" />
+<VkVideo title="040 - Передача и получение props" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248794&hash=c12800e2bd93ea31&hd=3" />
+<VkVideo title="041 - Props, иммутабельность и однонаправленный поток данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248795&hash=ba79c7a7dd49c8b7&hd=3" />
+<VkVideo title="042 - Задание - Карточка профиля" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248796&hash=1cef63a390ef2896&hd=3" />
+<VkVideo title="043 - Правила JSX" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248797&hash=ebb43cb9fa0fe5a7&hd=3" />
+<VkVideo title="044 - Рендеринг списков" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248798&hash=6579af2a4aaad106&hd=3" />
+<VkVideo title="045 - Условный рендеринг с помощью &&" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248805&hash=f1459897ee0e4098&hd=3" />
+<VkVideo title="046 - Условный рендеринг с помощью тернарных операторов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248800&hash=566b52106ee87061&hd=3" />
+<VkVideo title="047 - Условный рендеринг с несколькими return" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248801&hash=1ed640f342351e3d&hd=3" />
+<VkVideo title="048 - Вынос JSX в отдельный компонент" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248802&hash=0473d6981991d5fe&hd=3" />
+<VkVideo title="049 - Деструктуризация props" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248803&hash=800122c5d86045bf&hd=3" />
+<VkVideo title="050 - React-фрагменты" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248804&hash=07ebccd261eb755a&hd=3" />
+<VkVideo title="051 - Условная установка классов и текста" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248806&hash=84ef86e165acb042&hd=3" />
+<VkVideo title="052 - Итоги раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248807&hash=10a16fc94a17592c&hd=3" />
+<VkVideo title="053 - Задание- Карточка профиля" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248808&hash=7ceb134032bd315a&hd=3" />
+
+- ### 06. Состояние, события и формы
+
+<VkVideo title="054 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248809&hash=1c386c83e1f2d282&hd=3" />
+<VkVideo title="055 - Создаём компонент Steps" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248810&hash=af628cbd4fac26f0&hd=3" />
+<VkVideo title="056 - Обработка событий" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248811&hash=c097e99cff9ff176&hd=3" />
+<VkVideo title="057 - Что такое состояние (state) в React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248812&hash=f5c3ab0b9d8b30d7&hd=3" />
+<VkVideo title="058 - Создание переменной состояния с useState" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248813&hash=ad1ab979b02605cc&hd=3" />
+<VkVideo title="059 - Не изменяйте state вручную!" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248814&hash=074ab773a0220356&hd=3" />
+<VkVideo title="060 - Механика состояния" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248815&hash=1d47f02f2e0f3c54&hd=3" />
+<VkVideo title="061 - Добавление ещё одного состояния" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248816&hash=89bd6049b701a5b7&hd=3" />
+<VkVideo title="062 - React Developer Tools" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248817&hash=2d92f949ae524065&hd=3" />
+<VkVideo title="063 - Обновление состояния на основе текущего состояния" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248818&hash=6f43a344c96113ee&hd=3" />
+<VkVideo title="064 - Дополнительные мысли о state" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248819&hash=ef79558ee9199f5d&hd=3" />
+<VkVideo title="065 - Реализация на чистом JavaScript" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248820&hash=ce6018b54bb08edc&hd=3" />
+<VkVideo title="066 - Задание - Счётчик дат" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248821&hash=ea419d94bc4cfa0c&hd=3" />
+<VkVideo title="067 - Новый проект - Список путешествий" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248822&hash=cad0aaee29a64bc7&hd=3" />
+<VkVideo title="068 - Построение макета" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248823&hash=54d01e55ee36e085&hd=3" />
+<VkVideo title="069 - Рендеринг списка элементов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248824&hash=bb6b2fc0a03be967&hd=3" />
+<VkVideo title="070 - Создание формы и обработка отправки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248825&hash=252a1e7839ff1e6a&hd=3" />
+<VkVideo title="071 - Управляемые элементы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248826&hash=7d7d84fe6ffbdc90&hd=3" />
+<VkVideo title="072 - State против Props" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248827&hash=4cd0a2b4e577387c&hd=3" />
+<VkVideo title="073 - Задание - Флеш-карточки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248828&hash=afb95b140476973b&hd=3" />
+<VkVideo title="074 - Задание - Счётчик дат" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248829&hash=f4aeb746b7085418&hd=3" />
+
+- ### 07. Управление состоянием
+
+<VkVideo title="075 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248830&hash=c8cf9abad2fbc5ec&hd=3" />
+<VkVideo title="076 - Думать по-React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248831&hash=55e4969b4aa9484d&hd=3" />
+<VkVideo title="077 - Основы управления состоянием" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248832&hash=5c791a88ebed652f&hd=3" />
+<VkVideo title="078 - Размышления о состоянии и подъём состояния вверх" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248833&hash=9bb4c8508f519e36&hd=3" />
+<VkVideo title="079 - Повторение подъёма состояния" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248834&hash=e7995d74410816ae&hd=3" />
+<VkVideo title="080 - Удаление элемента" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248835&hash=9cdd4f7f1453edfe&hd=3" />
+<VkVideo title="081 - Обновление элемента" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248836&hash=7554fbad053e7503&hd=3" />
+<VkVideo title="082 - Производное состояние" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248837&hash=c5a65f01a0c7f2b2&hd=3" />
+<VkVideo title="083 - Вычисление статистики как производного состояния" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248838&hash=1a8b26fd20f48dd6&hd=3" />
+<VkVideo title="084 - Сортировка элементов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248839&hash=ba2fb1126ee21f0b&hd=3" />
+<VkVideo title="085 - Очистка списка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248840&hash=a0cb92601253522a&hd=3" />
+<VkVideo title="086 - Перенос компонентов в отдельные файлы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248841&hash=963f086ffa4f7bb0&hd=3" />
+<VkVideo title="087 - Задание - Компонент Аккордеон" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248842&hash=0813b452cce1b2b8&hd=3" />
+<VkVideo title="088 - Prop children - Создание переиспользуемой кнопки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248843&hash=47e98bf2caaec865&hd=3" />
+<VkVideo title="089 - Больше переиспользуемости с prop children" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248844&hash=a196de41cd32227e&hd=3" />
+<VkVideo title="090 - Задание - Компонент Аккордеон" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248845&hash=2706aaff55ade124&hd=3" />
+<VkVideo title="091 - Задание - Калькулятор чаевых" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248846&hash=4b7f30c6be737115&hd=3" />
+
+- ### 08. Проект Eat-N-Split
+
+<VkVideo title="092 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248847&hash=bffba35e87411d9c&hd=3" />
+<VkVideo title="093 - Настройка проекта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248848&hash=3602625709f8426d&hd=3" />
+<VkVideo title="094 - Создание статического приложения - Список друзей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248849&hash=8efeb3529146cd19&hd=3" />
+<VkVideo title="095 - Создание статического приложения - Формы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248850&hash=f978ac61f6fcca5b&hd=3" />
+<VkVideo title="096 - Отображение формы добавления нового друга" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248851&hash=c7c9c43b9027f56d&hd=3" />
+<VkVideo title="097 - Добавление нового друга" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248852&hash=9bf87d13b0363e03&hd=3" />
+<VkVideo title="098 - Выбор друга" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248853&hash=a9f5bea7b2f95da2&hd=3" />
+<VkVideo title="099 - Создание управляемых элементов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248854&hash=323f8bf2eb6b309a&hd=3" />
+<VkVideo title="100 - Разделение счёта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248855&hash=4b409206dc190864&hd=3" />
+
+- ### 09. Часть 2
+
+<VkVideo title="101 - React среднего уровня" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248856&hash=7ecc14ef5dcc6802&hd=3" />
+
+- ### 10. Компоненты, композиция, переиспользуемость
+
+<VkVideo title="102 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248857&hash=e1ae0a8f0540e558&hd=3" />
+<VkVideo title="103 - Настройка проекта usePopcorn" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248858&hash=b6358202ddfe1b63&hd=3" />
+<VkVideo title="104 - Как разбить интерфейс на компоненты" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248859&hash=85613d137088fa38&hd=3" />
+<VkVideo title="105 - Практическое разделение компонентов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248860&hash=fa64d726bc84b56e&hd=3" />
+<VkVideo title="106 - Категории компонентов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248861&hash=8fab9d98c66d82d6&hd=3" />
+<VkVideo title="107 - Prop drilling" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248862&hash=b23f59eedf032612&hd=3" />
+<VkVideo title="108 - Композиция компонентов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248863&hash=6acbb84f383c0a1d&hd=3" />
+<VkVideo title="109 - Устранение prop drilling" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248864&hash=3ab71e96b941c3d8&hd=3" />
+<VkVideo title="110 - Создание переиспользуемого контейнера" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248865&hash=592da870e7ca7568&hd=3" />
+<VkVideo title="111 - Передача элементов как props" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248866&hash=0e12e2b2c9d6cec2&hd=3" />
+<VkVideo title="112 - Создание переиспользуемого компонента" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248867&hash=db5914d2d8d9ed00&hd=3" />
+<VkVideo title="113 - Создание звёзд" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248868&hash=95ecd326ad721d80&hd=3" />
+<VkVideo title="114 - Обработка событий наведения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248869&hash=c798f9b586383a1d&hd=3" />
+<VkVideo title="115 - Props как API компонента" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248870&hash=8d9e1622afa0e97f&hd=3" />
+<VkVideo title="116 - Переиспользуемость с помощью props" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248871&hash=8740db8f396be241&hd=3" />
+<VkVideo title="117 - PropTypes" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248872&hash=9e4466a5ab7bd14b&hd=3" />
+<VkVideo title="118 - Задание - Компонент Расширитель текста" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248873&hash=d2b7bb5a6ff62e46&hd=3" />
+
+- ### 11. Как работает React
+
+<VkVideo title="119 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248874&hash=1a89113f1674464c&hd=3" />
+<VkVideo title="120 - Настройка проекта и обзор" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248875&hash=fb87b9a2871e84ca&hd=3" />
+<VkVideo title="121 - Компоненты, экземпляры и элементы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248876&hash=9c60d9476bb12ed4&hd=3" />
+<VkVideo title="122 - Экземпляры и элементы на практике" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248877&hash=303970b4154a2baf&hd=3" />
+<VkVideo title="123 - Как работает рендеринг - Обзор" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248878&hash=97857ed558f18b38&hd=3" />
+<VkVideo title="124 - Как работает рендеринг - Фаза render" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248879&hash=fbadbb807ab95a55&hd=3" />
+<VkVideo title="125 - Как работает рендеринг - Фаза commit" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248880&hash=50a7e42dcc68e115&hd=3" />
+<VkVideo title="126 - Как работает алгоритм сравнения (diffing)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248881&hash=591de8ce1b4b03ff&hd=3" />
+<VkVideo title="127 - Правила diffing на практике" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248882&hash=328b27193f6b3fa6&hd=3" />
+<VkVideo title="128 - Prop key" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248883&hash=2eaf99058607d4e7&hd=3" />
+<VkVideo title="129 - Сброс состояния с помощью prop key" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248884&hash=91d396b46c745a09&hd=3" />
+<VkVideo title="130 - Использование prop key для исправления приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248885&hash=2c86d097cc35c027&hd=3" />
+<VkVideo title="131 - Правила логики рендера - Чистые компоненты" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248886&hash=1350106c098cc3c6&hd=3" />
+<VkVideo title="132 - Пакетирование обновлений состояния" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248887&hash=c1439065343939be&hd=3" />
+<VkVideo title="133 - Пакетирование обновлений состояния на практике" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248888&hash=801762c55015c45e&hd=3" />
+<VkVideo title="134 - Как работают события в React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248889&hash=89efdb59a924386d&hd=3" />
+<VkVideo title="135 - Библиотеки против фреймворков и экосистема React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248890&hash=44a294eb98f842f4&hd=3" />
+<VkVideo title="136 - Итоги раздела и практические выводы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248891&hash=ed1df9264bb8fccc&hd=3" />
+
+- ### 12. Эффекты и загрузка данных
+
+<VkVideo title="137 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248892&hash=1cf585187c2b50b5&hd=3" />
+<VkVideo title="138 - Жизненный цикл компонента" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248893&hash=dce2226b865f5439&hd=3" />
+<VkVideo title="139 - Как не нужно загружать данные в React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248894&hash=7d42ac9c80fc66ab&hd=3" />
+<VkVideo title="140 - useEffect приходит на помощь" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248895&hash=247b9d67eb276451&hd=3" />
+<VkVideo title="141 - Первый взгляд на эффекты" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248896&hash=f065ddf4d8e01803&hd=3" />
+<VkVideo title="142 - Использование async-функции" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248897&hash=ecdae29cc25b4c12&hd=3" />
+<VkVideo title="143 - Добавление состояния загрузки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248898&hash=e4ab6facf47cd421&hd=3" />
+<VkVideo title="144 - Обработка ошибок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248899&hash=5c9beb3ddb46b9c2&hd=3" />
+<VkVideo title="145 - Массив зависимостей useEffect" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248900&hash=577b65102353460f&hd=3" />
+<VkVideo title="146 - Синхронизация запросов с данными фильмов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248901&hash=d8f131a6a3e8a0d1&hd=3" />
+<VkVideo title="147 - Выбор фильма" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248902&hash=6191961a3772e1e2&hd=3" />
+<VkVideo title="148 - Загрузка деталей фильма" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248903&hash=cecd98021c2a8218&hd=3" />
+<VkVideo title="149 - Добавление просмотренного фильма" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249256&hash=6aab3fea844ac302&hd=3" />
+<VkVideo title="150 - Добавление нового эффекта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248905&hash=89dc761fba4e2b3c&hd=3" />
+<VkVideo title="151 - Функция очистки useEffect" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248907&hash=52fa3ceafc712d67&hd=3" />
+<VkVideo title="152 - Очистка заголовка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248908&hash=2cde9275316ab876&hd=3" />
+<VkVideo title="153 - Очистка загрузки данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248909&hash=fc321aa3c86d8f5d&hd=3" />
+<VkVideo title="154 - Отслеживание нажатия клавиши" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248910&hash=c3637001d31da9e2&hd=3" />
+<VkVideo title="155 - Задание - Конвертер валют" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248911&hash=c467b8cbd6abd109&hd=3" />
+
+- ### 13. Хуки, refs и состояния
+
+<VkVideo title="156 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248912&hash=990e81ff42f01fb4&hd=3" />
+<VkVideo title="157 - Хуки React и их правила" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248913&hash=74afa88c94be7c28&hd=3" />
+<VkVideo title="158 - Правила хуков на практике" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248914&hash=84ab47f9da9dba92&hd=3" />
+<VkVideo title="159 - Дополнительные детали useState" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248915&hash=2909056052d90ee3&hd=3" />
+<VkVideo title="160 - Инициализация состояния с помощью колбэка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248916&hash=ee27bdeb36d415a8&hd=3" />
+<VkVideo title="161 - Итоги по useState" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248917&hash=734e1a1cca90e3f0&hd=3" />
+<VkVideo title="162 - Как не нужно выбирать DOM-элементы в React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248918&hash=a8a640582bb93191&hd=3" />
+<VkVideo title="163 - Знакомство с ещё одним хуком - useRef" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248919&hash=1474c87b47b902fa&hd=3" />
+<VkVideo title="164 - Refs для выбора DOM-элементов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248920&hash=17e0b89318f71cc0&hd=3" />
+<VkVideo title="165 - Refs для сохранения данных между рендерами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248921&hash=18b9ac91048c45f4&hd=3" />
+<VkVideo title="166 - Что такое пользовательские хуки и когда их создавать" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248922&hash=8fe52c7481b2ca56&hd=3" />
+<VkVideo title="167 - Создание нашего первого пользовательского хука" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248923&hash=0bfc85cc7185adf7&hd=3" />
+<VkVideo title="168 - Создание useLocalStorageState" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248924&hash=34edb7d5b6dba4aa&hd=3" />
+<VkVideo title="169 - Создание useKey" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248925&hash=07f33259ef7a559f&hd=3" />
+<VkVideo title="170 - Задание - useGeolocate" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248926&hash=409122efd6ee85ec&hd=3" />
+
+- ### 14. React до появления хуков
+
+<VkVideo title="171 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248927&hash=a0023940569514d7&hd=3" />
+<VkVideo title="172 - Наш первый классовый компонент" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248928&hash=264a62ede3e107cc&hd=3" />
+<VkVideo title="173 - Работа с обработчиками событий" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248929&hash=7b81479bb68340a9&hd=3" />
+<VkVideo title="174 - Классовые компоненты против функциональных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248930&hash=9208169b320f83da&hd=3" />
+<VkVideo title="175 - Начинаем приложение Classy Weather" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248931&hash=950c264e77c9addc&hd=3" />
+<VkVideo title="176 - Загрузка данных о погоде" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248932&hash=39691eabd7b39faf&hd=3" />
+<VkVideo title="177 - Отображение погоды" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248933&hash=50ce223889db564e&hd=3" />
+<VkVideo title="178 - Удаление шаблонного кода с помощью полей класса" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248934&hash=256482a4244c5132&hd=3" />
+<VkVideo title="179 - Связь от дочернего компонента к родительскому" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248935&hash=d1b550cbbb4e425e&hd=3" />
+<VkVideo title="180 - Методы жизненного цикла" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248936&hash=ef536b8a22e4401c&hd=3" />
+
+- ### 15. Часть 3
+
+<VkVideo title="181 - Продвинутый React + Redux" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248937&hash=bd04162da93bf60f&hd=3" />
+
+- ### 16. Продвинутый хук useReducer
+
+<VkVideo title="182 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248938&hash=c9120bb86c999f02&hd=3" />
+<VkVideo title="183 - Ещё один хук" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248939&hash=f83b69caa840e690&hd=3" />
+<VkVideo title="184 - Управление связанными частями состояния" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248940&hash=bbcc43cde6c3322e&hd=3" />
+<VkVideo title="185 - Управление состоянием с помощью useReducer" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248941&hash=10ba98ee65161de2&hd=3" />
+<VkVideo title="186 - Приложение React Quiz" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248942&hash=e737e92d6fb5826d&hd=3" />
+<VkVideo title="187 - Загрузка вопросов из фейкового API" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248943&hash=786a7b016e9d5010&hd=3" />
+<VkVideo title="188 - Обработка состояний загрузки, ошибки и готовности" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248944&hash=2496b395765303d8&hd=3" />
+<VkVideo title="189 - Начало новой викторины" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248945&hash=dfafcfd619798d36&hd=3" />
+<VkVideo title="190 - Отображение вопросов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248946&hash=3540257b3cdb5c9a&hd=3" />
+<VkVideo title="191 - Обработка новых ответов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248947&hash=ec2ea6ad01b6ceef&hd=3" />
+<VkVideo title="192 - Переход к следующему вопросу" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248948&hash=45965d17c021c1a3&hd=3" />
+<VkVideo title="193 - Отображение прогресса" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248949&hash=6386a3626e400eec&hd=3" />
+<VkVideo title="194 - Завершение викторины" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248950&hash=ab6c8a33197d1a1e&hd=3" />
+<VkVideo title="195 - Перезапуск викторины" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248951&hash=6768027195de2d3b&hd=3" />
+<VkVideo title="196 - Настройка таймера с помощью useEffect" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248952&hash=258dfbd4f7ce67ad&hd=3" />
+<VkVideo title="197 - Итоги раздела - useState vs useReducer" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248953&hash=2c563b22c491639e&hd=3" />
+<VkVideo title="198 - Задание - Создание банковского счёта с useReducer" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248954&hash=c5637e6558819e47&hd=3" />
+
+- ### 17. React Router, создание SPA
+
+<VkVideo title="199 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248955&hash=600b779db310d16e&hd=3" />
+<VkVideo title="200 - Создание первого приложения с Vite" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248956&hash=5dab87288f82c071&hd=3" />
+<VkVideo title="201 - Маршрутизация и одностраничные приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248957&hash=e5e184e3bc3736f0&hd=3" />
+<VkVideo title="202 - Реализация основных страниц и маршрутов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248958&hash=521494c9f36ffe92&hd=3" />
+<VkVideo title="203 - Навигация между маршрутами с помощью Link и NavLink" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248959&hash=bbb7f71613544c7d&hd=3" />
+<VkVideo title="204 - Варианты стилизации React-приложений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248960&hash=d5efdaf43a713041&hd=3" />
+<VkVideo title="205 - Использование CSS-модулей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248961&hash=bf5e132efedf877b&hd=3" />
+<VkVideo title="206 - Создание страниц" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248962&hash=316c4bd97394a226&hd=3" />
+<VkVideo title="207 - Создание макета приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248963&hash=f13cefbd0f5aa2f4&hd=3" />
+<VkVideo title="208 - Вложенные маршруты и индексный маршрут" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248964&hash=ac3fad6b4966a73d&hd=3" />
+<VkVideo title="209 - Реализация списка городов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248965&hash=5d958b7afb17436e&hd=3" />
+<VkVideo title="210 - Реализация списка стран" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248966&hash=e3dbe92cbf78d7da&hd=3" />
+<VkVideo title="211 - Хранение состояния в URL" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248967&hash=3a6dca08cadd9dc7&hd=3" />
+<VkVideo title="212 - Динамические маршруты с параметрами URL" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248968&hash=c7a37c013843ce76&hd=3" />
+<VkVideo title="213 - Чтение и установка query-параметров" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248969&hash=abefd88ba9caa41c&hd=3" />
+<VkVideo title="214 - Программная навигация с useNavigate" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248970&hash=a9eb90b8251e361b&hd=3" />
+<VkVideo title="215 - Программная навигация с Navigate" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248971&hash=a132d88bae4ff111&hd=3" />
+
+- ### 18. Состояние - Context API
+
+<VkVideo title="216 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248972&hash=7a003e26fe56caa6&hd=3" />
+<VkVideo title="217 - Задание - Разбор приложения Atomic Blog" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248973&hash=576d3d0fbc334938&hd=3" />
+<VkVideo title="218 - Что такое Context API" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248974&hash=fc1bc6edaceae1ca&hd=3" />
+<VkVideo title="219 - Создание и предоставление контекста" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248975&hash=271246bede4fdb36&hd=3" />
+<VkVideo title="220 - Использование контекста" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248976&hash=c2bffc35d948f12d&hd=3" />
+<VkVideo title="221 - Собственный Provider и хук" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248977&hash=5faede83613f2f31&hd=3" />
+<VkVideo title="222 - Продвинутое управление состоянием" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248978&hash=0e83969d28784c61&hd=3" />
+<VkVideo title="223 - Возвращаемся к WorldWise" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248979&hash=978fe4302fd1b048&hd=3" />
+<VkVideo title="224 - Использование CitiesContext" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248980&hash=69e1c4ca065fe1e5&hd=3" />
+<VkVideo title="225 - Завершение страницы города" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248981&hash=f9e2bc98a04c2273&hd=3" />
+<VkVideo title="226 - Добавление карты с библиотекой Leaflet" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248982&hash=bf92fbecff7b9199&hd=3" />
+<VkVideo title="227 - Отображение маркеров городов на карте" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248983&hash=0bb1f92a03f1c7ea&hd=3" />
+<VkVideo title="228 - Взаимодействие с картой" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248984&hash=cf85dc498677518c&hd=3" />
+<VkVideo title="229 - Установка позиции карты с помощью геолокации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248985&hash=f788a32ced785264&hd=3" />
+<VkVideo title="230 - Загрузка данных о городе в форме" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248986&hash=b467ee216949a720&hd=3" />
+<VkVideo title="231 - Создание нового города" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248987&hash=4ff580eb0ee5440c&hd=3" />
+<VkVideo title="232 - Удаление города" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248988&hash=12915d1f6623e6b1&hd=3" />
+<VkVideo title="233 - System Context + useReducer" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248989&hash=bd320f6e9128bd64&hd=3" />
+<VkVideo title="234 - Добавление фейковой аутентификации - Настройка контекста" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248990&hash=a3101da52832c19b&hd=3" />
+<VkVideo title="235 - Добавление фейковой аутентификации - Реализация входа" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248991&hash=b87f3cab5b74d1df&hd=3" />
+<VkVideo title="236 - Добавление фейковой аутентификации - Защита маршрута" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248992&hash=dfb799eac024f0c1&hd=3" />
+<VkVideo title="237 - Задание - Рефакторинг React Quiz" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248993&hash=e61f76236f557c04&hd=3" />
+
+- ### 19. Оптимизация и useEffect
+
+<VkVideo title="238 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248994&hash=da52598c25fb015e&hd=3" />
+<VkVideo title="239 - Оптимизация производительности и лишние рендеры" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248995&hash=db0091a972385180&hd=3" />
+<VkVideo title="240 - Инструмент разработчика Profiler" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248996&hash=5999f6cf005b75f4&hd=3" />
+<VkVideo title="241 - Неожиданный приём оптимизации с children" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248997&hash=0ae219b66bda1775&hd=3" />
+<VkVideo title="242 - memo" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248998&hash=0e31725672be95c4&hd=3" />
+<VkVideo title="243 - memo на практике" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456248999&hash=93ae86a880e8834f&hd=3" />
+<VkVideo title="244 - useMemo и useCallback" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249000&hash=882be05d7f05819d&hd=3" />
+<VkVideo title="245 - useMemo на практике" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249001&hash=fa9905142420ec72&hd=3" />
+<VkVideo title="246 - useCallback на практике" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249002&hash=94057922dd5aeb6c&hd=3" />
+<VkVideo title="247 - Оптимизация повторных рендеров контекста" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249003&hash=d496a8f1efe620c5&hd=3" />
+<VkVideo title="248 - Возвращаемся к приложению WorldWise" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249004&hash=b5dd7fc2f0a17519&hd=3" />
+<VkVideo title="249 - Оптимизация размера бандла с помощью разделения кода" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249005&hash=2d9ef361baca29dd&hd=3" />
+<VkVideo title="250 - Не оптимизируйте преждевременно!" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249006&hash=c549f5fcf5d75a30&hd=3" />
+<VkVideo title="251 - Правила и лучшие практики useEffect" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249007&hash=324901f00e37ed2d&hd=3" />
+<VkVideo title="252 - Задание - Исправление проблем производительности" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249008&hash=6983edc851b5fc9e&hd=3" />
+<VkVideo title="253 - Установка состояния на основе других обновлений состояния" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249009&hash=2e930d2ff6830e20&hd=3" />
+<VkVideo title="254 - Использование вспомогательных функций в эффектах" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249010&hash=b7f3e211c9f24504&hd=3" />
+<VkVideo title="255 - Замыкания в эффектах" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249011&hash=26617654b48ae449&hd=3" />
+
+- ### 20. Redux и Toolkit (с Thunks)
+
+<VkVideo title="256 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249012&hash=34d7e32e0da9806d&hd=3" />
+<VkVideo title="257 - Введение в Redux" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249013&hash=d79fb12c42d514b3&hd=3" />
+<VkVideo title="258 - Создание reducer банковского счёта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249014&hash=fa940f87806b99bd&hd=3" />
+<VkVideo title="259 - Создание Redux-хранилища" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249015&hash=72a2cd51d316dbcb&hd=3" />
+<VkVideo title="260 - Работа с action creators" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249016&hash=66b5a0dc05f158c7&hd=3" />
+<VkVideo title="261 - Добавление состояния - Клиент" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249017&hash=288433f42ce5a46e&hd=3" />
+<VkVideo title="262 - Профессиональная структура файлов Redu" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249018&hash=e1329ac73e459532&hd=3" />
+<VkVideo title="263 - Подключение Redux-приложения к React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249019&hash=920145f859c8e55b&hd=3" />
+<VkVideo title="264 - Отправка (dispatch) действий из React-приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249020&hash=20ef8c15c55fa73d&hd=3" />
+<VkVideo title="265 - Устаревший способ подключения компонентов к Redux" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249021&hash=fe7455df0789999e&hd=3" />
+<VkVideo title="266 - Redux middleware и thunks" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249022&hash=ee34f7d069dad6b8&hd=3" />
+<VkVideo title="267 - Выполнение API-запроса с помощью Redux thunks" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249023&hash=01daaad6c67cd213&hd=3" />
+<VkVideo title="268 - Redux DevTools" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249024&hash=2f643dffdb50d19a&hd=3" />
+<VkVideo title="269 - Что такое Redux Toolkit (RTK)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249025&hash=b3b70831f8fec71f&hd=3" />
+<VkVideo title="270 - Создание хранилища с помощью RTK" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249026&hash=e81d3cb10268b215&hd=3" />
+<VkVideo title="271 - Создание slice для аккаунта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249027&hash=30c9d4f300b46003&hd=3" />
+<VkVideo title="272 - Возвращаемся к thunks" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249028&hash=92d031b474f871da&hd=3" />
+<VkVideo title="273 - Создание slice для клиента" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249029&hash=23803decc4d4b3d9&hd=3" />
+<VkVideo title="274 - Redux против Context API" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249030&hash=b11613dfca5aa7a5&hd=3" />
+
+- ### 21. Часть 4
+
+<VkVideo title="275 - Профессиональная разработка на React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249031&hash=c3567b97dbcf9e12&hd=3" />
+
+- ### 22. React Router с загрузкой данных
+
+<VkVideo title="276 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249032&hash=a939730c92468615&hd=3" />
+<VkVideo title="277 - Настройка нового проекта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249033&hash=b46cbb5616be2ca5&hd=3" />
+<VkVideo title="278 - Планирование приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249034&hash=dda4fce7a958e5ca&hd=3" />
+<VkVideo title="279 - Настройка профессиональной структуры файлов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249035&hash=8d87803c272df157&hd=3" />
+<VkVideo title="280 - Новый способ реализации маршрутов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249036&hash=2ee467b389cbde9f&hd=3" />
+<VkVideo title="281 - Создание макета приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249037&hash=e0ed03edca93abd5&hd=3" />
+<VkVideo title="282 - Загрузка данных с помощью loaders React Router" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249038&hash=4911fb538459fd7a&hd=3" />
+<VkVideo title="283 - Отображение индикатора загрузки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249039&hash=c7a872715c0dda1c&hd=3" />
+<VkVideo title="284 - Обработка ошибок с помощью error elements" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249040&hash=da13cced549513f3&hd=3" />
+<VkVideo title="285 - Загрузка заказов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249041&hash=65bcc640bc2e302e&hd=3" />
+<VkVideo title="286 - Отправка данных с помощью actions React Router" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249042&hash=f60885b552d623cb&hd=3" />
+<VkVideo title="287 - Обработка ошибок в form actions" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249043&hash=f6ae5bdd71539234&hd=3" />
+
+- ### 23. Экспресс-курс по Tailwind
+
+<VkVideo title="288 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249044&hash=a9ca8a35f1162443&hd=3" />
+<VkVideo title="289 - Что такое Tailwind CSS" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249045&hash=a495f468db9b2c9a&hd=3" />
+<VkVideo title="290 - Настройка Tailwind CSS" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249046&hash=c3fa0cf9957b5df4&hd=3" />
+<VkVideo title="291 - Работа с цветами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249047&hash=1102739fc654ae71&hd=3" />
+<VkVideo title="292 - Стилизация текста" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249048&hash=a12200a3d133a9b0&hd=3" />
+<VkVideo title="293 - Блочная модель - Отступы, границы и отображение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249049&hash=1601c3be0ba70834&hd=3" />
+<VkVideo title="294 - Адаптивный дизайн" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249050&hash=20bab70f3635a29a&hd=3" />
+<VkVideo title="295 - Использование Flexbox" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249051&hash=38213d17678ce21a&hd=3" />
+<VkVideo title="296 - Использование CSS Grid" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249052&hash=d0a54b9d44fa7a88&hd=3" />
+<VkVideo title="297 - Стилизация кнопок - Состояния элементов и переходы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249053&hash=431a179609a65109&hd=3" />
+<VkVideo title="298 - Стилизация элементов форм" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249054&hash=8495133ed6bc70f5&hd=3" />
+<VkVideo title="299 - Повторное использование стилей с помощью @apply" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249055&hash=c4cab1dc51d55968&hd=3" />
+<VkVideo title="300 - Повторное использование стилей с помощью React-компонентов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249056&hash=c4f65c483ecfdabb&hd=3" />
+<VkVideo title="301 - Абсолютное позиционирование, z-index и другое" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249057&hash=b0d9add42428d30e&hd=3" />
+<VkVideo title="302 - Настройка собственного семейства шрифтов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249058&hash=cb257ad01ec041d1&hd=3" />
+<VkVideo title="303 - Стилизация меню" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249059&hash=e66cf06c9c529f58&hd=3" />
+<VkVideo title="304 - Стилизация корзины" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249060&hash=26c49d6a7646c872&hd=3" />
+<VkVideo title="305 - Стилизация формы заказа" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249061&hash=73937171ce50f06e&hd=3" />
+<VkVideo title="306 - Стилизация обзора заказа" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249062&hash=0fb9d3e3e9ff8ec5&hd=3" />
+
+- ### 24. Добавление Redux и React Router
+
+<VkVideo title="307 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249063&hash=fd6d778fb3f62ad5&hd=3" />
+<VkVideo title="308 - Моделирование состояния пользователя - Redux Toolkit" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249064&hash=e06c7631df2af02a&hd=3" />
+<VkVideo title="309 - Чтение и обновление состояния пользователя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249065&hash=ff409431c4717405&hd=3" />
+<VkVideo title="310 - Моделирование состояния корзины" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249066&hash=ebc18dfd842a72bb&hd=3" />
+<VkVideo title="311 - Добавление позиций меню в корзину" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249067&hash=238fd20d8ac18d86&hd=3" />
+<VkVideo title="312 - Создание обзора корзины с Redux selectors" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249068&hash=de1feea4397c8893&hd=3" />
+<VkVideo title="313 - Создание страницы корзины" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249069&hash=b648b6f6c0f07b7c&hd=3" />
+<VkVideo title="314 - Удаление товаров из корзины" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249070&hash=e092afea345b3060&hd=3" />
+<VkVideo title="315 - Обновление количества товаров в корзине" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249071&hash=f9c0e9fc18e7ef16&hd=3" />
+<VkVideo title="316 - Использование корзины для новых заказов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249072&hash=aeef06f5a70b954c&hd=3" />
+<VkVideo title="317 - Redux thunks с createAsyncThunk" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249073&hash=c7833593ce7fe2c0&hd=3" />
+<VkVideo title="318 - Интеграция геолокации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249074&hash=23c5769ba6aab2e3&hd=3" />
+<VkVideo title="319 - Загрузка данных без навигации - useFetcher" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249075&hash=6769de96d118d581&hd=3" />
+<VkVideo title="320 - Обновление данных без навигации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249076&hash=5a19e36bda02f6c8&hd=3" />
+
+- ### 25. Настройка проекта
+
+<VkVideo title="321 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249077&hash=b6a738b38533307c&hd=3" />
+<VkVideo title="322 - Планирование приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249078&hash=bc4ee2516291c084&hd=3" />
+<VkVideo title="323 - Настройка проекта The Wild Oasis" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249079&hash=6ebbba5119275324&hd=3" />
+<VkVideo title="324 - Введение в Styled Components" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249080&hash=b0f58df704e034dd&hd=3" />
+<VkVideo title="325 - Глобальные стили с Styled Components" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249081&hash=114ede737ce13e1c&hd=3" />
+<VkVideo title="326 - Props styled-компонентов и функция CSS" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249082&hash=5d79bae01d19e130&hd=3" />
+<VkVideo title="327 - Создание более переиспользуемых styled-компонентов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249083&hash=95092251d2d1d987&hd=3" />
+<VkVideo title="328 - Настройка страниц и маршрутов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249084&hash=9311d36eac3fb5ba&hd=3" />
+<VkVideo title="329 - Создание макета приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249085&hash=8874df9be46a74e5&hd=3" />
+<VkVideo title="330 - Создание сайдбара и основной навигации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249086&hash=1e5649d82e0085d4&hd=3" />
+
+- ### 26. Экспресс-курс по Supabase
+
+<VkVideo title="331 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249087&hash=590b8266ce2853bf&hd=3" />
+<VkVideo title="332 - Что такое Supabase" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249088&hash=de634d0fc51ed490&hd=3" />
+<VkVideo title="333 - Создание новой базы данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249089&hash=fd00b2876e14d83b&hd=3" />
+<VkVideo title="334 - Моделирование состояния приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249090&hash=a9587c541069eb0c&hd=3" />
+<VkVideo title="335 - Создание таблиц" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249091&hash=6e4b8cd299fbac5a&hd=3" />
+<VkVideo title="336 - Связи между таблицами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249092&hash=dd809aa135a04428&hd=3" />
+<VkVideo title="337 - Добавление политик безопасности (RLS)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249093&hash=e602ca50ab242789&hd=3" />
+<VkVideo title="338 - Подключение Supabase к нашему React-приложению" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249094&hash=51c08ce6500b80fe&hd=3" />
+<VkVideo title="339 - Настройка storage-бакетов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249095&hash=6a5adcc807b50a45&hd=3" />
+
+- ### 27. React Query
+
+<VkVideo title="340 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249096&hash=0c25bca36e0d2b4b&hd=3" />
+<VkVideo title="341 - Что такое React Query" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249097&hash=e5d2fc0a8fc4b50c&hd=3" />
+<VkVideo title="342 - Настройка React Query" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249098&hash=d0d1c2013ccbb4e9&hd=3" />
+<VkVideo title="343 - Загрузка данных о домиках (cabins)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249099&hash=fdaf0927c42ea208&hd=3" />
+<VkVideo title="344 - Мутации - Удаление домика" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249100&hash=27ff582c84a3b88f&hd=3" />
+<VkVideo title="345 - Отображение toast-уведомлений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249101&hash=5246c943ef0faa50&hd=3" />
+<VkVideo title="346 - Знакомство с библиотекой React Hook Form" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249102&hash=c8542b87bb7507ab&hd=3" />
+<VkVideo title="347 - Создание нового домика" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249103&hash=989b299f56dc616b&hd=3" />
+<VkVideo title="348 - Обработка ошибок формы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249104&hash=791a4977d60192e9&hd=3" />
+<VkVideo title="349 - Загрузка изображений в Supabase" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249105&hash=3ca60b3c205af37c&hd=3" />
+<VkVideo title="350 - Редактирование домика" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249106&hash=346fc9bfb058d739&hd=3" />
+<VkVideo title="351 - Абстрагирование React Query в пользовательские хуки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249107&hash=1dd4ca3d43773adc&hd=3" />
+<VkVideo title="352 - Дублирование домиков" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249108&hash=4b879665f3a4817d&hd=3" />
+<VkVideo title="353 - Загрузка настроек приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249109&hash=0b7da2b39ba2ff19&hd=3" />
+<VkVideo title="354 - Обновление настроек приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249110&hash=c964ee75bfa02ffb&hd=3" />
+
+- ### 28. Продвинутые паттерны React
+
+<VkVideo title="355 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249111&hash=e798a9606bd1cca7&hd=3" />
+<VkVideo title="356 - Обзор переиспользуемости в React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249112&hash=3b9eec6b4173bd15&hd=3" />
+<VkVideo title="357 - Настройка примера" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249113&hash=59e3e9002c011419&hd=3" />
+<VkVideo title="358 - Паттерн Render Props" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249114&hash=23e8abbbffc67bad&hd=3" />
+<VkVideo title="359 - Higher-Order Components (HOC)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249115&hash=29e995852ef663ef&hd=3" />
+<VkVideo title="360 - Паттерн составных компонентов (Compound Components)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249116&hash=3b01e726a4590c08&hd=3" />
+<VkVideo title="361 - Создание модального окна с помощью React Portal" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249117&hash=eada980cd40fbafb&hd=3" />
+<VkVideo title="362 - Преобразование модального окна в составной компонент" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249118&hash=fac38ac1902252e4&hd=3" />
+<VkVideo title="363 - Определение клика вне модального окна" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249119&hash=073c6a594b167cba&hd=3" />
+<VkVideo title="364 - Подтверждение удаления домика" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249120&hash=652ecac5a773867e&hd=3" />
+<VkVideo title="365 - Создание переиспользуемой таблицы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249121&hash=3b414ab139f4fe89&hd=3" />
+<VkVideo title="366 - Применение паттерна Render Props" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249122&hash=2824bfe1cd70f2a9&hd=3" />
+<VkVideo title="367 - Создание переиспользуемого контекстного меню" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249123&hash=06a5144a02ec00e5&hd=3" />
+
+- ### 29. Реализация дополнительных функций
+
+<VkVideo title="368 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249124&hash=3c05ebbdb3a45f0b&hd=3" />
+<VkVideo title="369 - Фильтрация на стороне клиента" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249125&hash=5454abf72ba25b1b&hd=3" />
+<VkVideo title="370 - Сортировка на стороне клиента" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249126&hash=60d8f5ddbfcd2714&hd=3" />
+<VkVideo title="371 - Создание таблицы бронирований" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249127&hash=7963b6957e42cd95&hd=3" />
+<VkVideo title="372 - Загрузка тестовых данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249128&hash=d5eca4812365a08b&hd=3" />
+<VkVideo title="373 - Фильтрация на стороне API" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249129&hash=2148eba5d86a945e&hd=3" />
+<VkVideo title="374 - Сортировка на стороне API" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249130&hash=730d29f77d657965&hd=3" />
+<VkVideo title="375 - Создание переиспользуемого компонента пагинации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249131&hash=7f3f8c04a4c16b03&hd=3" />
+<VkVideo title="376 - Пагинация на стороне API" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249132&hash=80ca2d621db01ab4&hd=3" />
+<VkVideo title="377 - Prefetching с React Query" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249133&hash=afc0ffe3381c1259&hd=3" />
+<VkVideo title="378 - Создание страницы отдельного бронирования" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249134&hash=d26298d0e38297e8&hd=3" />
+<VkVideo title="379 - Заселение по бронированию (check-in)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249135&hash=ce1979b9a7effdad&hd=3" />
+<VkVideo title="380 - Добавление дополнительного завтрака" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249136&hash=cd9a254eeafed648&hd=3" />
+<VkVideo title="381 - Выселение по бронированию (check-out)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249137&hash=2e0678a32de35b60&hd=3" />
+<VkVideo title="382 - Удаление бронирования" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249138&hash=e6514aca23409ed6&hd=3" />
+<VkVideo title="383 - Аутентификация - Вход пользователя через Supabase" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249139&hash=5dab3faab4e7aaff&hd=3" />
+<VkVideo title="384 - Авторизация - Защита маршрутов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249140&hash=83d9e75d3d404e1a&hd=3" />
+<VkVideo title="385 - Выход пользователя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249141&hash=9651ed55d08f929f&hd=3" />
+<VkVideo title="386 - Исправление важной ошибки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249142&hash=d820a230bd5475eb&hd=3" />
+<VkVideo title="387 - Создание формы регистрации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249143&hash=5b3f7d891309f2c8&hd=3" />
+<VkVideo title="388 - Регистрация пользователя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249144&hash=152c9ef916258e03&hd=3" />
+<VkVideo title="389 - Авторизация в Supabase - Защита базы данных (RLS)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249145&hash=ced7fd7c4baf57b9&hd=3" />
+<VkVideo title="390 - Создание заголовка приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249146&hash=8b0b229814947384&hd=3" />
+<VkVideo title="391 - Обновление данных пользователя и пароля" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249147&hash=55041c6244b528b7&hd=3" />
+<VkVideo title="392 - Реализация тёмной темы с помощью CSS-переменных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249148&hash=57149bebf195c559&hd=3" />
+<VkVideo title="393 - Создание макета панели управления" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249149&hash=8bb8f045a28f1b3f&hd=3" />
+<VkVideo title="394 - Вычисление недавних бронирований и проживаний" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249150&hash=4cf0f38e41f439c2&hd=3" />
+<VkVideo title="395 - Отображение статистики" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249151&hash=a63b6129cf7ed684&hd=3" />
+<VkVideo title="396 - Отображение линейного графика с библиотекой Recharts" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249152&hash=3ff21cdb1b77d67f&hd=3" />
+<VkVideo title="397 - Отображение круговой диаграммы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249153&hash=7e8b0d8a9eb67ed7&hd=3" />
+<VkVideo title="398 - Отображение заселений за текущий день" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249154&hash=14fd35a52bdec7a1&hd=3" />
+<VkVideo title="399 - Error Boundaries" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249155&hash=766e3a50d71e4fb7&hd=3" />
+<VkVideo title="400 - Финальные штрихи" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249156&hash=6916cc3218ab4cc4&hd=3" />
+
+- ### 30. Деплой с Netlify и Vercel
+
+<VkVideo title="401 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249157&hash=e1d7fca73787e951&hd=3" />
+<VkVideo title="402 - Деплой на Netlify" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249158&hash=53c0bc93e93da26e&hd=3" />
+<VkVideo title="403 - Настройка Git и GitHub-репозитория" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249159&hash=2f0d4a658fc75a9c&hd=3" />
+<VkVideo title="404 - Деплой на Vercel" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249160&hash=781206460045cc74&hd=3" />
+
+- ### 31. Часть 5
+
+<VkVideo title="405 - Full-stack React c Next.js" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249161&hash=e39f1f0d82847c3d&hd=3" />
+
+- ### 32. Обзор Next.js с App Router
+
+<VkVideo title="406 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249162&hash=60c91d678cecf77d&hd=3" />
+<VkVideo title="407 - Обзор серверного рендеринга (SSR)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249163&hash=49f8c14ec134242b&hd=3" />
+<VkVideo title="408 - SSR с React DOM + Node.js" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249164&hash=a676fcd2cd715768&hd=3" />
+<VkVideo title="409 - Недостающий элемент - Гидратация" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249165&hash=9df6b53638679bb3&hd=3" />
+<VkVideo title="410 - Реализация гидратации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249166&hash=3be7db1c970f43ef&hd=3" />
+<VkVideo title="411 - Что такое Next.js" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249167&hash=ed4c8623cc1b63a6&hd=3" />
+<VkVideo title="412 - Настройка проекта Next.js" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249168&hash=ee3a51bf21140b8c&hd=3" />
+<VkVideo title="413 - Определение маршрутов и страниц" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249169&hash=c8f6edc07c2f1116&hd=3" />
+<VkVideo title="414 - Навигация между страницами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249170&hash=20bfda310622d52f&hd=3" />
+<VkVideo title="415 - Создание layout" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249171&hash=f538e1647b1b660b&hd=3" />
+<VkVideo title="416 - Что такое React Server Components (RSC)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249172&hash=4903c37ab2897d7b&hd=3" />
+<VkVideo title="417 - Загрузка данных на странице" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249173&hash=7bd4b38b2adbe1d4&hd=3" />
+<VkVideo title="418 - Добавление интерактивности" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249174&hash=08d3230b578cba0c&hd=3" />
+<VkVideo title="419 - Отображение индикатора загрузки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249175&hash=1bde44ce31b29d99&hd=3" />
+<VkVideo title="420 - Как работает RSC" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249176&hash=39bd8eba8a4bf1f2&hd=3" />
+<VkVideo title="421 - RSC vs SSR - Как они связаны" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249177&hash=5255f989cf13c665&hd=3" />
+
+- ### 33. Сайт Wild Oasis
+
+<VkVideo title="422 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249178&hash=c1b0f9ad4fefcb51&hd=3" />
+<VkVideo title="423 - Планирование проекта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249179&hash=ab1d6660ad073343&hd=3" />
+<VkVideo title="424 - Организация проекта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249180&hash=d090b80767800168&hd=3" />
+<VkVideo title="425 - Стилизация с помощью Tailwind CSS" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249181&hash=9c353ff125e3e45c&hd=3" />
+<VkVideo title="426 - Добавление метаданных страницы и favicon" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249182&hash=28e520437f72ce35&hd=3" />
+<VkVideo title="427 - Загрузка и оптимизация шрифтов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249183&hash=2d799a1c10a886a1&hd=3" />
+<VkVideo title="428 - Улучшение навигации и корневого layout" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249184&hash=c4a8a8299e3a8335&hd=3" />
+<VkVideo title="429 - Оптимизация изображений с помощью компонента Image" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249185&hash=f120f3c3787ffd54&hd=3" />
+<VkVideo title="430 - Создание главной страницы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249186&hash=0ba2def65effdf56&hd=3" />
+<VkVideo title="431 - Создание страницы About с адаптивными изображениями" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249187&hash=4b68809a92a51c3d&hd=3" />
+<VkVideo title="432 - Добавление вложенных маршрутов и страниц" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249188&hash=80c12f28a253ac04&hd=3" />
+<VkVideo title="433 - Добавление вложенного layout" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249189&hash=de66063b016c35a0&hd=3" />
+
+- ### 34. Кэширование и рендеринг
+
+<VkVideo title="434 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249190&hash=19f44ba156882119&hd=3" />
+<VkVideo title="435 - Настройка Supabase" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249191&hash=fda6aa069d595d85&hd=3" />
+<VkVideo title="436 - Загрузка и отображение списка домиков" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249192&hash=fc1eb34cacd1a3c2&hd=3" />
+<VkVideo title="437 - Потоковая загрузка сегментов маршрутов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249193&hash=4a1d96db81e890d5&hd=3" />
+<VkVideo title="438 - Что такое React Suspense" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249194&hash=783240d0bdd5d7f5&hd=3" />
+<VkVideo title="439 - Потоковый UI с Suspense" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249195&hash=248e94fb23156257&hd=3" />
+<VkVideo title="440 - Динамические сегменты маршрутов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249196&hash=acd4c6896eb9f7ba&hd=3" />
+<VkVideo title="441 - Генерация динамических метаданных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249197&hash=0103035efedb006c&hd=3" />
+<VkVideo title="442 - Обработка ошибок - Настройка Error Boundaries" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249198&hash=9bcf357cc311eb31&hd=3" />
+<VkVideo title="443 - Обработка ошибок - Ошибки Not Found" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249199&hash=9c7571486b5007cc&hd=3" />
+<VkVideo title="444 - Типы рендеринга - SSR, статический и динамический рендеринг" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249200&hash=7e3bb2ecb32e9c0d&hd=3" />
+<VkVideo title="445 - Анализ рендеринга в нашем приложении" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249201&hash=04302efc3d053de5&hd=3" />
+<VkVideo title="446 - Динамические страницы как статические" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249202&hash=14b5a0bd68505988&hd=3" />
+<VkVideo title="447 - Статическая генерация сайта (SSG)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249203&hash=76a457bc952208bb&hd=3" />
+<VkVideo title="448 - Частичный предварительный рендеринг" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249204&hash=a632901119f6c2c0&hd=3" />
+<VkVideo title="449 - Как Next.js кэширует данные" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249205&hash=53e963dc55ff18cf&hd=3" />
+<VkVideo title="450 - Эксперименты с кэшированием и ISR" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249206&hash=971875ae326c680f&hd=3" />
+<VkVideo title="451 - Задание - Получение количества домиков" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249207&hash=c565f67a89416c52&hd=3" />
+
+- ### 35. Взаимодействие клиента и сервера
+
+<VkVideo title="452 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249208&hash=7367ffca5a944ed5&hd=3" />
+<VkVideo title="453 - Размывание границы между сервером и клиентом" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249209&hash=f99910b263932828&hd=3" />
+<VkVideo title="454 - Клиентские компоненты внутри серверных компонентов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249210&hash=40e703f56523bbf6&hd=3" />
+<VkVideo title="455 - Подсветка активной ссылки в боковой навигации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249211&hash=4ce98e9a24e8e71d&hd=3" />
+<VkVideo title="456 - Совместное состояние клиента и сервера" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249212&hash=2b9292204ba49648&hd=3" />
+<VkVideo title="457 - Серверные компоненты в клиентских компонентах" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249213&hash=7ae8c5d87298e631&hd=3" />
+<VkVideo title="458 - Стратегии загрузки данных для раздела бронирования" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249214&hash=b63751debe0a34ea&hd=3" />
+<VkVideo title="459 - Использование Context API для управления состоянием" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249215&hash=0b95b2715161ad0c&hd=3" />
+<VkVideo title="460 - Создание API-эндпоинта с помощью Route Handlers" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249216&hash=0324b83a66cef2ab&hd=3" />
+
+- ### 36. Аутентификация с NextAuth
+
+<VkVideo title="461 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249217&hash=65d8d2133163cdf8&hd=3" />
+<VkVideo title="462 - Настройка NextAuth" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249218&hash=9da615a4e5ba662c&hd=3" />
+<VkVideo title="463 - Получение пользовательской сессии" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249219&hash=e9ff77d08d65a4f4&hd=3" />
+<VkVideo title="464 - Что такое middleware в Next.js" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249220&hash=de8ca729efd2ab34&hd=3" />
+<VkVideo title="465 - Защита маршрутов с помощью middleware NextAuth" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249221&hash=d6518eade82485e8&hd=3" />
+<VkVideo title="466 - Создание кастомной страницы входа" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249222&hash=a8f7ab2f2defc106&hd=3" />
+<VkVideo title="467 - Создание кастомной кнопки выхода" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249223&hash=20bdfcf5d1d257bf&hd=3" />
+<VkVideo title="468 - Создание нового гостя при первом входе" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249224&hash=0b54d48e7c34799a&hd=3" />
+
+- ### 37. Мутации с Server Actions
+
+<VkVideo title="469 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249225&hash=b636e63f4dfb0693&hd=3" />
+<VkVideo title="470 - Что такое Server Actions" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249226&hash=9212866230da8444&hd=3" />
+<VkVideo title="471 - Обновление профиля с помощью Server Action" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249227&hash=b4976ba178c2b279&hd=3" />
+<VkVideo title="472 - Ручная ревалидация кэша" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249228&hash=5cdff40742b84b54&hd=3" />
+<VkVideo title="473 - Отображение индикатора загрузки - Хук useFormStatus" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249229&hash=25db79f82d0596cc&hd=3" />
+<VkVideo title="474 - Создание страницы бронирований гостя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249230&hash=a5e268f5e8afe3b0&hd=3" />
+<VkVideo title="475 - Удаление бронирования" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249231&hash=b1b871bc97d8b799&hd=3" />
+<VkVideo title="476 - Ещё один индикатор загрузки - Хук useTransition" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249232&hash=2701d15e80b5d998&hd=3" />
+<VkVideo title="477 - Задание - Обновление бронирования" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249233&hash=0051a8548ff79ac4&hd=3" />
+<VkVideo title="478 - Мгновенное удаление бронирований - Хук useOptimistic" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249234&hash=10debbc8b538c76c&hd=3" />
+<VkVideo title="479 - Возвращаемся к странице домика" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249235&hash=dabec5ba44e293c6&hd=3" />
+<VkVideo title="480 - Создание нового бронирования" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249236&hash=ddd28af1a94b7056&hd=3" />
+
+- ### 38. Деплой с Vercel
+
+<VkVideo title="481 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249237&hash=7bb9b658c657626e&hd=3" />
+<VkVideo title="482 - Настройка GitHub-репозитория" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249238&hash=3e9838828d301db4&hd=3" />
+<VkVideo title="483 - Деплой на Vercel" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249239&hash=b1136ea41840d133&hd=3" />
+<VkVideo title="484 - Обновление переменных окружения и OAuth-учётных данных" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249240&hash=05cabd599035f9a6&hd=3" />
+
+- ### 39. Устаревший Next.js
+
+<VkVideo title="485 - Обзор раздела" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249241&hash=59c7163d7d6e8819&hd=3" />
+<VkVideo title="486 - Настройка ещё одного проекта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249242&hash=657b315706b0dd99&hd=3" />
+<VkVideo title="487 - Маршруты, страницы и навигация" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249243&hash=48eecb9ebd250979&hd=3" />
+<VkVideo title="488 - Динамические маршруты" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249244&hash=8b2524159bb58a6e&hd=3" />
+<VkVideo title="489 - Создание layout с помощью Custom App" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249245&hash=c9c602200b43f4c3&hd=3" />
+<VkVideo title="490 - Создание страниц" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249246&hash=764d2a9bdb621bf5&hd=3" />
+<VkVideo title="491 - Определение заголовка страницы и favicon" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249247&hash=7ce4fa647aa60f2e&hd=3" />
+<VkVideo title="492 - Загрузка данных с getStaticProps (SSG)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249248&hash=20c602f40e1b19a0&hd=3" />
+<VkVideo title="493 - Загрузка данных с getServerSideProps (SSR)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249249&hash=577edee34e16201b&hd=3" />
+<VkVideo title="494 - API-маршруты" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249250&hash=d2bd8db9406abaa0&hd=3" />
+<VkVideo title="495 - Обработка отправки форм" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249251&hash=2027042e05e77b16&hd=3" />
+
+- ### 40. Завершение
+
+<VkVideo title="496 - Куда двигаться дальше" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249252&hash=65391fa54d1bf524&hd=3" />

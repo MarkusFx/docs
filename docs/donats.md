@@ -6,4 +6,4 @@ layout: page
 import AsciiOcean from '.vitepress/theme/components/donats/AsciiOcean.vue'
 </script>
 
-<AsciiOcean />
+[//]: # '<AsciiOcean />'

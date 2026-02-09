@@ -23,6 +23,7 @@ import gsapCourses from './courses/gsap.js'
 import expressCourses from './courses/express.js'
 import vitestCourses from './courses/vitest.js'
 import r3fCourses from './courses/r3f.js'
+import reactCourses from './courses/react.js'
 
 export default {
     '/updates/': updates,
@@ -50,4 +51,5 @@ export default {
     '/courses/express/': expressCourses,
     '/courses/vitest/': vitestCourses,
     '/courses/r3f/': r3fCourses,
+    '/courses/react/': reactCourses,
 }

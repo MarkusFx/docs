@@ -154,12 +154,14 @@ export const vitestCard = [
 export const r3fCard = [
     makeCard('React Three Fiber', r3fLogo, 'blue', '/courses/r3f/wawa_sensei'),
 ]
+export const reactCard = [
+    makeCard('React', reactLogo, 'blue', '/courses/react/jonas-schmedtmann'),
+]
 
 // export const cssCard = [makeCard('CSS', cssLogo, 'blue')]
 // export const htmlCard = [makeCard('HTML', htmlLogo, 'orange')]
 // export const javascriptCard = [makeCard('JavaScript', javascriptLogo, 'orange')]
 // export const typescriptCard = [makeCard('TypeScript', typescriptLogo, 'blue')]
-// export const reactCard = [makeCard('React', reactLogo, 'blue')]
 // export const nextjsCard = [makeCard('Next.js', nextjsLogo, 'blue')]
 // export const reactNativeCard = [
 //     makeCard('React Native', reactnativeLogo, 'blue'),
@@ -206,7 +208,6 @@ export const cssCard = [makeCard('CSS', cssLogo, 'silver')]
 export const htmlCard = [makeCard('HTML', htmlLogo, 'silver')]
 export const javascriptCard = [makeCard('JavaScript', javascriptLogo, 'silver')]
 export const typescriptCard = [makeCard('TypeScript', typescriptLogo, 'silver')]
-export const reactCard = [makeCard('React', reactLogo, 'silver')]
 export const nextjsCard = [makeCard('Next.js', nextjsLogo, 'silver')]
 export const reactNativeCard = [
     makeCard('React Native', reactnativeLogo, 'silver'),
