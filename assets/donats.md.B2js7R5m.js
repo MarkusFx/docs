@@ -1,0 +1,1 @@
+import{c as t,o as e}from"./chunks/framework.wR_W26uO.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"page"},"headers":[],"relativePath":"donats.md","filePath":"donats.md"}'),a={name:"donats.md"},_=Object.assign(a,{setup(o){return(s,n)=>(e(),t("div"))}});export{c as __pageData,_ as default};
