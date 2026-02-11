@@ -27,6 +27,7 @@
         "@vue-flow/minimap": "^1.5.4",
         "chart.js": "^4.5.0",
         "dagre": "^0.8.5",
+        "giscus": "^1.6.0",
         "gsap": "^3.13.0",
         "hls.js": "^1.6.7",
         "medium-zoom": "^1.1.0",
