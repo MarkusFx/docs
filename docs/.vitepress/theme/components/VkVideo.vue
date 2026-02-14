@@ -144,7 +144,7 @@ onBeforeUnmount(() => {
 
 /* summary */
 .vk-summary {
-    margin: 8px;
+    margin: 4px;
     padding: 10px 12px;
     cursor: pointer;
     font-weight: 700;

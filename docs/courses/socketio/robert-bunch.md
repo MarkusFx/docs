@@ -57,25 +57,26 @@ outline: [2, 3]
 <VkVideo title="040 - Передача query-параметров при подключении" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456246932&hash=405891e5aa71f31a&hd=3" />
 
 - ### 05. Canvas-игра
-    - [041 - Демо проекта](https://vkvideo.ru/video-224325822_456246933?list=ln-0cdWZuUp1RYgQ2gXaA);
-    - [042 - Стратегия проекта - важность производительности](https://vk.com/video-224325822_456248261?list=ln-KEjZqir8fA23PzY9q9);
-    - [043 - Организация Socket.io](https://vk.com/video-224325822_456248262?list=ln-IE8mNadnF2n1d55beu);
-    - [044 - Настройка DOM](https://vk.com/video-224325822_456248263?list=ln-vbEqWEs4lPMom9u0MV);
-    - [045 - Завершение работы с UI](https://vk.com/video-224325822_456248264?list=ln-N3TjK8rVMJ541Au1uy);
-    - 046 - Отрисовка игрока;
-    - 047 - Математика движения в правильном направлении;
-    - 048 - Получение и отрисовка игровых сфер;
-    - 049 - Планирование классов игроков;
-    - 050 - Классы игроков;
-    - 051 - Рефакторинг инициализации для повышения производительности;
-    - 052 - Передача данных игрока между сервером и клиентами;
-    - 053 - Отрисовка игроков с сервера;
-    - 054 - Отправка направления игрока с клиента на сервер;
-    - 055 - Фиксация камеры;
-    - 056 - Проверка столкновений (математическая часть);
-    - 057 - Проверка столкновений (программная часть);
-    - 058 - Таблица лидеров;
-    - 059 - Отключение игрока;
+
+<VkVideo title="041 - Демо проекта" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249310&hash=6042e3418828f4b5&hd=3" />
+<VkVideo title="042 - Стратегия проекта - важность производительности" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249311&hash=b1cf0d641ba35e19&hd=3" />
+<VkVideo title="043 - Организация Socket.io" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249312&hash=79876b734e868186&hd=3" />
+<VkVideo title="044 - Настройка DOM" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249313&hash=a86d6dd4f8dc1cf2&hd=3" />
+<VkVideo title="045 - Завершение работы с UI" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249314&hash=03a1834b4bbf2baf&hd=3" />
+<VkVideo title="046 - Отрисовка игрока" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249315&hash=52379183c287be93&hd=3" />
+<VkVideo title="047 - Математика движения в правильном направлении" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249316&hash=e34520ff29340701&hd=3" />
+<VkVideo title="048 - Получение и отрисовка игровых сфер" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249317&hash=7708ca47f7ed98ea&hd=3" />
+<VkVideo title="049 - Планирование классов игроков" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249318&hash=40cbd5bf84ec8411&hd=3" />
+<VkVideo title="050 - Классы игроков" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249319&hash=1f1f2e4d586ea69b&hd=3" />
+<VkVideo title="051 - Рефакторинг инициализации для повышения производительности" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249320&hash=06eea39140e62530&hd=3" />
+<VkVideo title="052 - Передача данных игрока между сервером и клиентами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249321&hash=3560758224483273&hd=3" />
+<VkVideo title="053 - Отрисовка игроков с сервера" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249322&hash=ec173c456e82460e&hd=3" />
+<VkVideo title="054 - Отправка направления игрока с клиента на сервер" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249323&hash=3dbf55760c7518f7&hd=3" />
+<VkVideo title="055 - Фиксация камеры" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249324&hash=e029b6c6c612ebd7&hd=3" />
+<VkVideo title="056 - Проверка столкновений (математическая часть)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249325&hash=876b702254a10954&hd=3" />
+<VkVideo title="057 - Проверка столкновений (программная часть)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249326&hash=ecb64ff9a4067df9&hd=3" />
+<VkVideo title="058 - Таблица лидеров" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249327&hash=2e694273641022e6&hd=3" />
+<VkVideo title="059 - Отключение игрока" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249328&hash=821d85d03dda005f&hd=3" />
 
 - ### 06. Продвинутый проект
     - 060 - Демонстрация;
