@@ -79,29 +79,31 @@ outline: [2, 3]
 <VkVideo title="059 - Отключение игрока" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249328&hash=821d85d03dda005f&hd=3" />
 
 - ### 06. Продвинутый проект
-    - 060 - Демонстрация;
-    - 061 - Варианты масштабирования Socket.io;
-    - 062 - Настройка проекта и зависимости;
-    - 063 - Архитектура;
-    - 064 - Сбор данных о производительности;
-    - 065 - Анализ нагрузки на CPU;
-    - 066 - Как работает модуль cluster;
-    - 067 - Использование модуля cluster;
-    - 068 - Подключение React к серверу socket.io;
-    - 069 - Подключение nodeClient к серверу сокетов;
-    - 070 - Получение macAddress nodeClient;
-    - 071 - Запуск тикающих часов;
-    - 072 - Обзор Create React App;
-    - 073 - Базовая архитектура компонентов React;
-    - 074 - Правильное подключение React к серверу сокетов;
-    - 075 - Передача данных в React и настройка компонентов;
-    - 076 - Отправка состояния в наш Widget;
-    - 077 - Перемещение, копирование файлов, classNames;
-    - 078 - Виджет CPU - canvas;
-    - 079 - Виджет памяти;
-    - 080 - Добавление isAlive, отключение и финальные штрихи;
-    - 081 - Неприятный баг в React;
+
+<VkVideo title="060 - Демонстрация" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249329&hash=cc2db759cf42b99a&hd=3" />
+<VkVideo title="061 - Варианты масштабирования Socket.io" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249330&hash=c5f0e403d0d24d7c&hd=3" />
+<VkVideo title="062 - Настройка проекта и зависимости" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249331&hash=6a0d8dcf680a0c6a&hd=3" />
+<VkVideo title="063 - Архитектура" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249332&hash=cea5145f48f8f8ec&hd=3" />
+<VkVideo title="064 - Сбор данных о производительности" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249333&hash=b50ba6f1f49673bd&hd=3" />
+<VkVideo title="065 - Анализ нагрузки на CPU" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249334&hash=b461e073d8d0552b&hd=3" />
+<VkVideo title="066 - Как работает модуль cluster" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249335&hash=c0647410c61aee06&hd=3" />
+<VkVideo title="067 - Использование модуля cluster" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249336&hash=3b6a172a253de3e3&hd=3" />
+<VkVideo title="068 - Подключение React к серверу socket.io" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249337&hash=b41c87343a80e4da&hd=3" />
+<VkVideo title="069 - Подключение nodeClient к серверу сокетов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249338&hash=60b64aa8971da59f&hd=3" />
+<VkVideo title="070 - Получение macAddress nodeClient" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249339&hash=4739e54a84b1163b&hd=3" />
+<VkVideo title="071 - Запуск тикающих часов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249340&hash=9da335cb981c6358&hd=3" />
+<VkVideo title="072 - Обзор Create React App" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249341&hash=544b9aebc15fb67f&hd=3" />
+<VkVideo title="073 - Базовая архитектура компонентов React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249342&hash=b7da65ad4194147d&hd=3" />
+<VkVideo title="074 - Правильное подключение React к серверу сокетов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249343&hash=952727271fad4da9&hd=3" />
+<VkVideo title="075 - Передача данных в React и настройка компонентов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249344&hash=6987e2b30c8a6fec&hd=3" />
+<VkVideo title="076 - Отправка состояния в наш Widget" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249345&hash=217a3752e94ff3ca&hd=3" />
+<VkVideo title="077 - Перемещение, копирование файлов, classNames" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249346&hash=cb2cb8a8220bd87f&hd=3" />
+<VkVideo title="078 - Виджет CPU - canvas" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249347&hash=e74e5367d573d518&hd=3" />
+<VkVideo title="079 - Виджет памяти" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249348&hash=ab8adf5e860131b3&hd=3" />
+<VkVideo title="080 - Добавление isAlive, отключение и финальные штрихи" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249349&hash=085627e5eec87d0b&hd=3" />
+<VkVideo title="081 - Неприятный баг в React" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249350&hash=d84037d3b083a8c7&hd=3" />
 
 - ### 07. Дополнительные видео
-    - 082 - Admin UI - Админка на Agar Clone;
-    - 083 - Основы HTTP;
+
+<VkVideo title="082 - Admin UI - Админка на Agar Clone" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249351&hash=f2c821ad09ed8b99&hd=3" />
+<VkVideo title="083 - Основы HTTP" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249352&hash=e924eaf120e6b628&hd=3" />
