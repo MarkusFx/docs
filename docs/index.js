@@ -124,30 +124,6 @@ export const courses_3 = [
 
 export const courses_4 = [
     {
-        title: 'Express',
-        icon: expressLogo,
-        link: '/courses/express/jonas-schmedtmann',
-        color: commonColor,
-        gradient: gradients.GREEN,
-        iconFilter: commonIconFilter,
-    },
-    {
-        title: 'React',
-        icon: reactLogo,
-        link: '/courses/react/jonas-schmedtmann',
-        color: commonColor,
-        gradient: gradients.BLUE,
-        iconFilter: commonIconFilter,
-    },
-    {
-        title: 'Vue.js',
-        icon: vuejsLogo,
-        link: '/courses/vue/maximilian-schwarzmuller',
-        color: commonColor,
-        gradient: gradients.GREEN,
-        iconFilter: commonIconFilter,
-    },
-    {
         title: 'OS',
         icon: osLogo,
         link: '/courses/os/hussein-nasser',
@@ -177,6 +153,33 @@ export const courses_4 = [
         link: '/courses/htmx/maximilian-schwarzmuller',
         color: commonColor,
         gradient: gradients.BLUE,
+        iconFilter: commonIconFilter,
+    },
+]
+
+export const courses_6 = [
+    {
+        title: 'Express',
+        icon: expressLogo,
+        link: '/courses/express/jonas-schmedtmann',
+        color: commonColor,
+        gradient: gradients.GREEN,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'React',
+        icon: reactLogo,
+        link: '/courses/react/jonas-schmedtmann',
+        color: commonColor,
+        gradient: gradients.BLUE,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'Vue.js',
+        icon: vuejsLogo,
+        link: '/courses/vue/maximilian-schwarzmuller',
+        color: commonColor,
+        gradient: gradients.GREEN,
         iconFilter: commonIconFilter,
     },
 ]
