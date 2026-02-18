@@ -6,7 +6,6 @@ layout: home
 import TileGrid from './.vitepress/components/TileGrid.vue';
 import CourseProgress from './.vitepress/components/CourseProgress.vue';
 import CodePreview from './.vitepress/components/CodePreview.vue';
-import GridMenu from './.vitepress/components/GridMenu.vue';
 import {
     courses_1,
     courses_2,
@@ -14,6 +13,7 @@ import {
     courses_4,
     courses_5,
     courses_6,
+    courses_7,
     notes,
     rutube_tiles,
     telegram_tiles,
@@ -26,6 +26,7 @@ import {
 
 ## Курсы
 
+<TileGrid :tiles="courses_7" />
 <TileGrid :tiles="courses_3" />
 <TileGrid :tiles="courses_1" />
 <TileGrid :tiles="courses_2" />

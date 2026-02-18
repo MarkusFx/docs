@@ -55,6 +55,7 @@ import godotLogo from '/logos/godot-logo.svg?raw'
 import unityLogo from '/logos/unity-logo.svg?raw'
 import r3fLogo from '/logos/r3f-logo.svg?raw'
 import osLogo from '/logos/os-logo.svg?raw'
+import aiLogo from '/logos/ai-logo.svg?raw'
 
 const Colors = {
     text: 'rgba(255,255,255,0.9)',
@@ -164,6 +165,9 @@ export const vuejsCard = [
         'green',
         '/courses/vue/maximilian-schwarzmuller',
     ),
+]
+export const aiCard = [
+    makeCard('AI', aiLogo, 'purple', '/courses/ai/maximilian-schwarzmuller'),
 ]
 
 // export const cssCard = [makeCard('CSS', cssLogo, 'blue')]

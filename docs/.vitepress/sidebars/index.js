@@ -25,6 +25,7 @@ import vitestCourses from './courses/vitest.js'
 import r3fCourses from './courses/r3f.js'
 import reactCourses from './courses/react.js'
 import vueCourses from './courses/vue.js'
+import aiCourses from './courses/ai.js'
 
 export default {
     '/updates/': updates,
@@ -54,4 +55,5 @@ export default {
     '/courses/r3f/': r3fCourses,
     '/courses/react/': reactCourses,
     '/courses/vue/': vueCourses,
+    '/courses/ai/': aiCourses,
 }

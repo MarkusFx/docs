@@ -28,6 +28,7 @@ import vitestLogo from '/logos/vitest-logo.svg?raw'
 import r3fLogo from '/logos/r3f-logo.svg?raw'
 import reactLogo from '/logos/react-logo.svg?raw'
 import vuejsLogo from '/logos/vuejs-logo.svg?raw'
+import aiLogo from '/logos/ai-logo.svg?raw'
 
 export const gradients = {
     RED: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -199,6 +200,17 @@ export const courses_5 = [
         link: '/courses/r3f/wawa_sensei',
         color: commonColor,
         gradient: gradients.BLUE,
+        iconFilter: commonIconFilter,
+    },
+]
+
+export const courses_7 = [
+    {
+        title: 'AI',
+        icon: aiLogo,
+        link: '/courses/ai/maximilian-schwarzmuller',
+        color: commonColor,
+        gradient: gradients.PURPLE,
         iconFilter: commonIconFilter,
     },
 ]
