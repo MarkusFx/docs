@@ -21,3 +21,29 @@ outline: [2, 3]
 <VkVideo title="010 - Определение аппаратных требований" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249671&hash=e9a008a2ff311dbd&hd=3" />
 <VkVideo title="011 - Квантизация спешит на помощь" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249672&hash=f10e6ff8a3ce6904&hd=3" />
 <VkVideo title="012 - Запустится ли это на вашем компьютере" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249673&hash=7e9dcd0db507323f&hd=3" />
+
+- ### 03. LM Studio
+
+<VkVideo title="013 - Введение в модуль" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249674&hash=48d03cefca2205fc&hd=3" />
+<VkVideo title="014 - Локальный и удалённый запуск" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249675&hash=dcb9da4ff90fb115&hd=3" />
+<VkVideo title="015 - Установка и использование LM Studio" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249676&hash=29ba4d5dd1fb3e54&hd=3" />
+<VkVideo title="016 - Поиск, загрузка и активация открытых LLM" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249677&hash=b893fc202fce144b&hd=3" />
+<VkVideo title="017 - Использование интерфейса чата LM Studio" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249678&hash=111e90723e0008f8&hd=3" />
+<VkVideo title="018 - Работа с системными промптами и пресетами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249679&hash=317a44765dc13b28&hd=3" />
+<VkVideo title="019 - Управление чатами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249680&hash=742d0138e28846e3&hd=3" />
+<VkVideo title="020 - Продвинутые функции для управления моделями и чатами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249681&hash=b5f42c3b06c54524&hd=3" />
+<VkVideo title="021 - Использование мультимодальных моделей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249682&hash=5a0ae0125adcae9b&hd=3" />
+<VkVideo title="022 - Анализ и суммаризация PDF-документов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249683&hash=f87accf6aed277e0&hd=3" />
+<VkVideo title="023 - Переход к более продвинутым настройкам" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249684&hash=ebaba3f26bc6acda&hd=3" />
+<VkVideo title="024 - Параметры Temperature, top_k и top_p" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249685&hash=37dbf267b6f81839&hd=3" />
+<VkVideo title="025 - Управление параметрами Temperature, top_k и top_p" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249686&hash=81bb465dca480063&hd=3" />
+<VkVideo title="026 - Управление средой выполнения и аппаратной конфигурацией" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249687&hash=8581f3c9003884cf&hd=3" />
+<VkVideo title="027 - Управление длиной контекста" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249688&hash=ddd2f7afaf245c6c&hd=3" />
+<VkVideo title="028 - Использование Flash Attention" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249689&hash=bafd99525f704ae8&hd=3" />
+<VkVideo title="029 - Работа со структурированными выводами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249690&hash=ebaddd10d7672971&hd=3" />
+<VkVideo title="030 - Использование локальных LLM для генерации кода" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249691&hash=7ddd6f7bcb144b4a&hd=3" />
+<VkVideo title="031 - Генерация контента и few-shot промптинг (промпт-инжиниринг)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249692&hash=b88751d382f80261&hd=3" />
+<VkVideo title="032 - Переход к программному использованию" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249693&hash=19ac7c2bc3ea9fe8&hd=3" />
+<VkVideo title="033 - LM Studio и его совместимость с OpenAI" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249694&hash=376c4faa9cf5c311&hd=3" />
+<VkVideo title="034 - Дополнительные примеры кода" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249695&hash=24273a420d2421f6&hd=3" />
+<VkVideo title="035 - Более глубокое изучение API LM Studio" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249696&hash=403aa6f5759fe7dd&hd=3" />
