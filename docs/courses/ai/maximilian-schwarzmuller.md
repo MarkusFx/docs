@@ -47,3 +47,28 @@ outline: [2, 3]
 <VkVideo title="033 - LM Studio и его совместимость с OpenAI" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249694&hash=376c4faa9cf5c311&hd=3" />
 <VkVideo title="034 - Дополнительные примеры кода" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249695&hash=24273a420d2421f6&hd=3" />
 <VkVideo title="035 - Более глубокое изучение API LM Studio" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249696&hash=403aa6f5759fe7dd&hd=3" />
+
+- ### 04. Ollama
+
+<VkVideo title="036 - Введение в модуль" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249697&hash=da44f7e8e7725888&hd=3" />
+<VkVideo title="037 - Установка и запуск Ollama" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249698&hash=cd5852151075d236&hd=3" />
+<VkVideo title="038 - Поиск подходящих открытых моделей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249699&hash=2e69690d7294ee95&hd=3" />
+<VkVideo title="039 - Локальный запуск открытых LLM через Ollama" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249700&hash=7c5b63b9a626f156&hd=3" />
+<VkVideo title="040 - Добавление графического интерфейса с помощью Open WebUI" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249701&hash=754c968dfe8b52ff&hd=3" />
+<VkVideo title="041 - Работа с многострочными сообщениями и вводом изображений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249702&hash=8a423deac0933160&hd=3" />
+<VkVideo title="042 - Инспектирование моделей и получение информации о модели" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249703&hash=ac955b4236ad36ab&hd=3" />
+<VkVideo title="043 - Редактирование системных сообщений и параметров модели" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249704&hash=35578ca400fcb419&hd=3" />
+<VkVideo title="044 - Сохранение и загрузка сессий и моделей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249705&hash=d9dc5eecc711602e&hd=3" />
+<VkVideo title="045 - Управление моделями" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249706&hash=ca094463ed45609b&hd=3" />
+<VkVideo title="046 - Создание шаблонов моделей с помощью Modelfiles" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249707&hash=96826873e0a6600c&hd=3" />
+<VkVideo title="047 - Создание моделей из Modelfiles" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249708&hash=9ad020e5f8d67049&hd=3" />
+<VkVideo title="048 - Шаблоны моделей" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249709&hash=d9ce156cd000096a&hd=3" />
+<VkVideo title="049 - Создание модели с нуля из файла GGUF" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249710&hash=0861d5104ca8edde&hd=3" />
+<VkVideo title="050 - Начало работы с сервером Ollama (API)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249711&hash=d01b3b2a88dad28f&hd=3" />
+<VkVideo title="051 - Изучение API Ollama и программный доступ к моделям" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249712&hash=ba7572380dee9fd1&hd=3" />
+<VkVideo title="052 - Получение структурированного вывода" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249713&hash=23f509bcc934a535&hd=3" />
+<VkVideo title="053 - Дополнительные примеры кода" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249714&hash=e53a7afa0e47a6d0&hd=3" />
+
+- ### 05. Итоги курса
+
+<VkVideo title="054 - Подведение итогов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249715&hash=cf4215e47d04faf7&hd=3" />

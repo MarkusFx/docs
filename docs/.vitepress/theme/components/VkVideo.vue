@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { ref, onMounted, onBeforeUnmount, computed } from 'vue'
 
 const props = defineProps<{
     src: string
@@ -7,26 +7,23 @@ const props = defineProps<{
     open?: boolean
 }>()
 
-// открыт ли details
-const isOpen = ref(!!props.open)
-
-// iframe смонтирован
+const hasVideo = computed(() => !!props.src?.trim())
 const mounted = ref(false)
-
-// iframe реально загрузился
 const iframeLoaded = ref(false)
-
-// модальное окно
 const showModal = ref(false)
 
-function onToggle(e: Event) {
-    const el = e.target as HTMLDetailsElement
-    isOpen.value = el.open
+const allowAttrs = 'autoplay; encrypted-media; fullscreen; picture-in-picture'
 
-    if (el.open) {
-        mounted.value = true
-    } else {
-        mounted.value = false
+function onToggle(e: Event) {
+    if (!hasVideo.value) {
+        e.preventDefault()
+        return
+    }
+
+    const el = e.target as HTMLDetailsElement
+    mounted.value = el.open
+
+    if (!el.open) {
         iframeLoaded.value = false
         showModal.value = false
         document.body.style.overflow = ''
@@ -34,6 +31,7 @@ function onToggle(e: Event) {
 }
 
 function openModal() {
+    if (!hasVideo.value) return
     showModal.value = true
     document.body.style.overflow = 'hidden'
 }
@@ -44,59 +42,69 @@ function closeModal() {
 }
 
 function onEsc(e: KeyboardEvent) {
-    if (e.key === 'Escape' && showModal.value) {
-        closeModal()
-    }
+    if (e.key === 'Escape' && showModal.value) closeModal()
 }
 
-onMounted(() => {
-    window.addEventListener('keydown', onEsc)
-})
-
-onBeforeUnmount(() => {
-    window.removeEventListener('keydown', onEsc)
-})
+onMounted(() => window.addEventListener('keydown', onEsc))
+onBeforeUnmount(() => window.removeEventListener('keydown', onEsc))
 </script>
 
 <template>
-    <details class="vk-details" :open="open" @toggle="onToggle">
-        <summary class="vk-summary">
-            <span>{{ title ?? 'Видео' }}</span>
+    <details
+        class="vk-details"
+        :class="{ 'vk-details--no-video': !hasVideo }"
+        :open="open"
+        @toggle="onToggle"
+    >
+        <summary
+            class="vk-summary"
+            :class="{ 'vk-summary--disabled': !hasVideo }"
+        >
+            <span class="vk-summary-title">{{ title ?? 'Видео' }}</span>
 
-            <!-- кнопка развернуть -->
+            <!--
+              Кнопка теперь всегда в потоке (не v-show).
+              Она просто прозрачна и неактивна, пока не загрузится iframe.
+              Это гарантирует, что высота summary не изменится.
+            -->
             <button
-                v-if="isOpen && iframeLoaded"
+                v-if="hasVideo && mounted"
                 class="vk-expand"
-                title="Развернуть"
+                :class="{ 'vk-expand--ready': iframeLoaded }"
+                title="Развернуть на весь экран"
                 @click.stop.prevent="openModal"
             >
-                ⛶
+                <svg
+                    class="vk-expand-icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                >
+                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                </svg>
             </button>
         </summary>
 
         <div class="vk-wrap">
-            <!-- Spinner -->
             <div
-                v-if="mounted && !iframeLoaded"
+                v-if="mounted && !iframeLoaded && hasVideo"
                 class="vk-spinner"
                 aria-label="Загрузка видео"
             >
                 <span />
             </div>
+            <div v-if="!hasVideo" class="vk-placeholder">
+                <span>Видео недоступно</span>
+            </div>
 
-            <!-- iframe -->
             <iframe
-                v-if="mounted"
+                v-if="mounted && hasVideo && !showModal"
                 class="vk-iframe"
                 :class="{ visible: iframeLoaded }"
                 :src="src"
                 loading="lazy"
-                allow="
-                    autoplay;
-                    encrypted-media;
-                    fullscreen;
-                    picture-in-picture;
-                "
+                :allow="allowAttrs"
                 allowfullscreen
                 frameborder="0"
                 referrerpolicy="no-referrer"
@@ -105,31 +113,47 @@ onBeforeUnmount(() => {
         </div>
     </details>
 
-    <!-- МОДАЛКА -->
     <teleport to="body">
-        <div v-if="showModal" class="vk-modal" @click.self="closeModal">
-            <div class="vk-modal-content">
-                <header class="vk-modal-header">
-                    <span>{{ title ?? 'Видео' }}</span>
-                    <button class="vk-close" @click="closeModal">✕</button>
-                </header>
-
-                <div class="vk-modal-video">
-                    <iframe
-                        class="vk-iframe visible"
-                        :src="src"
-                        allow="
-                            autoplay;
-                            encrypted-media;
-                            fullscreen;
-                            picture-in-picture;
-                        "
-                        allowfullscreen
-                        frameborder="0"
-                    />
+        <transition name="fade">
+            <div
+                v-if="showModal && hasVideo"
+                class="vk-modal"
+                @click.self="closeModal"
+            >
+                <div class="vk-modal-content">
+                    <header class="vk-modal-header">
+                        <span class="vk-modal-title">{{
+                            title ?? 'Видео'
+                        }}</span>
+                        <button
+                            class="vk-close"
+                            @click="closeModal"
+                            title="Закрыть (Esc)"
+                        >
+                            <svg
+                                class="vk-close-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            >
+                                <path d="M18 6L6 18M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </header>
+                    <div class="vk-modal-video">
+                        <iframe
+                            class="vk-iframe-modal"
+                            :src="src"
+                            :allow="allowAttrs"
+                            allowfullscreen
+                            frameborder="0"
+                            referrerpolicy="no-referrer"
+                        />
+                    </div>
                 </div>
             </div>
-        </div>
+        </transition>
     </teleport>
 </template>
 
@@ -142,7 +166,10 @@ onBeforeUnmount(() => {
     background-color: var(--vp-custom-block-details-bg);
 }
 
-/* summary */
+.vk-details--no-video {
+    opacity: 0.6;
+}
+
 .vk-summary {
     margin: 4px;
     padding: 10px 12px;
@@ -152,22 +179,79 @@ onBeforeUnmount(() => {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* Фиксируем высоту, чтобы не прыгала */
+    min-height: 44px;
+    /* Важно для корректного отображения summary в разных браузерах */
+    list-style: none;
+}
+/* Убираем стандартный треугольник summary */
+.vk-summary::-webkit-details-marker {
+    display: none;
 }
 
-/* expand button */
-.vk-expand {
-    background: transparent;
-    border: 0;
-    font-size: 20px;
-    cursor: pointer;
+.vk-summary-title {
+    padding-right: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.vk-summary--disabled {
+    cursor: not-allowed;
     opacity: 0.7;
+}
+
+.vk-summary--disabled:hover {
+    background: transparent;
+}
+
+/* Кнопка разворачивания */
+.vk-expand {
+    background: rgba(128, 128, 128, 0.15);
+    border: 0;
+    border-radius: 4px;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+
+    /*
+       Ключевое изменение:
+       Кнопка всегда занимает место (width/height заданы),
+       но невидима и не кликабельна по умолчанию.
+    */
+    opacity: 0;
+    pointer-events: none;
+    transition:
+        opacity 0.3s ease,
+        background-color 0.2s;
+}
+
+/* Когда iframeLoaded = true, добавляем класс vk-expand--ready */
+.vk-expand--ready {
+    opacity: 0.8;
+    pointer-events: auto;
 }
 
 .vk-expand:hover {
     opacity: 1;
+    background: rgba(128, 128, 128, 0.25);
 }
 
-/* video container */
+.vk-expand:active {
+    transform: scale(0.95);
+}
+
+.vk-expand-icon {
+    width: 18px;
+    height: 18px;
+    color: currentColor;
+}
+
 .vk-wrap {
     position: relative;
     width: 100%;
@@ -178,7 +262,17 @@ onBeforeUnmount(() => {
     overflow: hidden;
 }
 
-/* iframe */
+.vk-placeholder {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 14px;
+    z-index: 2;
+}
+
 .vk-iframe {
     width: 100%;
     height: 100%;
@@ -191,7 +285,6 @@ onBeforeUnmount(() => {
     opacity: 1;
 }
 
-/* spinner */
 .vk-spinner {
     position: absolute;
     inset: 0;
@@ -216,51 +309,112 @@ onBeforeUnmount(() => {
     }
 }
 
-/* modal */
+/* Modal */
 .vk-modal {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.75);
-    z-index: 9999;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 10000;
     display: grid;
     place-items: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .vk-modal-content {
-    width: calc(100vw - 40px);
-    height: calc(100vh - 40px);
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    max-width: 98vw;
+    max-height: 98vh;
     background: #000;
-    border-radius: 12px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .vk-modal-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 14px;
+    padding: 12px 16px;
     font-weight: 700;
+    color: #fff;
     background: #111;
+    flex-shrink: 0;
+}
+
+.vk-modal-title {
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .vk-close {
-    background: transparent;
+    background: rgba(255, 100, 100, 0.2);
     border: 0;
-    font-size: 20px;
+    border-radius: 6px;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
     cursor: pointer;
+    color: #ff6b6b;
+    transition: all 0.2s;
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+
+.vk-close:hover {
+    background: rgba(255, 100, 100, 0.4);
     color: #fff;
+}
+
+.vk-close-icon {
+    width: 20px;
+    height: 20px;
 }
 
 .vk-modal-video {
     flex: 1;
     position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
 }
 
-.vk-modal-video iframe {
+.vk-iframe-modal {
     position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
+    border: 0;
+}
+
+/* Transition */
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+/* Адаптив */
+@media (max-width: 768px) {
+    .vk-modal-content {
+        width: 100vw;
+        height: 100vh;
+        max-width: 100vw;
+        max-height: 100vh;
+        border-radius: 0;
+    }
+
+    .vk-modal {
+        padding: 0;
+    }
 }
 </style>

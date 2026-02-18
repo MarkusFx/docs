@@ -8,7 +8,6 @@ import 'virtual:group-icons.css'
 import NotFound from './.error/NotFound.vue'
 import VkVideo from './components/VkVideo.vue'
 import CourseVideos from './components/CourseVideos.vue'
-import GiscusComments from '../components/GiscusComments.vue'
 
 let zoom = null
 
@@ -19,7 +18,6 @@ export default {
         app.component('CodePreview', CodePreview)
         app.component('VkVideo', VkVideo)
         app.component('CourseVideos', CourseVideos)
-        app.component('GiscusComments', GiscusComments)
 
         if (typeof window !== 'undefined') {
             const applyZoom = () => {
