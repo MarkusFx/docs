@@ -1,0 +1,79 @@
+---
+layout: home
+---
+
+# Возможные переводы курсов
+
+## Angular
+
+- Maximilian Schwarzmüller - Angular - The Complete Guide (53:00);
+- Maximilian Schwarzmüller - Angular (Full App) with Angular Material, Angularfire & NgRx (11:00);
+- Denis Panjuta - Complete Angular Course 2025 - Master Angular in only 6 days (09:30);
+
+## C#
+
+- Denis Panjuta - Complete C# Masterclass (46:00) [_будет переделываться на новую озвучку_];
+
+## Dart, Flutter
+
+- Maximilian Schwarzmüller - Flutter & Dart - The Complete Guide (30:00);
+
+## Django
+
+- Maximilian Schwarzmüller - Python Django - The Practical Guide (23:00);
+
+## Express.js
+
+- Robert Bunch - Just Express (with a bunch of node and http). In detail (15:00);
+
+## Ionic
+
+- Maximilian Schwarzmüller - Ionic - Build iOS, Android & Web Apps with Ionic & Angular (20:20);
+
+## Java
+
+- Denis Panjuta - 60 Days of Java: The Complete Java Masterclass (58:00);
+
+## Kotlin
+
+- Denis Panjuta - The Complete Android 14 & Kotlin Development Masterclass (66:00);
+
+## MediaSoup
+
+- Robert Bunch - Mastering MediaSoup - Live Streaming and Video Conferencing SFU (08:20);
+
+## MongoDB
+
+- Maximilian Schwarzmüller - MongoDB - The Complete Developer's Guide (17:00);
+
+## NestJS
+
+- Piotr Jura - NestJS Mastery - Build & Deploy a Production-Ready API (25:00);
+
+## NGINX
+
+- Hussein Nasser - Introduction to NGINX (07:20);
+
+## Nuxt.js
+
+- Piotr Jura - Master Nuxt 3 - Full-Stack Complete Guide (15:30);
+
+## OS
+
+- Hussein Nasser - Fundamentals of Operating Systems (21:40) [_будет переделываться на новую озвучку_];
+
+## React Native
+
+- Maximilian Schwarzmüller - React Native - The Practical Guide (28:00);
+
+## Remix.js
+
+- Maximilian Schwarzmüller - Remix.js - The Practical Guide (08:30);
+
+## Unity
+
+- Denis Panjuta - Complete C# Unity Developer: Create Games and Learn to Code (22:30);
+
+## WebRTC
+
+- Marek Gryszkiewicz - Discord Clone - Learn MERN Stack with WebRTC and SocketIO (19:30);

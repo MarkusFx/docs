@@ -215,6 +215,17 @@ export const courses_7 = [
     },
 ]
 
+export const courses_8 = [
+    {
+        title: 'Возможные переводы курсов',
+        icon: catLogo,
+        link: '/possible-courses',
+        color: commonColor,
+        gradient: gradients.RED,
+        iconFilter: commonIconFilter,
+    },
+]
+
 export const notes = [
     {
         title: 'HTML',
@@ -299,6 +310,16 @@ export const vk_tiles = [
         icon: vkLogo,
         description: 'Основная группа',
         link: 'https://vk.com/markusfx_itpit',
+        target: '_blank',
+        color: commonColor,
+        gradient: gradients.VK,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'VK Видео',
+        icon: vkLogo,
+        description: 'Стримы',
+        link: 'https://live.vkvideo.ru/markusfx',
         target: '_blank',
         color: commonColor,
         gradient: gradients.VK,
