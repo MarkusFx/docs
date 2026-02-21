@@ -54,6 +54,7 @@ const getIcon = (key: string) => iconMap[key] || ''
 
 // Цвет и фильтр иконки — как в Tile-компоненте
 const iconColor = 'var(--vp-c-text-1)'
+const iconFilter = 'none' // Добавлено, чтобы не было ошибки в шаблоне
 </script>
 
 <template>
@@ -83,11 +84,12 @@ const iconColor = 'var(--vp-c-text-1)'
                     :key="index"
                     class="course-item"
                 >
-                    <div class="course-title">{{ course.title }}</div>
-                    <div class="course-author">{{ course.author }}</div>
-
-                    <div class="course-footer">
-                        <!-- Время курса с иконкой -->
+                    <!-- Верхняя строка: название + автор слева, время справа -->
+                    <div class="course-header-row">
+                        <div class="course-info">
+                            <div class="course-title">{{ course.title }}</div>
+                            <div class="course-author">{{ course.author }}</div>
+                        </div>
                         <span class="course-duration">
                             <svg
                                 class="duration-icon"
@@ -101,9 +103,11 @@ const iconColor = 'var(--vp-c-text-1)'
                             </svg>
                             {{ course.duration }}
                         </span>
+                    </div>
 
-                        <!-- Комментарий -->
-                        <span v-if="course.comment" class="course-comment"
+                    <!-- Комментарий снизу, на всю ширину -->
+                    <div v-if="course.comment" class="course-comment-wrapper">
+                        <span class="course-comment"
                             >[{{ course.comment }}]</span
                         >
                     </div>
@@ -181,7 +185,7 @@ const iconColor = 'var(--vp-c-text-1)'
 .course-item {
     display: flex;
     flex-direction: column;
-    gap: 0.375rem;
+    gap: 0.5rem;
     padding: 0.5rem 0.625rem;
     border-radius: 6px;
 }
@@ -190,25 +194,32 @@ const iconColor = 'var(--vp-c-text-1)'
     background: var(--vp-c-bg-mute);
 }
 
+/* Верхняя строка: инфо слева, время справа */
+.course-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.course-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    min-width: 0; /* Для корректного обрезания текста */
+}
+
 .course-title {
     font-size: 0.875rem;
     font-weight: 500;
     color: var(--vp-c-text-1);
     line-height: 1.4;
+    word-wrap: break-word;
 }
 
 .course-author {
     font-size: 0.75rem;
     color: var(--vp-c-text-3);
-}
-
-/* Футер курса: время + комментарий */
-.course-footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.625rem;
-    margin-top: 0.125rem;
 }
 
 /* Время курса — аккуратный бейдж */
@@ -222,6 +233,8 @@ const iconColor = 'var(--vp-c-text-1)'
     padding: 0.1875rem 0.5rem;
     border-radius: 5px;
     border: 1px solid var(--vp-c-divider);
+    flex-shrink: 0; /* Чтобы время не сжималось */
+    white-space: nowrap;
 }
 
 .duration-icon {
@@ -231,18 +244,35 @@ const iconColor = 'var(--vp-c-text-1)'
     opacity: 0.7;
 }
 
+/* Обёртка комментария — на всю ширину */
+.course-comment-wrapper {
+    width: 100%;
+    margin-top: 0.125rem;
+}
+
 /* Комментарий — блекло-серый */
 .course-comment {
+    display: block;
     font-size: 0.7rem;
     color: var(--vp-c-text-3);
     font-style: italic;
     opacity: 0.7;
+    line-height: 1.3;
 }
 
 /* Адаптив */
 @media (max-width: 640px) {
     .course-cards {
         grid-template-columns: 1fr;
+    }
+
+    .course-header-row {
+        //flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .course-duration {
+        margin-top: 0.25rem;
     }
 }
 </style>
