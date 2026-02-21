@@ -267,7 +267,6 @@ const iconFilter = 'none' // Добавлено, чтобы не было оши
     }
 
     .course-header-row {
-        //flex-direction: column;
         align-items: flex-start;
     }
 
