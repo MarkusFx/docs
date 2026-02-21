@@ -134,10 +134,6 @@ const iconFilter = 'none' // Добавлено, чтобы не было оши
     transition: border-color 0.2s ease;
 }
 
-.course-card:hover {
-    border-color: var(--vp-c-brand);
-}
-
 /* Заголовок категории */
 .course-card-header {
     display: flex;
