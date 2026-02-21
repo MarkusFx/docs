@@ -4,76 +4,109 @@ layout: home
 
 # Возможные переводы курсов
 
-## Angular
+<script setup>
+const categories = [
+    {
+        name: 'Angular',
+        iconKey: 'angular',
+        courses: [
+            { title: 'Angular - The Complete Guide', author: 'Maximilian Schwarzmüller', duration: '53:00' },
+            { title: 'Angular (Full App) with Angular Material, Angularfire & NgRx', author: 'Maximilian Schwarzmüller', duration: '11:00' },
+            { title: 'Complete Angular Course - Master Angular in only 6 days', author: 'Jannick Leismann', duration: '09:30' },
+        ],
+    },
+    {
+        name: 'C#',
+        iconKey: 'csharp',
+        courses: [
+            { title: 'Complete C# Masterclass', author: 'Denis Panjuta', duration: '46:00', comment: 'будет переделываться на новую озвучку' },
+        ],
+    },
+    {
+        name: 'Dart, Flutter',
+        iconKey: 'dart',
+        courses: [
+            { title: 'Flutter & Dart - The Complete Guide', author: 'Maximilian Schwarzmüller', duration: '30:00' },
+        ],
+    },
+    {
+        name: 'Django',
+        iconKey: 'python',
+        courses: [
+            { title: 'Python Django - The Practical Guide', author: 'Maximilian Schwarzmüller', duration: '23:00' },
+        ],
+    },
+    {
+        name: 'Express.js',
+        iconKey: 'express',
+        courses: [
+            { title: 'Just Express (with a bunch of node and http). In detail', author: 'Robert Bunch', duration: '15:00' },
+        ],
+    },
+    {
+        name: 'Java',
+        iconKey: 'java',
+        courses: [
+            { title: '60 Days of Java: The Complete Java Masterclass', author: 'Denis Panjuta', duration: '58:00' },
+        ],
+    },
+    {
+        name: 'Kotlin',
+        iconKey: 'kotlin',
+        courses: [
+            { title: 'The Complete Android 14 & Kotlin Development Masterclass', author: 'Denis Panjuta', duration: '66:00' },
+        ],
+    },
+    {
+        name: 'MongoDB',
+        iconKey: 'mongo',
+        courses: [
+            { title: 'MongoDB - The Complete Developer\'s Guide', author: 'Maximilian Schwarzmüller', duration: '17:00' },
+        ],
+    },
+    {
+        name: 'NGINX',
+        iconKey: 'nginx',
+        courses: [
+            { title: 'Introduction to NGINX', author: 'Hussein Nasser', duration: '07:20' },
+        ],
+    },
+    {
+        name: 'Nuxt.js',
+        iconKey: 'nuxt',
+        courses: [
+            { title: 'Master Nuxt 3 - Full-Stack Complete Guide', author: 'Piotr Jura', duration: '15:30' },
+        ],
+    },
+    {
+        name: 'OS',
+        iconKey: 'os',
+        courses: [
+            { title: 'Fundamentals of Operating Systems', author: 'Hussein Nasser', duration: '21:40', comment: 'будет переделываться на новую озвучку' },
+        ],
+    },
+    {
+        name: 'React Native',
+        iconKey: 'react',
+        courses: [
+            { title: 'React Native - The Practical Guide', author: 'Maximilian Schwarzmüller', duration: '28:00' },
+        ],
+    },
+    {
+        name: 'Unity',
+        iconKey: 'unity',
+        courses: [
+            { title: 'Complete C# Unity Developer: Create Games and Learn to Code', author: 'Denis Panjuta', duration: '22:30' },
+        ],
+    },
+    {
+        name: 'WebRTC',
+        iconKey: 'webrtc',
+        courses: [
+            { title: 'Discord Clone - Learn MERN Stack with WebRTC and SocketIO', author: 'Marek Gryszkiewicz', duration: '19:30' },
+        ],
+    },
+]
+</script>
 
-- Maximilian Schwarzmüller - Angular - The Complete Guide (53:00);
-- Maximilian Schwarzmüller - Angular (Full App) with Angular Material, Angularfire & NgRx (11:00);
-- Denis Panjuta - Complete Angular Course 2025 - Master Angular in only 6 days (09:30);
-
-## C#
-
-- Denis Panjuta - Complete C# Masterclass (46:00) [_будет переделываться на новую озвучку_];
-
-## Dart, Flutter
-
-- Maximilian Schwarzmüller - Flutter & Dart - The Complete Guide (30:00);
-
-## Django
-
-- Maximilian Schwarzmüller - Python Django - The Practical Guide (23:00);
-
-## Express.js
-
-- Robert Bunch - Just Express (with a bunch of node and http). In detail (15:00);
-
-## Ionic
-
-- Maximilian Schwarzmüller - Ionic - Build iOS, Android & Web Apps with Ionic & Angular (20:20);
-
-## Java
-
-- Denis Panjuta - 60 Days of Java: The Complete Java Masterclass (58:00);
-
-## Kotlin
-
-- Denis Panjuta - The Complete Android 14 & Kotlin Development Masterclass (66:00);
-
-## MediaSoup
-
-- Robert Bunch - Mastering MediaSoup - Live Streaming and Video Conferencing SFU (08:20);
-
-## MongoDB
-
-- Maximilian Schwarzmüller - MongoDB - The Complete Developer's Guide (17:00);
-
-## NestJS
-
-- Piotr Jura - NestJS Mastery - Build & Deploy a Production-Ready API (25:00);
-
-## NGINX
-
-- Hussein Nasser - Introduction to NGINX (07:20);
-
-## Nuxt.js
-
-- Piotr Jura - Master Nuxt 3 - Full-Stack Complete Guide (15:30);
-
-## OS
-
-- Hussein Nasser - Fundamentals of Operating Systems (21:40) [_будет переделываться на новую озвучку_];
-
-## React Native
-
-- Maximilian Schwarzmüller - React Native - The Practical Guide (28:00);
-
-## Remix.js
-
-- Maximilian Schwarzmüller - Remix.js - The Practical Guide (08:30);
-
-## Unity
-
-- Denis Panjuta - Complete C# Unity Developer: Create Games and Learn to Code (22:30);
-
-## WebRTC
-
-- Marek Gryszkiewicz - Discord Clone - Learn MERN Stack with WebRTC and SocketIO (19:30);
+<CourseCards :categories="categories" />
