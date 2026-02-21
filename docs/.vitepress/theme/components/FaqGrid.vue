@@ -134,25 +134,7 @@ const getTypeStyles = (type) => {
 }
 
 .faq-card:hover {
-    border-color: var(--type-color);
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
-}
-
-/* Заголовок карточки с лейблом типа */
-.faq-card-header {
-    display: flex;
-    align-items: center;
-}
-
-.faq-type-label {
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--type-color);
-    padding: 0.25rem 0;
-    border-bottom: 2px solid var(--type-color);
-    line-height: 1;
 }
 
 /* Тело карточки */
@@ -186,7 +168,7 @@ const getTypeStyles = (type) => {
     color: var(--vp-c-text-3);
     font-style: italic;
     padding-top: 0.75rem;
-    border-top: 1px solid var(--vp-c-divider-light);
+    border-top: 1px solid var(--vp-c-text-3);
 }
 
 /* Адаптивность */
