@@ -54,7 +54,6 @@ const getIcon = (key: string) => iconMap[key] || ''
 
 // Цвет и фильтр иконки — как в Tile-компоненте
 const iconColor = 'var(--vp-c-text-1)'
-const iconFilter = 'drop-shadow(1px 1px 1px #22222244)'
 </script>
 
 <template>
@@ -220,7 +219,6 @@ const iconFilter = 'drop-shadow(1px 1px 1px #22222244)'
     font-size: 0.7rem;
     font-weight: 500;
     color: var(--vp-c-text-2);
-    background: var(--vp-c-bg-mute);
     padding: 0.1875rem 0.5rem;
     border-radius: 5px;
     border: 1px solid var(--vp-c-divider);
