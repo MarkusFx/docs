@@ -27,7 +27,7 @@ const faqs = ref([
     {
         type: 'info',
         question: 'На какие темы может выйти перевод?',
-        answer: 'Темы размещены на Дорожной карте.',
+        answer: 'Смотри разделы "Дорожная карта" и "Возможные переводы курсов".',
         note: 'Но иногда темы предлагают.',
     },
     {
@@ -44,8 +44,8 @@ const faqs = ref([
     {
         type: 'warning',
         question: '"Вы используете нейронку для перевода! Это возмутительно!"',
-        answer: 'Возмутительно, что кто-то вообще возмущается контентом, который дают ему просто так. Но да, используется нейронка. А вы как хотели? Профессиональный перевод и озвучку?',
-        note: '"За что купил, за то и продаю"',
+        answer: 'Возмутительно, что кто-то вообще возмущается контентом, который дают ему просто так. Но да, используется нейронка.',
+        note: 'А вы как хотели? Профессиональный перевод и озвучку? "За что купил, за то и продаю."',
     },
     {
         type: 'warning',
@@ -62,13 +62,25 @@ const faqs = ref([
     },
 ])
 
-const getTypeClass = (type) => {
+const getTypeStyles = (type) => {
     const map = {
-        info: 'faq-card-info',
-        warning: 'faq-card-warning',
-        danger: 'faq-card-danger',
+        info: {
+            label: 'INFO',
+            color: 'var(--vp-c-brand, #646cff)',
+            bg: 'transparent',
+        },
+        warning: {
+            label: 'WARNING',
+            color: '#f59e0b',
+            bg: 'transparent',
+        },
+        danger: {
+            label: 'IMPORTANT',
+            color: '#ef4444',
+            bg: 'transparent',
+        },
     }
-    return map[type] || 'faq-card-info'
+    return map[type] || map['info']
 }
 </script>
 
@@ -78,15 +90,17 @@ const getTypeClass = (type) => {
             v-for="(faq, index) in faqs"
             :key="index"
             class="faq-card"
-            :class="getTypeClass(faq.type)"
+            :style="{
+                '--type-color': getTypeStyles(faq.type).color,
+                '--type-label': getTypeStyles(faq.type).label,
+            }"
         >
-            <div class="faq-question">
-                {{ faq.question }}
+            <div class="faq-card-body">
+                <h3 class="faq-question">{{ faq.question }}</h3>
+                <p class="faq-answer">{{ faq.answer }}</p>
             </div>
-            <div class="faq-answer">
-                {{ faq.answer }}
-            </div>
-            <div v-if="faq.note" class="faq-note">
+
+            <div v-if="faq.note" class="faq-card-note">
                 {{ faq.note }}
             </div>
         </div>
@@ -94,134 +108,106 @@ const getTypeClass = (type) => {
 </template>
 
 <style scoped>
+/* Сетка */
 .faq-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     width: 100%;
-    max-width: 1300px;
-    margin: 2.5rem auto;
+    max-width: 1200px;
+    margin: 3rem auto;
     padding: 0 1.5rem;
 }
 
-/* Базовый стиль карточки */
+/* Карточка */
 .faq-card {
     background: var(--vp-c-bg-soft);
-    border-radius: 16px;
-    padding: 1.5rem 1.75rem;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 6px;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border: 1px solid transparent;
-    position: relative;
-    overflow: hidden;
-}
-
-.faq-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 4px;
-    height: 100%;
-    transition: width 0.3s ease;
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
 .faq-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+    border-color: var(--type-color);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
 }
 
-.faq-card:hover::before {
-    width: 6px;
+/* Заголовок карточки с лейблом типа */
+.faq-card-header {
+    display: flex;
+    align-items: center;
+}
+
+.faq-type-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--type-color);
+    padding: 0.25rem 0;
+    border-bottom: 2px solid var(--type-color);
+    line-height: 1;
+}
+
+/* Тело карточки */
+.faq-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
 }
 
 /* Вопрос */
 .faq-question {
-    font-size: 1.1rem;
-    font-weight: 700;
-    line-height: 1.45;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
     color: var(--vp-c-text-1);
-    letter-spacing: -0.01em;
+    margin: 0;
 }
 
 /* Ответ */
 .faq-answer {
-    font-size: 0.975rem;
-    line-height: 1.7;
+    font-size: 0.925rem;
+    line-height: 1.65;
     color: var(--vp-c-text-2);
+    margin: 0;
 }
 
-/* Заметка (курсив) */
-.faq-note {
-    font-size: 0.875rem;
-    line-height: 1.6;
+/* Заметка */
+.faq-card-note {
+    font-size: 0.85rem;
+    line-height: 1.5;
     color: var(--vp-c-text-3);
     font-style: italic;
-    padding-top: 0.875rem;
-    margin-top: 0.25rem;
-    border-top: 1px solid var(--vp-c-divider);
-}
-
-/* --- Типы карточек --- */
-
-/* INFO - Синий акцент */
-.faq-card-info::before {
-    background: linear-gradient(
-        180deg,
-        var(--vp-c-brand),
-        var(--vp-c-brand-light)
-    );
-}
-.faq-card-info:hover {
-    border-color: rgba(102, 126, 234, 0.2);
-}
-
-/* WARNING - Оранжевый акцент */
-.faq-card-warning::before {
-    background: linear-gradient(180deg, #f59e0b, #fbbf24);
-}
-.faq-card-warning {
-    background: linear-gradient(
-        135deg,
-        var(--vp-c-bg-soft),
-        rgba(245, 158, 11, 0.03)
-    );
-}
-.faq-card-warning:hover {
-    border-color: rgba(245, 158, 11, 0.25);
-}
-
-/* DANGER - Красный акцент */
-.faq-card-danger::before {
-    background: linear-gradient(180deg, #dc2626, #ef4444);
-}
-.faq-card-danger {
-    background: linear-gradient(
-        135deg,
-        var(--vp-c-bg-soft),
-        rgba(220, 38, 38, 0.03)
-    );
-}
-.faq-card-danger:hover {
-    border-color: rgba(220, 38, 38, 0.25);
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--vp-c-divider-light);
 }
 
 /* Адаптивность */
 @media (max-width: 768px) {
     .faq-grid {
         grid-template-columns: 1fr;
-        padding: 0 1rem;
         gap: 1.25rem;
+        padding: 0 1rem;
+        margin: 2rem auto;
     }
 
     .faq-card {
-        padding: 1.25rem 1.5rem;
+        padding: 1.25rem;
     }
 
     .faq-question {
-        font-size: 1.05rem;
+        font-size: 0.975rem;
+    }
+
+    .faq-answer {
+        font-size: 0.9rem;
     }
 }
 </style>
