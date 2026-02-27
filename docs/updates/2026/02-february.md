@@ -3,6 +3,11 @@
 ## 18.02.2026
 
 - Обновлен раздел - **Курсы**:
+    - Добавлен курс - **Robert Bunch** - **Just Express (with a bunch of node and http). In detail**;
+
+## 18.02.2026
+
+- Обновлен раздел - **Курсы**:
     - Добавлена страница - **AI**:
         - Добавлен курс - **Maximilian Schwarzmüller** - **Local LLMs via Ollama & LM Studio - The Practical Guide**;
 
