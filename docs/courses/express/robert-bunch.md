@@ -25,10 +25,10 @@ outline: [2, 3]
 
 - ### 04. Express 101
 
-<VkVideo title="011 - Что такое Express и зачем он нужен" src="" />
-<VkVideo title="012 - Знакомство с Express - Основы" src="" />
-<VkVideo title="013 - Базовая маршрутизация в Express" src="" />
-<VkVideo title="014 - Раздача статических файлов в Express" src="" />
+<VkVideo title="011 - Что такое Express и зачем он нужен" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249726&hash=3d730b546c1f0597&hd=3" />
+<VkVideo title="012 - Знакомство с Express - Основы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249727&hash=4301701e490681ce&hd=3" />
+<VkVideo title="013 - Базовая маршрутизация в Express" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249728&hash=53de8258c18b1245&hd=3" />
+<VkVideo title="014 - Раздача статических файлов в Express" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249729&hash=b3675f376037b7ba&hd=3" />
 
 - ### 05. Middleware и рендеринг
 
