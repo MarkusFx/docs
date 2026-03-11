@@ -10,6 +10,7 @@ import VkVideo from './components/VkVideo.vue'
 import CourseVideos from './components/CourseVideos.vue'
 import CourseCards from './components/CourseCards.vue'
 import FaqGrid from './components/FaqGrid.vue'
+import EventCalendar from './components/EventCalendar.vue'
 
 let zoom = null
 
@@ -22,6 +23,7 @@ export default {
         app.component('CourseVideos', CourseVideos)
         app.component('CourseCards', CourseCards)
         app.component('FaqGrid', FaqGrid)
+        app.component('EventCalendar', EventCalendar)
 
         if (typeof window !== 'undefined') {
             const applyZoom = () => {

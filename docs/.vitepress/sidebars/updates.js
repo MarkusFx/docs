@@ -7,6 +7,7 @@ export default [
                 collapsible: true,
                 collapsed: false,
                 items: [
+                    { text: 'Март', link: '/updates/2026/03-march' },
                     { text: 'Февраль', link: '/updates/2026/02-february' },
                     { text: 'Январь', link: '/updates/2026/01-january' },
                 ],

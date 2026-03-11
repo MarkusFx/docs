@@ -38,10 +38,10 @@ outline: [2, 3]
 <VkVideo title="018 - Время повторения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249734&hash=75546ba9a544c7f5&hd=4" />
 <VkVideo title="019 - Выберите оружие - API или серверный рендеринг" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249735&hash=f8e8d5164cc8a5ee&hd=4" />
 <VkVideo title="020 - Подключение движка шаблонов к Express" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249736&hash=2a039b647788ba01&hd=4" />
-<VkVideo title="021 - Рендеринг в Express (с EJS) - Часть 1" src="" />
-<VkVideo title="022 - Рендеринг в Express (с EJS) - Часть 2" src="" />
-<VkVideo title="023 - Движок шаблонов - Handlebars" src="" />
-<VkVideo title="024 - Движок шаблонов - Pug (Jade)" src="" />
+<VkVideo title="021 - Рендеринг в Express (с EJS) - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249737&hash=f3657193846e98d3&hd=4" />
+<VkVideo title="022 - Рендеринг в Express (с EJS) - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249738&hash=bbdee29db9af06d2&hd=4" />
+<VkVideo title="023 - Движок шаблонов - Handlebars" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249739&hash=22571bea59ac4ed3&hd=4" />
+<VkVideo title="024 - Движок шаблонов - Pug (Jade)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456249740&hash=14799ca722e2b400&hd=4" />
 
 - ### 06. Req и Res, router
 

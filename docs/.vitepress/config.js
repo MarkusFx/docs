@@ -1,8 +1,16 @@
+// .vitepress/config.js
 import {
     groupIconMdPlugin,
     groupIconVitePlugin,
 } from 'vitepress-plugin-group-icons'
 import sidebars from './sidebars'
+
+// Импорты для работы с файловой системой
+import fs from 'fs'
+import path from 'path'
+import { fileURLToPath } from 'url'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 export default {
     markdown: {
@@ -15,7 +23,105 @@ export default {
             host: true,
             port: 5173,
         },
-        plugins: [groupIconVitePlugin()],
+        plugins: [
+            groupIconVitePlugin(),
+            // Плагин для API работы с events.json
+            {
+                name: 'events-api',
+                configureServer(server) {
+                    server.middlewares.use(
+                        '/api/events',
+                        async (req, res, next) => {
+                            // Разрешаем CORS для локальной разработки
+                            res.setHeader('Access-Control-Allow-Origin', '*')
+                            res.setHeader(
+                                'Access-Control-Allow-Methods',
+                                'GET, POST, OPTIONS',
+                            )
+                            res.setHeader(
+                                'Access-Control-Allow-Headers',
+                                'Content-Type',
+                            )
+
+                            // Обработка preflight-запросов
+                            if (req.method === 'OPTIONS') {
+                                res.writeHead(200)
+                                res.end()
+                                return
+                            }
+
+                            // Путь к файлу events.json относительно config.js
+                            const eventsPath = path.resolve(
+                                __dirname,
+                                './theme/components/events.json',
+                            )
+
+                            if (req.method === 'GET') {
+                                // Чтение файла
+                                try {
+                                    const data = fs.readFileSync(
+                                        eventsPath,
+                                        'utf-8',
+                                    )
+                                    res.writeHead(200, {
+                                        'Content-Type': 'application/json',
+                                    })
+                                    res.end(data)
+                                } catch (err) {
+                                    // Если файл не найден, возвращаем пустой массив
+                                    if (err.code === 'ENOENT') {
+                                        res.writeHead(200, {
+                                            'Content-Type': 'application/json',
+                                        })
+                                        res.end('[]')
+                                    } else {
+                                        res.writeHead(500)
+                                        res.end(
+                                            JSON.stringify({
+                                                error: err.message,
+                                            }),
+                                        )
+                                    }
+                                }
+                            } else if (req.method === 'POST') {
+                                // Запись в файл
+                                let body = ''
+                                req.on('data', (chunk) => {
+                                    body += chunk.toString()
+                                })
+                                req.on('end', async () => {
+                                    try {
+                                        const data = JSON.parse(body)
+                                        // Форматируем и записываем
+                                        fs.writeFileSync(
+                                            eventsPath,
+                                            JSON.stringify(data, null, 4),
+                                            'utf-8',
+                                        )
+                                        res.writeHead(200, {
+                                            'Content-Type': 'application/json',
+                                        })
+                                        res.end(
+                                            JSON.stringify({ success: true }),
+                                        )
+                                    } catch (err) {
+                                        res.writeHead(500)
+                                        res.end(
+                                            JSON.stringify({
+                                                error: err.message,
+                                            }),
+                                        )
+                                    }
+                                })
+                            } else {
+                                next()
+                            }
+                        },
+                    )
+                },
+            },
+        ],
+        // Эта настройка не влияет на middleware, но оставляем для совместимости
         headers: {
             'Access-Control-Allow-Origin': '*',
         },
@@ -32,7 +138,7 @@ export default {
                    m[i].l=1*new Date();
                    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
                    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-                   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+                   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js  ", "ym");
                 
                    ym(102572208, "init", {
                         clickmap:true,
@@ -43,7 +149,7 @@ export default {
         [
             'noscript',
             {},
-            `<div><img src="https://mc.yandex.ru/watch/102572208" style="position:absolute; left:-9999px;" alt="" /></div>`,
+            `<div><img src="https://mc.yandex.ru/watch/102572208  " style="position:absolute; left:-9999px;" alt="" /></div>`,
         ],
     ],
     themeConfig: {
@@ -51,34 +157,8 @@ export default {
         nav: [
             { text: 'Главная', link: '/' },
             { text: 'Дорожная карта', link: '/road-map' },
-            { text: 'Обновления', link: '/updates/2026/02-february' },
+            { text: 'Обновления', link: '/updates/2026/03-march' },
             { text: 'FAQ', link: '/faq' },
-            // {
-            //     text: 'Разделы',
-            //     items: [
-            //         {
-            //             text: 'VitePress',
-            //             link: '/vitepress/page_001',
-            //             activeMatch: '^/vitepress/',
-            //         },
-            //         {
-            //             text: 'HTML',
-            //             link: '/html/page_001',
-            //             activeMatch: '^/html/',
-            //         },
-            //         {
-            //             text: 'CSS',
-            //             link: '/css/page_001',
-            //             activeMatch: '^/css/',
-            //         },
-            //         {
-            //             text: 'Jest',
-            //             link: '/jest/page_001',
-            //             activeMatch: '^/jest/',
-            //         },
-            //         { text: '1С', link: '/1c/page_001', activeMatch: '^/1c/' },
-            //     ],
-            // },
         ],
 
         sidebar: sidebars,

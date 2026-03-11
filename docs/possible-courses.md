@@ -19,7 +19,7 @@ const categories = [
         name: 'C#',
         iconKey: 'csharp',
         courses: [
-            { title: 'Complete C# Masterclass', author: 'Denis Panjuta', duration: '46:00', comment: 'будет переделываться на новую озвучку' },
+            { title: 'Complete C# Masterclass', author: 'Denis Panjuta', duration: '46:00', comment: 'Заморожен' },
         ],
     },
     {
@@ -37,10 +37,10 @@ const categories = [
         ],
     },
     {
-        name: 'Express.js',
+        name: 'Express',
         iconKey: 'express',
         courses: [
-            { title: 'Just Express (with a bunch of node and http). In detail', author: 'Robert Bunch', duration: '15:00' },
+            { title: 'Just Express (with a bunch of node and http). In detail', author: 'Robert Bunch', duration: '15:00', comment: 'Заморожен' },
         ],
     },
     {
@@ -82,12 +82,18 @@ const categories = [
         name: 'OS',
         iconKey: 'os',
         courses: [
-            { title: 'Fundamentals of Operating Systems', author: 'Hussein Nasser', duration: '21:40', comment: 'будет переделываться на новую озвучку' },
+            { title: 'Fundamentals of Operating Systems', author: 'Hussein Nasser', duration: '21:40', comment: 'Заморожен' },
+        ],
+    },    {
+        name: 'React',
+        iconKey: 'react',
+        courses: [
+            { title: 'React js. From the beginning. Redux and React Router', author: 'Robert Bunch,', duration: '25:00' },
         ],
     },
     {
         name: 'React Native',
-        iconKey: 'react',
+        iconKey: 'reactNative',
         courses: [
             { title: 'React Native - The Practical Guide', author: 'Maximilian Schwarzmüller', duration: '28:00' },
         ],

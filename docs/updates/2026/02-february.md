@@ -1,6 +1,6 @@
 # Обновления
 
-## 18.02.2026
+## 27.02.2026
 
 - Обновлен раздел - **Курсы**:
     - Добавлен курс - **Robert Bunch** - **Just Express (with a bunch of node and http). In detail**;

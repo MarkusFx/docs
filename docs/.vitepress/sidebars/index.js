@@ -26,6 +26,7 @@ import r3fCourses from './courses/r3f.js'
 import reactCourses from './courses/react.js'
 import vueCourses from './courses/vue.js'
 import aiCourses from './courses/ai.js'
+import nodeJsCourses from './courses/node-js.js'
 
 export default {
     '/updates/': updates,
@@ -56,4 +57,5 @@ export default {
     '/courses/react/': reactCourses,
     '/courses/vue/': vueCourses,
     '/courses/ai/': aiCourses,
+    'courses/node-js': nodeJsCourses,
 }

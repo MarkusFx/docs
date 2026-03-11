@@ -12,6 +12,7 @@ import nginxIcon from '/logos/nginx-logo.svg?raw'
 import nuxtIcon from '/logos/nuxtjs-logo.svg?raw'
 import osIcon from '/logos/os-logo.svg?raw'
 import reactIcon from '/logos/react-logo.svg?raw'
+import reactNativeIcon from '/logos/react-native-logo.svg?raw'
 import unityIcon from '/logos/unity-logo.svg?raw'
 import webrtcIcon from '/logos/webrtc-logo.svg?raw'
 
@@ -29,6 +30,7 @@ const iconMap: Record<string, string> = {
     nuxt: nuxtIcon,
     os: osIcon,
     react: reactIcon,
+    reactNative: reactNativeIcon,
     unity: unityIcon,
     webrtc: webrtcIcon,
 }

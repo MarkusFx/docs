@@ -169,6 +169,14 @@ export const vuejsCard = [
 export const aiCard = [
     makeCard('AI', aiLogo, 'purple', '/courses/ai/maximilian-schwarzmuller'),
 ]
+export const nodejsCard = [
+    makeCard(
+        'Node.js',
+        nodejsLogo,
+        'green',
+        '/courses/node-js/maximilian-schwarzmuller',
+    ),
+]
 
 // export const cssCard = [makeCard('CSS', cssLogo, 'blue')]
 // export const htmlCard = [makeCard('HTML', htmlLogo, 'orange')]
@@ -182,7 +190,7 @@ export const aiCard = [
 // export const sassCard = [makeCard('SASS', sassLogo, 'purple')]
 // export const scssCard = [makeCard('SCSS', scssLogo, 'purple')]
 // export const lessCard = [makeCard('LESS', lessLogo, 'blue')]
-// export const nodejsCard = [makeCard('Node.js', nodejsLogo, 'green')]
+
 // export const nestjsCard = [makeCard('NestJS', nestjsLogo, 'red')]
 // export const nuxtjsCard = [makeCard('Nuxt.js', nuxtjsLogo, 'green')]
 // export const electronCard = [makeCard('Electron', electronLogo, 'blue')]
@@ -227,7 +235,6 @@ export const jestCard = [makeCard('Jest', jestLogo, 'silver')]
 export const sassCard = [makeCard('SASS', sassLogo, 'silver')]
 export const scssCard = [makeCard('SCSS', scssLogo, 'silver')]
 export const lessCard = [makeCard('LESS', lessLogo, 'silver')]
-export const nodejsCard = [makeCard('Node.js', nodejsLogo, 'silver')]
 export const nestjsCard = [makeCard('NestJS', nestjsLogo, 'silver')]
 export const nuxtjsCard = [makeCard('Nuxt.js', nuxtjsLogo, 'silver')]
 export const electronCard = [makeCard('Electron', electronLogo, 'silver')]

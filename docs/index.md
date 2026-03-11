@@ -15,6 +15,7 @@ import {
     courses_6,
     courses_7,
     courses_8,
+    courses_9,
     notes,
     rutube_tiles,
     telegram_tiles,
@@ -25,12 +26,15 @@ import {
 
 # Главная
 
+[//]: # '<EventCalendar />'
+
 ## Курсы
 
 <TileGrid :tiles="courses_7" />
 <TileGrid :tiles="courses_3" />
 <TileGrid :tiles="courses_1" />
 <TileGrid :tiles="courses_2" />
+<TileGrid :tiles="courses_9" />
 <TileGrid :tiles="courses_6" />
 <TileGrid :tiles="courses_4" />
 <TileGrid :tiles="courses_5" />
