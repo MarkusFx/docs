@@ -5,6 +5,8 @@
 - Обновлен раздел - **Курсы**:
     - Добавлена страница - **Next.js**:
         - Добавлен курс - **John Smilga** - **NextJS & OpenAI**;
+    - Добавлена страница - **Jest**:
+        - Добавлен курс - **Stephen Grider** - **React Testing Library and Jest - The Complete Guide**;
 
 ## 11.03.2026
 

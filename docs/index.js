@@ -97,6 +97,14 @@ export const courses_2 = [
         iconFilter: commonIconFilter,
     },
     {
+        title: 'Jest',
+        icon: jestLogo,
+        link: '/courses/jest/stephen-grider',
+        color: commonColor,
+        gradient: gradients.PURPLE,
+        iconFilter: commonIconFilter,
+    },
+    {
         title: 'Cypress',
         icon: cypressLogo,
         link: '/courses/cypress/maximilian-schwarzmuller',

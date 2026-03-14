@@ -28,6 +28,7 @@ import vueCourses from './courses/vue.js'
 import aiCourses from './courses/ai.js'
 import nodeJsCourses from './courses/node-js.js'
 import nextJsCourse from './courses/next-js.js'
+import jestCourses from './courses/jest.js'
 
 export default {
     '/updates/': updates,
@@ -60,4 +61,5 @@ export default {
     '/courses/ai/': aiCourses,
     'courses/node-js': nodeJsCourses,
     'courses/next-js': nextJsCourse,
+    'courses/jest': jestCourses,
 }
