@@ -1,0 +1,159 @@
+---
+outline: [2, 3]
+---
+
+# NextJS & OpenAI
+
+- ### 01. Введение в Next.js
+
+<VkVideo title="001 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250337&hash=cba651faf724dd3c&hd=4" />
+<VkVideo title="002 - Обзор курса" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250338&hash=1cf981467ad1956f&hd=4" />
+<VkVideo title="003 - Создание нового приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250339&hash=9f63636b7483c03b&hd=4" />
+<VkVideo title="004 - Файлы и структура папок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250340&hash=2837ac02532ba8c2&hd=4" />
+<VkVideo title="005 - Главная страница" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250341&hash=6ffe76ec2e89f8ed&hd=4" />
+<VkVideo title="006 - Дополнительные страницы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250342&hash=8b14b93faf2fb3c4&hd=4" />
+<VkVideo title="007 - Компонент Link" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250343&hash=4dab68215242c66e&hd=4" />
+<VkVideo title="008 - Вложенные маршруты" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250344&hash=3d19fb3d01352492&hd=4" />
+<VkVideo title="009 - Первое задание" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250345&hash=23d4fdf3995e0921&hd=4" />
+<VkVideo title="010 - CSS" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250346&hash=19716f58473f7d61&hd=4" />
+<VkVideo title="011 - TailwindCSS" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250347&hash=50fe643e4a751479&hd=4" />
+<VkVideo title="012 - DaisyUI" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250348&hash=c6383a012bb43f17&hd=4" />
+<VkVideo title="013 - Файл Layout" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250349&hash=0143f2f82eacea93&hd=4" />
+<VkVideo title="014 - Задание - Navbar" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250350&hash=c7e190b03110f588&hd=4" />
+<VkVideo title="015 - Серверные компоненты vs клиентские компоненты" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250351&hash=6d86a5665e162889&hd=4" />
+<VkVideo title="016 - Задание - Счётчик" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250352&hash=998cee6b7144c0f4&hd=4" />
+<VkVideo title="017 - Получение данных (Fetch Data)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250353&hash=a8cd016ba4938cf0&hd=4" />
+<VkVideo title="018 - Компонент Loading" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250354&hash=9e5e95d8b4e52de2&hd=4" />
+<VkVideo title="019 - Компонент Error" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250355&hash=46e2323a30e27042&hd=4" />
+<VkVideo title="020 - Вложенные Layout" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250356&hash=4387a10822b6de16&hd=4" />
+<VkVideo title="021 - Динамические маршруты" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250357&hash=e14bab5f1a3661eb&hd=4" />
+<VkVideo title="022 - Задание - Список напитков" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250358&hash=9da71f8190eb3828&hd=4" />
+<VkVideo title="023 - Страница одного напитка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250359&hash=68ed2fcd9783da7c&hd=4" />
+<VkVideo title="024 - Статические изображения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250360&hash=4ad3d5417438ee27&hd=4" />
+<VkVideo title="025 - Удалённые изображения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250361&hash=06c26ed21e4e7f00&hd=4" />
+<VkVideo title="026 - Адаптивные изображения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250362&hash=1a041599c7053ce1&hd=4" />
+<VkVideo title="027 - Дополнительная маршрутизация" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250363&hash=55e93a2de1f43003&hd=4" />
+<VkVideo title="028 - Настройка Prisma" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250364&hash=6ff5a65486a45e65&hd=4" />
+<VkVideo title="029 - Модель Prisma" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250365&hash=7942adc816132b93&hd=4" />
+<VkVideo title="030 - CRUD операции в Prisma" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250366&hash=2bbde5047004a4e2&hd=4" />
+<VkVideo title="031 - Отображение задач" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250367&hash=88b95ffa872870d7&hd=4" />
+<VkVideo title="032 - Server Actions" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250368&hash=c2a73154ddff3d03&hd=4" />
+<VkVideo title="033 - Первая Server Action" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250369&hash=7f982251290899fb&hd=4" />
+<VkVideo title="034 - Рефакторинг приложения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250370&hash=e4b45f3be8daf8fd&hd=4" />
+<VkVideo title="035 - Удаление задачи" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250371&hash=59ce754b48ba9793&hd=4" />
+<VkVideo title="036 - Редактирование задачи - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250372&hash=2a74f50965a77d02&hd=4" />
+<VkVideo title="037 - Редактирование задачи - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250373&hash=94107c4719234a2e&hd=4" />
+<VkVideo title="038 - Состояние ожидания (Pending State)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250374&hash=10cb41f196eb58da&hd=4" />
+<VkVideo title="039 - Проверка ошибок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250375&hash=6ba6412e6dc7d17e&hd=4" />
+<VkVideo title="040 - Библиотека Zod" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250376&hash=2ff84e6b314d7cb1&hd=4" />
+<VkVideo title="041 - Providers" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250377&hash=1136679ed1ea073c&hd=4" />
+<VkVideo title="042 - Кнопка удаления" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250378&hash=2046c968e02d12ed&hd=4" />
+<VkVideo title="043 - Route Handlers - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250379&hash=e23f0c30534cd010&hd=4" />
+<VkVideo title="044 - Route Handlers - Часть 2 - GET" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250380&hash=c7feda7aa29f26c9&hd=4" />
+<VkVideo title="045 - Route Handlers - Часть 3 - POST" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250381&hash=90af90568ce5dab6&hd=4" />
+<VkVideo title="046 - Middleware" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250382&hash=ef35db63cd00826f&hd=4" />
+<VkVideo title="047 - Render" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250383&hash=0948c1e0fe32f2e1&hd=4" />
+<VkVideo title="048 - PlanetScale" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250384&hash=73f35da6b9cfc2fd&hd=4" />
+<VkVideo title="049 - Локальная сборка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250385&hash=c15aa55c7fc96e3c&hd=4" />
+<VkVideo title="050 - Принудительный динамический рендеринг (Force Dynamic)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250386&hash=bd1bcb35d38876c0&hd=4" />
+<VkVideo title="051 - Деплой" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250387&hash=aca796f914676e0f&hd=4" />
+
+- ### 02. Приложение GPTGenius
+
+<VkVideo title="052 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250388&hash=d27e4c15d065c9c4&hd=4" />
+<VkVideo title="053 - Новое приложение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250389&hash=83ce088529c076ca&hd=4" />
+<VkVideo title="054 - Библиотеки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250390&hash=9b9600e342de8d10&hd=4" />
+<VkVideo title="055 - Первые страницы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250391&hash=f288cfb361042e20&hd=4" />
+<VkVideo title="056 - Главная страница" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250392&hash=cab24be9eeabab1c&hd=4" />
+<VkVideo title="057 - Настройка Clerk" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250393&hash=6009ef6950dc2fab&hd=4" />
+<VkVideo title="058 - Пользовательские страницы аутентификации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250394&hash=e8c13e418e5f5895&hd=4" />
+<VkVideo title="059 - React Icons" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250395&hash=3275ecdf49d1d870&hd=4" />
+<VkVideo title="060 - Layout панели управления (Dashboard)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250396&hash=156d4b0c047668fd&hd=4" />
+<VkVideo title="061 - Боковая панель (Sidebar)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250397&hash=5d2967afeb135927&hd=4" />
+<VkVideo title="062 - Заголовок боковой панели" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250398&hash=b2f12d830e015453&hd=4" />
+<VkVideo title="063 - Навигационные ссылки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250399&hash=80c682231e78d213&hd=4" />
+<VkVideo title="064 - Профиль участника" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250400&hash=49d32cbb26b3c2bc&hd=4" />
+<VkVideo title="065 - Переключатель темы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250401&hash=644c509e3fd7ed30&hd=4" />
+<VkVideo title="066 - Обзор базового шаблона (Boilerplate)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250402&hash=3df836760fe418d1&hd=4" />
+<VkVideo title="067 - Профиль пользователя" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250403&hash=a9de4b1d8981b182&hd=4" />
+<VkVideo title="068 - Библиотека React Hot Toast" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250404&hash=c9fb3fc7822f32d4&hd=4" />
+<VkVideo title="069 - Структура чата" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250405&hash=d9fa88ad26d3f2b6&hd=4" />
+<VkVideo title="070 - React Query - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250406&hash=5bb243a6fe24f73b&hd=4" />
+<VkVideo title="071 - React Query - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250407&hash=cd6f3ae38e76f2c7&hd=4" />
+<VkVideo title="072 - OpenAI - Цены" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250408&hash=016edc5258578dee&hd=4" />
+<VkVideo title="073 - OpenAI - Playground" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250409&hash=5e7c1cac16aadf2c&hd=4" />
+<VkVideo title="074 - OpenAI - Документация" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250410&hash=6b6ddf115d5a706f&hd=4" />
+<VkVideo title="075 - Первый промпт" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250411&hash=05b741101503720a&hd=4" />
+<VkVideo title="076 - Контекст" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250412&hash=f2c09a2f53bc508e&hd=4" />
+<VkVideo title="077 - Отображение сообщений" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250413&hash=f4faef597d10b5d7&hd=4" />
+<VkVideo title="078 - Новый тур - Настройка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250414&hash=93fade0fe0370518&hd=4" />
+<VkVideo title="079 - Новый тур - Форма" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250415&hash=226efdc503464d7a&hd=4" />
+<VkVideo title="080 - Новый тур - React Query" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250416&hash=11939727fc38877c&hd=4" />
+<VkVideo title="081 - Промпт для тура" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250417&hash=7555ea025af5f61f&hd=4" />
+<VkVideo title="082 - Генерация ответа тура" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250418&hash=52e0b1ae7dab083b&hd=4" />
+<VkVideo title="083 - Информация о туре" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250419&hash=9687a20ebcb087e2&hd=4" />
+<VkVideo title="084 - PlanetScale" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250420&hash=105b114b96dfe6d8&hd=4" />
+<VkVideo title="085 - Модель тура" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250421&hash=c73d27cfb87fe5c8&hd=4" />
+<VkVideo title="086 - Сохранение тура" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250422&hash=59eb827a113936ee&hd=4" />
+<VkVideo title="087 - Информация о таймауте" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250423&hash=a0d3f6abe06b0dec&hd=4" />
+<VkVideo title="088 - Функция GetAllTours" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250424&hash=993ebb25e257011f&hd=4" />
+<VkVideo title="089 - Страница туров - Настройка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250425&hash=0fe5bef048496a13&hd=4" />
+<VkVideo title="090 - Список туров" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250426&hash=db4be782d74fee51&hd=4" />
+<VkVideo title="091 - Функция поиска" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250427&hash=2de7511e04be9baa&hd=4" />
+<VkVideo title="092 - Страница одного тура" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250428&hash=9284c1b844a7977a&hd=4" />
+<VkVideo title="093 - Генерация изображения" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250429&hash=88cb04e6fd9eb839&hd=4" />
+<VkVideo title="094 - API Unsplash" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250430&hash=6c04caa81e948f97&hd=4" />
+<VkVideo title="095 - Пользовательские страницы - Исправление ошибки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250431&hash=5f0189563cf241bd&hd=4" />
+<VkVideo title="096 - Токены - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250432&hash=335f2989cd9c8efe&hd=4" />
+<VkVideo title="097 - Максимальное количество токенов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250433&hash=dc44b8c4d9a92c61&hd=4" />
+<VkVideo title="098 - Действия с токенами" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250434&hash=f5de5879e97ae20a&hd=4" />
+<VkVideo title="099 - Отображение токенов" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250435&hash=a43a53d014e4d72e&hd=4" />
+<VkVideo title="100 - Логика туров" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250436&hash=3d79eece1b628c0a&hd=4" />
+<VkVideo title="101 - Логика чата" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250437&hash=cbce9fda131b8051&hd=4" />
+<VkVideo title="102 - Деплой" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250438&hash=61b92c2bcf52ee7e&hd=4" />
+
+- ### 03. Jobify
+
+<VkVideo title="103 - Введение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250439&hash=17317814fbdb4691&hd=4" />
+<VkVideo title="104 - Настройка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250440&hash=165b90bad73da6ec&hd=4" />
+<VkVideo title="105 - Shadcn UI" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250441&hash=14367dcb1f63e80c&hd=4" />
+<VkVideo title="106 - API Shadcn UI" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250442&hash=f6c22143a4845b4a&hd=4" />
+<VkVideo title="107 - Layout и главная страница" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250443&hash=99845a7757e59aa0&hd=4" />
+<VkVideo title="108 - Создание страниц" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250444&hash=1d4f71406cd639ad&hd=4" />
+<VkVideo title="109 - Аутентификация Clerk" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250445&hash=b5a623da60c6bd32&hd=4" />
+<VkVideo title="110 - Навигационные ссылки" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250446&hash=cf7e8fe6fef45ea4&hd=4" />
+<VkVideo title="111 - Layout панели управления (Dashboard)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250447&hash=3e79da8b3e9f8fc6&hd=4" />
+<VkVideo title="112 - Боковая панель (Sidebar)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250448&hash=b1a3275d07dfb766&hd=4" />
+<VkVideo title="113 - Навбар (Navbar)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250449&hash=051ae2d939a3adf5&hd=4" />
+<VkVideo title="114 - Выпадающие ссылки (Dropdown Links)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250450&hash=7551b66d31e45694&hd=4" />
+<VkVideo title="115 - Смена темы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250451&hash=62e219ada7bd1945&hd=4" />
+<VkVideo title="116 - Переключение темы" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250452&hash=c76434260211481b&hd=4" />
+<VkVideo title="117 - Формы Shadcn UI" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250453&hash=894baaaee8ce7280&hd=4" />
+<VkVideo title="118 - Типы (Types)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250454&hash=26ea27d73990642f&hd=4" />
+<VkVideo title="119 - Пользовательские компоненты форм" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250455&hash=71768605410777c3&hd=4" />
+<VkVideo title="120 - CreateJobForm" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250456&hash=344b251e13b56717&hd=4" />
+<VkVideo title="121 - Render и Prisma" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250457&hash=392927d43a784215&hd=4" />
+<VkVideo title="122 - CreateJobAction" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250458&hash=aa974d765e64904f&hd=4" />
+<VkVideo title="123 - Компонент Toast" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250459&hash=3fe115f172e3a1ed&hd=4" />
+<VkVideo title="124 - React Query - Настройка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250460&hash=c66d5d7680b37e5f&hd=4" />
+<VkVideo title="125 - CreateJobForm - Завершение" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250461&hash=ff150d148c90b70a&hd=4" />
+<VkVideo title="126 - GetAllJobsAction - Часть 1" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250462&hash=040f80460be5cd63&hd=4" />
+<VkVideo title="127 - GetAllJobsAction - Часть 2" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250463&hash=4141f9e63b21420a&hd=4" />
+<VkVideo title="128 - Страница вакансий - Настройка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250464&hash=65225b2a55d19d6b&hd=4" />
+<VkVideo title="129 - Компонент SearchForm - Настройка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250465&hash=9aae807573675d83&hd=4" />
+<VkVideo title="130 - Компонент SearchForm - Функциональность" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250466&hash=6223bb9eacbeac83&hd=4" />
+<VkVideo title="131 - Компонент JobsList" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250467&hash=bb48120c63a5fe5b&hd=4" />
+<VkVideo title="132 - Дополнительные компоненты Shadcn UI" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250468&hash=2e5f5cefa55c1252&hd=4" />
+<VkVideo title="133 - Компонент JobCard" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250469&hash=1bbc8d1dc509d2fd&hd=4" />
+<VkVideo title="134 - Компонент JobInfo" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250470&hash=2758a13bbc06ae3b&hd=4" />
+<VkVideo title="135 - Удаление вакансии" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250471&hash=51c6b414a9615808&hd=4" />
+<VkVideo title="136 - Страница одной вакансии" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250472&hash=433c60f4a0d7d7a8&hd=4" />
+<VkVideo title="137 - Компонент EditJobForm" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250473&hash=530ec10f6d0a2666&hd=4" />
+<VkVideo title="138 - Заполнение базы данных (Seed Database)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250474&hash=994404e4795d97a2&hd=4" />
+<VkVideo title="139 - Action статистики (Stats Action)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250475&hash=2de0e9ee0d5599ff&hd=4" />
+<VkVideo title="140 - Actions для графиков" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250476&hash=0a5442c08dd982b5&hd=4" />
+<VkVideo title="141 - Контейнер статистики" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250477&hash=fee23401698e9502&hd=4" />
+<VkVideo title="142 - Скелетон загрузки (Loading Skeleton)" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250478&hash=710a261f5090aebd&hd=4" />
+<VkVideo title="143 - Контейнер графиков" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250479&hash=d61f3a2f333ad4ab&hd=4" />
+<VkVideo title="144 - Компонент Button" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250480&hash=b902ce382e024025&hd=4" />
+<VkVideo title="145 - Сложный компонент Button" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250481&hash=02b4262b79b5eaee&hd=4" />

@@ -30,6 +30,7 @@ import reactLogo from '/logos/react-logo.svg?raw'
 import vuejsLogo from '/logos/vuejs-logo.svg?raw'
 import aiLogo from '/logos/ai-logo.svg?raw'
 import nodejsLogo from '/logos/nodejs-logo.svg?raw'
+import nextjsLogo from '/logos/nextjs-logo.svg?raw'
 
 export const gradients = {
     RED: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -168,9 +169,6 @@ export const courses_9 = [
         gradient: gradients.GREEN,
         iconFilter: commonIconFilter,
     },
-]
-
-export const courses_6 = [
     {
         title: 'Express',
         icon: expressLogo,
@@ -179,10 +177,21 @@ export const courses_6 = [
         gradient: gradients.GREEN,
         iconFilter: commonIconFilter,
     },
+]
+
+export const courses_6 = [
     {
         title: 'React',
         icon: reactLogo,
         link: '/courses/react/jonas-schmedtmann',
+        color: commonColor,
+        gradient: gradients.BLUE,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'Next.js',
+        icon: nextjsLogo,
+        link: '/courses/next-js/john-smilga',
         color: commonColor,
         gradient: gradients.BLUE,
         iconFilter: commonIconFilter,

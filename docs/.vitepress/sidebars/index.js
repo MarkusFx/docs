@@ -27,6 +27,7 @@ import reactCourses from './courses/react.js'
 import vueCourses from './courses/vue.js'
 import aiCourses from './courses/ai.js'
 import nodeJsCourses from './courses/node-js.js'
+import nextJsCourse from './courses/next-js.js'
 
 export default {
     '/updates/': updates,
@@ -58,4 +59,5 @@ export default {
     '/courses/vue/': vueCourses,
     '/courses/ai/': aiCourses,
     'courses/node-js': nodeJsCourses,
+    'courses/next-js': nextJsCourse,
 }

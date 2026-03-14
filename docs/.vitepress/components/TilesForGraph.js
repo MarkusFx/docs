@@ -177,12 +177,14 @@ export const nodejsCard = [
         '/courses/node-js/maximilian-schwarzmuller',
     ),
 ]
+export const nextjsCard = [
+    makeCard('Next.js', nextjsLogo, 'blue', '/courses/next-js/john-smilga'),
+]
 
 // export const cssCard = [makeCard('CSS', cssLogo, 'blue')]
 // export const htmlCard = [makeCard('HTML', htmlLogo, 'orange')]
 // export const javascriptCard = [makeCard('JavaScript', javascriptLogo, 'orange')]
 // export const typescriptCard = [makeCard('TypeScript', typescriptLogo, 'blue')]
-// export const nextjsCard = [makeCard('Next.js', nextjsLogo, 'blue')]
 // export const reactNativeCard = [
 //     makeCard('React Native', reactnativeLogo, 'blue'),
 // ]
@@ -227,7 +229,6 @@ export const cssCard = [makeCard('CSS', cssLogo, 'silver')]
 export const htmlCard = [makeCard('HTML', htmlLogo, 'silver')]
 export const javascriptCard = [makeCard('JavaScript', javascriptLogo, 'silver')]
 export const typescriptCard = [makeCard('TypeScript', typescriptLogo, 'silver')]
-export const nextjsCard = [makeCard('Next.js', nextjsLogo, 'silver')]
 export const reactNativeCard = [
     makeCard('React Native', reactnativeLogo, 'silver'),
 ]
