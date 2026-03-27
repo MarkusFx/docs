@@ -183,19 +183,22 @@ export const nextjsCard = [
 export const jestCard = [
     makeCard('Jest', jestLogo, 'purple', '/courses/jest/stephen-grider'),
 ]
+export const reactNativeCard = [
+    makeCard(
+        'React Native',
+        reactnativeLogo,
+        'blue',
+        '/courses/react-native/maximilian-schwarzmuller',
+    ),
+]
 
 // export const cssCard = [makeCard('CSS', cssLogo, 'blue')]
 // export const htmlCard = [makeCard('HTML', htmlLogo, 'orange')]
 // export const javascriptCard = [makeCard('JavaScript', javascriptLogo, 'orange')]
 // export const typescriptCard = [makeCard('TypeScript', typescriptLogo, 'blue')]
-// export const reactNativeCard = [
-//     makeCard('React Native', reactnativeLogo, 'blue'),
-// ]
-
 // export const sassCard = [makeCard('SASS', sassLogo, 'purple')]
 // export const scssCard = [makeCard('SCSS', scssLogo, 'purple')]
 // export const lessCard = [makeCard('LESS', lessLogo, 'blue')]
-
 // export const nestjsCard = [makeCard('NestJS', nestjsLogo, 'red')]
 // export const nuxtjsCard = [makeCard('Nuxt.js', nuxtjsLogo, 'green')]
 // export const electronCard = [makeCard('Electron', electronLogo, 'blue')]
@@ -232,9 +235,6 @@ export const cssCard = [makeCard('CSS', cssLogo, 'silver')]
 export const htmlCard = [makeCard('HTML', htmlLogo, 'silver')]
 export const javascriptCard = [makeCard('JavaScript', javascriptLogo, 'silver')]
 export const typescriptCard = [makeCard('TypeScript', typescriptLogo, 'silver')]
-export const reactNativeCard = [
-    makeCard('React Native', reactnativeLogo, 'silver'),
-]
 export const sassCard = [makeCard('SASS', sassLogo, 'silver')]
 export const scssCard = [makeCard('SCSS', scssLogo, 'silver')]
 export const lessCard = [makeCard('LESS', lessLogo, 'silver')]

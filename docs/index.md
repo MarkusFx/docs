@@ -16,6 +16,7 @@ import {
     courses_7,
     courses_8,
     courses_9,
+    courses_10,
     notes,
     rutube_tiles,
     telegram_tiles,
@@ -36,6 +37,7 @@ import {
 <TileGrid :tiles="courses_2" />
 <TileGrid :tiles="courses_9" />
 <TileGrid :tiles="courses_6" />
+<TileGrid :tiles="courses_10" />
 <TileGrid :tiles="courses_4" />
 <TileGrid :tiles="courses_5" />
 

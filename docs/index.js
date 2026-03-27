@@ -31,6 +31,8 @@ import vuejsLogo from '/logos/vuejs-logo.svg?raw'
 import aiLogo from '/logos/ai-logo.svg?raw'
 import nodejsLogo from '/logos/nodejs-logo.svg?raw'
 import nextjsLogo from '/logos/nextjs-logo.svg?raw'
+import electronLogo from '/logos/electron-logo.svg?raw'
+import reactNativeIcon from '/logos/react-native-logo.svg?raw'
 
 export const gradients = {
     RED: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -205,6 +207,17 @@ export const courses_6 = [
         iconFilter: commonIconFilter,
     },
     {
+        title: 'React Native',
+        icon: reactNativeIcon,
+        link: '/courses/react-native/maximilian-schwarzmuller',
+        color: commonColor,
+        gradient: gradients.BLUE,
+        iconFilter: commonIconFilter,
+    },
+]
+
+export const courses_10 = [
+    {
         title: 'Vue.js',
         icon: vuejsLogo,
         link: '/courses/vue/maximilian-schwarzmuller',
@@ -339,6 +352,16 @@ export const vk_tiles = [
         icon: vkLogo,
         description: 'Основная группа',
         link: 'https://vk.com/markusfx_itpit',
+        target: '_blank',
+        color: commonColor,
+        gradient: gradients.VK,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'VK',
+        icon: vkLogo,
+        description: 'Life-группа',
+        link: 'https://vk.com/markusfx_itpit_life',
         target: '_blank',
         color: commonColor,
         gradient: gradients.VK,

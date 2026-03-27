@@ -58,9 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 lineId: 'javascript-angularjs',
             },
             {
-                id: 'electron',
+                id: 'react-native',
                 color: 'highlight-next',
-                lineId: 'javascript-electron',
+                lineId: 'javascript-react-native',
             },
             {
                 id: 'gsap',
@@ -210,7 +210,7 @@ function redrawLines() {
     connectLShape('nodejs', 'nestjs', 'nodejs-nestjs')
     connectLShape('javascript', 'vuejs', 'javascript-vuejs')
     connectLShape('javascript', 'angularjs', 'javascript-angularjs')
-    connectLShape('javascript', 'electron', 'javascript-electron')
+    connectLShape('javascript', 'react-native', 'javascript-react-native')
     connectLShape('react', 'nextjs', 'react-nextjs')
     connectLShape('react', 'reactnative', 'react-reactnative')
     connectLShape('vuejs', 'nuxtjs', 'vuejs-nuxtjs')

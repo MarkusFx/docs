@@ -29,6 +29,7 @@ import aiCourses from './courses/ai.js'
 import nodeJsCourses from './courses/node-js.js'
 import nextJsCourse from './courses/next-js.js'
 import jestCourses from './courses/jest.js'
+import reactNativeCourses from './courses/react-native.js'
 
 export default {
     '/updates/': updates,
@@ -62,4 +63,5 @@ export default {
     'courses/node-js': nodeJsCourses,
     'courses/next-js': nextJsCourse,
     'courses/jest': jestCourses,
+    'courses/react-native': reactNativeCourses,
 }
