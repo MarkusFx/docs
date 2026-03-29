@@ -47,12 +47,12 @@ outline: [2, 3]
 
 - ### 03. Отладка
 
-<VkVideo title="036 - Отладка - Введение в модуль" src="" />
-<VkVideo title="037 - Отладка - Обработка ошибок" src="" />
-<VkVideo title="038 - Отладка - Логирование в консоль" src="" />
-<VkVideo title="039 - Отладка - Удалённая отладка JavaScript" src="" />
-<VkVideo title="040 - Отладка - Использование React DevTools" src="" />
-<VkVideo title="041 - Отладка - Использование документации" src="" />
+<VkVideo title="036 - Отладка - Введение в модуль" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250632&hash=dd1322f2b8be9402&hd=4" />
+<VkVideo title="037 - Отладка - Обработка ошибок" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250633&hash=691bf55b7c4897a7&hd=4" />
+<VkVideo title="038 - Отладка - Логирование в консоль" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250634&hash=20668dee939601b4&hd=4" />
+<VkVideo title="039 - Отладка - Удалённая отладка JavaScript" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250635&hash=a4c16e61e3842d8a&hd=4" />
+<VkVideo title="040 - Отладка - Использование React DevTools" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250636&hash=8d1bf65731817972&hd=4" />
+<VkVideo title="041 - Отладка - Использование документации" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250637&hash=595306d4a805ea70&hd=4" />
 
 - ### 04. Компоненты, макеты и стилизация
 
