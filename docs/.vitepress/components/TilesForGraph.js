@@ -191,6 +191,9 @@ export const reactNativeCard = [
         '/courses/react-native/maximilian-schwarzmuller',
     ),
 ]
+export const godotCard = [
+    makeCard('Godot', godotLogo, 'blue', '/courses/godot/richard-allbert'),
+]
 
 // export const cssCard = [makeCard('CSS', cssLogo, 'blue')]
 // export const htmlCard = [makeCard('HTML', htmlLogo, 'orange')]
@@ -228,7 +231,6 @@ export const reactNativeCard = [
 // export const excelVbaCard = [makeCard('Excel VBA', excelVbaLogo, 'green')]
 // export const oneCCard = [makeCard('1С', oneCLogo, 'red')]
 // export const blenderCard = [makeCard('Blender', blenderLogo, 'orange')]
-// export const godotCard = [makeCard('Godot', godotLogo, 'blue')]
 // export const unityCard = [makeCard('Unity', unityLogo, 'blue')]
 
 export const cssCard = [makeCard('CSS', cssLogo, 'silver')]
@@ -267,5 +269,4 @@ export const figmaCard = [makeCard('Figma', figmaLogo, 'silver')]
 export const excelVbaCard = [makeCard('Excel VBA', excelVbaLogo, 'silver')]
 export const oneCCard = [makeCard('1С', oneCLogo, 'silver')]
 export const blenderCard = [makeCard('Blender', blenderLogo, 'silver')]
-export const godotCard = [makeCard('Godot', godotLogo, 'silver')]
 export const unityCard = [makeCard('Unity', unityLogo, 'silver')]

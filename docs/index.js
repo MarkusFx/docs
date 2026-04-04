@@ -33,6 +33,7 @@ import nodejsLogo from '/logos/nodejs-logo.svg?raw'
 import nextjsLogo from '/logos/nextjs-logo.svg?raw'
 import electronLogo from '/logos/electron-logo.svg?raw'
 import reactNativeIcon from '/logos/react-native-logo.svg?raw'
+import godotLogo from '/logos/godot-logo.svg?raw'
 
 export const gradients = {
     RED: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -257,9 +258,20 @@ export const courses_7 = [
     },
 ]
 
+export const courses_11 = [
+    {
+        title: 'Godot',
+        icon: godotLogo,
+        link: '/courses/godot/richard-allbert',
+        color: commonColor,
+        gradient: gradients.BLUE,
+        iconFilter: commonIconFilter,
+    },
+]
+
 export const courses_8 = [
     {
-        title: 'Возможные переводы курсов',
+        title: 'Возможные переводы',
         icon: catLogo,
         link: '/possible-courses',
         color: commonColor,
