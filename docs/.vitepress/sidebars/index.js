@@ -31,6 +31,7 @@ import nextJsCourse from './courses/next-js.js'
 import jestCourses from './courses/jest.js'
 import reactNativeCourses from './courses/react-native.js'
 import godotCourses from './courses/godot.js'
+import gitCourses from './courses/git.js'
 
 export default {
     '/updates/': updates,
@@ -66,4 +67,5 @@ export default {
     'courses/jest': jestCourses,
     'courses/react-native': reactNativeCourses,
     'courses/godot': godotCourses,
+    'courses/git': gitCourses,
 }

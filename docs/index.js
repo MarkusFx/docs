@@ -34,6 +34,7 @@ import nextjsLogo from '/logos/nextjs-logo.svg?raw'
 import electronLogo from '/logos/electron-logo.svg?raw'
 import reactNativeIcon from '/logos/react-native-logo.svg?raw'
 import godotLogo from '/logos/godot-logo.svg?raw'
+import gitLogo from '/logos/git-logo.svg?raw'
 
 export const gradients = {
     RED: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -145,14 +146,7 @@ export const courses_4 = [
         gradient: gradients.RED,
         iconFilter: commonIconFilter,
     },
-    {
-        title: 'Linux',
-        icon: linuxLogo,
-        link: '/courses/linux/colt-steele',
-        color: commonColor,
-        gradient: gradients.YELLOW,
-        iconFilter: commonIconFilter,
-    },
+
     {
         title: 'GSAP',
         icon: gsapLogo,
@@ -171,21 +165,21 @@ export const courses_4 = [
     },
 ]
 
-export const courses_9 = [
+export const courses_5 = [
     {
-        title: 'Node.js',
-        icon: nodejsLogo,
-        link: '/courses/node-js/maximilian-schwarzmuller',
+        title: 'Three.js',
+        icon: threejsLogo,
+        link: '/courses/three-js/bruno-simong',
         color: commonColor,
-        gradient: gradients.GREEN,
+        gradient: gradients.BLUE,
         iconFilter: commonIconFilter,
     },
     {
-        title: 'Express',
-        icon: expressLogo,
-        link: '/courses/express/jonas-schmedtmann',
+        title: 'React Three Fiber',
+        icon: r3fLogo,
+        link: '/courses/r3f/wawa_sensei',
         color: commonColor,
-        gradient: gradients.GREEN,
+        gradient: gradients.BLUE,
         iconFilter: commonIconFilter,
     },
 ]
@@ -217,36 +211,6 @@ export const courses_6 = [
     },
 ]
 
-export const courses_10 = [
-    {
-        title: 'Vue.js',
-        icon: vuejsLogo,
-        link: '/courses/vue/maximilian-schwarzmuller',
-        color: commonColor,
-        gradient: gradients.GREEN,
-        iconFilter: commonIconFilter,
-    },
-]
-
-export const courses_5 = [
-    {
-        title: 'Three.js',
-        icon: threejsLogo,
-        link: '/courses/three-js/bruno-simong',
-        color: commonColor,
-        gradient: gradients.BLUE,
-        iconFilter: commonIconFilter,
-    },
-    {
-        title: 'React Three Fiber',
-        icon: r3fLogo,
-        link: '/courses/r3f/wawa_sensei',
-        color: commonColor,
-        gradient: gradients.BLUE,
-        iconFilter: commonIconFilter,
-    },
-]
-
 export const courses_7 = [
     {
         title: 'AI',
@@ -254,6 +218,47 @@ export const courses_7 = [
         link: '/courses/ai/maximilian-schwarzmuller',
         color: commonColor,
         gradient: gradients.PURPLE,
+        iconFilter: commonIconFilter,
+    },
+]
+
+export const courses_8 = [
+    {
+        title: 'Возможные переводы',
+        icon: catLogo,
+        link: '/possible-courses',
+        color: commonColor,
+        gradient: gradients.RED,
+        iconFilter: commonIconFilter,
+    },
+]
+
+export const courses_9 = [
+    {
+        title: 'Node.js',
+        icon: nodejsLogo,
+        link: '/courses/node-js/maximilian-schwarzmuller',
+        color: commonColor,
+        gradient: gradients.GREEN,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'Express',
+        icon: expressLogo,
+        link: '/courses/express/jonas-schmedtmann',
+        color: commonColor,
+        gradient: gradients.GREEN,
+        iconFilter: commonIconFilter,
+    },
+]
+
+export const courses_10 = [
+    {
+        title: 'Vue.js',
+        icon: vuejsLogo,
+        link: '/courses/vue/maximilian-schwarzmuller',
+        color: commonColor,
+        gradient: gradients.GREEN,
         iconFilter: commonIconFilter,
     },
 ]
@@ -269,13 +274,21 @@ export const courses_11 = [
     },
 ]
 
-export const courses_8 = [
+export const courses_12 = [
     {
-        title: 'Возможные переводы',
-        icon: catLogo,
-        link: '/possible-courses',
+        title: 'Git',
+        icon: gitLogo,
+        link: '/courses/git/maximilian-schwarzmuller',
         color: commonColor,
-        gradient: gradients.RED,
+        gradient: gradients.BLUE,
+        iconFilter: commonIconFilter,
+    },
+    {
+        title: 'Linux',
+        icon: linuxLogo,
+        link: '/courses/linux/colt-steele',
+        color: commonColor,
+        gradient: gradients.YELLOW,
         iconFilter: commonIconFilter,
     },
 ]

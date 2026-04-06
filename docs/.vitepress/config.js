@@ -158,7 +158,7 @@ export default {
             { text: 'Главная', link: '/' },
             { text: 'Дорожная карта', link: '/road-map' },
             { text: 'Обновления', link: '/updates/2026/04-april' },
-            { text: 'FAQ', link: '/faq' },
+            // { text: 'FAQ', link: '/faq' },
         ],
 
         sidebar: sidebars,

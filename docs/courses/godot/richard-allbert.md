@@ -21,7 +21,7 @@ outline: [2, 3]
 
 - ### 03. Основы
 
-<VkVideo title="007 - Обзор" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250648&hash=23eb0e1940d20463&hd=4" />
+<VkVideo title="007 - Обзор" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250704&hash=ca59f9aeaf89322c&hd=4" />
 <VkVideo title="008 - Что такое Godot" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250650&hash=c012009bfe318468&hd=4" />
 <VkVideo title="009 - Об этом разделе" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250652&hash=c261abaa83597afd&hd=4" />
 <VkVideo title="010 - Настройка" src="https://vkvideo.ru/video_ext.php?oid=-224325822&id=456250654&hash=3494fba2d609e8cf&hd=4" />

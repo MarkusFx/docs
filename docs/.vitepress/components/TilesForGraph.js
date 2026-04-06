@@ -194,6 +194,9 @@ export const reactNativeCard = [
 export const godotCard = [
     makeCard('Godot', godotLogo, 'blue', '/courses/godot/richard-allbert'),
 ]
+export const gitCard = [
+    makeCard('Git', gitLogo, 'orange', '/courses/git/maximilian-schwarzmuller'),
+]
 
 // export const cssCard = [makeCard('CSS', cssLogo, 'blue')]
 // export const htmlCard = [makeCard('HTML', htmlLogo, 'orange')]
@@ -213,7 +216,7 @@ export const godotCard = [
 // export const nginxCard = [makeCard('NGINX', nginxLogo, 'green')]
 // export const dockerCard = [makeCard('Docker', dockerLogo, 'blue')]
 // export const kubernetesCard = [makeCard('Kubernetes', kubernetesLogo, 'blue')]
-// export const gitCard = [makeCard('Git', gitLogo, 'orange')]
+
 // export const githubCard = [makeCard('GitHub', githubLogo, 'blue')]
 // export const githubActionsCard = [
 //     makeCard('GitHub Actions', githubActionsLogo, 'blue'),
@@ -251,7 +254,6 @@ export const flaskCard = [makeCard('Flask', flaskLogo, 'silver')]
 export const nginxCard = [makeCard('NGINX', nginxLogo, 'silver')]
 export const dockerCard = [makeCard('Docker', dockerLogo, 'silver')]
 export const kubernetesCard = [makeCard('Kubernetes', kubernetesLogo, 'silver')]
-export const gitCard = [makeCard('Git', gitLogo, 'silver')]
 export const githubCard = [makeCard('GitHub', githubLogo, 'silver')]
 export const githubActionsCard = [
     makeCard('GitHub Actions', githubActionsLogo, 'silver'),
