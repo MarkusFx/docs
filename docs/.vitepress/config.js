@@ -157,7 +157,7 @@ export default {
         nav: [
             { text: 'Главная', link: '/' },
             { text: 'Дорожная карта', link: '/road-map' },
-            { text: 'Обновления', link: '/updates/2026/04-april' },
+            { text: 'Обновления', link: '/updates/2026/06-june' },
             // { text: 'FAQ', link: '/faq' },
         ],
 

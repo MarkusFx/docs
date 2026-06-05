@@ -7,6 +7,8 @@ export default [
                 collapsible: true,
                 collapsed: false,
                 items: [
+                    { text: 'Июнь', link: '/updates/2026/06-june' },
+                    { text: 'Май', link: '/updates/2026/05-may' },
                     { text: 'Апрель', link: '/updates/2026/04-april' },
                     { text: 'Март', link: '/updates/2026/03-march' },
                     { text: 'Февраль', link: '/updates/2026/02-february' },
@@ -16,7 +18,7 @@ export default [
             {
                 text: '2025',
                 collapsible: true,
-                collapsed: false,
+                collapsed: true,
                 items: [
                     { text: 'Декабрь', link: '/updates/2025/12-december' },
                     { text: 'Ноябрь', link: '/updates/2025/11-november' },
