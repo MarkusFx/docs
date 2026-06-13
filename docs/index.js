@@ -35,6 +35,7 @@ import electronLogo from '/logos/electron-logo.svg?raw'
 import reactNativeIcon from '/logos/react-native-logo.svg?raw'
 import godotLogo from '/logos/godot-logo.svg?raw'
 import gitLogo from '/logos/git-logo.svg?raw'
+import donatepayLogo from '/logos/donatepay-logo.svg?raw'
 
 export const gradients = {
     RED: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
@@ -383,16 +384,6 @@ export const vk_tiles = [
         iconFilter: commonIconFilter,
     },
     {
-        title: 'VK',
-        icon: vkLogo,
-        description: 'Life-группа',
-        link: 'https://vk.com/markusfx_itpit_life',
-        target: '_blank',
-        color: commonColor,
-        gradient: gradients.VK,
-        iconFilter: commonIconFilter,
-    },
-    {
         title: 'VK Видео',
         icon: vkLogo,
         description: 'Стримы',
@@ -404,7 +395,7 @@ export const vk_tiles = [
     },
 ]
 
-export const donats_tiles = [
+export const donats_tiles_1 = [
     {
         title: 'Donation Alerts',
         description: 'Только на стриме',
@@ -423,6 +414,19 @@ export const donats_tiles = [
         target: '_blank',
         color: commonColor,
         gradient: gradients.DONATION_ALERTS,
+        iconFilter: commonIconFilter,
+    },
+]
+
+export const donats_tiles_2 = [
+    {
+        title: 'DonatePay',
+        description: 'В любое время',
+        icon: donatepayLogo,
+        link: 'https://new.donatepay.ru/@markusfx',
+        target: '_blank',
+        color: commonColor,
+        gradient: gradients.GREEN,
         iconFilter: commonIconFilter,
     },
     {

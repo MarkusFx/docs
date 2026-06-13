@@ -23,7 +23,8 @@ import {
     rutube_tiles,
     telegram_tiles,
     vk_tiles,
-    donats_tiles
+    donats_tiles_1,
+    donats_tiles_2  
 } from './index.js'; 
 </script>
 
@@ -67,4 +68,5 @@ import {
 
 ## Поддержать проект
 
-<TileGrid :tiles="donats_tiles" />
+<TileGrid :tiles="donats_tiles_1" />
+<TileGrid :tiles="donats_tiles_2" />
