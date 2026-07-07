@@ -57,218 +57,171 @@ import r3fLogo from '/logos/r3f-logo.svg?raw'
 import osLogo from '/logos/os-logo.svg?raw'
 import aiLogo from '/logos/ai-logo.svg?raw'
 
-const Colors = {
+const COLORS = {
     text: 'rgba(255,255,255,0.9)',
     iconFilter: 'drop-shadow(1px 1px 1px #22222244)',
+    red: '#bd504d',
+    orange: '#e07405',
+    yellow: '#ffa600',
+    green: '#3bccb3',
+    blue: '#4593e5',
+    purple: '#985de0',
+    silver: '#666',
 }
 
-const Gradients = {
-    red: 'linear-gradient(225deg, #bd504d 0%, #bd504d 0%)',
-    orange: 'linear-gradient(225deg, #e07405 0%, #e07405 0%)',
-    yellow: 'linear-gradient(225deg, #f56217 0%, #ffa600 0%)',
-    green: 'linear-gradient(225deg, #f56217 0%, #3bccb3 0%)',
-    blue: 'linear-gradient(225deg, #4593e5 0%, #4593e5 0%)',
-    purple: 'linear-gradient(225deg, #985de0 0%, #985de0 0%)',
-    silver: 'linear-gradient(225deg, #985de0 0%, #666 0%)',
-}
-
-const makeCard = (title, icon, gradientKey, link = null) => ({
+const makeCard = (title, icon, colorKey, link = null) => ({
     title,
     icon,
     link,
-    color: Colors.text,
-    gradient: Gradients[gradientKey],
-    iconFilter: Colors.iconFilter,
+    color: COLORS.text,
+    gradient: `linear-gradient(225deg, ${COLORS[colorKey]} 0%, ${COLORS[colorKey]} 100%)`,
+    iconFilter: COLORS.iconFilter,
 })
 
-export const catCard = [makeCard('MarkusFx', catLogo, 'red', '/')]
+// Единый источник данных для всех карточек
+const cardsData = [
+    // === Центральный ствол ===
+    { id: 'cat', title: 'MarkusFx', icon: catLogo, color: 'red', link: '/' },
 
-export const htmxCard = [
-    makeCard(
-        'HTMX',
-        htmxLogo,
-        'blue',
-        '/courses/htmx/maximilian-schwarzmuller',
-    ),
-]
-export const cypressCard = [
-    makeCard(
-        'Cypress',
-        cypressLogo,
-        'green',
-        '/courses/cypress/maximilian-schwarzmuller',
-    ),
-]
-export const osCard = [
-    makeCard('OS', osLogo, 'red', '/courses/os/hussein-nasser'),
-]
-export const goCard = [
-    makeCard('Go', goLogo, 'blue', '/courses/go/maximilian-schwarzmuller'),
-]
-export const linuxCard = [
-    makeCard('Linux', linuxLogo, 'yellow', '/courses/linux/colt-steele'),
-]
-export const socketioCard = [
-    makeCard(
-        'Socket.IO',
-        socketioLogo,
-        'yellow',
-        '/courses/socketio/robert-bunch',
-    ),
-]
-export const webrtcCard = [
-    makeCard('WebRTC', webrtcLogo, 'green', '/courses/webrtc/robert-bunch'),
-]
-export const cSharpCard = [
-    makeCard('C#', cSharpLogo, 'purple', '/courses/c-sharp/denis-panjuta'),
-]
-export const threejsCard = [
-    makeCard('Three.js', threejsLogo, 'blue', '/courses/three-js/bruno-simong'),
-]
-export const rustCard = [
-    makeCard('Rust', rustLogo, 'orange', '/courses/rust/stephen-grider'),
-]
-export const gsapCard = [
-    makeCard(
-        'GSAP',
-        gsapLogo,
-        'green',
-        '/courses/gsap/carl-creative-coding-club',
-    ),
-]
-export const expressCard = [
-    makeCard(
-        'Express',
-        expressLogo,
-        'green',
-        '/courses/express/jonas-schmedtmann',
-    ),
-]
-export const vitestCard = [
-    makeCard(
-        'Vitest',
-        vitestLogo,
-        'yellow',
-        '/courses/vitest/maximilian-schwarzmuller',
-    ),
-]
-export const r3fCard = [
-    makeCard('React Three Fiber', r3fLogo, 'blue', '/courses/r3f/wawa_sensei'),
-]
-export const reactCard = [
-    makeCard('React', reactLogo, 'blue', '/courses/react/jonas-schmedtmann'),
-]
-export const vuejsCard = [
-    makeCard(
-        'Vue.js',
-        vuejsLogo,
-        'green',
-        '/courses/vue/maximilian-schwarzmuller',
-    ),
-]
-export const aiCard = [
-    makeCard('AI', aiLogo, 'purple', '/courses/ai/maximilian-schwarzmuller'),
-]
-export const nodejsCard = [
-    makeCard(
-        'Node.js',
-        nodejsLogo,
-        'green',
-        '/courses/node-js/maximilian-schwarzmuller',
-    ),
-]
-export const nextjsCard = [
-    makeCard('Next.js', nextjsLogo, 'blue', '/courses/next-js/john-smilga'),
-]
-export const jestCard = [
-    makeCard('Jest', jestLogo, 'purple', '/courses/jest/stephen-grider'),
-]
-export const reactNativeCard = [
-    makeCard(
-        'React Native',
-        reactnativeLogo,
-        'blue',
-        '/courses/react-native/maximilian-schwarzmuller',
-    ),
-]
-export const godotCard = [
-    makeCard('Godot', godotLogo, 'blue', '/courses/godot/richard-allbert'),
-]
-export const gitCard = [
-    makeCard('Git', gitLogo, 'orange', '/courses/git/maximilian-schwarzmuller'),
+    // === Frontend: база ===
+    { id: 'html', title: 'HTML', icon: htmlLogo, color: 'silver' },
+    { id: 'css', title: 'CSS', icon: cssLogo, color: 'silver' },
+    { id: 'javascript', title: 'JavaScript', icon: javascriptLogo, color: 'silver' },
+    { id: 'typescript', title: 'TypeScript', icon: typescriptLogo, color: 'silver' },
+
+    // === Frontend: фреймворки ===
+    { id: 'react', title: 'React', icon: reactLogo, color: 'blue', link: '/courses/react/jonas-schmedtmann' },
+    { id: 'nextjs', title: 'Next.js', icon: nextjsLogo, color: 'blue', link: '/courses/next-js/john-smilga' },
+    { id: 'reactNative', title: 'React Native', icon: reactnativeLogo, color: 'blue', link: '/courses/react-native/maximilian-schwarzmuller' },
+    { id: 'vuejs', title: 'Vue.js', icon: vuejsLogo, color: 'green', link: '/courses/vue/maximilian-schwarzmuller' },
+    { id: 'nuxtjs', title: 'Nuxt.js', icon: nuxtjsLogo, color: 'silver' },
+    { id: 'angularjs', title: 'AngularJS', icon: angularjsLogo, color: 'silver' },
+    { id: 'electron', title: 'Electron', icon: electronLogo, color: 'silver' },
+
+    // === Frontend: стили ===
+    { id: 'sass', title: 'SASS', icon: sassLogo, color: 'silver' },
+    { id: 'scss', title: 'SCSS', icon: scssLogo, color: 'silver' },
+    { id: 'less', title: 'LESS', icon: lessLogo, color: 'silver' },
+
+    // === Frontend: тестирование ===
+    { id: 'jest', title: 'Jest', icon: jestLogo, color: 'purple', link: '/courses/jest/stephen-grider' },
+    { id: 'vitest', title: 'Vitest', icon: vitestLogo, color: 'yellow', link: '/courses/vitest/maximilian-schwarzmuller' },
+    { id: 'cypress', title: 'Cypress', icon: cypressLogo, color: 'green', link: '/courses/cypress/maximilian-schwarzmuller' },
+
+    // === Frontend: анимации / 3D ===
+    { id: 'gsap', title: 'GSAP', icon: gsapLogo, color: 'green', link: '/courses/gsap/carl-creative-coding-club' },
+    { id: 'htmx', title: 'HTMX', icon: htmxLogo, color: 'blue', link: '/courses/htmx/maximilian-schwarzmuller' },
+    { id: 'socketio', title: 'Socket.IO', icon: socketioLogo, color: 'yellow', link: '/courses/socketio/robert-bunch' },
+    { id: 'threejs', title: 'Three.js', icon: threejsLogo, color: 'blue', link: '/courses/three-js/bruno-simong' },
+    { id: 'r3f', title: 'React Three Fiber', icon: r3fLogo, color: 'blue', link: '/courses/r3f/wawa_sensei' },
+    { id: 'webrtc', title: 'WebRTC', icon: webrtcLogo, color: 'green', link: '/courses/webrtc/robert-bunch' },
+    { id: 'mediaSoup', title: 'MediaSoup', icon: mediaSoupLogo, color: 'silver' },
+
+    // === Backend ===
+    { id: 'nodejs', title: 'Node.js', icon: nodejsLogo, color: 'green', link: '/courses/node-js/maximilian-schwarzmuller' },
+    { id: 'express', title: 'Express', icon: expressLogo, color: 'green', link: '/courses/express/jonas-schmedtmann' },
+    { id: 'nestjs', title: 'NestJS', icon: nestjsLogo, color: 'silver' },
+    { id: 'python', title: 'Python', icon: pythonLogo, color: 'silver' },
+    { id: 'django', title: 'Django', icon: djangoLogo, color: 'silver' },
+    { id: 'flask', title: 'Flask', icon: flaskLogo, color: 'silver' },
+    { id: 'php', title: 'PHP', icon: phpLogo, color: 'silver' },
+    { id: 'laravel', title: 'Laravel', icon: laravelLogo, color: 'silver' },
+    { id: 'go', title: 'Go', icon: goLogo, color: 'blue', link: '/courses/go/maximilian-schwarzmuller' },
+    { id: 'rust', title: 'Rust', icon: rustLogo, color: 'orange', link: '/courses/rust/stephen-grider' },
+    { id: 'java', title: 'Java', icon: javaLogo, color: 'silver' },
+    { id: 'kotlin', title: 'Kotlin', icon: kotlinLogo, color: 'silver' },
+    { id: 'cSharp', title: 'C#', icon: cSharpLogo, color: 'purple', link: '/courses/c-sharp/denis-panjuta' },
+
+    // === DevOps / Инфра ===
+    { id: 'linux', title: 'Linux', icon: linuxLogo, color: 'yellow', link: '/courses/linux/colt-steele' },
+    { id: 'nginx', title: 'NGINX', icon: nginxLogo, color: 'silver' },
+    { id: 'docker', title: 'Docker', icon: dockerLogo, color: 'silver' },
+    { id: 'kubernetes', title: 'Kubernetes', icon: kubernetesLogo, color: 'silver' },
+    { id: 'git', title: 'Git', icon: gitLogo, color: 'orange', link: '/courses/git/maximilian-schwarzmuller' },
+    { id: 'github', title: 'GitHub', icon: githubLogo, color: 'silver' },
+    { id: 'githubActions', title: 'GitHub Actions', icon: githubActionsLogo, color: 'silver' },
+
+    // === Базы данных ===
+    { id: 'sql', title: 'SQL', icon: sqlLogo, color: 'silver' },
+    { id: 'postgresql', title: 'PostgreSQL', icon: postgresqlLogo, color: 'silver' },
+    { id: 'mongodb', title: 'MongoDB', icon: mongodbLogo, color: 'silver' },
+
+    // === Прочее ===
+    { id: 'pyQt', title: 'PyQt', icon: pyQtLogo, color: 'silver' },
+    { id: 'n8n', title: 'n8n', icon: n8nLogo, color: 'silver' },
+    { id: 'figma', title: 'Figma', icon: figmaLogo, color: 'silver' },
+    { id: 'excelVba', title: 'Excel VBA', icon: excelVbaLogo, color: 'silver' },
+    { id: 'oneC', title: '1C', icon: oneCLogo, color: 'silver' },
+    { id: 'blender', title: 'Blender', icon: blenderLogo, color: 'silver' },
+    { id: 'godot', title: 'Godot', icon: godotLogo, color: 'blue', link: '/courses/godot/richard-allbert' },
+    { id: 'unity', title: 'Unity', icon: unityLogo, color: 'silver' },
+    { id: 'os', title: 'OS', icon: osLogo, color: 'red', link: '/courses/os/hussein-nasser' },
+    { id: 'ai', title: 'AI', icon: aiLogo, color: 'purple', link: '/courses/ai/maximilian-schwarzmuller' },
 ]
 
-// export const cssCard = [makeCard('CSS', cssLogo, 'blue')]
-// export const htmlCard = [makeCard('HTML', htmlLogo, 'orange')]
-// export const javascriptCard = [makeCard('JavaScript', javascriptLogo, 'orange')]
-// export const typescriptCard = [makeCard('TypeScript', typescriptLogo, 'blue')]
-// export const sassCard = [makeCard('SASS', sassLogo, 'purple')]
-// export const scssCard = [makeCard('SCSS', scssLogo, 'purple')]
-// export const lessCard = [makeCard('LESS', lessLogo, 'blue')]
-// export const nestjsCard = [makeCard('NestJS', nestjsLogo, 'red')]
-// export const nuxtjsCard = [makeCard('Nuxt.js', nuxtjsLogo, 'green')]
-// export const electronCard = [makeCard('Electron', electronLogo, 'blue')]
-// export const angularjsCard = [makeCard('AngularJS', angularjsLogo, 'red')]
-// export const mediaSoupCard = [makeCard('MediaSoup', mediaSoupLogo, 'blue')]
-// export const pythonCard = [makeCard('Python', pythonLogo, 'blue')]
-// export const djangoCard = [makeCard('Django', djangoLogo, 'green')]
-// export const flaskCard = [makeCard('Flask', flaskLogo, 'blue')]
-// export const nginxCard = [makeCard('NGINX', nginxLogo, 'green')]
-// export const dockerCard = [makeCard('Docker', dockerLogo, 'blue')]
-// export const kubernetesCard = [makeCard('Kubernetes', kubernetesLogo, 'blue')]
+// Генерируем экспорты автоматически
+export const allCards = Object.fromEntries(
+    cardsData.map((c) => [c.id + 'Card', [makeCard(c.title, c.icon, c.color, c.link)]])
+)
 
-// export const githubCard = [makeCard('GitHub', githubLogo, 'blue')]
-// export const githubActionsCard = [
-//     makeCard('GitHub Actions', githubActionsLogo, 'blue'),
-// ]
-// export const sqlCard = [makeCard('SQL', sqlLogo, 'blue')]
-// export const postgresqlCard = [makeCard('PostgreSQL', postgresqlLogo, 'blue')]
-// export const mongodbCard = [makeCard('MongoDB', mongodbLogo, 'green')]
-// export const pyQtCard = [makeCard('PyQt', pyQtLogo, 'green')]
-// export const phpCard = [makeCard('PHP', phpLogo, 'blue')]
-// export const laravelCard = [makeCard('Laravel', laravelLogo, 'red')]
-// export const javaCard = [makeCard('Java', javaLogo, 'orange')]
-// export const kotlinCard = [makeCard('Kotlin', kotlinLogo, 'purple')]
-// export const n8nCard = [makeCard('n8n', n8nLogo, 'purple')]
-// export const figmaCard = [makeCard('Figma', figmaLogo, 'blue')]
-// export const excelVbaCard = [makeCard('Excel VBA', excelVbaLogo, 'green')]
-// export const oneCCard = [makeCard('1С', oneCLogo, 'red')]
-// export const blenderCard = [makeCard('Blender', blenderLogo, 'orange')]
-// export const unityCard = [makeCard('Unity', unityLogo, 'blue')]
-
-export const cssCard = [makeCard('CSS', cssLogo, 'silver')]
-export const htmlCard = [makeCard('HTML', htmlLogo, 'silver')]
-export const javascriptCard = [makeCard('JavaScript', javascriptLogo, 'silver')]
-export const typescriptCard = [makeCard('TypeScript', typescriptLogo, 'silver')]
-export const sassCard = [makeCard('SASS', sassLogo, 'silver')]
-export const scssCard = [makeCard('SCSS', scssLogo, 'silver')]
-export const lessCard = [makeCard('LESS', lessLogo, 'silver')]
-export const nestjsCard = [makeCard('NestJS', nestjsLogo, 'silver')]
-export const nuxtjsCard = [makeCard('Nuxt.js', nuxtjsLogo, 'silver')]
-export const electronCard = [makeCard('Electron', electronLogo, 'silver')]
-export const angularjsCard = [makeCard('AngularJS', angularjsLogo, 'silver')]
-export const mediaSoupCard = [makeCard('MediaSoup', mediaSoupLogo, 'silver')]
-export const pythonCard = [makeCard('Python', pythonLogo, 'silver')]
-export const djangoCard = [makeCard('Django', djangoLogo, 'silver')]
-export const flaskCard = [makeCard('Flask', flaskLogo, 'silver')]
-export const nginxCard = [makeCard('NGINX', nginxLogo, 'silver')]
-export const dockerCard = [makeCard('Docker', dockerLogo, 'silver')]
-export const kubernetesCard = [makeCard('Kubernetes', kubernetesLogo, 'silver')]
-export const githubCard = [makeCard('GitHub', githubLogo, 'silver')]
-export const githubActionsCard = [
-    makeCard('GitHub Actions', githubActionsLogo, 'silver'),
-]
-export const sqlCard = [makeCard('SQL', sqlLogo, 'silver')]
-export const postgresqlCard = [makeCard('PostgreSQL', postgresqlLogo, 'silver')]
-export const mongodbCard = [makeCard('MongoDB', mongodbLogo, 'silver')]
-export const pyQtCard = [makeCard('PyQt', pyQtLogo, 'silver')]
-export const phpCard = [makeCard('PHP', phpLogo, 'silver')]
-export const laravelCard = [makeCard('Laravel', laravelLogo, 'silver')]
-export const javaCard = [makeCard('Java', javaLogo, 'silver')]
-export const kotlinCard = [makeCard('Kotlin', kotlinLogo, 'silver')]
-export const n8nCard = [makeCard('n8n', n8nLogo, 'silver')]
-export const figmaCard = [makeCard('Figma', figmaLogo, 'silver')]
-export const excelVbaCard = [makeCard('Excel VBA', excelVbaLogo, 'silver')]
-export const oneCCard = [makeCard('1С', oneCLogo, 'silver')]
-export const blenderCard = [makeCard('Blender', blenderLogo, 'silver')]
-export const unityCard = [makeCard('Unity', unityLogo, 'silver')]
+// Экспорты по имени для обратной совместимости с import'ами
+export const {
+    catCard,
+    htmlCard,
+    cssCard,
+    javascriptCard,
+    typescriptCard,
+    reactCard,
+    nextjsCard,
+    reactNativeCard,
+    vuejsCard,
+    nuxtjsCard,
+    angularjsCard,
+    electronCard,
+    sassCard,
+    scssCard,
+    lessCard,
+    jestCard,
+    vitestCard,
+    cypressCard,
+    gsapCard,
+    htmxCard,
+    socketioCard,
+    threejsCard,
+    r3fCard,
+    webrtcCard,
+    mediaSoupCard,
+    nodejsCard,
+    expressCard,
+    nestjsCard,
+    pythonCard,
+    djangoCard,
+    flaskCard,
+    phpCard,
+    laravelCard,
+    goCard,
+    rustCard,
+    javaCard,
+    kotlinCard,
+    cSharpCard,
+    linuxCard,
+    nginxCard,
+    dockerCard,
+    kubernetesCard,
+    gitCard,
+    githubCard,
+    githubActionsCard,
+    sqlCard,
+    postgresqlCard,
+    mongodbCard,
+    pyQtCard,
+    n8nCard,
+    figmaCard,
+    excelVbaCard,
+    oneCCard,
+    blenderCard,
+    godotCard,
+    unityCard,
+    osCard,
+    aiCard,
+} = allCards
